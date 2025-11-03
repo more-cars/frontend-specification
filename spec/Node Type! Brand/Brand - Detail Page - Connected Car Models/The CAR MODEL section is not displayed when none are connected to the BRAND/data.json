@@ -1,0 +1,9 @@
+{
+  "id": "MCF-75",
+  "parent_id": "MCF-39",
+  "title": "The CAR MODEL section is not displayed when none are connected to the BRAND",
+  "description": "",
+  "release_version": "0.2.0",
+  "created_at": "2025-06-23T18:13:29.675+0200",
+  "updated_at": "2025-07-17T15:47:50.505+0200"
+}

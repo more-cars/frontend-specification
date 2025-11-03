@@ -1,0 +1,11 @@
+{
+  "id": "MCF-94",
+  "parent_id": "MCF-72",
+  "title": "Section with all connected CAR MODELs",
+  "gherkin": "Given there exists a BRAND \"Renault\"\nAnd there exists a CAR MODEL \"Twingo\"\nAnd CAR MODEL \"Twingo\" is connected to BRAND \"Renault\"\nWhen the user visits the detail page of the BRAND \"Renault\"\nThen there should be a section containing a CAR MODEL list\nAnd the CAR MODEL list should contain the CAR MODEL \"Twingo\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-07-12T11:51:48.590+0200",
+  "updated_at": "2025-07-17T12:29:38.839+0200"
+}

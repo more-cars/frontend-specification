@@ -1,0 +1,9 @@
+{
+  "id": "MCF-91",
+  "parent_id": "MCF-39",
+  "title": "Each CAR MODEL links to the respective detail page",
+  "description": "",
+  "release_version": "0.2.0",
+  "created_at": "2025-07-12T11:34:32.517+0200",
+  "updated_at": "2025-07-17T15:47:48.714+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-69",
+  "parent_id": "MCF-35",
+  "title": "An error message is displayed when the requested BRAND does not exist",
+  "description": "* an info box is displayed, explaining in a short text why there is nothing here (404)\n",
+  "release_version": "0.1.0",
+  "created_at": "2025-06-22T13:16:26.847+0200",
+  "updated_at": "2025-07-13T10:22:25.078+0200"
+}

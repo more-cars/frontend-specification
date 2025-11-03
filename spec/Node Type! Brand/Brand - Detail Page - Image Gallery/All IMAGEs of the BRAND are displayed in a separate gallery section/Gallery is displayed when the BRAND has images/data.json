@@ -1,0 +1,9 @@
+{
+  "id": "MCF-92",
+  "parent_id": "MCF-89",
+  "title": "Gallery is displayed when the BRAND has images",
+  "gherkin": "Given there exists a BRAND \"Renault\"\nAnd there exists an IMAGE \"logo\"\nAnd IMAGE \"logo\" is connected to BRAND \"Renault\"\nWhen the user visits the detail page of the BRAND \"Renault\"\nThen there should be an image gallery\nAnd the image gallery should contain the IMAGE \"logo\"",
+  "labels": [],
+  "created_at": "2025-07-12T11:51:29.822+0200",
+  "updated_at": "2025-07-23T10:47:19.690+0200"
+}

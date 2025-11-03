@@ -1,0 +1,9 @@
+{
+  "id": "MCF-118",
+  "parent_id": "MCF-115",
+  "title": "No BRAND section when none are connected",
+  "gherkin": "Given there exists an IMAGE \"BMW logo\"\nAnd no BRANDs are connected to the IMAGE \"BMW logo\"\nWhen the user visits the detail page of the IMAGE \"BMW logo\"\nThen there should be no section with a BRAND list",
+  "labels": [],
+  "created_at": "2025-07-20T20:10:55.514+0200",
+  "updated_at": "2025-07-22T18:06:36.237+0200"
+}

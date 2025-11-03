@@ -1,0 +1,14 @@
+{
+  "id": "MCF-42",
+  "parent_id": "MCF-3",
+  "title": "Car Model - Detail Page - Connected Brand",
+  "user_story": "As a visitor\\\nOn the CAR MODEL detail page\\\nI want to see a link to the connected BRAND\\\nSo I can find other CAR MODELs they have created\n",
+  "description": "# **Acceptance Criteria**\n\n**Behavior (Business logic)**\n\n* the existing car model detail page is extended to display a prominent section for the connected brand\n* this section contains:\n  * a headline h2 describing the relationship\n  * some relevant brand information\n  * a link to the brand\n* the section is not shown when there is no brand attached to the car model\n\n**Quality Gates**\n\n* Behavior tests (Playwright) are extended\n* Accessibility tests are extended\n* Performance tests are extended\n* Local copy of the API spec is updated to a matching version\n",
+  "api_path": null,
+  "response_options": [],
+  "release_versions": [
+    "0.2.0"
+  ],
+  "created_at": "2025-06-11T10:48:40.538+0200",
+  "updated_at": "2025-07-17T15:49:21.705+0200"
+}

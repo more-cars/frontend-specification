@@ -1,0 +1,9 @@
+{
+  "id": "MCF-114",
+  "parent_id": "MCF-49",
+  "title": "For each node type the IMAGE is connected to a separate section displayed",
+  "description": "",
+  "release_version": null,
+  "created_at": "2025-07-20T20:06:14.641+0200",
+  "updated_at": "2025-07-22T17:12:27.980+0200"
+}

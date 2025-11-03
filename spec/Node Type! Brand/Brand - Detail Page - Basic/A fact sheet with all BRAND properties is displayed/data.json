@@ -1,0 +1,9 @@
+{
+  "id": "MCF-50",
+  "parent_id": "MCF-35",
+  "title": "A fact sheet with all BRAND properties is displayed",
+  "description": "* headline h2 with “Fact Sheet”\n* list of key-value pairs for each property\n* no aggregation (e.g. “founded” and “defunct” in two separate lines)\n",
+  "release_version": "0.1.0",
+  "created_at": "2025-06-22T11:49:02.605+0200",
+  "updated_at": "2025-07-13T10:22:26.874+0200"
+}

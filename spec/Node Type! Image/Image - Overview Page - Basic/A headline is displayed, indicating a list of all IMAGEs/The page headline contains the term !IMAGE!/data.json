@@ -1,0 +1,9 @@
+{
+  "id": "MCF-82",
+  "parent_id": "MCF-65",
+  "title": "The page headline contains the term \"IMAGE\"",
+  "gherkin": "When the user visits the \"IMAGE\" overview page\nThen the page headline should contain the the term \"IMAGE\"",
+  "labels": [],
+  "created_at": "2025-06-25T11:53:49.258+0200",
+  "updated_at": "2025-07-22T11:07:56.766+0200"
+}

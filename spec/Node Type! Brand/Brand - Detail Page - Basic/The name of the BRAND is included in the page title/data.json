@@ -1,0 +1,9 @@
+{
+  "id": "MCF-52",
+  "parent_id": "MCF-35",
+  "title": "The name of the BRAND is included in the page title",
+  "description": "something like “\\<brand name> - More Cars”, “Brand: \\<brand name>”, “More Cars - \\<brand name> - Brand”, etc.\n",
+  "release_version": "0.1.0",
+  "created_at": "2025-06-22T11:52:52.178+0200",
+  "updated_at": "2025-07-13T10:22:25.880+0200"
+}

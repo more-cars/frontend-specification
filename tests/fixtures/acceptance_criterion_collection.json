@@ -1,0 +1,47 @@
+[
+  {
+    "id": "MCF-123",
+    "parent_id": "MCF-41",
+    "title": "Each IMAGE links to the respective detail page",
+    "description": "",
+    "release_version": null,
+    "created_at": "2025-07-23T09:48:25.456+0200",
+    "updated_at": "2025-07-23T10:02:01.269+0200"
+  },
+  {
+    "id": "MCF-121",
+    "parent_id": "MCF-40",
+    "title": "Each IMAGE links to the respective detail page",
+    "description": "",
+    "release_version": null,
+    "created_at": "2025-07-23T09:39:59.528+0200",
+    "updated_at": "2025-07-23T10:02:08.348+0200"
+  },
+  {
+    "id": "MCF-116",
+    "parent_id": "MCF-49",
+    "title": "Each NODE links to the respective detail page",
+    "description": "",
+    "release_version": null,
+    "created_at": "2025-07-20T20:07:38.729+0200",
+    "updated_at": "2025-07-22T16:51:23.181+0200"
+  },
+  {
+    "id": "MCF-115",
+    "parent_id": "MCF-49",
+    "title": "There is no section displayed when the IMAGE is not connected to any node",
+    "description": "",
+    "release_version": null,
+    "created_at": "2025-07-20T20:07:17.536+0200",
+    "updated_at": "2025-07-22T16:51:18.848+0200"
+  },
+  {
+    "id": "MCF-114",
+    "parent_id": "MCF-49",
+    "title": "For each node type the IMAGE is connected to a separate section displayed",
+    "description": "",
+    "release_version": null,
+    "created_at": "2025-07-20T20:06:14.641+0200",
+    "updated_at": "2025-07-22T17:12:27.980+0200"
+  }
+]

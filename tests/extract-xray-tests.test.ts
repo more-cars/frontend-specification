@@ -1,7 +1,7 @@
 import fs from "fs"
 import {expect, test} from "vitest"
 import type {XrayTest} from "../lib/types/XrayTest"
-import {validateJson} from "./_toolbox/validateJson.ts"
+import {validateJson} from "./_toolbox/validateJson"
 import {TestSchema} from "./schemas/TestSchema"
 import {extractXrayTests} from "../lib/extractXrayTests"
 import {cacheJiraTickets} from "../lib/cacheJiraTickets"

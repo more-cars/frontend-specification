@@ -1,6 +1,6 @@
 import fs from "fs"
 import {expect, test} from "vitest"
-import {validateJson} from "./_toolbox/validateJson.ts"
+import {validateJson} from "./_toolbox/validateJson"
 import type {JiraAcceptanceCriterion} from "../lib/types/JiraAcceptanceCriterion"
 import {extractJiraAcceptanceCriteria} from "../lib/extractJiraAcceptanceCriteria"
 import {AcceptanceCriteriaSchema} from "./schemas/AcceptanceCriteriaSchema"

@@ -1,6 +1,6 @@
 import {assert, expect, test} from "vitest"
 import {downloadTests} from "../lib/downloadTests"
-import {validateJson} from "./_toolbox/validateJson.ts"
+import {validateJson} from "./_toolbox/validateJson"
 import {GetTestsResponseSchema} from "./schemas/GetTestsResponseSchema"
 
 test('Downloading all tests from Xray - real request', async () => {

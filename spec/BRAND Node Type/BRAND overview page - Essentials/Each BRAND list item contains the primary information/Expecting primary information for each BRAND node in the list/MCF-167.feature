@@ -8,8 +8,8 @@ Feature: BRAND overview page - Essentials
   @RULE_MCF-132
   Rule: Each BRAND list item contains the primary information
 
-    @TEST_MCF-167
-    Scenario: Expecting primary information for each BRAND node in the list
-      Given there exist "BRAND" nodes
-      When the user visits the "BRAND" overview page
-      Then each node in the "BRAND" list should contain its primary information
+  @TEST_MCF-167
+  Scenario: Expecting primary information for each BRAND node in the list
+    Given there exist "BRAND" nodes
+    When the user visits the "BRAND" overview page
+    Then each item in the "BRAND" node collection should contain primary information

@@ -1,9 +1,0 @@
-{
-  "id": "MCF-81",
-  "parent_id": "MCF-67",
-  "title": "An information text is displayed when there exist no CAR MODELs",
-  "gherkin": "Given there exist 0 \"CAR MODEL\"s\nWhen the user visits the \"CAR MODEL\" overview page\nThen the CAR MODEL list should not be displayed\nAnd a message should be shown that there are no CAR MODELs to display",
-  "labels": [],
-  "created_at": "2025-06-25T11:34:13.794+0200",
-  "updated_at": "2025-07-14T17:26:23.138+0200"
-}

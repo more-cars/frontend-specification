@@ -1,0 +1,15 @@
+{
+  "id": "MCF-129",
+  "parent_id": "MCF-126",
+  "title": "HTTPS - Phase II",
+  "user_story": "As a visitor\\\nI want my communication to ALWAYS be encrypted\\\nSo I can be sure that the responses really come from More Cars and are not manipulated\\\n(Even when I accidentally use HTTP in my requests instead of HTTPS)\n",
+  "description": "* every page is accessible via HTTPS, e.g. `https://more-cars.net/brands`\n* each request via HTTP is automatically redirected to HTTPS\n  * e.g. `GET http://more-cars.net/brands` → `GET https://more-cars.net/brands`\n  * status code `301`\n* every “public“ environment needs to have a valid certificate (no self-signed)\n* for local environments it is not possible to have valid certificates\n  * all tools and test frameworks need to be able to handle valid and invalid certificates\n* this ticket invalidates the acceptance criteria  <https://dennis-gerike.atlassian.net/browse/MCF-156> and <https://dennis-gerike.atlassian.net/browse/MCF-157> from story <https://dennis-gerike.atlassian.net/browse/MCF-128>&#x20;\n",
+  "api_path": "/*",
+  "response_options": [
+    "200",
+    "301"
+  ],
+  "release_versions": [],
+  "created_at": "2025-11-03T18:09:36.211+0100",
+  "updated_at": "2025-11-07T13:14:53.288+0100"
+}

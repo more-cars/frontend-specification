@@ -1,0 +1,9 @@
+{
+  "id": "MCF-171",
+  "parent_id": "MCF-138",
+  "title": "Expecting a thumbnail image for each IMAGE node in the list",
+  "gherkin": "Given there exist \"IMAGE\" nodes\nWhen the user visits the \"IMAGE\" overview page\nThen each node in the \"IMAGE\" list should contain a thumbnail image",
+  "labels": [],
+  "created_at": "2025-11-07T13:45:07.626+0100",
+  "updated_at": "2025-11-07T13:53:07.989+0100"
+}

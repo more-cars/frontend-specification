@@ -1,0 +1,9 @@
+{
+  "id": "MCF-162",
+  "parent_id": "MCF-158",
+  "title": "Expecting HTTPS requests to not be redirected to HTTP",
+  "gherkin": "When the user visits the \"BRAND\" overview page via \"HTTPS\"\nThen the request should not be redirected to \"HTTP\"",
+  "labels": [],
+  "created_at": "2025-11-07T11:09:35.479+0100",
+  "updated_at": "2025-11-07T11:12:48.366+0100"
+}

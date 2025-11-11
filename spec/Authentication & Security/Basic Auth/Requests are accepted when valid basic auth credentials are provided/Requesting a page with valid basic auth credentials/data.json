@@ -1,0 +1,9 @@
+{
+  "id": "MCF-153",
+  "parent_id": "MCF-151",
+  "title": "Requesting a page with valid basic auth credentials",
+  "gherkin": "Given basic authentication is activated\nAnd the user provided valid basic auth credentials\nWhen the user visits the \"BRAND\" overview page\nThen the request should be accepted",
+  "labels": [],
+  "created_at": "2025-11-07T10:27:28.703+0100",
+  "updated_at": "2025-11-07T10:45:40.855+0100"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "MCF-128",
+  "parent_id": "MCF-126",
+  "title": "HTTPS - Phase I",
+  "user_story": "As a visitor\\\nI want to have the option to browse the website via an encrypted connection\\\nSo I can be sure that all my requests are actually going through the More Cars servers\\\nAnd are not intercepted or manipulated\n",
+  "description": "* every page is accessible via HTTPS, e.g. `https://more-cars.net/brands`\n* in this iteration every route is also still available via HTTP, e.g. `http://more-cars.net/brands`\n* there are no automatic redirects from one protocol to the other\n* in this iteration the certificates don’t need to be valid for any environment\n",
+  "api_path": "/*",
+  "response_options": [],
+  "release_versions": [
+    "0.4.0"
+  ],
+  "created_at": "2025-11-03T18:09:34.063+0100",
+  "updated_at": "2025-11-08T11:19:48.138+0100"
+}

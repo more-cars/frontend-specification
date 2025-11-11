@@ -8,8 +8,8 @@ Feature: BRAND overview page - Essentials
   @RULE_MCF-134
   Rule: Each BRAND list item links to the respective BRAND detail page
 
-    @TEST_MCF-173
-    Scenario: Expecting a link to the detail page for each BRAND node in the list
-      Given there exist "BRAND" nodes
-      When the user visits the "BRAND" overview page
-      Then each node in the "BRAND" list should link to its detail page
+  @TEST_MCF-173
+  Scenario: Expecting a link to the detail page for each BRAND node in the list
+    Given there exist "BRAND" nodes
+    When the user visits the "BRAND" overview page
+    Then each item in the "BRAND" node collection should link to its detail page

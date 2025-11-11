@@ -8,8 +8,8 @@ Feature: BRAND overview page - Essentials
   @RULE_MCF-130
   Rule: The overview page displays a list of at most 100 BRANDS
 
-    @TEST_MCF-147
-    Scenario: Having more than 100 BRAND nodes
-      Given there exist more than 100 "BRAND" nodes
-      When the user visits the "BRAND" overview page
-      Then a list of 100 "BRAND" nodes should be displayed
+  @TEST_MCF-147
+  Scenario: Having more than 100 BRAND nodes
+    Given there exist more than 100 "BRAND" nodes
+    When the user visits the "BRAND" overview page
+    Then the page should display a "BRAND" node collection with 100 nodes

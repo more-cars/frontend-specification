@@ -8,8 +8,8 @@ Feature: BRAND overview page - Essentials
   @RULE_MCF-131
   Rule: The BRAND list is sorted by name, ascending
 
-  @TEST_MCF-150
-  Scenario: Expecting a sorted BRAND list when visiting the overview page
-    Given there exist "BRAND" nodes
-    When the user visits the "BRAND" overview page
-    Then the items in the "BRAND" node collection should be sorted by "name" in "ascending" order
+    @TEST_MCF-150 @implemented
+    Scenario: Expecting a sorted BRAND list when visiting the overview page
+      Given there exist "BRAND" nodes
+      When the user visits the "BRAND" overview page
+      Then the items in the "BRAND" node collection should be sorted by "name" in "ascending" order

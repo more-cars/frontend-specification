@@ -8,8 +8,8 @@ Feature: IMAGE overview page - Essentials
   @RULE_MCF-136
   Rule: The IMAGE list is sorted by name, ascending
 
-    @TEST_MCF-149
+    @TEST_MCF-149 @implemented
     Scenario: Expecting a sorted IMAGE list when visiting the overview page
       Given there exist "IMAGE" nodes
       When the user visits the "IMAGE" overview page
-      Then the "IMAGE" node list should be sorted by "name" in "ascending" order
+      Then the items in the "IMAGE" node collection should be sorted by "name" in "ascending" order

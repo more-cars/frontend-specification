@@ -8,8 +8,8 @@ Feature: IMAGE overview page - Essentials
   @RULE_MCF-138
   Rule: Each IMAGE list item contains a thumbnail image
 
-    @TEST_MCF-171
+    @TEST_MCF-171 @implemented
     Scenario: Expecting a thumbnail image for each IMAGE node in the list
       Given there exist "IMAGE" nodes
       When the user visits the "IMAGE" overview page
-      Then each node in the "IMAGE" list should contain a thumbnail image
+      Then each item in the "IMAGE" node collection should contain a thumbnail image

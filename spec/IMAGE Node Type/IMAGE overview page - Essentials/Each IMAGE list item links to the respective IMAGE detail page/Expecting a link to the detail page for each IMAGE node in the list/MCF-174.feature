@@ -8,8 +8,8 @@ Feature: IMAGE overview page - Essentials
   @RULE_MCF-139
   Rule: Each IMAGE list item links to the respective IMAGE detail page
 
-    @TEST_MCF-174
+    @TEST_MCF-174 @implemented
     Scenario: Expecting a link to the detail page for each IMAGE node in the list
       Given there exist "IMAGE" nodes
       When the user visits the "IMAGE" overview page
-      Then each node in the "IMAGE" list should link to its detail page
+      Then each item in the "IMAGE" node collection should link to its detail page

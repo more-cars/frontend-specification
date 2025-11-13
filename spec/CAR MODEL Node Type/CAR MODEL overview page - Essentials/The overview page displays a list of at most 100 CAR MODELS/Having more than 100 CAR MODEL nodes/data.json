@@ -2,8 +2,10 @@
   "id": "MCF-146",
   "parent_id": "MCF-140",
   "title": "Having more than 100 CAR MODEL nodes",
-  "gherkin": "Given there exist more than 100 \"CAR MODEL\" nodes\nWhen the user visits the \"CAR MODEL\" overview page\nThen a list of 100 \"CAR MODEL\" nodes should be displayed",
-  "labels": [],
+  "gherkin": "Given there exist more than 100 \"CAR MODEL\" nodes\nWhen the user visits the \"CAR MODEL\" overview page\nThen the page should display a \"CAR MODEL\" node collection with 100 nodes",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-11-05T18:39:29.941+0100",
-  "updated_at": "2025-11-05T18:48:20.709+0100"
+  "updated_at": "2025-11-13T11:38:09.646+0100"
 }

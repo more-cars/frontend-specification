@@ -2,8 +2,10 @@
   "id": "MCF-175",
   "parent_id": "MCF-144",
   "title": "Expecting a link to the detail page for each CAR MODEL node in the list",
-  "gherkin": "Given there exist \"CAR MODEL\" nodes\nWhen the user visits the \"CAR MODEL\" overview page\nThen each node in the \"CAR MODEL\" list should link to its detail page",
-  "labels": [],
+  "gherkin": "Given there exist \"CAR MODEL\" nodes\nWhen the user visits the \"CAR MODEL\" overview page\nThen each item in the \"CAR MODEL\" node collection should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-11-07T13:58:46.375+0100",
-  "updated_at": "2025-11-07T14:02:47.316+0100"
+  "updated_at": "2025-11-13T11:23:07.667+0100"
 }

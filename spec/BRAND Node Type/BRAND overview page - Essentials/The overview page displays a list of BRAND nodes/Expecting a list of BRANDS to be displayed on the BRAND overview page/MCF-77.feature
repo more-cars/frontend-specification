@@ -8,8 +8,8 @@ Feature: BRAND overview page - Essentials
   @RULE_MCF-60
   Rule: The overview page displays a list of BRAND nodes
 
-  @TEST_MCF-77
-  Scenario: Expecting a list of BRANDS to be displayed on the BRAND overview page
-    Given there exist "BRAND" nodes
-    When the user visits the "BRAND" overview page
-    Then the page should display a "BRAND" node collection
+    @TEST_MCF-77 @implemented
+    Scenario: Expecting a list of BRANDS to be displayed on the BRAND overview page
+      Given there exist "BRAND" nodes
+      When the user visits the "BRAND" overview page
+      Then the page should display a "BRAND" node collection

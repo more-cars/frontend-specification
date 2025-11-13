@@ -12,5 +12,5 @@ Feature: COMPANY overview page - Essentials
     Scenario: Expecting a warning message when there exist no COMPANY nodes
       Given there exist no "COMPANY" nodes
       When the user visits the "COMPANY" overview page
-      Then no "COMPANY" node list should be displayed
-      And the page should inform the user that there are no "COMPANY" nodes that could be displayed
+      Then the page should display no "COMPANY" node collection
+      And a message should inform the user that there are no "COMPANY" nodes

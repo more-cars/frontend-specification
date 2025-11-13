@@ -2,8 +2,10 @@
   "id": "MCF-78",
   "parent_id": "MCF-66",
   "title": "Expecting a warning message when there exist no BRAND nodes",
-  "gherkin": "Given there exist no \"BRAND\" nodes\nWhen the user visits the \"BRAND\" overview page\nThen no \"BRAND\" node list should be displayed\nAnd the page should inform the user that there are no \"BRAND\" nodes that could be displayed",
-  "labels": [],
+  "gherkin": "Given there exist no \"BRAND\" nodes\nWhen the user visits the \"BRAND\" overview page\nThen the page should display no \"BRAND\" node collection\nAnd a message should inform the user that there are no \"BRAND\" nodes",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-06-24T16:15:21.445+0200",
-  "updated_at": "2025-11-05T18:25:45.570+0100"
+  "updated_at": "2025-11-11T16:15:22.537+0100"
 }

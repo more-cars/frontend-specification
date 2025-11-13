@@ -8,8 +8,8 @@ Feature: IMAGE overview page - Essentials
   @RULE_MCF-137
   Rule: Each IMAGE list item contains the primary information
 
-    @TEST_MCF-168
+    @TEST_MCF-168 @implemented
     Scenario: Expecting primary information for each IMAGE node in the list
       Given there exist "IMAGE" nodes
       When the user visits the "IMAGE" overview page
-      Then each node in the "IMAGE" list should contain its primary information
+      Then each item in the "IMAGE" node collection should contain primary information

@@ -8,8 +8,8 @@ Feature: CAR MODEL overview page - Essentials
   @RULE_MCF-141
   Rule: The CAR MODEL list is sorted by name, ascending
 
-    @TEST_MCF-148
+    @TEST_MCF-148 @implemented
     Scenario: Expecting a sorted CAR MODEL list when visiting the overview page
       Given there exist "CAR MODEL" nodes
       When the user visits the "CAR MODEL" overview page
-      Then the "CAR MODEL" node list should be sorted by "name" in "ascending" order
+      Then the items in the "CAR MODEL" node collection should be sorted by "name" in "ascending" order

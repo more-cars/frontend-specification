@@ -2,8 +2,10 @@
   "id": "MCF-145",
   "parent_id": "MCF-135",
   "title": "Having more than 100 IMAGE nodes",
-  "gherkin": "Given there exist more than 100 \"IMAGE\" nodes\nWhen the user visits the \"IMAGE\" overview page\nThen a list of 100 \"IMAGE\" nodes should be displayed",
-  "labels": [],
+  "gherkin": "Given there exist more than 100 \"IMAGE\" nodes\nWhen the user visits the \"IMAGE\" overview page\nThen the page should display a \"IMAGE node collection with 100 nodes",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-11-05T18:39:24.240+0100",
-  "updated_at": "2025-11-05T18:48:27.049+0100"
+  "updated_at": "2025-11-13T11:38:15.678+0100"
 }

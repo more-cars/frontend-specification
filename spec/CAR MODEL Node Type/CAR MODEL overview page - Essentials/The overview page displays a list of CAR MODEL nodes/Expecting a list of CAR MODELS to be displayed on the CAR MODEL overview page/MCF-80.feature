@@ -8,8 +8,8 @@ Feature: CAR MODEL overview page - Essentials
   @RULE_MCF-61
   Rule: The overview page displays a list of CAR MODEL nodes
 
-    @TEST_MCF-80
+    @TEST_MCF-80 @implemented
     Scenario: Expecting a list of CAR MODELS to be displayed on the CAR MODEL overview page
       Given there exist "CAR MODEL" nodes
       When the user visits the "CAR MODEL" overview page
-      Then a list of "CAR MODEL" nodes should be displayed
+      Then the page should display a "CAR MODEL" node collection

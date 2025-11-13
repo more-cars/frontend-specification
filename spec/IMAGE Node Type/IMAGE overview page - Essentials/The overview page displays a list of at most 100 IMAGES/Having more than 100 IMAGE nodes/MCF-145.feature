@@ -8,8 +8,8 @@ Feature: IMAGE overview page - Essentials
   @RULE_MCF-135
   Rule: The overview page displays a list of at most 100 IMAGES
 
-    @TEST_MCF-145
+    @TEST_MCF-145 @implemented
     Scenario: Having more than 100 IMAGE nodes
       Given there exist more than 100 "IMAGE" nodes
       When the user visits the "IMAGE" overview page
-      Then a list of 100 "IMAGE" nodes should be displayed
+      Then the page should display a "IMAGE node collection with 100 nodes

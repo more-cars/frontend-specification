@@ -1,9 +1,0 @@
-{
-  "id": "MCF-88",
-  "parent_id": "MCF-69",
-  "title": "An error message is displayed when the requested BRAND does not exist",
-  "gherkin": "Given there exists no BRAND \"Audi\"\nWhen the user visits the detail page of the BRAND \"Audi\"\nThen a message should be displayed that this BRAND does not exist",
-  "labels": [],
-  "created_at": "2025-07-08T17:26:33.650+0200",
-  "updated_at": "2025-07-10T12:50:06.042+0200"
-}

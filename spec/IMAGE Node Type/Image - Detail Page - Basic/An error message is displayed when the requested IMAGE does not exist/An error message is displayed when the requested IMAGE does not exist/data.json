@@ -1,9 +1,0 @@
-{
-  "id": "MCF-112",
-  "parent_id": "MCF-71",
-  "title": "An error message is displayed when the requested IMAGE does not exist",
-  "gherkin": "Given there exists no IMAGE \"BMW logo\"\nWhen the user visits the detail page of the IMAGE \"BMW logo\"\nThen a message should be displayed that this IMAGE does not exist",
-  "labels": [],
-  "created_at": "2025-07-20T18:01:30.497+0200",
-  "updated_at": "2025-07-22T15:43:55.021+0200"
-}

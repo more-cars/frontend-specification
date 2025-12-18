@@ -1,9 +1,0 @@
-{
-  "id": "MCF-55",
-  "parent_id": "MCF-37",
-  "title": "The name of the CAR MODEL is included in the page title",
-  "description": "something like “\\<car model name> - More Cars”, “Car Model: \\<name>”, “More Cars - \\<name> - Car Model”, etc.\n",
-  "release_version": "0.2.0",
-  "created_at": "2025-06-22T12:02:46.576+0200",
-  "updated_at": "2025-07-17T15:48:30.875+0200"
-}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-88",
+  "parent_id": "MCF-69",
+  "title": "Requesting the detail page for a BRAND that does not exist",
+  "gherkin": "Given there exists no \"BRAND\" \"Audi\"\nWhen the user visits the detail page of the \"BRAND\" \"Audi\"\nThen a message should inform the user that the \"BRAND\" node does not exist",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-07-08T17:26:33.650+0200",
+  "updated_at": "2025-11-13T15:03:59.293+0100"
+}

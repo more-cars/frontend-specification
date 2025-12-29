@@ -7,10 +7,9 @@ Feature: BRAND detail page
   @RULE_MCF-50
   Rule: A fact sheet with all BRAND properties is displayed
 
-    @TEST_MCF-87 @implemented
-    Scenario: Expecting a populated fact sheet to be displayed on the BRAND detail page
-      Given there exists a "BRAND" "Audi"
-      When the user visits the detail page of the "BRAND" "Audi"
+    @TEST_MCF-87 @implemented @mock_default
+    Scenario: Expecting the BRAND detail page to contain a populated fact sheet
+      When the user visits the detail page of a "BRAND"
       Then the page should display a fact sheet
       And the fact sheet should display an entry for each of the following properties
         | _property_ |

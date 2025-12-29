@@ -1,0 +1,12 @@
+{
+  "id": "MCF-94",
+  "parent_id": "MCF-72",
+  "title": "Expecting the BRAND detail page to contain a list with all connected CAR MODELs",
+  "gherkin": "When the user visits the detail page of a \"BRAND\"\nThen the page should contain a \"CAR MODEL\" list",
+  "labels": [
+    "implemented",
+    "mock_default"
+  ],
+  "created_at": "2025-07-12T11:51:48.590+0200",
+  "updated_at": "2025-12-29T16:57:03.816+0100"
+}

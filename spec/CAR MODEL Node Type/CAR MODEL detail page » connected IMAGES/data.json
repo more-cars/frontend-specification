@@ -1,0 +1,14 @@
+{
+  "id": "MCF-41",
+  "parent_id": "MCF-3",
+  "title": "CAR MODEL detail page » connected IMAGES",
+  "user_story": "As a visitor\\\nOn the CAR MODEL detail page\\\nI want to see a gallery of all attached IMAGEs\\\nSo I can get a visual impression of the car from different angles\n",
+  "description": "# **Acceptance Criteria**\n\n**Behavior (Business logic)**\n\n* the existing car model detail page is extended to display a prominent section for the connected images\n* this section contains:\n  * a headline h2 describing the relationship\n  * a list of all image that are attached to the car model (in small resolution)\n    * linked to the resp. image detail pages\n  * a number with the amount of connected images\n* the section is not shown when there are no images attached to the car model\n\n**Quality Gates**\n\n* Behavior tests (Playwright) are extended\n* Accessibility tests are extended\n* Performance tests are extended\n* Local copy of the API spec is updated to a matching version\n\n# **NOT in scope for this iteration**\n\n* sort, pagination, filter, search within the list\n",
+  "api_path": null,
+  "response_options": [],
+  "release_versions": [
+    "0.3.0"
+  ],
+  "created_at": "2025-06-11T10:48:15.956+0200",
+  "updated_at": "2025-11-14T08:58:28.529+0100"
+}

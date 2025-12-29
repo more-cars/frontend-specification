@@ -1,0 +1,12 @@
+{
+  "id": "MCF-147",
+  "parent_id": "MCF-130",
+  "title": "Expecting the BRAND list to not show more than 100 items",
+  "gherkin": "Given there are more than 100 \"BRAND\"s\nWhen the user visits the \"BRAND\" overview page\nThen the page should contain a \"BRAND\" list\nAnd the \"BRAND\" list should contain 100 items",
+  "labels": [
+    "implemented",
+    "mock_pagination"
+  ],
+  "created_at": "2025-11-05T18:39:34.516+0100",
+  "updated_at": "2025-12-29T15:55:00.264+0100"
+}

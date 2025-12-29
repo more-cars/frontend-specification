@@ -1,0 +1,17 @@
+{
+  "id": "MCF-35",
+  "parent_id": "MCF-1",
+  "title": "BRAND detail page",
+  "user_story": "As a visitor\\\nI want each BRAND to have a dedicated page\\\nSo I can find every piece of information about it in one place\n",
+  "description": "* Each BRAND has a detail page. → Status Code \\`200\\`\n* The detail page contains a fact sheet with all properties that are specified for a BRAND node → see MCF-1.\n* Each property in the fact sheet is displayed as a key-value pair (property and property value).\n* When a property has no value it is still displayed in the fact sheet, but marked as empty.\n* The name of the BRAND is reflected in the main headline and in the page title. The page title might contain additional text, like the suffix “ - More Cars“. The main headline might also contain additional information - for example to make generic nodes unique.\n* A representative image of the BRAND is displayed at a prominent location on the page.\n* An error message is shown when there exists no BRAND with the provided ID. → Status Code \\`404\\`\n",
+  "api_path": "/brands/<brand-id>",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [
+    "0.1.0"
+  ],
+  "created_at": "2025-06-11T10:33:33.885+0200",
+  "updated_at": "2025-11-14T09:52:32.680+0100"
+}

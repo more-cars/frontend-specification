@@ -1,0 +1,14 @@
+{
+  "id": "MCF-177",
+  "parent_id": "MCF-2",
+  "title": "COMPANY overview page",
+  "user_story": "As a visitor\nI want to see a list of all COMPANIES\nSo I can get a general idea of the different types that exist\nAnd by scrolling through them find interesting ones\n",
+  "description": "* The overview page displays a subset of all COMPANY nodes. → Status Code \\`200\\`\n* When there exist more than 100 COMPANIES then only the first 100 are displayed.\n* The COMPANIES are sorted \\`ascending\\` by their \\`name\\`.\n* Each node is presented with its primary information.\n* Each node contains a thumbnail image.\n* Each node links to the respective COMPANY detail page.\n* An error message is shown when there exist no COMPANY nodes (edge case, mainly relevant for testing purposes). → Status Code \\`200\\`\n",
+  "api_path": "/companies",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [],
+  "created_at": "2025-11-07T14:15:10.278+0100",
+  "updated_at": "2025-11-14T09:02:01.361+0100"
+}

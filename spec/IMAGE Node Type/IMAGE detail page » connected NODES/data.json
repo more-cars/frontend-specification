@@ -1,0 +1,14 @@
+{
+  "id": "MCF-49",
+  "parent_id": "MCF-17",
+  "title": "IMAGE detail page » connected NODES",
+  "user_story": "As a contributor\\\nOn the IMAGE detail page\\\nI want to see all connected NODEs\\\nSo I can find out where a connection might be missing\n",
+  "description": "",
+  "api_path": null,
+  "response_options": [],
+  "release_versions": [
+    "0.3.0"
+  ],
+  "created_at": "2025-06-20T16:43:23.848+0200",
+  "updated_at": "2025-11-14T08:58:42.998+0100"
+}

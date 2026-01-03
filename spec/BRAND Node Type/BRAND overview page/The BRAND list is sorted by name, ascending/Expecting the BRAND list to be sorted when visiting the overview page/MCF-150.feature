@@ -8,7 +8,7 @@ Feature: BRAND overview page
   @RULE_MCF-131
   Rule: The BRAND list is sorted by name, ascending
 
-    @TEST_MCF-150 @implemented @mock_default
+    @TEST_MCF-150 @implemented
     Scenario: Expecting the BRAND list to be sorted when visiting the overview page
       When the user visits the "BRAND" overview page
       Then the items in the "BRAND" list should be sorted by "name" in "ascending" order

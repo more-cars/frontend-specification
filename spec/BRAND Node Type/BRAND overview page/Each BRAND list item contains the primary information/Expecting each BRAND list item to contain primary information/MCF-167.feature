@@ -8,7 +8,7 @@ Feature: BRAND overview page
   @RULE_MCF-132
   Rule: Each BRAND list item contains the primary information
 
-    @TEST_MCF-167 @implemented @mock_default
+    @TEST_MCF-167 @implemented
     Scenario: Expecting each BRAND list item to contain primary information
       When the user visits the "BRAND" overview page
       Then all items in the "BRAND" list should contain primary information

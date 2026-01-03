@@ -8,7 +8,7 @@ Feature: BRAND overview page
   @RULE_MCF-60
   Rule: The overview page displays a list of BRAND nodes
 
-    @TEST_MCF-77 @implemented @mock_default
+    @TEST_MCF-77 @implemented
     Scenario: Expecting the BRAND overview page to show a list of BRANDs
       When the user visits the "BRAND" overview page
       Then the page should contain a "BRAND" list

@@ -8,7 +8,7 @@ Feature: BRAND overview page
   @RULE_MCF-134
   Rule: Each BRAND list item links to the respective BRAND detail page
 
-    @TEST_MCF-173 @implemented @mock_default
+    @TEST_MCF-173 @implemented
     Scenario: Expecting each BRAND list item to contain a link to the detail page
       When the user visits the "BRAND" overview page
       Then all items in the "BRAND" list should link to their detail pages

@@ -2,11 +2,10 @@
   "id": "MCF-88",
   "parent_id": "MCF-69",
   "title": "Trying to access the detail page of a non-existent BRAND",
-  "gherkin": "Given there is no \"BRAND\" \"Rumpelstilzchen\"\nWhen the user visits the detail page of the \"BRAND\" \"Rumpelstilzchen\"\nThen the page should contain a message, informing the user that there is no such \"BRAND\"",
+  "gherkin": "Given there is no \"BRAND\" \"Toyota\"\nWhen the user visits the detail page of the \"BRAND\" \"Toyota\"\nThen the page should contain a message, informing the user that there is no such \"BRAND\"",
   "labels": [
-    "implemented",
-    "mock_zero"
+    "implemented"
   ],
   "created_at": "2025-07-08T17:26:33.650+0200",
-  "updated_at": "2025-12-29T16:42:18.443+0100"
+  "updated_at": "2026-01-04T11:38:42.297+0100"
 }

@@ -8,7 +8,7 @@ Feature: BRAND detail page » connected IMAGES
   @RULE_MCF-89
   Rule: All IMAGEs of the BRAND are displayed in a separate gallery section
 
-    @TEST_MCF-92 @mock_default
+    @TEST_MCF-92 @implemented
     Scenario: Expecting an image gallery on the BRAND detail page
       When the user visits the detail page of a "BRAND"
       Then the page should contain a "IMAGE" list

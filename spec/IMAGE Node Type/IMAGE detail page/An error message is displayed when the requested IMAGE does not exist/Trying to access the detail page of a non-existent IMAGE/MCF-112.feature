@@ -8,7 +8,7 @@ Feature: IMAGE detail page
   Rule: An error message is displayed when the requested IMAGE does not exist
 
     @TEST_MCF-112 @implemented
-    Scenario: Requesting the detail page for a IMAGE that does not exist
-      Given there exists no "IMAGE" "BMW logo"
-      When the user visits the detail page of the "IMAGE" "BMW logo"
-      Then a message should inform the user that the "IMAGE" node does not exist
+    Scenario: Trying to access the detail page of a non-existent IMAGE
+      Given there is no "IMAGE" "logo"
+      When the user visits the detail page of the "IMAGE" "logo"
+      Then the page should contain a message, informing the user that there is no such "IMAGE"

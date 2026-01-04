@@ -9,7 +9,6 @@ Feature: IMAGE overview page
   Rule: The overview page displays a list of IMAGE nodes
 
     @TEST_MCF-83 @implemented
-    Scenario: Expecting a list of IMAGES to be displayed on the IMAGE overview page
-      Given there exist "IMAGE" nodes
+    Scenario: Expecting the IMAGE overview page to show a list of IMAGEs
       When the user visits the "IMAGE" overview page
-      Then the page should display a "IMAGE" node collection
+      Then the page should contain a "IMAGE" list

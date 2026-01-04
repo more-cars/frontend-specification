@@ -9,8 +9,8 @@ Feature: CAR MODEL overview page
   Rule: A warning is displayed when there are no CAR MODELS to display
 
     @TEST_MCF-81 @implemented
-    Scenario: Expecting a warning message when there exist no CAR MODEL nodes
-      Given there exist no "CAR MODEL" nodes
+    Scenario: Expecting a warning message when there exist no CAR MODELs
+      Given there is no "CAR MODEL"
       When the user visits the "CAR MODEL" overview page
-      Then the page should display no "CAR MODEL" node collection
-      And a message should inform the user that there are no "CAR MODEL" nodes
+      Then the page should contain no "CAR MODEL" list
+      And the page should contain a message, informing the user that there are no "CAR MODEL"s

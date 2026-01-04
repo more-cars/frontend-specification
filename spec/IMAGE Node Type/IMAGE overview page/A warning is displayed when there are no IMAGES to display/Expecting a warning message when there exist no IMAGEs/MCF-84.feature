@@ -9,8 +9,8 @@ Feature: IMAGE overview page
   Rule: A warning is displayed when there are no IMAGES to display
 
     @TEST_MCF-84 @implemented
-    Scenario: Expecting a warning message when there exist no IMAGE nodes
-      Given there exist no "IMAGE" nodes
+    Scenario: Expecting a warning message when there exist no IMAGEs
+      Given there is no "IMAGE"
       When the user visits the "IMAGE" overview page
-      Then the page should display no "IMAGE" node collection
-      And a message should inform the user that there are no "IMAGE" nodes
+      Then the page should contain no "IMAGE" list
+      And the page should contain a message, informing the user that there are no "IMAGE"s

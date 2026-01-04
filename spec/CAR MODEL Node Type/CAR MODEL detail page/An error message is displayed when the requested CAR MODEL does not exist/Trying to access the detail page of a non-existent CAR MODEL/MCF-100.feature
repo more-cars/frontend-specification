@@ -8,7 +8,7 @@ Feature: CAR MODEL detail page
   Rule: An error message is displayed when the requested CAR MODEL does not exist
 
     @TEST_MCF-100 @implemented
-    Scenario: Requesting the detail page for a CAR MODEL that does not exist
-      Given there exists no "CAR MODEL" "Zonda"
+    Scenario: Trying to access the detail page of a non-existent CAR MODEL
+      Given there is no "CAR MODEL" "Zonda"
       When the user visits the detail page of the "CAR MODEL" "Zonda"
-      Then a message should inform the user that the "CAR MODEL" node does not exist
+      Then the page should contain a message, informing the user that there is no such "CAR MODEL"

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-100",
+  "parent_id": "MCF-70",
+  "title": "Trying to access the detail page of a non-existent CAR MODEL",
+  "gherkin": "Given there is no \"CAR MODEL\" \"Zonda\"\nWhen the user visits the detail page of the \"CAR MODEL\" \"Zonda\"\nThen the page should contain a message, informing the user that there is no such \"CAR MODEL\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-07-12T15:58:02.695+0200",
+  "updated_at": "2026-01-04T11:38:52.564+0100"
+}

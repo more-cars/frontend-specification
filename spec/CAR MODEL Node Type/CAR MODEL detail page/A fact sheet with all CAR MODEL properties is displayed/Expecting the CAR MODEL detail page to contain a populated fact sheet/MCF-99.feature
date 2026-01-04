@@ -8,9 +8,8 @@ Feature: CAR MODEL detail page
   Rule: A fact sheet with all CAR MODEL properties is displayed
 
     @TEST_MCF-99 @implemented
-    Scenario: Expecting a populated fact sheet to be displayed on the CAR MODEL detail page
-      Given there exists a "CAR MODEL" "Zonda"
-      When the user visits the detail page of the "CAR MODEL" "Zonda"
+    Scenario: Expecting the CAR MODEL detail page to contain a populated fact sheet
+      When the user visits the detail page of a "CAR MODEL"
       Then the page should display a fact sheet
       And the fact sheet should display an entry for each of the following properties
         | _property_       |

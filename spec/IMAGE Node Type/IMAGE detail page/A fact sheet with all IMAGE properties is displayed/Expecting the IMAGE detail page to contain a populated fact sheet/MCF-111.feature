@@ -8,9 +8,8 @@ Feature: IMAGE detail page
   Rule: A fact sheet with all IMAGE properties is displayed
 
     @TEST_MCF-111 @implemented
-    Scenario: Expecting a populated fact sheet to be displayed on the IMAGE detail page
-      Given there exists an "IMAGE" "BMW logo"
-      When the user visits the detail page of the "IMAGE" "BMW logo"
+    Scenario: Expecting the IMAGE detail page to contain a populated fact sheet
+      When the user visits the detail page of a "IMAGE"
       Then the page should display a fact sheet
       And the fact sheet should display an entry for each of the following properties
         | _property_         |

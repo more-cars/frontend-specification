@@ -8,9 +8,9 @@ Feature: BRAND overview page
   @RULE_MCF-130
   Rule: The overview page displays a list of at most 100 BRANDS
 
-    @TEST_MCF-147 @implemented @mock_pagination
+    @TEST_MCF-147 @implemented
     Scenario: Expecting the BRAND list to not show more than 100 items
-      Given there are more than 100 "BRAND"s
+      Given there are 105 "BRAND"s
       When the user visits the "BRAND" overview page
       Then the page should contain a "BRAND" list
       And the "BRAND" list should contain 100 items

@@ -10,6 +10,5 @@ Feature: CAR MODEL overview page
 
     @TEST_MCF-175 @implemented
     Scenario: Expecting a link to the detail page for each CAR MODEL node in the list
-      Given there exist "CAR MODEL" nodes
       When the user visits the "CAR MODEL" overview page
-      Then each item in the "CAR MODEL" node collection should link to its detail page
+      Then all items in the "CAR MODEL" list should link to their detail pages

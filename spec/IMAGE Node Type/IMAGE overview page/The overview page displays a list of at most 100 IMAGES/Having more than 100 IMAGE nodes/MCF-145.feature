@@ -10,6 +10,7 @@ Feature: IMAGE overview page
 
     @TEST_MCF-145 @implemented
     Scenario: Having more than 100 IMAGE nodes
-      Given there exist more than 100 "IMAGE" nodes
+      Given there are 105 "IMAGE"s
       When the user visits the "IMAGE" overview page
-      Then the page should display a "IMAGE node collection with 100 nodes
+      Then the page should contain a "IMAGE" list
+      And the "IMAGE" list should contain 100 items

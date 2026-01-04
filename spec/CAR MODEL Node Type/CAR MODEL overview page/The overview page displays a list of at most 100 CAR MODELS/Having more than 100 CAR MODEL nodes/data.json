@@ -2,7 +2,7 @@
   "id": "MCF-146",
   "parent_id": "MCF-140",
   "title": "Having more than 100 CAR MODEL nodes",
-  "gherkin": "Given there exist more than 100 \"CAR MODEL\" nodes\nWhen the user visits the \"CAR MODEL\" overview page\nThen the page should display a \"CAR MODEL\" node collection with 100 nodes",
+  "gherkin": "Given there are 105 \"CAR MODEL\"s\nWhen the user visits the \"CAR MODEL\" overview page\nThen the page should contain a \"CAR MODEL\" list\nAnd the \"CAR MODEL\" list should contain 100 items",
   "labels": [
     "implemented"
   ],

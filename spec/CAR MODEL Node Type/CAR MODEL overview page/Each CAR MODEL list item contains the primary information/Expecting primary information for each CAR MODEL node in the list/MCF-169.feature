@@ -10,6 +10,5 @@ Feature: CAR MODEL overview page
 
     @TEST_MCF-169 @implemented
     Scenario: Expecting primary information for each CAR MODEL node in the list
-      Given there exist "CAR MODEL" nodes
       When the user visits the "CAR MODEL" overview page
-      Then each item in the "CAR MODEL" node collection should contain primary information
+      Then all items in the "CAR MODEL" list should contain primary information

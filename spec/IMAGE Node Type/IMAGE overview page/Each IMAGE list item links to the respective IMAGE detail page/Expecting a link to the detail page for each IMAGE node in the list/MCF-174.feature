@@ -10,6 +10,5 @@ Feature: IMAGE overview page
 
     @TEST_MCF-174 @implemented
     Scenario: Expecting a link to the detail page for each IMAGE node in the list
-      Given there exist "IMAGE" nodes
       When the user visits the "IMAGE" overview page
-      Then each item in the "IMAGE" node collection should link to its detail page
+      Then all items in the "IMAGE" list should link to their detail pages

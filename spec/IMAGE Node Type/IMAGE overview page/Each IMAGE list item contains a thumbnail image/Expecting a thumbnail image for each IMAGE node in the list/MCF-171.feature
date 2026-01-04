@@ -10,6 +10,5 @@ Feature: IMAGE overview page
 
     @TEST_MCF-171 @implemented
     Scenario: Expecting a thumbnail image for each IMAGE node in the list
-      Given there exist "IMAGE" nodes
       When the user visits the "IMAGE" overview page
-      Then each item in the "IMAGE" node collection should contain a thumbnail image
+      Then all items in the "IMAGE" list should contain a thumbnail image

@@ -10,6 +10,7 @@ Feature: CAR MODEL overview page
 
     @TEST_MCF-146 @implemented
     Scenario: Having more than 100 CAR MODEL nodes
-      Given there exist more than 100 "CAR MODEL" nodes
+      Given there are 105 "CAR MODEL"s
       When the user visits the "CAR MODEL" overview page
-      Then the page should display a "CAR MODEL" node collection with 100 nodes
+      Then the page should contain a "CAR MODEL" list
+      And the "CAR MODEL" list should contain 100 items

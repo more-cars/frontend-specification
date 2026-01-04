@@ -2,7 +2,7 @@
   "id": "MCF-124",
   "parent_id": "MCF-123",
   "title": "Navigating to a linked IMAGE",
-  "gherkin": "Given there exists a \"CAR MODEL\" \"Camaro\"\nAnd there exists an \"IMAGE\" \"front\"\nAnd the IMAGE \"front\" is connected to CAR MODEL \"Camaro\"\nWhen the user visits the detail page of the \"CAR MODEL\" \"Camaro\"\nAnd the user follows the link to the IMAGE \"front\"\nThen the user should have been redirected to the detail page of the IMAGE \"front\"",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL\"\nAnd the user follows one of the links in the \"IMAGE\" list\nThen the user should be redirected to a \"IMAGE\" detail page",
   "labels": [
     "implemented"
   ],

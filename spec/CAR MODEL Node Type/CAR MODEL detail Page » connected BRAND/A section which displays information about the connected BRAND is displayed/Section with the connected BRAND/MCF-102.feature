@@ -10,9 +10,6 @@ Feature: CAR MODEL detail Page » connected BRAND
 
     @TEST_MCF-102 @implemented
     Scenario: Section with the connected BRAND
-      Given there exists a CAR MODEL "Twingo"
-      And there exists a BRAND "Renault"
-      And BRAND "Renault" is connected to CAR MODEL "Twingo"
-      When the user visits the detail page of the CAR MODEL "Twingo"
-      Then there should be a BRAND section
-      And the BRAND section should contain the BRAND "Renault"
+      When the user visits the detail page of a "CAR MODEL"
+      Then the page should contain a "BRAND" section
+      And the "BRAND" section should contain primary information

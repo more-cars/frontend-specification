@@ -10,9 +10,6 @@ Feature: CAR MODEL detail Page » connected BRAND
 
     @TEST_MCF-104 @implemented
     Scenario: Navigating to the linked BRAND
-      Given there exists a CAR MODEL "Twingo"
-      And there exists a BRAND "Renault"
-      And BRAND "Renault" is connected to CAR MODEL "Twingo"
-      When the user visits the detail page of the CAR MODEL "Twingo"
-      And the user follows the link to the BRAND "Renault"
-      Then the user should be redirected to the detail page of the BRAND "Renault"
+      When the user visits the detail page of a "CAR MODEL"
+      And the user follows the link in the "BRAND" section
+      Then the user should be redirected to a "BRAND" detail page

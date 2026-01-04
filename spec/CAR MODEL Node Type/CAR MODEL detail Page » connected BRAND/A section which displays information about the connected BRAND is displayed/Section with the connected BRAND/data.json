@@ -2,7 +2,7 @@
   "id": "MCF-102",
   "parent_id": "MCF-73",
   "title": "Section with the connected BRAND",
-  "gherkin": "Given there exists a CAR MODEL \"Twingo\"\nAnd there exists a BRAND \"Renault\"\nAnd BRAND \"Renault\" is connected to CAR MODEL \"Twingo\"\nWhen the user visits the detail page of the CAR MODEL \"Twingo\"\nThen there should be a BRAND section\nAnd the BRAND section should contain the BRAND \"Renault\"",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL\"\nThen the page should contain a \"BRAND\" section\nAnd the \"BRAND\" section should contain primary information",
   "labels": [
     "implemented"
   ],

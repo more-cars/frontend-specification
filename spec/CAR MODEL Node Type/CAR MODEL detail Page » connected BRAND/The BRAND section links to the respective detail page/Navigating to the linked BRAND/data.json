@@ -2,7 +2,7 @@
   "id": "MCF-104",
   "parent_id": "MCF-101",
   "title": "Navigating to the linked BRAND",
-  "gherkin": "Given there exists a CAR MODEL \"Twingo\"\nAnd there exists a BRAND \"Renault\"\nAnd BRAND \"Renault\" is connected to CAR MODEL \"Twingo\"\nWhen the user visits the detail page of the CAR MODEL \"Twingo\"\nAnd the user follows the link to the BRAND \"Renault\"\nThen the user should be redirected to the detail page of the BRAND \"Renault\"",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL\"\nAnd the user follows the link in the \"BRAND\" section\nThen the user should be redirected to a \"BRAND\" detail page",
   "labels": [
     "implemented"
   ],

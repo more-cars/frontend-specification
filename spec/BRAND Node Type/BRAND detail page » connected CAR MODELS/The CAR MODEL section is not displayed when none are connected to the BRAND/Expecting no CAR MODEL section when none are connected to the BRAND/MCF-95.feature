@@ -9,8 +9,8 @@ Feature: BRAND detail page » connected CAR MODELS
   Rule: The CAR MODEL section is not displayed when none are connected to the BRAND
 
     @TEST_MCF-95 @implemented
-    Scenario: No CAR MODEL section when none are connected
-      Given there exists a BRAND "Renault"
-      And no CAR MODELs are connected to BRAND "Renault"
-      When the user visits the detail page of the BRAND "Renault"
-      Then there should be no section with a CAR MODEL list
+    Scenario: Expecting no CAR MODEL section when none are connected to the BRAND
+      Given there is a "BRAND" "Renault"
+      And the "BRAND" "Renault" has no relationships
+      When the user visits the detail page of the "BRAND" "Renault"
+      Then the page should contain no "CAR MODEL" list

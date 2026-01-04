@@ -1,0 +1,11 @@
+{
+  "id": "MCF-95",
+  "parent_id": "MCF-75",
+  "title": "Expecting no CAR MODEL section when none are connected to the BRAND",
+  "gherkin": "Given there is a \"BRAND\" \"Renault\"\nAnd the \"BRAND\" \"Renault\" has no relationships\nWhen the user visits the detail page of the \"BRAND\" \"Renault\"\nThen the page should contain no \"CAR MODEL\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-07-12T11:52:02.247+0200",
+  "updated_at": "2026-01-04T16:26:54.375+0100"
+}

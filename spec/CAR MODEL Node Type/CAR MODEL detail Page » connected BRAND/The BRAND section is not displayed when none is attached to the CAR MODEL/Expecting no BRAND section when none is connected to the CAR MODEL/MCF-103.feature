@@ -9,8 +9,8 @@ Feature: CAR MODEL detail Page » connected BRAND
   Rule: The BRAND section is not displayed when none is attached to the CAR MODEL
 
     @TEST_MCF-103 @implemented
-    Scenario: No BRAND section when none is connected
-      Given there exists a CAR MODEL "Twingo"
-      And no BRANDs is connected to CAR MODEL "Twingo"
-      When the user visits the detail page of the CAR MODEL "Twingo"
-      Then there should be no BRAND section
+    Scenario: Expecting no BRAND section when none is connected to the CAR MODEL
+      Given there is a "CAR MODEL" "Twingo"
+      And the "CAR MODEL" "Twingo" has no relationships
+      When the user visits the detail page of the "CAR MODEL" "Twingo"
+      Then the page should contain no "BRAND" section

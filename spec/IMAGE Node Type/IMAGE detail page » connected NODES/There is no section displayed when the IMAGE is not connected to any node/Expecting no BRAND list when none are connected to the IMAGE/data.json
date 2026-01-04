@@ -1,0 +1,11 @@
+{
+  "id": "MCF-118",
+  "parent_id": "MCF-115",
+  "title": "Expecting no BRAND list when none are connected to the IMAGE",
+  "gherkin": "Given there is a \"IMAGE\" \"logo\"\nAnd the \"IMAGE\" \"logo\" has no relationships\nWhen the user visits the detail page of the \"IMAGE\" \"logo\"\nThen the page should contain no \"BRAND\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-07-20T20:10:55.514+0200",
+  "updated_at": "2026-01-04T16:29:06.280+0100"
+}

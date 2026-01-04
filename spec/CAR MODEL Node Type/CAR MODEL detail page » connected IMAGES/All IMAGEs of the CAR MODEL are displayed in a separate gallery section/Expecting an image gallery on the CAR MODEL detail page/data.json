@@ -1,0 +1,11 @@
+{
+  "id": "MCF-107",
+  "parent_id": "MCF-105",
+  "title": "Expecting an image gallery on the CAR MODEL detail page",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL\"\nThen the page should contain a \"IMAGE\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-07-20T16:38:13.103+0200",
+  "updated_at": "2026-01-04T14:23:07.762+0100"
+}

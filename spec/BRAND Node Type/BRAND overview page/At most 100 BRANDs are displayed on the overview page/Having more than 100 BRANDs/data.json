@@ -1,0 +1,11 @@
+{
+  "id": "MCF-147",
+  "parent_id": "MCF-130",
+  "title": "Having more than 100 BRANDs",
+  "gherkin": "Given there are 105 \"BRAND\"s\nWhen the user visits the \"BRAND\" overview page\nThen the page should contain a \"BRAND\" list\nAnd the \"BRAND\" list should contain 100 items",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-11-05T18:39:34.516+0100",
+  "updated_at": "2026-01-05T10:35:51.210+0100"
+}

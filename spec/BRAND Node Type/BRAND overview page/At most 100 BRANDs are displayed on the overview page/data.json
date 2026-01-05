@@ -1,0 +1,9 @@
+{
+  "id": "MCF-130",
+  "parent_id": "MCF-34",
+  "title": "At most 100 BRANDs are displayed on the overview page",
+  "description": "",
+  "release_version": "0.4.0",
+  "created_at": "2025-11-05T17:25:20.813+0100",
+  "updated_at": "2026-01-05T10:30:04.972+0100"
+}

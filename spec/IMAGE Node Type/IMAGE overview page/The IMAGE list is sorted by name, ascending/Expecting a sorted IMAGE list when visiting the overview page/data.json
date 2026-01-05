@@ -2,7 +2,7 @@
   "id": "MCF-149",
   "parent_id": "MCF-136",
   "title": "Expecting a sorted IMAGE list when visiting the overview page",
-  "gherkin": "Given there exist \"IMAGE\" nodes\nWhen the user visits the \"IMAGE\" overview page\nThen the items in the \"IMAGE\" node collection should be sorted by \"name\" in \"ascending\" order",
+  "gherkin": "When the user visits the \"IMAGE\" overview page\nThen the \"IMAGE\" list should be sorted by \"name\" in \"ascending\" order",
   "labels": [
     "implemented"
   ],

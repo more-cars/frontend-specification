@@ -5,10 +5,10 @@ Feature: IMAGE overview page
   So I can get a general idea of the different types that exist\
   And by scrolling through them find interesting ones
 
-  @RULE_MCF-136
-  Rule: The IMAGE list is sorted by name, ascending
+  @RULE_MCF-139
+  Rule: Each IMAGE in the list links to its detail page
 
-    @TEST_MCF-149 @implemented
-    Scenario: Expecting a sorted IMAGE list when visiting the overview page
+    @TEST_MCF-174 @implemented
+    Scenario: Expecting each IMAGE in the list to have a link to its detail page
       When the user visits the "IMAGE" overview page
-      Then the "IMAGE" list should be sorted by "name" in "ascending" order
+      Then all items in the "IMAGE" list should link to their detail pages

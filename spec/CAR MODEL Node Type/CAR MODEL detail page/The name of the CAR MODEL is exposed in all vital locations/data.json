@@ -1,9 +1,0 @@
-{
-  "id": "MCF-196",
-  "parent_id": "MCF-37",
-  "title": "The name of the CAR MODEL is exposed in all vital locations",
-  "description": "The name is shown in the headline and in the page title. Both might contain additional information (coming from different features).\n",
-  "release_version": "0.2.0",
-  "created_at": "2025-11-14T10:04:27.170+0100",
-  "updated_at": "2025-11-14T10:39:01.844+0100"
-}

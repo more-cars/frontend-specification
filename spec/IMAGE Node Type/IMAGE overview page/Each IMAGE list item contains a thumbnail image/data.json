@@ -1,9 +1,0 @@
-{
-  "id": "MCF-138",
-  "parent_id": "MCF-46",
-  "title": "Each IMAGE list item contains a thumbnail image",
-  "description": "",
-  "release_version": "0.4.0",
-  "created_at": "2025-11-05T17:49:08.959+0100",
-  "updated_at": "2025-11-08T16:42:38.318+0100"
-}

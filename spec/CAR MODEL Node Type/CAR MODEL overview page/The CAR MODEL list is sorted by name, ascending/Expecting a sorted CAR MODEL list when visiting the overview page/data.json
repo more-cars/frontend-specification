@@ -2,7 +2,7 @@
   "id": "MCF-148",
   "parent_id": "MCF-141",
   "title": "Expecting a sorted CAR MODEL list when visiting the overview page",
-  "gherkin": "Given there exist \"CAR MODEL\" nodes\nWhen the user visits the \"CAR MODEL\" overview page\nThen the items in the \"CAR MODEL\" node collection should be sorted by \"name\" in \"ascending\" order",
+  "gherkin": "When the user visits the \"CAR MODEL\" overview page\nThen the \"CAR MODEL\" list should be sorted by \"name\" in \"ascending\" order",
   "labels": [
     "implemented"
   ],

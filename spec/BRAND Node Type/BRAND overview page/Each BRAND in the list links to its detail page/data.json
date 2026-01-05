@@ -1,0 +1,9 @@
+{
+  "id": "MCF-134",
+  "parent_id": "MCF-34",
+  "title": "Each BRAND in the list links to its detail page",
+  "description": "",
+  "release_version": "0.1.0",
+  "created_at": "2025-11-05T17:38:57.287+0100",
+  "updated_at": "2026-01-05T11:09:28.246+0100"
+}

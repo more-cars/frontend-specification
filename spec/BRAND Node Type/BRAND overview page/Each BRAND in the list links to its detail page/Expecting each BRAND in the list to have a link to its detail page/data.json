@@ -1,0 +1,11 @@
+{
+  "id": "MCF-173",
+  "parent_id": "MCF-134",
+  "title": "Expecting each BRAND in the list to have a link to its detail page",
+  "gherkin": "When the user visits the \"BRAND\" overview page\nThen all items in the \"BRAND\" list should link to their detail pages",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-11-07T13:58:43.913+0100",
+  "updated_at": "2026-01-05T11:10:34.659+0100"
+}

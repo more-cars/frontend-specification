@@ -1,0 +1,11 @@
+{
+  "id": "MCF-198",
+  "parent_id": "MCF-195",
+  "title": "Expecting the BRAND name in all important locations",
+  "gherkin": "When the user visits the detail page of a \"BRAND\"\nThen the page title should contain the \"BRAND\" name\nAnd the main headline should contain the \"BRAND\" name",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-11-14T10:05:32.887+0100",
+  "updated_at": "2026-01-05T11:42:59.302+0100"
+}

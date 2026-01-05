@@ -5,10 +5,10 @@ Feature: CAR MODEL overview page
   So I can get a general idea of the different types that exist\
   And by scrolling through them find interesting ones
 
-  @RULE_MCF-141
-  Rule: The CAR MODEL list is sorted by name, ascending
+  @RULE_MCF-144
+  Rule: Each CAR MODEL in the list links to its detail page
 
-    @TEST_MCF-148 @implemented
-    Scenario: Expecting a sorted CAR MODEL list when visiting the overview page
+    @TEST_MCF-175 @implemented
+    Scenario: Expecting each CAR MODEL in the list to have a link to its detail page
       When the user visits the "CAR MODEL" overview page
-      Then the "CAR MODEL" list should be sorted by "name" in "ascending" order
+      Then all items in the "CAR MODEL" list should link to their detail pages

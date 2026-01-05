@@ -1,9 +1,0 @@
-{
-  "id": "MCF-200",
-  "parent_id": "MCF-197",
-  "title": "Expecting the IMAGE name in all important locations",
-  "gherkin": "Given there exists a \"IMAGE\" \"honda logo\"\nWhen the user visits the detail page of the \"IMAGE\" \"honda logo\"\nThen the main headline should contain the \"honda logo\" name\nAnd the page title should contain the \"honda logo\" name",
-  "labels": [],
-  "created_at": "2025-11-14T10:06:09.104+0100",
-  "updated_at": "2025-11-14T10:36:01.154+0100"
-}

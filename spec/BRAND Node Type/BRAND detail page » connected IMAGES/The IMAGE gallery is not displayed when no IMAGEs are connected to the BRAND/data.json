@@ -3,7 +3,7 @@
   "parent_id": "MCF-40",
   "title": "The IMAGE gallery is not displayed when no IMAGEs are connected to the BRAND",
   "description": "",
-  "release_version": null,
+  "release_version": "0.3.0",
   "created_at": "2025-07-12T10:54:41.063+0200",
-  "updated_at": "2025-07-23T10:02:06.332+0200"
+  "updated_at": "2026-01-05T18:19:13.741+0100"
 }

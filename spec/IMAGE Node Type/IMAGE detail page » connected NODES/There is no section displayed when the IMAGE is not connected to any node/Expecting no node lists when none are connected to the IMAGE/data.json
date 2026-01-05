@@ -1,0 +1,11 @@
+{
+  "id": "MCF-118",
+  "parent_id": "MCF-115",
+  "title": "Expecting no node lists when none are connected to the IMAGE",
+  "gherkin": "Given there is a \"IMAGE\" \"logo\"\nAnd the \"IMAGE\" \"logo\" has no relationships\nWhen the user visits the detail page of the \"IMAGE\" \"logo\"\nThen the page should contain no \"<node_type>\" list\n\nExamples:\n  | node_type |\n  | BRAND     |\n  | CAR MODEL |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-07-20T20:10:55.514+0200",
+  "updated_at": "2026-01-05T17:25:43.504+0100"
+}

@@ -8,7 +8,7 @@ Feature: BRAND detail page » connected IMAGES
   @RULE_MCF-121
   Rule: Each IMAGE links to the respective detail page
 
-    @TEST_MCF-122 @mock_default
+    @TEST_MCF-122 @implemented
     Scenario: Navigating to a linked IMAGE
       When the user visits the detail page of a "BRAND"
       And the user follows one of the links in the "IMAGE" list

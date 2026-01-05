@@ -8,9 +8,9 @@ Feature: BRAND detail page » connected IMAGES
   @RULE_MCF-90
   Rule: The IMAGE gallery is not displayed when no IMAGEs are connected to the BRAND
 
-    @TEST_MCF-93
+    @TEST_MCF-93 @implemented
     Scenario: IMAGE gallery is not displayed when none are connected
-      Given there exists a BRAND "Renault"
-      And no IMAGEs are connected to BRAND "Renault"
-      When the user visits the detail page of the BRAND "Renault"
-      Then there should be no IMAGE gallery
+      Given there is a "BRAND" "Renault"
+      And the "BRAND" "Renault" has no relationships
+      When the user visits the detail page of the "BRAND" "Renault"
+      Then the page should contain no "IMAGE" section

@@ -1,8 +1,7 @@
 @REQ_MCF-39
 Feature: BRAND detail page » connected CAR MODELS
   As a visitor\
-  On the BRAND detail page\
-  I want to see all CAR MODELs they have created\
+  I want to see all CAR MODELs that a BRAND has made in its history\
   So I can get an overview over their range of cars
 
   @RULE_MCF-75

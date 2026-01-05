@@ -2,8 +2,10 @@
   "id": "MCF-93",
   "parent_id": "MCF-90",
   "title": "IMAGE gallery is not displayed when none are connected",
-  "gherkin": "Given there exists a BRAND \"Renault\"\nAnd no IMAGEs are connected to BRAND \"Renault\"\nWhen the user visits the detail page of the BRAND \"Renault\"\nThen there should be no IMAGE gallery",
-  "labels": [],
+  "gherkin": "Given there is a \"BRAND\" \"Renault\"\nAnd the \"BRAND\" \"Renault\" has no relationships\nWhen the user visits the detail page of the \"BRAND\" \"Renault\"\nThen the page should contain no \"IMAGE\" section",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-07-12T11:51:35.786+0200",
-  "updated_at": "2025-07-23T10:47:07.233+0200"
+  "updated_at": "2026-01-05T18:23:40.646+0100"
 }

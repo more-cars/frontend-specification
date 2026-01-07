@@ -7,7 +7,7 @@ Feature: Basic Auth
   @RULE_MCF-152
   Rule: Requests are rejected when no valid basic auth credentials are provided
 
-    @TEST_MCF-154 @implemented
+    @TEST_MCF-154 @manual_test
     Scenario: Requesting a page with invalid basic auth credentials
       Given basic authentication is activated
       And the user did not provide basic auth credentials

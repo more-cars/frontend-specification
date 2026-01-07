@@ -7,7 +7,7 @@ Feature: Basic Auth
   @RULE_MCF-151
   Rule: Requests are accepted when valid basic auth credentials are provided
 
-    @TEST_MCF-153 @implemented
+    @TEST_MCF-153 @manual_test
     Scenario: Requesting a page with valid basic auth credentials
       Given basic authentication is activated
       And the user provided valid basic auth credentials

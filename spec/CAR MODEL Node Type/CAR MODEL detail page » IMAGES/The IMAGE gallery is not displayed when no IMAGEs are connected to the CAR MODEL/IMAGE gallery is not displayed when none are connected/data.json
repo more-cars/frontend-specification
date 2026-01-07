@@ -1,0 +1,11 @@
+{
+  "id": "MCF-108",
+  "parent_id": "MCF-106",
+  "title": "IMAGE gallery is not displayed when none are connected",
+  "gherkin": "Given there is a \"CAR MODEL\" \"Camaro\"\nAnd the \"CAR MODEL\" \"Camaro\" has no relationships\nWhen the user visits the detail page of the \"CAR MODEL\" \"Camaro\"\nThen the page should contain no \"IMAGE\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-07-20T16:38:18.809+0200",
+  "updated_at": "2026-01-05T18:38:59.245+0100"
+}

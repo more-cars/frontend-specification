@@ -2,8 +2,10 @@
   "id": "MCF-160",
   "parent_id": "MCF-156",
   "title": "Requesting a page via HTTP",
-  "gherkin": "When the user visits the \"BRAND\" overview page via \"HTTP\"\nThen the request should be accepted",
-  "labels": [],
+  "gherkin": "When the user visits a page via \"HTTP\"\nThen the request should not have failed",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-11-07T11:04:52.149+0100",
-  "updated_at": "2025-11-07T11:07:50.988+0100"
+  "updated_at": "2026-01-08T14:26:33.889+0100"
 }

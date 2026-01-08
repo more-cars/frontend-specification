@@ -8,7 +8,7 @@ Feature: HTTPS - Phase I
   @RULE_MCF-156
   Rule: All pages are accessible via HTTP
 
-    @TEST_MCF-160
+    @TEST_MCF-160 @implemented
     Scenario: Requesting a page via HTTP
-      When the user visits the "BRAND" overview page via "HTTP"
-      Then the request should be accepted
+      When the user visits a page via "HTTP"
+      Then the request should not have failed

@@ -8,7 +8,7 @@ Feature: HTTPS - Phase I
   @RULE_MCF-157
   Rule: HTTP requests are not redirected to HTTPS
 
-    @TEST_MCF-161
+    @TEST_MCF-161 @implemented
     Scenario: Expecting HTTP requests to not be redirected to HTTPS
-      When the user visits the "BRAND" overview page via "HTTP"
-      Then the request should not be redirected to "HTTPS"
+      When the user visits a page via "HTTP"
+      Then the user should not be redirected to a "HTTPS" URL

@@ -8,7 +8,7 @@ Feature: COMPANY overview page
   @RULE_MCF-182
   Rule: The maximum amount of COMPANIES displayed on the overview page is limited
 
-    @TEST_MCF-183
+    @TEST_MCF-183 @implemented
     Scenario: Having more than 100 COMPANIES
       Given there are 105 "COMPANY"s
       When the user visits the "COMPANY" overview page

@@ -8,7 +8,7 @@ Feature: COMPANY overview page
   @RULE_MCF-184
   Rule: By default, the COMPANY list is sorted by name in ascending order
 
-    @TEST_MCF-185
+    @TEST_MCF-185 @implemented
     Scenario: Expecting a sorted COMPANY list when visiting the overview page
       When the user visits the "COMPANY" overview page
       Then the "COMPANY" list should be sorted by "name" in "ascending" order

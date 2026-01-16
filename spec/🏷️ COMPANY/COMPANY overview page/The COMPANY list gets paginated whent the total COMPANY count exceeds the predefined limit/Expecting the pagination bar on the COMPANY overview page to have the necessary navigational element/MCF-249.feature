@@ -8,7 +8,7 @@ Feature: COMPANY overview page
   @RULE_MCF-222
   Rule: The COMPANY list gets paginated whent the total COMPANY count exceeds the predefined limit
 
-    @TEST_MCF-249
+    @TEST_MCF-249 @implemented
     Scenario: Expecting the pagination bar on the COMPANY overview page to have the necessary navigational elements
       Given there are 205 "COMPANY"s
       When the user visits page 2 of the "COMPANY" overview page

@@ -8,7 +8,7 @@ Feature: COMPANY overview page
   @RULE_MCF-178
   Rule: The overview page displays a list of all COMPANIES
 
-    @TEST_MCF-179
+    @TEST_MCF-179 @implemented
     Scenario: Expecting the COMPANY overview page to show a list of COMPANIES
       When the user visits the "COMPANY" overview page
       Then the page should contain a "COMPANY" list

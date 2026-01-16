@@ -8,7 +8,7 @@ Feature: COMPANY overview page
   @RULE_MCF-180
   Rule: A warning is displayed when there are no COMPANIES
 
-    @TEST_MCF-181
+    @TEST_MCF-181 @implemented
     Scenario: Expecting a warning message when there exist no COMPANIES
       Given there is no "COMPANY"
       When the user visits the "COMPANY" overview page

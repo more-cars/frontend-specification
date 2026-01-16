@@ -3,7 +3,9 @@
   "parent_id": "MCF-178",
   "title": "Expecting the COMPANY overview page to show a list of COMPANIES",
   "gherkin": "When the user visits the \"COMPANY\" overview page\nThen the page should contain a \"COMPANY\" list",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-11-07T14:15:16.255+0100",
-  "updated_at": "2026-01-10T15:40:27.197+0100"
+  "updated_at": "2026-01-16T16:43:18.799+0100"
 }

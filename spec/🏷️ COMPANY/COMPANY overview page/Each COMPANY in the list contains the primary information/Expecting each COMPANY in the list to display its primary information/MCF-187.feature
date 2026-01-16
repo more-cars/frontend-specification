@@ -8,7 +8,7 @@ Feature: COMPANY overview page
   @RULE_MCF-186
   Rule: Each COMPANY in the list contains the primary information
 
-    @TEST_MCF-187
+    @TEST_MCF-187 @implemented
     Scenario: Expecting each COMPANY in the list to display its primary information
       When the user visits the "COMPANY" overview page
       Then all items in the "COMPANY" list should contain primary information

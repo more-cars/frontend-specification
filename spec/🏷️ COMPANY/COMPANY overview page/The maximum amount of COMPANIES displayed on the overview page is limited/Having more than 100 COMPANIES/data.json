@@ -3,7 +3,9 @@
   "parent_id": "MCF-182",
   "title": "Having more than 100 COMPANIES",
   "gherkin": "Given there are 105 \"COMPANY\"s\nWhen the user visits the \"COMPANY\" overview page\nThen the page should contain a \"COMPANY\" list\nAnd the \"COMPANY\" list should contain 100 items",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-11-07T14:15:29.643+0100",
-  "updated_at": "2026-01-10T16:14:26.558+0100"
+  "updated_at": "2026-01-16T16:45:34.422+0100"
 }

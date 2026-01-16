@@ -8,7 +8,7 @@ Feature: COMPANY overview page
   @RULE_MCF-190
   Rule: Each COMPANY in the list contains a link to the detail page
 
-    @TEST_MCF-191
+    @TEST_MCF-191 @implemented
     Scenario: Expecting each COMPANY in the list to have a link to its detail page
       When the user visits the "COMPANY" overview page
       Then all items in the "COMPANY" list should link to their detail pages

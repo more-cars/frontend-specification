@@ -8,7 +8,7 @@ Feature: COMPANY overview page
   @RULE_MCF-222
   Rule: The COMPANY list gets paginated whent the total COMPANY count exceeds the predefined limit
 
-    @TEST_MCF-252
+    @TEST_MCF-252 @implemented
     Scenario: Expecting no COMPANY to be missing across the overview pages
       Given there are 105 "COMPANY"s
       When the user visits page 1 of the "COMPANY" overview page

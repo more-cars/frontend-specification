@@ -3,7 +3,9 @@
   "parent_id": "MCF-180",
   "title": "Expecting a warning message when there exist no COMPANIES",
   "gherkin": "Given there is no \"COMPANY\"\nWhen the user visits the \"COMPANY\" overview page\nThen the page should contain no \"COMPANY\" list\nAnd the page should contain a message, informing the user that there are no \"COMPANY\"s",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-11-07T14:15:23.877+0100",
-  "updated_at": "2026-01-10T15:42:41.797+0100"
+  "updated_at": "2026-01-16T16:43:35.810+0100"
 }

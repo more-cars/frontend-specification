@@ -8,7 +8,7 @@ Feature: COMPANY overview page
   @RULE_MCF-222
   Rule: The COMPANY list gets paginated whent the total COMPANY count exceeds the predefined limit
 
-    @TEST_MCF-250
+    @TEST_MCF-250 @implemented
     Scenario: Expecting the paginated COMPANY overview page to behave identically no matter if visited via the UI or a bookmark
       Given there are 105 "COMPANY"s
       When the user visits page 2 of the "COMPANY" overview page via UI

@@ -8,7 +8,7 @@ Feature: COMPANY overview page
   @RULE_MCF-222
   Rule: The COMPANY list gets paginated whent the total COMPANY count exceeds the predefined limit
 
-    @TEST_MCF-248
+    @TEST_MCF-248 @implemented
     Scenario: Expecting the pagination bar only to be visible when the COMPANY list has more than 100 items
       Given there are 100 "COMPANY"s
       When the user visits the "COMPANY" overview page

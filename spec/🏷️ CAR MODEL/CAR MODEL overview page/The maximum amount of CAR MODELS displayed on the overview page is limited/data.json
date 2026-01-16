@@ -1,0 +1,9 @@
+{
+  "id": "MCF-140",
+  "parent_id": "MCF-36",
+  "title": "The maximum amount of CAR MODELS displayed on the overview page is limited",
+  "description": "To keep loading times and the page size reasonable there should be a limit on how many CAR MODELS are displayed at once. This limit should be configurable, but it only needs to be configurable in the code. It does not need to be configurable at run time. The limit should be 100. When there exist more CAR MODELS then the list on the overview page is truncated. The pagination feature (different ticket) deals with the remaining CAR MODELS in such cases.\n",
+  "release_version": "0.4.0",
+  "created_at": "2025-11-05T17:50:29.055+0100",
+  "updated_at": "2026-01-09T20:17:17.287+0100"
+}

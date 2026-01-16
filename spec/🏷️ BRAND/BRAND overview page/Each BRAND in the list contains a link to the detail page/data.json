@@ -1,0 +1,9 @@
+{
+  "id": "MCF-134",
+  "parent_id": "MCF-34",
+  "title": "Each BRAND in the list contains a link to the detail page",
+  "description": "Only the title of each BRAND should link to the respective detail page, not the whole BRAND list item. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "0.1.0",
+  "created_at": "2025-11-05T17:38:57.287+0100",
+  "updated_at": "2026-01-09T19:41:39.056+0100"
+}

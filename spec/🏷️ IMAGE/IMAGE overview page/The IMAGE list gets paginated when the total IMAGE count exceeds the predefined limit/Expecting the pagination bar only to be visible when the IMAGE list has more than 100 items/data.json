@@ -1,0 +1,9 @@
+{
+  "id": "MCF-253",
+  "parent_id": "MCF-220",
+  "title": "Expecting the pagination bar only to be visible when the IMAGE list has more than 100 items",
+  "gherkin": "Given there are 100 \"IMAGE\"s\nWhen the user visits the \"IMAGE\" overview page\nThen the pagination bar should not be visible\n\nGiven there are 101 \"IMAGE\"s\nWhen the user visits the \"IMAGE\" overview page\nThen the pagination bar should be visible",
+  "labels": [],
+  "created_at": "2026-01-10T17:23:13.748+0100",
+  "updated_at": "2026-01-10T17:25:25.688+0100"
+}

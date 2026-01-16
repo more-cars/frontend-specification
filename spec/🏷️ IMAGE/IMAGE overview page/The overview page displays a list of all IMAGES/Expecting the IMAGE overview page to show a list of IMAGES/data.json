@@ -1,0 +1,11 @@
+{
+  "id": "MCF-83",
+  "parent_id": "MCF-62",
+  "title": "Expecting the IMAGE overview page to show a list of IMAGES",
+  "gherkin": "When the user visits the \"IMAGE\" overview page\nThen the page should contain a \"IMAGE\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-06-25T11:54:08.437+0200",
+  "updated_at": "2026-01-10T15:39:54.822+0100"
+}

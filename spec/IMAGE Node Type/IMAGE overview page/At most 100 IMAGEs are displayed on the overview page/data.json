@@ -1,9 +1,0 @@
-{
-  "id": "MCF-135",
-  "parent_id": "MCF-46",
-  "title": "At most 100 IMAGEs are displayed on the overview page",
-  "description": "",
-  "release_version": "0.4.0",
-  "created_at": "2025-11-05T17:48:40.313+0100",
-  "updated_at": "2026-01-05T10:30:15.093+0100"
-}

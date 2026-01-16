@@ -1,0 +1,9 @@
+{
+  "id": "MCF-136",
+  "parent_id": "MCF-46",
+  "title": "By default, the IMAGE list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all IMAGES in the list should be sorted by their “name“ property. The sorting should be case-insensitive, meaning “Image“, “image“ and “IMAGE“ should rank exactly the same.\n",
+  "release_version": "0.4.0",
+  "created_at": "2025-11-05T17:48:51.405+0100",
+  "updated_at": "2026-01-09T20:03:09.313+0100"
+}

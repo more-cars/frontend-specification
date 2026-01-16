@@ -1,0 +1,11 @@
+{
+  "id": "MCF-77",
+  "parent_id": "MCF-60",
+  "title": "Expecting the BRAND overview page to show a list of BRANDS",
+  "gherkin": "When the user visits the \"BRAND\" overview page\nThen the page should contain a \"BRAND\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-06-24T16:15:03.180+0200",
+  "updated_at": "2026-01-10T15:39:24.956+0100"
+}

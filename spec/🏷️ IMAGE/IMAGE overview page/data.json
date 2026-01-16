@@ -1,0 +1,16 @@
+{
+  "id": "MCF-46",
+  "parent_id": "MCF-17",
+  "title": "IMAGE overview page",
+  "user_story": "As a visitor\\\nI want to see a list of all IMAGES\\\nSo I can get a general idea of the different types that exist\\\nAnd by scrolling through them find interesting ones\n",
+  "description": "* There is a dedicated page (with a dedicated URL) where all IMAGES are presented.\n* A warning message is shown when there are no IMAGES.\n* The overview page always returns with status code \\`200\\`, no matter if any IMAGE exists or not.\n* By default, the IMAGES are sorted \\`ascending\\` by their \\`name\\`.\n* The sorting is always case-insensitive.\n* Each IMAGE is presented with a thumbnail image, its primary information and a link to its detail page.\n* The overview displays at most 100 IMAGES at once.\n* When there are more than 100 IMAGES then the “pagination” feature is activated.\n* Pagination allows the user to scroll through all IMAGES - 100 items at a time.\n* The user is able to bookmark and revisit any paginated IMAGE page.\n",
+  "api_path": "/images",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.3.0"
+  ],
+  "created_at": "2025-06-20T16:42:01.072+0200",
+  "updated_at": "2026-01-10T15:06:55.892+0100"
+}

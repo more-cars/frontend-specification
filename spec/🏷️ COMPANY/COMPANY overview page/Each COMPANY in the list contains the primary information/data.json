@@ -1,0 +1,9 @@
+{
+  "id": "MCF-186",
+  "parent_id": "MCF-177",
+  "title": "Each COMPANY in the list contains the primary information",
+  "description": "Each COMPANY has a bunch of properties. Some of them are categorized as “primary information“ to signal a higher importance. Only those should be shown in the COMPANY list. In the corresponding epic <https://dennis-gerike.atlassian.net/browse/MCF-2>   there is a list to find out which properties are “primary”.\n",
+  "release_version": "0.5.0",
+  "created_at": "2025-11-07T14:15:38.858+0100",
+  "updated_at": "2026-01-16T16:37:37.129+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-78",
+  "parent_id": "MCF-66",
+  "title": "Expecting a warning message when there exist no BRANDS",
+  "gherkin": "Given there is no \"BRAND\"\nWhen the user visits the \"BRAND\" overview page\nThen the page should contain no \"BRAND\" list\nAnd the page should contain a message, informing the user that there are no \"BRAND\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-06-24T16:15:21.445+0200",
+  "updated_at": "2026-01-10T15:42:11.609+0100"
+}

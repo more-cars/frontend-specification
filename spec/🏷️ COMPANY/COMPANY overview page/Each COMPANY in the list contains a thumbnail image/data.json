@@ -1,0 +1,9 @@
+{
+  "id": "MCF-188",
+  "parent_id": "MCF-177",
+  "title": "Each COMPANY in the list contains a thumbnail image",
+  "description": "The thumbnail shows the main image of the resp. COMPANY. When it has no main image then the generic fallback image is displayed. Each image is available in multiple sizes (resolutions). The one matching the screen size best should be used. Meaning, it should not be too small (bad quality) and not too big (slow download).\n",
+  "release_version": "0.5.0",
+  "created_at": "2025-11-07T14:15:44.883+0100",
+  "updated_at": "2026-01-10T17:37:59.123+0100"
+}

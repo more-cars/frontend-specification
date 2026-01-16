@@ -1,0 +1,14 @@
+@REQ_MCF-36
+Feature: CAR MODEL overview page
+  As a visitor\
+  I want to see a list of all CAR MODELS\
+  So I can get a general idea of the different types that exist\
+  And by scrolling through them find interesting ones
+
+  @RULE_MCF-141
+  Rule: By default, the CAR MODEL list is sorted by name in ascending order
+
+    @TEST_MCF-148 @implemented
+    Scenario: Expecting a sorted CAR MODEL list when visiting the overview page
+      When the user visits the "CAR MODEL" overview page
+      Then the "CAR MODEL" list should be sorted by "name" in "ascending" order

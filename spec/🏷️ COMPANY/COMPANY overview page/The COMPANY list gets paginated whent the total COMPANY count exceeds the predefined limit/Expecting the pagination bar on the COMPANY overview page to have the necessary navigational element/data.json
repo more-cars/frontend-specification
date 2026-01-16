@@ -1,0 +1,9 @@
+{
+  "id": "MCF-249",
+  "parent_id": "MCF-222",
+  "title": "Expecting the pagination bar on the COMPANY overview page to have the necessary navigational elements",
+  "gherkin": "Given there are 205 \"COMPANY\"s\nWhen the user visits page 2 of the \"COMPANY\" overview page\nThen the pagination bar should contain a link to the previous page\nAnd the pagination bar should contain a link to the next page\nAnd the pagination bar should indicate that the user is currently on page 2",
+  "labels": [],
+  "created_at": "2026-01-10T17:22:03.548+0100",
+  "updated_at": "2026-01-10T17:30:14.540+0100"
+}

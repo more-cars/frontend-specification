@@ -1,0 +1,16 @@
+{
+  "id": "MCF-261",
+  "parent_id": "MCF-17",
+  "title": "IMAGE overview page » PREVIEW IMAGES",
+  "user_story": "As a visitor\\\nI want to see a preview image for each IMAGE on the overview page\\\nSo I can quickly find a specific one without knowing its name\n",
+  "description": "* each IMAGE item on the IMAGE overview page contains a preview image\n* the “preview image” refers to the actual IMAGE\n* the preview image is displayed in thumbnail size\n",
+  "api_path": "/images",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.4.0"
+  ],
+  "created_at": "2026-01-17T11:32:49.431+0100",
+  "updated_at": "2026-01-17T16:55:12.087+0100"
+}

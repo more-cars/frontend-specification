@@ -8,7 +8,7 @@ Feature: IMAGE overview page
   @RULE_MCF-220
   Rule: The IMAGE list gets paginated when the total IMAGE count exceeds the predefined limit
 
-    @TEST_MCF-254
+    @TEST_MCF-254 @implemented
     Scenario: Expecting the pagination bar on the IMAGE overview page to have the necessary navigational elements
       Given there are 205 "IMAGE"s
       When the user visits page 2 of the "IMAGE" overview page

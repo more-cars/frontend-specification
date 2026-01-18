@@ -8,7 +8,7 @@ Feature: BRAND overview page
   @RULE_MCF-219
   Rule: The BRAND list gets paginated when the total BRAND count exceeds the predefined limit
 
-    @TEST_MCF-242
+    @TEST_MCF-242 @implemented
     Scenario: Expecting no BRAND to be missing across the overview pages
       Given there are 105 "BRAND"s
       When the user visits page 1 of the "BRAND" overview page

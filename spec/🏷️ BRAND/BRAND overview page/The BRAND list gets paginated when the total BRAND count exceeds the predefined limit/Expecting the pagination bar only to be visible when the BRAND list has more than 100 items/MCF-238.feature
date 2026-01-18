@@ -8,7 +8,7 @@ Feature: BRAND overview page
   @RULE_MCF-219
   Rule: The BRAND list gets paginated when the total BRAND count exceeds the predefined limit
 
-    @TEST_MCF-238
+    @TEST_MCF-238 @implemented
     Scenario: Expecting the pagination bar only to be visible when the BRAND list has more than 100 items
       Given there are 100 "BRAND"s
       When the user visits the "BRAND" overview page

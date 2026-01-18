@@ -5,5 +5,5 @@
   "description": "To keep loading times and the page size reasonable there should be a limit on how many COMPANIES are displayed at once. This limit should be configurable, but it only needs to be configurable in the code. It does not need to be configurable at run time. The limit should be 100. When there exist more COMPANIES then the list on the overview page is truncated. The pagination feature (different ticket) deals with the remaining COMPANIES in such cases.\n",
   "release_version": "0.5.0",
   "created_at": "2025-11-07T14:15:26.989+0100",
-  "updated_at": "2026-01-16T16:37:59.102+0100"
+  "updated_at": "2026-01-18T10:21:34.518+0100"
 }

@@ -1,9 +1,0 @@
-{
-  "id": "MCF-222",
-  "parent_id": "MCF-177",
-  "title": "The COMPANY list gets paginated whent the total COMPANY count exceeds the predefined limit",
-  "description": "A pagination bar should be shown when the number of COMPANIES is higher than the configured limit (specified in a different ticket). At a bare minimum it should contain a link to the next page (if available), a link to the previous page (if available) and indicate the current page number. When the number of COMPANIES is lower than the configured limit then the pagination bar should be hidden. Whatever technical solution is chosen, the user needs to be able to bookmark the different pages. Meaning all links need to be “real“ (it cannot be a pure JavaScript solution). Each page should display a different subset of the COMPANY collection. There should be no overlap and there should be no COMPANY missing.\n",
-  "release_version": "0.5.0",
-  "created_at": "2026-01-09T20:17:58.140+0100",
-  "updated_at": "2026-01-16T16:38:06.091+0100"
-}

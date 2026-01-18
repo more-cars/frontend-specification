@@ -1,9 +1,0 @@
-{
-  "id": "MCF-244",
-  "parent_id": "MCF-221",
-  "title": "Expecting the pagination bar on the CAR MODEL overview page to have the necessary navigational elements",
-  "gherkin": "Given there are 205 \"CAR MODEL\"s\nWhen the user visits page 2 of the \"CAR MODEL\" overview page\nThen the pagination bar should contain a link to the previous page\nAnd the pagination bar should contain a link to the next page\nAnd the pagination bar should indicate that the user is currently on page 2",
-  "labels": [],
-  "created_at": "2026-01-10T17:19:43.102+0100",
-  "updated_at": "2026-01-10T17:33:11.087+0100"
-}

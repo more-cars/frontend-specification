@@ -8,7 +8,7 @@ Feature: IMAGE overview page
   @RULE_MCF-220
   Rule: The IMAGE list gets paginated when the total IMAGE count exceeds the predefined limit
 
-    @TEST_MCF-253
+    @TEST_MCF-253 @implemented
     Scenario: Expecting the pagination bar only to be visible when the IMAGE list has more than 100 items
       Given there are 100 "IMAGE"s
       When the user visits the "IMAGE" overview page

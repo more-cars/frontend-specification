@@ -8,7 +8,7 @@ Feature: IMAGE overview page
   @RULE_MCF-220
   Rule: The IMAGE list gets paginated when the total IMAGE count exceeds the predefined limit
 
-    @TEST_MCF-256
+    @TEST_MCF-256 @implemented
     Scenario: Expecting no duplicates across the IMAGE overview pages
       Given there are 105 "IMAGE"s
       When the user visits page 1 of the "IMAGE" overview page

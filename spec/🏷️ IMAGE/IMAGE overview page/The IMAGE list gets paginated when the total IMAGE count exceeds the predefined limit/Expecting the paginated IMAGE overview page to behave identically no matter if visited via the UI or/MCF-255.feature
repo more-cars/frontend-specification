@@ -8,7 +8,7 @@ Feature: IMAGE overview page
   @RULE_MCF-220
   Rule: The IMAGE list gets paginated when the total IMAGE count exceeds the predefined limit
 
-    @TEST_MCF-255
+    @TEST_MCF-255 @implemented
     Scenario: Expecting the paginated IMAGE overview page to behave identically no matter if visited via the UI or a bookmark
       Given there are 105 "IMAGE"s
       When the user visits page 2 of the "IMAGE" overview page via UI

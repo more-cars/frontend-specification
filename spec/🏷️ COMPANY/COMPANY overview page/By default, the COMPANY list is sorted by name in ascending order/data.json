@@ -5,5 +5,5 @@
   "description": "Other features might influence the sorting, but by default all COMPANIES in the list should be sorted by their “name“ property. The sorting should be case-insensitive, meaning “Company“, “company“ and “COMPANY“ should rank exactly the same.\n",
   "release_version": "0.5.0",
   "created_at": "2025-11-07T14:15:32.846+0100",
-  "updated_at": "2026-01-16T16:37:43.779+0100"
+  "updated_at": "2026-01-18T10:21:29.387+0100"
 }

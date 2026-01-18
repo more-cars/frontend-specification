@@ -3,7 +3,9 @@
   "parent_id": "MCF-219",
   "title": "Expecting the pagination bar only to be visible when the BRAND list has more than 100 items",
   "gherkin": "Given there are 100 \"BRAND\"s\nWhen the user visits the \"BRAND\" overview page\nThen the pagination bar should not be visible\n\nGiven there are 101 \"BRAND\"s\nWhen the user visits the \"BRAND\" overview page\nThen the pagination bar should be visible",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-01-10T16:19:55.247+0100",
-  "updated_at": "2026-01-10T16:57:37.451+0100"
+  "updated_at": "2026-01-18T10:19:11.798+0100"
 }

@@ -8,7 +8,7 @@ Feature: BRAND overview page
   @RULE_MCF-219
   Rule: The BRAND list gets paginated when the total BRAND count exceeds the predefined limit
 
-    @TEST_MCF-240
+    @TEST_MCF-240 @implemented
     Scenario: Expecting the paginated BRAND overview page to behave identically no matter if visited via the UI or a bookmark
       Given there are 105 "BRAND"s
       When the user visits page 2 of the "BRAND" overview page via UI

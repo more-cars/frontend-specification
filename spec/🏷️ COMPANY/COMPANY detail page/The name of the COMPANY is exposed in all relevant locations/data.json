@@ -1,0 +1,9 @@
+{
+  "id": "MCF-266",
+  "parent_id": "MCF-265",
+  "title": "The name of the COMPANY is exposed in all relevant locations",
+  "description": "The main headline and the page title contain the name of the COMPANY. But the name does not occupy those locations exclusively. There might be other features that inject their information as a suffix or prefix.\n",
+  "release_version": null,
+  "created_at": "2026-01-18T18:28:34.987+0100",
+  "updated_at": "2026-01-19T16:51:54.343+0100"
+}

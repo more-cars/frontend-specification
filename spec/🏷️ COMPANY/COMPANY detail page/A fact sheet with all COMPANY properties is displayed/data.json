@@ -1,0 +1,9 @@
+{
+  "id": "MCF-270",
+  "parent_id": "MCF-265",
+  "title": "A fact sheet with all COMPANY properties is displayed",
+  "description": "Each property is presented as a key-value pair. Properties are not aggregated or combined. Properties without value are displayed, but marked as empty. Zero-values and null-values are visually distinct.\n",
+  "release_version": null,
+  "created_at": "2026-01-18T18:28:47.685+0100",
+  "updated_at": "2026-01-19T16:51:56.424+0100"
+}

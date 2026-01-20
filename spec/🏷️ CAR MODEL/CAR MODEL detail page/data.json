@@ -3,7 +3,7 @@
   "parent_id": "MCF-3",
   "title": "CAR MODEL detail page",
   "user_story": "As a visitor\\\nI want each CAR MODEL to have a dedicated page\\\nSo I can find every piece of information about it in one place\n",
-  "description": "* Each CAR MODEL has a detail page. → Status Code \\`200\\`\n* The detail page contains a fact sheet with all properties that are specified for a CAR MODEL node → see MCF-3.\n* Each property in the fact sheet is displayed as a key-value pair (property and property value).\n* When a property has no value it is still displayed in the fact sheet, but marked as empty.\n* The name of the CAR MODEL is reflected in the main headline and in the page title. The page title might contain additional text, like the suffix “ - More Cars“. The main headline might also contain additional information - for example to make generic nodes unique.\n* A representative image of the CAR MODEL is displayed at a prominent location on the page.\n* An error message is shown when there exists no CAR MODEL with the provided ID. → Status Code \\`404\\`\n",
+  "description": "* Each CAR MODEL has a dedicated detail page, with its own URL. -> Status Code \\`200\\`\n* An error message is shown when there exists no CAR MODEL with the given ID. -> Status Code \\`404\\`\n* The detail page has a fact sheet. It contains all properties that are specified for the node type CAR MODEL. -> See MCF-2\n* Each property in the fact sheet is displayed as a key-value pair, with the property name and the property value.\n* When a property has no value (null or undefined) it is still displayed in the fact sheet, but marked as empty.\n* The name of the CAR MODEL is reflected in the main headline and in the page title. The page title might contain additional text, like the suffix 'More Cars'. The main headline might also contain additional information to make generic nodes more unique.\n",
   "api_path": "/car-models/<car-model-id>",
   "response_options": [
     "200",
@@ -13,5 +13,5 @@
     "0.2.0"
   ],
   "created_at": "2025-06-11T10:38:02.859+0200",
-  "updated_at": "2025-11-14T09:52:45.332+0100"
+  "updated_at": "2026-01-19T18:34:25.716+0100"
 }

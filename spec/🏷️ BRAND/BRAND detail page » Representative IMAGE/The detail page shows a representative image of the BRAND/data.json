@@ -1,0 +1,9 @@
+{
+  "id": "MCF-193",
+  "parent_id": "MCF-279",
+  "title": "The detail page shows a representative image of the BRAND",
+  "description": "The representative image corresponds with the 'prime image' relationship in the API. When there is no 'prime image' then a fallback image is displayed. The image is displayed in a medium size. Medium means significantly larger than thumbnail size, but also significantly smaller than the screen size.\n",
+  "release_version": "0.4.0",
+  "created_at": "2025-11-14T09:46:13.138+0100",
+  "updated_at": "2026-01-19T18:22:21.796+0100"
+}

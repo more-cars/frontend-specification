@@ -3,7 +3,7 @@
   "parent_id": "MCF-17",
   "title": "IMAGE detail page",
   "user_story": "As a visitor\\\nI want each IMAGE to have a dedicated page\\\nSo I can find every piece of information about it in one place\n",
-  "description": "* Each IMAGE has a detail page. → Status Code \\`200\\`\n* The detail page contains a fact sheet with all properties that are specified for a IMAGE node → see MCF-17.\n* Each property in the fact sheet is displayed as a key-value pair (property and property value).\n* When a property has no value it is still displayed in the fact sheet, but marked as empty.\n* The name of the IMAGE is reflected in the main headline and in the page title. The page title might contain additional text, like the suffix “ - More Cars“. The main headline might also contain additional information - for example to make generic nodes unique.\n* The actual image of the IMAGE node is displayed at a prominent location on the page.\n* An error message is shown when there exists no IMAGE with the provided ID. → Status Code \\`404\\`\n",
+  "description": "* Each IMAGE has a dedicated detail page, with its own URL. -> Status Code \\`200\\`\n* An error message is shown when there exists no IMAGE with the given ID. -> Status Code \\`404\\`\n* The detail page has a fact sheet. It contains all properties that are specified for the node type IMAGE. -> See MCF-17\n* Each property in the fact sheet is displayed as a key-value pair, with the property name and the property value.\n* When a property has no value (null or undefined) it is still displayed in the fact sheet, but marked as empty.\n* The name of the IMAGE is reflected in the main headline and in the page title. The page title might contain additional text, like the suffix 'More Cars'. The main headline might also contain additional information to make generic nodes more unique.\n* The actual photo of the IMAGE node is displayed at a prominent location on the page.\n",
   "api_path": "/images/<image-id>",
   "response_options": [
     "200",
@@ -13,5 +13,5 @@
     "0.3.0"
   ],
   "created_at": "2025-06-20T16:42:07.666+0200",
-  "updated_at": "2025-11-14T09:53:06.090+0100"
+  "updated_at": "2026-01-19T18:37:19.503+0100"
 }

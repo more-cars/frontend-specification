@@ -1,9 +1,0 @@
-{
-  "id": "MCF-274",
-  "parent_id": "MCF-268",
-  "title": "Expecting the photo section to show a fallback image when the COMPANY has no representative image",
-  "gherkin": "Given the \"COMPANY\" \"BMW AG\" has no representative image\nWhen the user visits the detail page of the \"COMPANY\" \"BMW AG\"\nThen the page should contain a photo section\nAnd the photo section should contain a fallback image",
-  "labels": [],
-  "created_at": "2026-01-18T18:54:52.058+0100",
-  "updated_at": "2026-01-18T19:05:43.721+0100"
-}

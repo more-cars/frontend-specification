@@ -1,0 +1,11 @@
+{
+  "id": "MCF-202",
+  "parent_id": "MCF-194",
+  "title": "Expecting a photo of the CAR MODEL to be displayed on the detail page",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL\"\nThen the page should contain a photo section\nAnd the photo section should contain an image of the \"CAR MODEL\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-05T11:46:51.906+0100",
+  "updated_at": "2026-01-05T13:17:47.202+0100"
+}

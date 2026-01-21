@@ -7,7 +7,7 @@ Feature: COMPANY overview page » Preview IMAGES
   @RULE_MCF-188
   Rule: Each COMPANY in the list contains a thumbnail image
 
-    @TEST_MCF-189
+    @TEST_MCF-189 @implemented
     Scenario: Expecting a thumbnail image for each COMPANY in the list
       When the user visits the "COMPANY" overview page
       Then all items in the "COMPANY" list should contain a thumbnail image

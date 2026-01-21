@@ -1,0 +1,11 @@
+{
+  "id": "MCF-113",
+  "parent_id": "MCF-59",
+  "title": "Expecting the actual IMAGE to be displayed as lead image",
+  "gherkin": "When the user visits the detail page of a \"IMAGE\"\nThen the page should contain a photo section\nAnd the photo section should contain an image of the \"IMAGE\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-07-20T18:01:39.389+0200",
+  "updated_at": "2026-01-21T11:47:00.423+0100"
+}

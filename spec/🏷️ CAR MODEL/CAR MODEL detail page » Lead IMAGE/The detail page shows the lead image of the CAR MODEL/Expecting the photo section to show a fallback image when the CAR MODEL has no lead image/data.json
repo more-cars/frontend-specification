@@ -2,7 +2,7 @@
   "id": "MCF-282",
   "parent_id": "MCF-194",
   "title": "Expecting the photo section to show a fallback image when the CAR MODEL has no lead image",
-  "gherkin": "Given the \"CAR MODEL\" \"Zonda\" has no lead image\nWhen the user visits the detail page of the \"CAR MODEL\" \"Zonda\"\nThen the page should contain a photo section\nAnd the photo section should contain a fallback image",
+  "gherkin": "Given there is a \"CAR MODEL\" \"Zonda\"\nAnd the \"CAR MODEL\" \"Zonda\" has no lead image\nWhen the user visits the detail page of the \"CAR MODEL\" \"Zonda\"\nThen the page should contain a photo section\nAnd the photo section should contain a fallback image",
   "labels": [
     "implemented"
   ],

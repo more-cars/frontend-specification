@@ -8,6 +8,7 @@ Feature: IMAGE detail page
   Rule: The actual photo is displayed on the IMAGE detail page
 
     @TEST_MCF-113 @implemented
-    Scenario: The image is displayed
+    Scenario: Expecting the actual IMAGE to be displayed as lead image
       When the user visits the detail page of a "IMAGE"
-      Then the page should contain a photo of the "IMAGE"
+      Then the page should contain a photo section
+      And the photo section should contain an image of the "IMAGE"

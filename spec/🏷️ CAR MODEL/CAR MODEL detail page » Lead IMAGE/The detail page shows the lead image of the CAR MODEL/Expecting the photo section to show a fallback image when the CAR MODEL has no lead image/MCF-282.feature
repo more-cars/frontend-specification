@@ -10,7 +10,8 @@ Feature: CAR MODEL detail page » Lead IMAGE
 
     @TEST_MCF-282 @implemented
     Scenario: Expecting the photo section to show a fallback image when the CAR MODEL has no lead image
-      Given the "CAR MODEL" "Zonda" has no lead image
+      Given there is a "CAR MODEL" "Zonda"
+      And the "CAR MODEL" "Zonda" has no lead image
       When the user visits the detail page of the "CAR MODEL" "Zonda"
       Then the page should contain a photo section
       And the photo section should contain a fallback image

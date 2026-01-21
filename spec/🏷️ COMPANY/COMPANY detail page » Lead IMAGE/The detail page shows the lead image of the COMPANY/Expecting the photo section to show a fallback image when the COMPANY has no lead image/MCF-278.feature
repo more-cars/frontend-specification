@@ -10,7 +10,8 @@ Feature: COMPANY detail page » Lead IMAGE
 
     @TEST_MCF-278 @implemented
     Scenario: Expecting the photo section to show a fallback image when the COMPANY has no lead image
-      Given the "COMPANY" "BMW AG" has no lead image
+      Given there is a "COMPANY" "BMW AG"
+      And the "COMPANY" "BMW AG" has no lead image
       When the user visits the detail page of the "COMPANY" "BMW AG"
       Then the page should contain a photo section
       And the photo section should contain a fallback image

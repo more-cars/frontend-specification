@@ -1,12 +1,12 @@
 @REQ_MCF-281
-Feature: CAR MODEL detail page » Representative IMAGE
+Feature: CAR MODEL detail page » Lead IMAGE
   As a visitor\
   I want the detail page to show a photo of the CAR MODEL\
   So I can instantly see how it looks like\
   Or to quickly verify that I am on the correct page
 
   @RULE_MCF-194
-  Rule: The detail page shows a representative image of the CAR MODEL
+  Rule: The detail page shows the lead image of the CAR MODEL
 
     @TEST_MCF-202 @implemented
     Scenario: Expecting a photo of the CAR MODEL to be displayed on the detail page

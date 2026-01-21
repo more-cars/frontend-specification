@@ -1,9 +1,0 @@
-{
-  "id": "MCF-282",
-  "parent_id": "MCF-194",
-  "title": "Expecting the photo section to show a fallback image when the CAR MODEL has no representative image",
-  "gherkin": "Given the \"CAR MODEL\" \"Zonda\" has no representative image\nWhen the user visits the detail page of the \"CAR MODEL\" \"Zonda\"\nThen the page should contain a photo section\nAnd the photo section should contain a fallback image",
-  "labels": [],
-  "created_at": "2026-01-19T18:30:07.862+0100",
-  "updated_at": "2026-01-19T18:32:21.780+0100"
-}

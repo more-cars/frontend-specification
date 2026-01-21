@@ -3,7 +3,9 @@
   "parent_id": "MCF-276",
   "title": "Expecting a photo of the COMPANY to be displayed on the detail page",
   "gherkin": "When the user visits the detail page of a \"COMPANY\"\nThen the page should contain a photo section\nAnd the photo section should contain an image of the \"COMPANY\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-01-19T17:53:13.047+0100",
-  "updated_at": "2026-01-19T17:53:16.680+0100"
+  "updated_at": "2026-01-20T19:29:36.333+0100"
 }

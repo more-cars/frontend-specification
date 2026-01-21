@@ -1,0 +1,9 @@
+{
+  "id": "MCF-276",
+  "parent_id": "MCF-275",
+  "title": "The detail page shows the lead image of the COMPANY",
+  "description": "The lead image corresponds with the 'prime image' relationship in the API. When there is no 'prime image' then a fallback image is displayed. The image is displayed in a medium size. Medium means significantly larger than thumbnail size, but also significantly smaller than the screen size.\n",
+  "release_version": "0.5.0",
+  "created_at": "2026-01-19T17:53:09.880+0100",
+  "updated_at": "2026-01-20T19:28:59.715+0100"
+}

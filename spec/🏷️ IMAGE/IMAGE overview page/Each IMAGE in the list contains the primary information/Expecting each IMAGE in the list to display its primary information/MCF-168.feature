@@ -11,4 +11,4 @@ Feature: IMAGE overview page
     @TEST_MCF-168 @implemented
     Scenario: Expecting each IMAGE in the list to display its primary information
       When the user visits the "IMAGE" overview page
-      Then all items in the "IMAGE" list should contain primary information
+      Then each item in the "IMAGE" list should contain primary information

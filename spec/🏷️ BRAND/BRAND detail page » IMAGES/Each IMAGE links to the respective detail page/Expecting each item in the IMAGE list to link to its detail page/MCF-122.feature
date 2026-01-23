@@ -9,7 +9,7 @@ Feature: BRAND detail page » IMAGES
   Rule: Each IMAGE links to the respective detail page
 
     @TEST_MCF-122 @implemented
-    Scenario: Navigating to a linked IMAGE
+    Scenario: Expecting each item in the IMAGE list to link to its detail page
       When the user visits the detail page of a "BRAND"
-      And the user follows one of the links in the "IMAGE" list
-      Then the user should be redirected to a "IMAGE" detail page
+      Then the page should contain a "IMAGE" section
+      And each item in the "IMAGE" list should link to its detail page

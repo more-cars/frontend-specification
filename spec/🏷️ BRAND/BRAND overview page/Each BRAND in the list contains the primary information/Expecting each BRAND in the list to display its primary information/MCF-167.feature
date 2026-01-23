@@ -11,4 +11,4 @@ Feature: BRAND overview page
     @TEST_MCF-167 @implemented
     Scenario: Expecting each BRAND in the list to display its primary information
       When the user visits the "BRAND" overview page
-      Then all items in the "BRAND" list should contain primary information
+      Then each item in the "BRAND" list should contain primary information

@@ -11,4 +11,4 @@ Feature: CAR MODEL overview page
     @TEST_MCF-169 @implemented
     Scenario: Expecting each CAR MODEL in the list to display its primary information
       When the user visits the "CAR MODEL" overview page
-      Then all items in the "CAR MODEL" list should contain primary information
+      Then each item in the "CAR MODEL" list should contain primary information

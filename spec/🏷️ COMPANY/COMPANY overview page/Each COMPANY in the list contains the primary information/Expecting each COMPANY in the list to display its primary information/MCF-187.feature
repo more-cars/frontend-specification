@@ -11,4 +11,4 @@ Feature: COMPANY overview page
     @TEST_MCF-187 @implemented
     Scenario: Expecting each COMPANY in the list to display its primary information
       When the user visits the "COMPANY" overview page
-      Then all items in the "COMPANY" list should contain primary information
+      Then each item in the "COMPANY" list should contain primary information

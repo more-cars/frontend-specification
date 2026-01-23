@@ -2,7 +2,7 @@
   "id": "MCF-167",
   "parent_id": "MCF-132",
   "title": "Expecting each BRAND in the list to display its primary information",
-  "gherkin": "When the user visits the \"BRAND\" overview page\nThen all items in the \"BRAND\" list should contain primary information",
+  "gherkin": "When the user visits the \"BRAND\" overview page\nThen each item in the \"BRAND\" list should contain primary information",
   "labels": [
     "implemented"
   ],

@@ -2,7 +2,7 @@
   "id": "MCF-169",
   "parent_id": "MCF-142",
   "title": "Expecting each CAR MODEL in the list to display its primary information",
-  "gherkin": "When the user visits the \"CAR MODEL\" overview page\nThen all items in the \"CAR MODEL\" list should contain primary information",
+  "gherkin": "When the user visits the \"CAR MODEL\" overview page\nThen each item in the \"CAR MODEL\" list should contain primary information",
   "labels": [
     "implemented"
   ],

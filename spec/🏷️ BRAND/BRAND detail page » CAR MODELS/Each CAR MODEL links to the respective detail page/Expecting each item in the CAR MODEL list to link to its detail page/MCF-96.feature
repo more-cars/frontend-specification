@@ -8,7 +8,7 @@ Feature: BRAND detail page » CAR MODELS
   Rule: Each CAR MODEL links to the respective detail page
 
     @TEST_MCF-96 @implemented
-    Scenario: Navigating to a linked CAR MODEL
+    Scenario: Expecting each item in the CAR MODEL list to link to its detail page
       When the user visits the detail page of a "BRAND"
-      And the user follows one of the links in the "CAR MODEL" list
-      Then the user should be redirected to a "CAR MODEL" detail page
+      Then the page should contain a "CAR MODEL" section
+      And each item in the "CAR MODEL" list should link to its detail page

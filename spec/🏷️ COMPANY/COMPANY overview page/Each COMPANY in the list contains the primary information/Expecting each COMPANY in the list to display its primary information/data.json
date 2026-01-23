@@ -2,7 +2,7 @@
   "id": "MCF-187",
   "parent_id": "MCF-186",
   "title": "Expecting each COMPANY in the list to display its primary information",
-  "gherkin": "When the user visits the \"COMPANY\" overview page\nThen all items in the \"COMPANY\" list should contain primary information",
+  "gherkin": "When the user visits the \"COMPANY\" overview page\nThen each item in the \"COMPANY\" list should contain primary information",
   "labels": [
     "implemented"
   ],

@@ -11,4 +11,4 @@ Feature: BRAND detail page » IMAGES
     @TEST_MCF-92 @implemented
     Scenario: Expecting an image gallery on the BRAND detail page
       When the user visits the detail page of a "BRAND"
-      Then the page should contain a "IMAGE" list
+      Then the page should contain a section with a "IMAGE" list

@@ -12,5 +12,5 @@ Feature: CAR MODEL overview page
     Scenario: Having more than 100 CAR MODELS
       Given there are 105 "CAR MODEL"s
       When the user visits the "CAR MODEL" overview page
-      Then the page should contain a "CAR MODEL" list
+      Then the page should contain a section with a "CAR MODEL" list
       And the "CAR MODEL" list should contain 100 items

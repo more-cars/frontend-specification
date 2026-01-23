@@ -10,4 +10,4 @@ Feature: BRAND overview page » Preview IMAGES
     @TEST_MCF-172 @implemented
     Scenario: Expecting a thumbnail image for each BRAND in the list
       When the user visits the "BRAND" overview page
-      Then all items in the "BRAND" list should contain a thumbnail image
+      Then each item in the "BRAND" list should contain a thumbnail image

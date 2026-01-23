@@ -2,7 +2,7 @@
   "id": "MCF-191",
   "parent_id": "MCF-190",
   "title": "Expecting each COMPANY in the list to have a link to its detail page",
-  "gherkin": "When the user visits the \"COMPANY\" overview page\nThen all items in the \"COMPANY\" list should link to their detail pages",
+  "gherkin": "When the user visits the \"COMPANY\" overview page\nThen each item in the \"COMPANY\" list should link to its detail page",
   "labels": [
     "implemented"
   ],

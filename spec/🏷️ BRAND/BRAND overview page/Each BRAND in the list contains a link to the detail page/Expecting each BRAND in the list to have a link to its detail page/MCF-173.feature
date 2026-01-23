@@ -11,4 +11,4 @@ Feature: BRAND overview page
     @TEST_MCF-173 @implemented
     Scenario: Expecting each BRAND in the list to have a link to its detail page
       When the user visits the "BRAND" overview page
-      Then all items in the "BRAND" list should link to their detail pages
+      Then each item in the "BRAND" list should link to its detail page

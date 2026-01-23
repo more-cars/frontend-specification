@@ -2,7 +2,7 @@
   "id": "MCF-189",
   "parent_id": "MCF-188",
   "title": "Expecting a thumbnail image for each COMPANY in the list",
-  "gherkin": "When the user visits the \"COMPANY\" overview page\nThen all items in the \"COMPANY\" list should contain a thumbnail image",
+  "gherkin": "When the user visits the \"COMPANY\" overview page\nThen each item in the \"COMPANY\" list should contain a thumbnail image",
   "labels": [
     "implemented"
   ],

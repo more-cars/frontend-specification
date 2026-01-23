@@ -11,4 +11,4 @@ Feature: COMPANY overview page
     @TEST_MCF-191 @implemented
     Scenario: Expecting each COMPANY in the list to have a link to its detail page
       When the user visits the "COMPANY" overview page
-      Then all items in the "COMPANY" list should link to their detail pages
+      Then each item in the "COMPANY" list should link to its detail page

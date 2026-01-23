@@ -2,7 +2,7 @@
   "id": "MCF-94",
   "parent_id": "MCF-72",
   "title": "Expecting the BRAND detail page to contain a list with all connected CAR MODELs",
-  "gherkin": "When the user visits the detail page of a \"BRAND\"\nThen the page should contain a \"CAR MODEL\" list",
+  "gherkin": "When the user visits the detail page of a \"BRAND\"\nThen the page should contain a section with a \"CAR MODEL\" list",
   "labels": [
     "implemented"
   ],

@@ -10,4 +10,4 @@ Feature: BRAND detail page » CAR MODELS
     @TEST_MCF-94 @implemented
     Scenario: Expecting the BRAND detail page to contain a list with all connected CAR MODELs
       When the user visits the detail page of a "BRAND"
-      Then the page should contain a "CAR MODEL" list
+      Then the page should contain a section with a "CAR MODEL" list

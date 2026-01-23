@@ -2,7 +2,7 @@
   "id": "MCF-145",
   "parent_id": "MCF-135",
   "title": "Having more than 100 IMAGES",
-  "gherkin": "Given there are 105 \"IMAGE\"s\nWhen the user visits the \"IMAGE\" overview page\nThen the page should contain a \"IMAGE\" list\nAnd the \"IMAGE\" list should contain 100 items",
+  "gherkin": "Given there are 105 \"IMAGE\"s\nWhen the user visits the \"IMAGE\" overview page\nThen the page should contain a section with a \"IMAGE\" list\nAnd the \"IMAGE\" list should contain 100 items",
   "labels": [
     "implemented"
   ],

@@ -2,7 +2,7 @@
   "id": "MCF-175",
   "parent_id": "MCF-144",
   "title": "Expecting each CAR MODEL in the list to have a link to its detail page",
-  "gherkin": "When the user visits the \"CAR MODEL\" overview page\nThen all items in the \"CAR MODEL\" list should link to their detail pages",
+  "gherkin": "When the user visits the \"CAR MODEL\" overview page\nThen each item in the \"CAR MODEL\" list should link to its detail page",
   "labels": [
     "implemented"
   ],

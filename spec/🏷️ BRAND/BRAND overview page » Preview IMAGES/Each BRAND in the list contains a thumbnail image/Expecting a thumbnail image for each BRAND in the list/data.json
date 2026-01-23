@@ -2,7 +2,7 @@
   "id": "MCF-172",
   "parent_id": "MCF-133",
   "title": "Expecting a thumbnail image for each BRAND in the list",
-  "gherkin": "When the user visits the \"BRAND\" overview page\nThen all items in the \"BRAND\" list should contain a thumbnail image",
+  "gherkin": "When the user visits the \"BRAND\" overview page\nThen each item in the \"BRAND\" list should contain a thumbnail image",
   "labels": [
     "implemented"
   ],

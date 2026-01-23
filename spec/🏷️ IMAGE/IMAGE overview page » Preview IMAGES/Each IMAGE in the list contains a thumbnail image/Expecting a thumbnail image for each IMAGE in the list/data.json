@@ -2,7 +2,7 @@
   "id": "MCF-171",
   "parent_id": "MCF-138",
   "title": "Expecting a thumbnail image for each IMAGE in the list",
-  "gherkin": "When the user visits the \"IMAGE\" overview page\nThen all items in the \"IMAGE\" list should contain a thumbnail image",
+  "gherkin": "When the user visits the \"IMAGE\" overview page\nThen each item in the \"IMAGE\" list should contain a thumbnail image",
   "labels": [
     "implemented"
   ],

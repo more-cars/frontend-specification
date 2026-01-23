@@ -2,7 +2,7 @@
   "id": "MCF-107",
   "parent_id": "MCF-105",
   "title": "Expecting an image gallery on the CAR MODEL detail page",
-  "gherkin": "When the user visits the detail page of a \"CAR MODEL\"\nThen the page should contain a \"IMAGE\" list",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL\"\nThen the page should contain a section with a \"IMAGE\" list",
   "labels": [
     "implemented"
   ],

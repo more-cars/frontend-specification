@@ -11,4 +11,4 @@ Feature: CAR MODEL detail page » IMAGES
     @TEST_MCF-107 @implemented
     Scenario: Expecting an image gallery on the CAR MODEL detail page
       When the user visits the detail page of a "CAR MODEL"
-      Then the page should contain a "IMAGE" list
+      Then the page should contain a section with a "IMAGE" list

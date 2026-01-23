@@ -2,7 +2,7 @@
   "id": "MCF-80",
   "parent_id": "MCF-61",
   "title": "Expecting the CAR MODEL overview page to show a list of CAR MODELS",
-  "gherkin": "When the user visits the \"CAR MODEL\" overview page\nThen the page should contain a \"CAR MODEL\" list",
+  "gherkin": "When the user visits the \"CAR MODEL\" overview page\nThen the page should contain a section with a \"CAR MODEL\" list",
   "labels": [
     "implemented"
   ],

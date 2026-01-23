@@ -11,4 +11,4 @@ Feature: IMAGE overview page
     @TEST_MCF-174 @implemented
     Scenario: Expecting each IMAGE in the list to have a link to its detail page
       When the user visits the "IMAGE" overview page
-      Then all items in the "IMAGE" list should link to their detail pages
+      Then each item in the "IMAGE" list should link to its detail page

@@ -10,4 +10,4 @@ Feature: CAR MODEL overview page » Preview IMAGES
     @TEST_MCF-170 @implemented
     Scenario: Expecting a thumbnail image for each CAR MODEL in the list
       When the user visits the "CAR MODEL" overview page
-      Then all items in the "CAR MODEL" list should contain a thumbnail image
+      Then each item in the "CAR MODEL" list should contain a thumbnail image

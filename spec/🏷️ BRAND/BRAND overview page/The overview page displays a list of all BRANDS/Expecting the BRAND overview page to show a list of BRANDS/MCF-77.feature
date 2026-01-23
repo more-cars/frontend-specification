@@ -11,4 +11,4 @@ Feature: BRAND overview page
     @TEST_MCF-77 @implemented
     Scenario: Expecting the BRAND overview page to show a list of BRANDS
       When the user visits the "BRAND" overview page
-      Then the page should contain a "BRAND" list
+      Then the page should contain a section with a "BRAND" list

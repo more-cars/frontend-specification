@@ -10,4 +10,4 @@ Feature: COMPANY overview page » Preview IMAGES
     @TEST_MCF-189 @implemented
     Scenario: Expecting a thumbnail image for each COMPANY in the list
       When the user visits the "COMPANY" overview page
-      Then all items in the "COMPANY" list should contain a thumbnail image
+      Then each item in the "COMPANY" list should contain a thumbnail image

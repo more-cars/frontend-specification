@@ -2,7 +2,7 @@
   "id": "MCF-92",
   "parent_id": "MCF-89",
   "title": "Expecting an image gallery on the BRAND detail page",
-  "gherkin": "When the user visits the detail page of a \"BRAND\"\nThen the page should contain a \"IMAGE\" list",
+  "gherkin": "When the user visits the detail page of a \"BRAND\"\nThen the page should contain a section with a \"IMAGE\" list",
   "labels": [
     "implemented"
   ],

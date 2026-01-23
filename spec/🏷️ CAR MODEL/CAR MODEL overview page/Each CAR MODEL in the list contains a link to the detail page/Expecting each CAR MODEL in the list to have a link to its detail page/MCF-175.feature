@@ -11,4 +11,4 @@ Feature: CAR MODEL overview page
     @TEST_MCF-175 @implemented
     Scenario: Expecting each CAR MODEL in the list to have a link to its detail page
       When the user visits the "CAR MODEL" overview page
-      Then all items in the "CAR MODEL" list should link to their detail pages
+      Then each item in the "CAR MODEL" list should link to its detail page

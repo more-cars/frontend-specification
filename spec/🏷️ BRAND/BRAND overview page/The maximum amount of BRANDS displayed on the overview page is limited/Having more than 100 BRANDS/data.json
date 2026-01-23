@@ -2,7 +2,7 @@
   "id": "MCF-147",
   "parent_id": "MCF-130",
   "title": "Having more than 100 BRANDS",
-  "gherkin": "Given there are 105 \"BRAND\"s\nWhen the user visits the \"BRAND\" overview page\nThen the page should contain a \"BRAND\" list\nAnd the \"BRAND\" list should contain 100 items",
+  "gherkin": "Given there are 105 \"BRAND\"s\nWhen the user visits the \"BRAND\" overview page\nThen the page should contain a section with a \"BRAND\" list\nAnd the \"BRAND\" list should contain 100 items",
   "labels": [
     "implemented"
   ],

@@ -12,5 +12,5 @@ Feature: BRAND overview page
     Scenario: Having more than 100 BRANDS
       Given there are 105 "BRAND"s
       When the user visits the "BRAND" overview page
-      Then the page should contain a "BRAND" list
+      Then the page should contain a section with a "BRAND" list
       And the "BRAND" list should contain 100 items

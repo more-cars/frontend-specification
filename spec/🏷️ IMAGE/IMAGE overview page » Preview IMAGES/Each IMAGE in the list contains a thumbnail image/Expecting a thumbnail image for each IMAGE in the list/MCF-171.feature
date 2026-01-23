@@ -10,4 +10,4 @@ Feature: IMAGE overview page » Preview IMAGES
     @TEST_MCF-171 @implemented
     Scenario: Expecting a thumbnail image for each IMAGE in the list
       When the user visits the "IMAGE" overview page
-      Then all items in the "IMAGE" list should contain a thumbnail image
+      Then each item in the "IMAGE" list should contain a thumbnail image

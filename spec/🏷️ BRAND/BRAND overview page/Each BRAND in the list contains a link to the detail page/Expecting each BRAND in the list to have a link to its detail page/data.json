@@ -2,7 +2,7 @@
   "id": "MCF-173",
   "parent_id": "MCF-134",
   "title": "Expecting each BRAND in the list to have a link to its detail page",
-  "gherkin": "When the user visits the \"BRAND\" overview page\nThen all items in the \"BRAND\" list should link to their detail pages",
+  "gherkin": "When the user visits the \"BRAND\" overview page\nThen each item in the \"BRAND\" list should link to its detail page",
   "labels": [
     "implemented"
   ],

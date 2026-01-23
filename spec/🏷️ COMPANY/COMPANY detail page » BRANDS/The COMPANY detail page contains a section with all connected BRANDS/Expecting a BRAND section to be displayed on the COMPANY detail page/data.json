@@ -1,0 +1,11 @@
+{
+  "id": "MCF-286",
+  "parent_id": "MCF-285",
+  "title": "Expecting a BRAND section to be displayed on the COMPANY detail page",
+  "gherkin": "When the user visits the detail page of a \"COMPANY\"\nThen the page should contain a section with a \"BRAND\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-22T12:17:37.210+0100",
+  "updated_at": "2026-01-23T11:05:35.531+0100"
+}

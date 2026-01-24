@@ -7,8 +7,8 @@ Feature: COMPANY detail page » BRANDS
   @RULE_MCF-293
   Rule: Each BRAND in the list contains a thumbnail image
 
-  @TEST_MCF-294
-  Scenario: Expecting each item in the BRAND list to contain a thumbnail image
-    When the user visits the detail page of a "COMPANY"
-    Then the page should contain a "BRAND" section
-    Then each item in the "BRAND" list should contain a thumbnail image
+    @TEST_MCF-294 @implemented
+    Scenario: Expecting each item in the BRAND list to contain a thumbnail image
+      When the user visits the detail page of a "COMPANY"
+      Then the page should contain a "BRAND" section
+      Then each item in the "BRAND" list should contain a thumbnail image

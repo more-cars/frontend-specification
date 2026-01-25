@@ -1,0 +1,11 @@
+{
+  "id": "MCF-304",
+  "parent_id": "MCF-302",
+  "title": "Expecting each item in the NODE list to contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"IMAGE\"\nThen the page should contain a \"NODE\" section\nThen each item in the \"NODE\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-24T19:49:18.736+0100",
+  "updated_at": "2026-01-24T19:56:31.453+0100"
+}

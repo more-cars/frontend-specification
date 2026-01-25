@@ -3,7 +3,7 @@ Feature: CAR MODEL detail Page » BRAND
   As a visitor\
   On the CAR MODEL detail page\
   I want to see a link to the connected BRAND\
-  So I can find other CAR MODELs they have created
+  So I can find more CAR MODELS they have created
 
   @RULE_MCF-74
   Rule: The BRAND section is not displayed when none is attached to the CAR MODEL

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-298",
+  "parent_id": "MCF-40",
+  "title": "Each IMAGE in the list contains a thumbnail image",
+  "description": "The thumbnail shows the actual image of the resp. IMAGE node. The image is loaded in a small resolution to keep the loading times short.\n",
+  "release_version": "0.5.0",
+  "created_at": "2026-01-24T19:32:41.508+0100",
+  "updated_at": "2026-01-24T20:09:50.963+0100"
+}

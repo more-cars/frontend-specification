@@ -1,0 +1,11 @@
+{
+  "id": "MCF-315",
+  "parent_id": "MCF-314",
+  "title": "Expecting to see no IMAGE section when there are no IMAGES connected",
+  "gherkin": "Given there is a \"COMPANY\" \"VW AG\"\nAnd the \"COMPANY\" \"VW AG\" has no relationships\nWhen the user visits the detail page of the \"COMPANY\" \"VW AG\"\nThen the page should contain no \"IMAGE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-25T09:48:19.038+0100",
+  "updated_at": "2026-01-25T10:55:39.941+0100"
+}

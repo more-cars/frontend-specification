@@ -1,0 +1,9 @@
+{
+  "id": "MCF-114",
+  "parent_id": "MCF-49",
+  "title": "The IMAGE detail page contains a section with all connected NODES",
+  "description": "",
+  "release_version": "0.3.0",
+  "created_at": "2025-07-20T20:06:14.641+0200",
+  "updated_at": "2026-01-24T19:41:24.066+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-331",
+  "parent_id": "MCF-322",
+  "title": "The COMPANY section contains a thumbnail image of the node",
+  "description": "The thumbnail shows the lead image of the resp. COMPANY. When it has no lead image then a generic fallback image is displayed. The image is loaded in a small resolution to keep the loading times short.\n",
+  "release_version": "0.5.0",
+  "created_at": "2026-01-25T12:05:35.728+0100",
+  "updated_at": "2026-01-25T14:01:05.504+0100"
+}

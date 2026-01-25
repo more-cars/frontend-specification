@@ -1,0 +1,11 @@
+{
+  "id": "MCF-326",
+  "parent_id": "MCF-325",
+  "title": "Expecting to see no COMPANY section when there is no COMPANY connected",
+  "gherkin": "Given there is a \"BRAND\" \"VW\"\nAnd the \"BRAND\" \"VW\" has no relationships\nWhen the user visits the detail page of the \"BRAND\" \"VW\"\nThen the page should contain no \"COMPANY\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-25T12:05:19.499+0100",
+  "updated_at": "2026-01-25T14:10:12.563+0100"
+}

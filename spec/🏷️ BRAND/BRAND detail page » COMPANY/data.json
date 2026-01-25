@@ -1,0 +1,16 @@
+{
+  "id": "MCF-322",
+  "parent_id": "MCF-1",
+  "title": "BRAND detail page » COMPANY",
+  "user_story": "As a visitor\\\nI want the BRAND's parent COMPANY to be presented on the detail page\\\nSo I can quickly see who their current owner is or if they are independent\n",
+  "description": "* The BRAND detail page is extended to contain a section for the connected COMPANY.\n* The COMPANY is presented with its name and primary information.\n* The COMPANY contains a link to its detail page.\n* The COMPANY has a thumbnail image.\n* When there is no COMPANY connected to the BRAND then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.5.0"
+  ],
+  "created_at": "2026-01-25T12:05:08.358+0100",
+  "updated_at": "2026-01-25T14:07:17.543+0100"
+}

@@ -1,5 +1,5 @@
 @REQ_MCF-42
-Feature: CAR MODEL detail Page » BRAND
+Feature: CAR MODEL detail page » BRAND
   As a visitor\
   On the CAR MODEL detail page\
   I want to see a link to the connected BRAND\

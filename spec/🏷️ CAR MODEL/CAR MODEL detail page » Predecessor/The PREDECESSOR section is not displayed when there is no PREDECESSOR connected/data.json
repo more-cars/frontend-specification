@@ -1,0 +1,9 @@
+{
+  "id": "MCF-211",
+  "parent_id": "MCF-209",
+  "title": "The PREDECESSOR section is not displayed when there is no PREDECESSOR connected",
+  "description": "There should be no section, no headline and no placeholder when the CAR MODEL has no PREDECESSOR.\n",
+  "release_version": "0.4.0",
+  "created_at": "2026-01-07T15:14:23.191+0100",
+  "updated_at": "2026-01-25T15:34:58.411+0100"
+}

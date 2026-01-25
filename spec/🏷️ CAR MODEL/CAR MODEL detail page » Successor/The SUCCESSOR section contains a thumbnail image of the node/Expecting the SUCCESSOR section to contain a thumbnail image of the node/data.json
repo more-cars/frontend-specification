@@ -1,0 +1,11 @@
+{
+  "id": "MCF-340",
+  "parent_id": "MCF-336",
+  "title": "Expecting the SUCCESSOR section to contain a thumbnail image of the node",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL\"\nThen the page should contain a \"SUCCESSOR\" section\nThen the \"SUCCESSOR\" section should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-25T14:56:26.013+0100",
+  "updated_at": "2026-01-25T15:02:07.874+0100"
+}

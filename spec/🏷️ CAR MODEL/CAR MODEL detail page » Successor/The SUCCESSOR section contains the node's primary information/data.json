@@ -1,0 +1,9 @@
+{
+  "id": "MCF-335",
+  "parent_id": "MCF-38",
+  "title": "The SUCCESSOR section contains the node's primary information",
+  "description": "Each CAR MODEL has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the CAR MODEL epic (MCF-3).\n",
+  "release_version": "0.4.0",
+  "created_at": "2026-01-25T14:54:14.677+0100",
+  "updated_at": "2026-01-25T15:07:10.077+0100"
+}

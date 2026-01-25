@@ -1,0 +1,9 @@
+{
+  "id": "MCF-212",
+  "parent_id": "MCF-209",
+  "title": "The PREDECESSOR section contains a link to the detail page",
+  "description": "Only the title of the PREDECESSOR should link to the detail page, not the whole section. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "0.4.0",
+  "created_at": "2026-01-07T15:14:24.443+0100",
+  "updated_at": "2026-01-25T15:39:43.559+0100"
+}

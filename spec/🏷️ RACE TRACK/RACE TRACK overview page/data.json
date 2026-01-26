@@ -1,0 +1,14 @@
+{
+  "id": "MCF-348",
+  "parent_id": "MCF-14",
+  "title": "RACE TRACK overview page",
+  "user_story": "As a visitor\nI want to see a list of all RACE TRACKS\nSo I can get a general idea of the different types that exist\nAnd by scrolling through them find interesting ones\n",
+  "description": "* There is a dedicated page (with a dedicated URL) where all RACE TRACKS are presented.\n* A warning message is shown when there are no RACE TRACKS.\n* The overview page always returns with status code \\`200\\`, no matter if any RACE TRACK exists or not.\n* By default, the RACE TRACKS are sorted \\`ascending\\` by their \\`name\\`.\n* The sorting is always case-insensitive.\n* Each RACE TRACK is presented with its primary information and a link to its detail page.\n* The overview displays at most 100 RACE TRACKS at once.\n* When there are more than 100 RACE TRACKS then the \\`pagination\\` feature is activated.\n* Pagination allows the user to scroll through all RACE TRACKS - 100 items at a time.\n* The user is able to bookmark and revisit any paginated RACE TRACK page.\n",
+  "api_path": "/race-tracks",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [],
+  "created_at": "2026-01-26T14:53:58.146+0100",
+  "updated_at": "2026-01-26T15:19:17.345+0100"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "MCF-400",
+  "parent_id": "MCF-14",
+  "title": "RACE TRACK overview page » Preview IMAGES",
+  "user_story": "As a visitor\nI want to see a preview image for each RACE TRACK on the overview page\nSo I can quickly find a specific one without knowing its name\n",
+  "description": "* each RACE TRACK item on the RACE TRACK overview page contains a preview image\n* the 'preview image' refers to what is known as 'prime image' in the API\n* the preview image is displayed in thumbnail size\n* when a RACE TRACK has no prime image then the preview image shows the default fallback image\n",
+  "api_path": "/race-tracks",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [],
+  "created_at": "2026-01-26T15:20:32.282+0100",
+  "updated_at": "2026-01-26T15:20:42.027+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-361",
+  "parent_id": "MCF-348",
+  "title": "The RACE TRACK list gets paginated when the total RACE TRACK count exceeds the predefined limit",
+  "description": "A pagination bar should be shown when the number of RACE TRACKS is higher than the configured limit (specified in a different ticket). At a bare minimum it should contain a link to the next page (if available), a link to the previous page (if available) and indicate the current page number. When the number of RACE TRACKS is lower than the configured limit then the pagination bar should be hidden. Whatever technical solution is chosen, the user needs to be able to bookmark the different pages. Meaning all links need to be 'real' (it cannot be a pure JavaScript solution). Each page should display a different subset of the RACE TRACK collection. There should be no overlap and there should be no RACE TRACK missing.\n",
+  "release_version": null,
+  "created_at": "2026-01-26T14:54:40.842+0100",
+  "updated_at": "2026-01-26T14:55:13.830+0100"
+}

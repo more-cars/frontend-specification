@@ -1,0 +1,9 @@
+{
+  "id": "MCF-369",
+  "parent_id": "MCF-368",
+  "title": "Expecting to see the name of the RACE TRACK in all important locations on the detail page",
+  "gherkin": "When the user visits the detail page of a \"RACE TRACK\"\nThen the page title should contain the \"RACE TRACK\" name\nAnd the main headline should contain the \"RACE TRACK\" name",
+  "labels": [],
+  "created_at": "2026-01-26T14:59:56.086+0100",
+  "updated_at": "2026-01-26T14:59:59.489+0100"
+}

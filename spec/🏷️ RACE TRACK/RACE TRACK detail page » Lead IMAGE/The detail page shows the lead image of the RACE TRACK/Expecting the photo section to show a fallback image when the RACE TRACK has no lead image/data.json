@@ -1,0 +1,9 @@
+{
+  "id": "MCF-377",
+  "parent_id": "MCF-375",
+  "title": "Expecting the photo section to show a fallback image when the RACE TRACK has no lead image",
+  "gherkin": "Given there is a \"RACE TRACK\" \"Norisring\"\nAnd the \"RACE TRACK\" \"Norisring\" has no lead image\nWhen the user visits the detail page of the \"RACE TRACK\" \"Norisring\"\nThen the page should contain a photo section\nAnd the photo section should contain a fallback image",
+  "labels": [],
+  "created_at": "2026-01-26T15:02:28.248+0100",
+  "updated_at": "2026-01-26T15:02:31.889+0100"
+}

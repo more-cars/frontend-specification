@@ -2,8 +2,8 @@
   "id": "MCF-385",
   "parent_id": "MCF-378",
   "title": "Each IMAGE in the list contains the primary information",
-  "description": "Each IMAGE has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the IMAGE epic (MCF-???).\n",
-  "release_version": null,
+  "description": "Each IMAGE has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the IMAGE epic (MCF-17).\n",
+  "release_version": "0.6.0",
   "created_at": "2026-01-26T15:07:39.001+0100",
-  "updated_at": "2026-01-26T15:07:44.595+0100"
+  "updated_at": "2026-01-27T18:45:48.703+0100"
 }

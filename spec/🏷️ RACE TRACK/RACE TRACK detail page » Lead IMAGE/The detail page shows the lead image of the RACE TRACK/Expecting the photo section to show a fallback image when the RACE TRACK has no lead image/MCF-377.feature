@@ -8,7 +8,7 @@ Feature: RACE TRACK detail page » Lead IMAGE
   @RULE_MCF-375
   Rule: The detail page shows the lead image of the RACE TRACK
 
-    @TEST_MCF-377
+    @TEST_MCF-377 @implemented
     Scenario: Expecting the photo section to show a fallback image when the RACE TRACK has no lead image
       Given there is a "RACE TRACK" "Norisring"
       And the "RACE TRACK" "Norisring" has no lead image

@@ -3,7 +3,9 @@
   "parent_id": "MCF-375",
   "title": "Expecting a photo of the RACE TRACK to be displayed on the detail page",
   "gherkin": "When the user visits the detail page of a \"RACE TRACK\"\nThen the page should contain a photo section\nAnd the photo section should contain an image of the \"RACE TRACK\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-01-26T15:02:23.500+0100",
-  "updated_at": "2026-01-26T15:02:26.936+0100"
+  "updated_at": "2026-01-27T17:51:45.941+0100"
 }

@@ -3,7 +3,7 @@
   "parent_id": "MCF-378",
   "title": "Each IMAGE in the list contains a link to its detail page",
   "description": "Only the title of each IMAGE should link to the respective detail page, not the whole list item. Otherwise the user would not be able to select the text anymore.\n",
-  "release_version": null,
+  "release_version": "0.6.0",
   "created_at": "2026-01-26T15:07:32.752+0100",
-  "updated_at": "2026-01-26T15:07:38.507+0100"
+  "updated_at": "2026-01-27T18:45:23.420+0100"
 }

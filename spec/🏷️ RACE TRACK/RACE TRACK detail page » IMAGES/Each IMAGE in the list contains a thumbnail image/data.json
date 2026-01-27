@@ -3,7 +3,7 @@
   "parent_id": "MCF-378",
   "title": "Each IMAGE in the list contains a thumbnail image",
   "description": "The thumbnail shows the lead image of the resp. IMAGE. When it has no lead image then a generic fallback image is displayed. The image is loaded in a small resolution to keep the loading times short.\n",
-  "release_version": null,
+  "release_version": "0.6.0",
   "created_at": "2026-01-26T15:07:45.049+0100",
-  "updated_at": "2026-01-26T15:07:51.034+0100"
+  "updated_at": "2026-01-27T18:45:55.328+0100"
 }

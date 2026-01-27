@@ -7,7 +7,7 @@ Feature: RACE TRACK overview page » Preview IMAGES
   @RULE_MCF-401
   Rule: Each RACE TRACK in the list contains a thumbnail image
 
-    @TEST_MCF-402
+    @TEST_MCF-402 @implemented
     Scenario: Expecting a thumbnail image for each RACE TRACK in the list
       When the user visits the "RACE TRACK" overview page
       Then each item in the "RACE TRACK" list should contain a thumbnail image

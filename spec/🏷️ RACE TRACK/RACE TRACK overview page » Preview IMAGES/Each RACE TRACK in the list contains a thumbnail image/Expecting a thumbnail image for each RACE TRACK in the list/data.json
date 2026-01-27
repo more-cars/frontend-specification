@@ -3,7 +3,9 @@
   "parent_id": "MCF-401",
   "title": "Expecting a thumbnail image for each RACE TRACK in the list",
   "gherkin": "When the user visits the \"RACE TRACK\" overview page\nThen each item in the \"RACE TRACK\" list should contain a thumbnail image",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-01-26T15:20:37.371+0100",
-  "updated_at": "2026-01-26T15:20:40.952+0100"
+  "updated_at": "2026-01-27T18:17:30.191+0100"
 }

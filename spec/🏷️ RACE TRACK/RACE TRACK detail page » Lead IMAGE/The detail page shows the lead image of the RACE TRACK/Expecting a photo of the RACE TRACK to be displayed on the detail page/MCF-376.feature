@@ -8,7 +8,7 @@ Feature: RACE TRACK detail page » Lead IMAGE
   @RULE_MCF-375
   Rule: The detail page shows the lead image of the RACE TRACK
 
-    @TEST_MCF-376
+    @TEST_MCF-376 @implemented
     Scenario: Expecting a photo of the RACE TRACK to be displayed on the detail page
       When the user visits the detail page of a "RACE TRACK"
       Then the page should contain a photo section

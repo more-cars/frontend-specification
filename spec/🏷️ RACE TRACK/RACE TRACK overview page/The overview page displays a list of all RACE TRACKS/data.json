@@ -3,7 +3,7 @@
   "parent_id": "MCF-348",
   "title": "The overview page displays a list of all RACE TRACKS",
   "description": "'All' does not necessarily mean that every single RACE TRACK is displayed. Other features, like search, filtering or pagination might influence the displayed amount.\n",
-  "release_version": null,
+  "release_version": "0.6.0",
   "created_at": "2026-01-26T14:54:00.745+0100",
-  "updated_at": "2026-01-26T14:54:07.540+0100"
+  "updated_at": "2026-01-27T10:32:35.747+0100"
 }

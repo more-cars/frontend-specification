@@ -3,7 +3,7 @@
   "parent_id": "MCF-348",
   "title": "A warning is displayed when there are no RACE TRACKS",
   "description": "The RACE TRACK list is not shown and a info/warning is displayed at a prominent location. It should inform the user that there are either no RACE TRACKS or that there is a temporary problem with loading the RACE TRACKS.\n",
-  "release_version": null,
+  "release_version": "0.6.0",
   "created_at": "2026-01-26T14:54:08.110+0100",
-  "updated_at": "2026-01-26T14:54:14.223+0100"
+  "updated_at": "2026-01-27T10:32:38.083+0100"
 }

@@ -8,9 +8,9 @@ Feature: RACE TRACK overview page
   @RULE_MCF-359
   Rule: The maximum amount of RACE TRACKS displayed on the overview page is limited
 
-    @TEST_MCF-360
+    @TEST_MCF-360 @implemented
     Scenario: Having more than 100 RACE TRACKS
       Given there are 105 "RACE TRACK"s
       When the user visits the "RACE TRACK" overview page
-      Then the page should contain a "RACE TRACK" list
+      Then the page should contain a "RACE TRACK" section
       And the "RACE TRACK" list should contain 100 items

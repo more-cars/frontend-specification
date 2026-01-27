@@ -3,7 +3,7 @@
   "parent_id": "MCF-348",
   "title": "Each RACE TRACK in the list contains the primary information",
   "description": "Each RACE TRACK has a bunch of properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in the RACE TRACK list. The corresponding epic MCF-14 contains a list to find out which properties are 'primary'.\n",
-  "release_version": null,
+  "release_version": "0.6.0",
   "created_at": "2026-01-26T14:54:14.672+0100",
-  "updated_at": "2026-01-26T14:54:21.477+0100"
+  "updated_at": "2026-01-27T10:32:40.236+0100"
 }

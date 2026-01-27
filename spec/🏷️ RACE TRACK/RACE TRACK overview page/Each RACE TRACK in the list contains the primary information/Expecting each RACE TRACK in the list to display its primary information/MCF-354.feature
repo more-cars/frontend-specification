@@ -8,7 +8,7 @@ Feature: RACE TRACK overview page
   @RULE_MCF-353
   Rule: Each RACE TRACK in the list contains the primary information
 
-    @TEST_MCF-354
+    @TEST_MCF-354 @implemented
     Scenario: Expecting each RACE TRACK in the list to display its primary information
       When the user visits the "RACE TRACK" overview page
       Then each item in the "RACE TRACK" list should contain primary information

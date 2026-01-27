@@ -8,7 +8,7 @@ Feature: RACE TRACK overview page
   @RULE_MCF-349
   Rule: The overview page displays a list of all RACE TRACKS
 
-    @TEST_MCF-350
+    @TEST_MCF-350 @implemented
     Scenario: Expecting the RACE TRACK overview page to show a list of RACE TRACKS
       When the user visits the "RACE TRACK" overview page
-      Then the page should contain a "RACE TRACK" list
+      Then the page should contain a "RACE TRACK" section

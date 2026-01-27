@@ -8,7 +8,7 @@ Feature: RACE TRACK overview page
   @RULE_MCF-361
   Rule: The RACE TRACK list gets paginated when the total RACE TRACK count exceeds the predefined limit
 
-    @TEST_MCF-365
+    @TEST_MCF-365 @implemented
     Scenario: Expecting no duplicates across the RACE TRACK overview pages
       Given there are 105 "RACE TRACK"s
       When the user visits page 1 of the "RACE TRACK" overview page

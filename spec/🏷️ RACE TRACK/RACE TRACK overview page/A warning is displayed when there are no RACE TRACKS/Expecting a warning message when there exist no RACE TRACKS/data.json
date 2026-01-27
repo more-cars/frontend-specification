@@ -2,8 +2,10 @@
   "id": "MCF-352",
   "parent_id": "MCF-351",
   "title": "Expecting a warning message when there exist no RACE TRACKS",
-  "gherkin": "Given there is no \"RACE TRACK\"\nWhen the user visits the \"RACE TRACK\" overview page\nThen the page should contains no \"RACE TRACK\" list\nAnd the page should contain a message, informing the user that there are no \"RACE TRACK\"s",
-  "labels": [],
+  "gherkin": "Given there is no \"RACE TRACK\"\nWhen the user visits the \"RACE TRACK\" overview page\nThen the page should contain no \"RACE TRACK\" section\nAnd the page should contain a message, informing the user that there are no \"RACE TRACK\"s",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-01-26T14:54:11.010+0100",
-  "updated_at": "2026-01-26T14:54:14.618+0100"
+  "updated_at": "2026-01-27T12:31:58.437+0100"
 }

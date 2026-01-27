@@ -3,7 +3,7 @@
   "parent_id": "MCF-348",
   "title": "By default, the RACE TRACK list is sorted by name in ascending order",
   "description": "Other features might influence the sorting, but by default all RACE TRACKS in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Race Track', 'race track' and 'RACE TRACK' should rank exactly the same.\n",
-  "release_version": null,
+  "release_version": "0.6.0",
   "created_at": "2026-01-26T14:54:28.178+0100",
-  "updated_at": "2026-01-26T14:54:34.650+0100"
+  "updated_at": "2026-01-27T10:32:46.042+0100"
 }

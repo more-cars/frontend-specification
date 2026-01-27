@@ -8,7 +8,7 @@ Feature: RACE TRACK overview page
   @RULE_MCF-361
   Rule: The RACE TRACK list gets paginated when the total RACE TRACK count exceeds the predefined limit
 
-    @TEST_MCF-362
+    @TEST_MCF-362 @implemented
     Scenario: Expecting the pagination bar only to be visible when the RACE TRACK list has more than 100 items
       Given there are 100 "RACE TRACK"s
       When the user visits the "RACE TRACK" overview page

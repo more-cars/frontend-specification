@@ -3,7 +3,9 @@
   "parent_id": "MCF-353",
   "title": "Expecting each RACE TRACK in the list to display its primary information",
   "gherkin": "When the user visits the \"RACE TRACK\" overview page\nThen each item in the \"RACE TRACK\" list should contain primary information",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-01-26T14:54:18.048+0100",
-  "updated_at": "2026-01-26T14:54:21.915+0100"
+  "updated_at": "2026-01-27T12:42:19.753+0100"
 }

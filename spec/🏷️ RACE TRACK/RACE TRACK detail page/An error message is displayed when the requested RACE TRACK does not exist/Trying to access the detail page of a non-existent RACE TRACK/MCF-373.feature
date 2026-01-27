@@ -7,7 +7,7 @@ Feature: RACE TRACK detail page
   @RULE_MCF-372
   Rule: An error message is displayed when the requested RACE TRACK does not exist
 
-    @TEST_MCF-373
+    @TEST_MCF-373 @implemented
     Scenario: Trying to access the detail page of a non-existent RACE TRACK
       Given there is no "RACE TRACK" "Norisring"
       When the user visits the detail page of the "RACE TRACK" "Norisring"

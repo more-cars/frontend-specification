@@ -3,7 +3,7 @@
   "parent_id": "MCF-367",
   "title": "The name of the RACE TRACK is exposed in all relevant locations",
   "description": "The main headline and the page title contain the name of the RACE TRACK. But the name does not occupy those locations exclusively. There might be other features that inject their information as a suffix or prefix.\n",
-  "release_version": null,
+  "release_version": "0.6.0",
   "created_at": "2026-01-26T14:59:53.319+0100",
-  "updated_at": "2026-01-26T14:59:59.165+0100"
+  "updated_at": "2026-01-27T12:01:18.178+0100"
 }

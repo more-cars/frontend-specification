@@ -8,9 +8,9 @@ Feature: RACE TRACK overview page
   @RULE_MCF-351
   Rule: A warning is displayed when there are no RACE TRACKS
 
-    @TEST_MCF-352
+    @TEST_MCF-352 @implemented
     Scenario: Expecting a warning message when there exist no RACE TRACKS
       Given there is no "RACE TRACK"
       When the user visits the "RACE TRACK" overview page
-      Then the page should contains no "RACE TRACK" list
+      Then the page should contain no "RACE TRACK" section
       And the page should contain a message, informing the user that there are no "RACE TRACK"s

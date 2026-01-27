@@ -2,8 +2,10 @@
   "id": "MCF-360",
   "parent_id": "MCF-359",
   "title": "Having more than 100 RACE TRACKS",
-  "gherkin": "Given there are 105 \"RACE TRACK\"s\nWhen the user visits the \"RACE TRACK\" overview page\nThen the page should contain a \"RACE TRACK\" list\nAnd the \"RACE TRACK\" list should contain 100 items",
-  "labels": [],
+  "gherkin": "Given there are 105 \"RACE TRACK\"s\nWhen the user visits the \"RACE TRACK\" overview page\nThen the page should contain a \"RACE TRACK\" section\nAnd the \"RACE TRACK\" list should contain 100 items",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-01-26T14:54:37.623+0100",
-  "updated_at": "2026-01-26T14:54:40.842+0100"
+  "updated_at": "2026-01-27T12:44:46.357+0100"
 }

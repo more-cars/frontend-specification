@@ -7,7 +7,7 @@ Feature: RACE TRACK detail page
   @RULE_MCF-370
   Rule: A fact sheet with all RACE TRACK properties is displayed
 
-    @TEST_MCF-371
+    @TEST_MCF-371 @implemented
     Scenario: Expecting the RACE TRACK detail page to contain a populated fact sheet
       When the user visits the detail page of a "RACE TRACK"
       Then the page should display a fact sheet

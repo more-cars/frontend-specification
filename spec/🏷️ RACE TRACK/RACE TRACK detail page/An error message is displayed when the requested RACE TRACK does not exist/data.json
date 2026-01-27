@@ -3,7 +3,7 @@
   "parent_id": "MCF-367",
   "title": "An error message is displayed when the requested RACE TRACK does not exist",
   "description": "An info or warning is displayed at a prominent location. It should inform the user that there the requested RACE TRACK does not exist or not anymore.\n",
-  "release_version": null,
+  "release_version": "0.6.0",
   "created_at": "2026-01-26T15:00:06.420+0100",
-  "updated_at": "2026-01-26T15:00:12.262+0100"
+  "updated_at": "2026-01-27T12:05:59.387+0100"
 }

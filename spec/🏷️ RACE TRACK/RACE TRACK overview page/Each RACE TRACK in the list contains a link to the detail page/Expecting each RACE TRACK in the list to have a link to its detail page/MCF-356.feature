@@ -8,7 +8,7 @@ Feature: RACE TRACK overview page
   @RULE_MCF-355
   Rule: Each RACE TRACK in the list contains a link to the detail page
 
-    @TEST_MCF-356
+    @TEST_MCF-356 @implemented
     Scenario: Expecting each RACE TRACK in the list to have a link to its detail page
       When the user visits the "RACE TRACK" overview page
       Then each item in the "RACE TRACK" list should link to its detail page

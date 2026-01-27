@@ -3,7 +3,9 @@
   "parent_id": "MCF-361",
   "title": "Expecting the pagination bar only to be visible when the RACE TRACK list has more than 100 items",
   "gherkin": "Given there are 100 \"RACE TRACK\"s\nWhen the user visits the \"RACE TRACK\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"RACE TRACK\"s\nWhen the user visits the \"RACE TRACK\" overview page\nThen the pagination bar should be visible",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-01-26T14:54:43.665+0100",
-  "updated_at": "2026-01-26T14:54:49.064+0100"
+  "updated_at": "2026-01-27T12:45:22.614+0100"
 }

@@ -11,4 +11,4 @@ Feature: CAR MODEL overview page
     @TEST_MCF-80 @implemented
     Scenario: Expecting the CAR MODEL overview page to show a list of CAR MODELS
       When the user visits the "CAR MODEL" overview page
-      Then the page should contain a section with a "CAR MODEL" list
+      Then the overview page should contain a section with a "CAR MODEL" list

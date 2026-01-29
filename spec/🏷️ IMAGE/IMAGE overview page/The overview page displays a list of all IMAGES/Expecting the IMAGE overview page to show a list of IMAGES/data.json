@@ -2,7 +2,7 @@
   "id": "MCF-83",
   "parent_id": "MCF-62",
   "title": "Expecting the IMAGE overview page to show a list of IMAGES",
-  "gherkin": "When the user visits the \"IMAGE\" overview page\nThen the page should contain a section with a \"IMAGE\" list",
+  "gherkin": "When the user visits the \"IMAGE\" overview page\nThen the overview page should contain a section with a \"IMAGE\" list",
   "labels": [
     "implemented"
   ],

@@ -12,5 +12,5 @@ Feature: COMPANY overview page
     Scenario: Having more than 100 COMPANIES
       Given there are 105 "COMPANY"s
       When the user visits the "COMPANY" overview page
-      Then the page should contain a section with a "COMPANY" list
+      Then the overview page should contain a section with a "COMPANY" list
       And the "COMPANY" list should contain 100 items

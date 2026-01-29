@@ -2,7 +2,7 @@
   "id": "MCF-77",
   "parent_id": "MCF-60",
   "title": "Expecting the BRAND overview page to show a list of BRANDS",
-  "gherkin": "When the user visits the \"BRAND\" overview page\nThen the page should contain a section with a \"BRAND\" list",
+  "gherkin": "When the user visits the \"BRAND\" overview page\nThen the overview page should contain a section with a \"BRAND\" list",
   "labels": [
     "implemented"
   ],

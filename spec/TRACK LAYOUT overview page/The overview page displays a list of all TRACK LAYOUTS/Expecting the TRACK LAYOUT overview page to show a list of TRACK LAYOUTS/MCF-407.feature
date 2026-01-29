@@ -11,4 +11,4 @@ Feature: TRACK LAYOUT overview page
     @TEST_MCF-407 @implemented
     Scenario: Expecting the TRACK LAYOUT overview page to show a list of TRACK LAYOUTS
       When the user visits the "TRACK LAYOUT" overview page
-      Then the page should contain a "TRACK LAYOUT" section
+      Then the overview page should contain a "TRACK LAYOUT" section

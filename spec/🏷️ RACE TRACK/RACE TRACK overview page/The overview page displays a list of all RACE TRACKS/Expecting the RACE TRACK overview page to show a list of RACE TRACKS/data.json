@@ -2,7 +2,7 @@
   "id": "MCF-350",
   "parent_id": "MCF-349",
   "title": "Expecting the RACE TRACK overview page to show a list of RACE TRACKS",
-  "gherkin": "When the user visits the \"RACE TRACK\" overview page\nThen the page should contain a \"RACE TRACK\" section",
+  "gherkin": "When the user visits the \"RACE TRACK\" overview page\nThen the overview page should contain a \"RACE TRACK\" section",
   "labels": [
     "implemented"
   ],

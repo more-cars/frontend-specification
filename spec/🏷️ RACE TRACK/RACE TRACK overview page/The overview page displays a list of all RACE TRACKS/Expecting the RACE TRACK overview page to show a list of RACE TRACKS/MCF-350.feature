@@ -11,4 +11,4 @@ Feature: RACE TRACK overview page
     @TEST_MCF-350 @implemented
     Scenario: Expecting the RACE TRACK overview page to show a list of RACE TRACKS
       When the user visits the "RACE TRACK" overview page
-      Then the page should contain a "RACE TRACK" section
+      Then the overview page should contain a "RACE TRACK" section

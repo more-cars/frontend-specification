@@ -12,5 +12,5 @@ Feature: TRACK LAYOUT overview page
     Scenario: Having more than 100 TRACK LAYOUTS
       Given there are 105 "TRACK LAYOUT"s
       When the user visits the "TRACK LAYOUT" overview page
-      Then the page should contain a "TRACK LAYOUT" section
+      Then the overview page should contain a "TRACK LAYOUT" section
       And the "TRACK LAYOUT" list should contain 100 items

@@ -2,7 +2,7 @@
   "id": "MCF-417",
   "parent_id": "MCF-416",
   "title": "Having more than 100 TRACK LAYOUTS",
-  "gherkin": "Given there are 105 \"TRACK LAYOUT\"s\nWhen the user visits the \"TRACK LAYOUT\" overview page\nThen the page should contain a \"TRACK LAYOUT\" section\nAnd the \"TRACK LAYOUT\" list should contain 100 items",
+  "gherkin": "Given there are 105 \"TRACK LAYOUT\"s\nWhen the user visits the \"TRACK LAYOUT\" overview page\nThen the overview page should contain a \"TRACK LAYOUT\" section\nAnd the \"TRACK LAYOUT\" list should contain 100 items",
   "labels": [
     "implemented"
   ],

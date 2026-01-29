@@ -2,7 +2,7 @@
   "id": "MCF-407",
   "parent_id": "MCF-406",
   "title": "Expecting the TRACK LAYOUT overview page to show a list of TRACK LAYOUTS",
-  "gherkin": "When the user visits the \"TRACK LAYOUT\" overview page\nThen the page should contain a \"TRACK LAYOUT\" section",
+  "gherkin": "When the user visits the \"TRACK LAYOUT\" overview page\nThen the overview page should contain a \"TRACK LAYOUT\" section",
   "labels": [
     "implemented"
   ],

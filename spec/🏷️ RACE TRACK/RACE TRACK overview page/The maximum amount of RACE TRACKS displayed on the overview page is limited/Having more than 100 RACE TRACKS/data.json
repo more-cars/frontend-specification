@@ -2,7 +2,7 @@
   "id": "MCF-360",
   "parent_id": "MCF-359",
   "title": "Having more than 100 RACE TRACKS",
-  "gherkin": "Given there are 105 \"RACE TRACK\"s\nWhen the user visits the \"RACE TRACK\" overview page\nThen the page should contain a \"RACE TRACK\" section\nAnd the \"RACE TRACK\" list should contain 100 items",
+  "gherkin": "Given there are 105 \"RACE TRACK\"s\nWhen the user visits the \"RACE TRACK\" overview page\nThen the overview page should contain a \"RACE TRACK\" section\nAnd the \"RACE TRACK\" list should contain 100 items",
   "labels": [
     "implemented"
   ],

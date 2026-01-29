@@ -12,5 +12,5 @@ Feature: IMAGE overview page
     Scenario: Having more than 100 IMAGES
       Given there are 105 "IMAGE"s
       When the user visits the "IMAGE" overview page
-      Then the page should contain a section with a "IMAGE" list
+      Then the overview page should contain a section with a "IMAGE" list
       And the "IMAGE" list should contain 100 items

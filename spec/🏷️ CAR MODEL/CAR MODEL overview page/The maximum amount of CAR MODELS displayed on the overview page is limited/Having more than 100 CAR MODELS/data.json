@@ -2,7 +2,7 @@
   "id": "MCF-146",
   "parent_id": "MCF-140",
   "title": "Having more than 100 CAR MODELS",
-  "gherkin": "Given there are 105 \"CAR MODEL\"s\nWhen the user visits the \"CAR MODEL\" overview page\nThen the page should contain a section with a \"CAR MODEL\" list\nAnd the \"CAR MODEL\" list should contain 100 items",
+  "gherkin": "Given there are 105 \"CAR MODEL\"s\nWhen the user visits the \"CAR MODEL\" overview page\nThen the overview page should contain a section with a \"CAR MODEL\" list\nAnd the \"CAR MODEL\" list should contain 100 items",
   "labels": [
     "implemented"
   ],

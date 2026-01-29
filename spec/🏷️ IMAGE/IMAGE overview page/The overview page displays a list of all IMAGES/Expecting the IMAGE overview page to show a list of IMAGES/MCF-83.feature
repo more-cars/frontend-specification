@@ -11,4 +11,4 @@ Feature: IMAGE overview page
     @TEST_MCF-83 @implemented
     Scenario: Expecting the IMAGE overview page to show a list of IMAGES
       When the user visits the "IMAGE" overview page
-      Then the page should contain a section with a "IMAGE" list
+      Then the overview page should contain a section with a "IMAGE" list

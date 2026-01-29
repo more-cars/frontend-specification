@@ -11,4 +11,4 @@ Feature: COMPANY overview page
     @TEST_MCF-179 @implemented
     Scenario: Expecting the COMPANY overview page to show a list of COMPANIES
       When the user visits the "COMPANY" overview page
-      Then the page should contain a section with a "COMPANY" list
+      Then the overview page should contain a section with a "COMPANY" list

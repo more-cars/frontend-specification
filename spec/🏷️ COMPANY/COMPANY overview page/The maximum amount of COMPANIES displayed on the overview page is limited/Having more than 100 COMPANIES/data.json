@@ -2,7 +2,7 @@
   "id": "MCF-183",
   "parent_id": "MCF-182",
   "title": "Having more than 100 COMPANIES",
-  "gherkin": "Given there are 105 \"COMPANY\"s\nWhen the user visits the \"COMPANY\" overview page\nThen the page should contain a section with a \"COMPANY\" list\nAnd the \"COMPANY\" list should contain 100 items",
+  "gherkin": "Given there are 105 \"COMPANY\"s\nWhen the user visits the \"COMPANY\" overview page\nThen the overview page should contain a section with a \"COMPANY\" list\nAnd the \"COMPANY\" list should contain 100 items",
   "labels": [
     "implemented"
   ],

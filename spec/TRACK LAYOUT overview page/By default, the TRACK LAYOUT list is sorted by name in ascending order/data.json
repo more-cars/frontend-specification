@@ -1,0 +1,9 @@
+{
+  "id": "MCF-414",
+  "parent_id": "MCF-405",
+  "title": "By default, the TRACK LAYOUT list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all TRACK LAYOUTS in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Track Layout', 'track layout' and 'TRACK LAYOUT' should rank exactly the same.\n",
+  "release_version": "0.6.0",
+  "created_at": "2026-01-28T17:25:28.935+0100",
+  "updated_at": "2026-01-29T11:35:51.228+0100"
+}

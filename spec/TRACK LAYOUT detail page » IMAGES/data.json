@@ -1,0 +1,16 @@
+{
+  "id": "MCF-438",
+  "parent_id": "MCF-15",
+  "title": "TRACK LAYOUT detail page » IMAGES",
+  "user_story": "As a visitor\nI want the TRACK LAYOUT detail page to show all connected IMAGES\nSo I can ...\n",
+  "description": "* The TRACK LAYOUT detail page contains a section with a list of all connected IMAGES.\n* Each IMAGE in the list is presented with its name and primary information.\n* Each IMAGE in the list contains a link to its detail page.\n* Each IMAGE in the list has a thumbnail image.\n* When there is no IMAGE connected to the TRACK LAYOUT then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.6.0"
+  ],
+  "created_at": "2026-01-28T17:58:45.502+0100",
+  "updated_at": "2026-01-29T13:18:09.735+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-429",
+  "parent_id": "MCF-428",
+  "title": "Expecting to see the name of the TRACK LAYOUT in all important locations on the detail page",
+  "gherkin": "When the user visits the detail page of a \"TRACK LAYOUT\"\nThen the page title should contain the \"TRACK LAYOUT\" name\nAnd the main headline should contain the \"TRACK LAYOUT\" name",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-28T17:52:36.061+0100",
+  "updated_at": "2026-01-29T12:04:50.267+0100"
+}

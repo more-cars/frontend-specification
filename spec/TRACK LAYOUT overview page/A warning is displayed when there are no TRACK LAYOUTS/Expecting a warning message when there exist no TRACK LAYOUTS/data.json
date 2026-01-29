@@ -1,0 +1,11 @@
+{
+  "id": "MCF-409",
+  "parent_id": "MCF-408",
+  "title": "Expecting a warning message when there exist no TRACK LAYOUTS",
+  "gherkin": "Given there is no \"TRACK LAYOUT\"\nWhen the user visits the \"TRACK LAYOUT\" overview page\nThen the page should contain no \"TRACK LAYOUT\" section\nAnd the page should contain a message, informing the user that there are no \"TRACK LAYOUT\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-28T17:25:11.335+0100",
+  "updated_at": "2026-01-29T11:34:42.852+0100"
+}

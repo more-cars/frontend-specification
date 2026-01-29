@@ -1,0 +1,16 @@
+{
+  "id": "MCF-434",
+  "parent_id": "MCF-15",
+  "title": "TRACK LAYOUT detail page » Lead IMAGE",
+  "user_story": "As a visitor\nI want the detail page to show a photo of the TRACK LAYOUT\nSo I can instantly see how it looks like\nOr to quickly verify that I am on the correct page\n",
+  "description": "* The detail page contains a section were the lead image of the TRACK LAYOUT is displayed.\n* The image is displayed in a prominent location on the page.\n* The image has a medium size. It is significantly larger than the thumbnail images, but also much smaller than the screen size (in desktop view).\n* This lead image is provided by the API via the 'prime image' relationship.\n* When the TRACK LAYOUT has no 'prime image' then a generic fallback image is displayed instead.\n",
+  "api_path": "/track-layouts/<track-layout-id>",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.6.0"
+  ],
+  "created_at": "2026-01-28T17:54:33.359+0100",
+  "updated_at": "2026-01-29T12:19:40.533+0100"
+}

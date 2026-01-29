@@ -7,7 +7,7 @@ Feature: RACE TRACK detail page » IMAGES
   @RULE_MCF-379
   Rule: The RACE TRACK detail page contains a section with all connected IMAGES
 
-    @TEST_MCF-380
+    @TEST_MCF-380 @implemented
     Scenario: Expecting a IMAGE section to be displayed on the RACE TRACK detail page
       When the user visits the detail page of a "RACE TRACK"
       Then the page should contain a section with a "IMAGE" list

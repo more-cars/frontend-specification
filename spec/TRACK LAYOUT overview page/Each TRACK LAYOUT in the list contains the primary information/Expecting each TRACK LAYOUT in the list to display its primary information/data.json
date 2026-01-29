@@ -1,0 +1,11 @@
+{
+  "id": "MCF-411",
+  "parent_id": "MCF-410",
+  "title": "Expecting each TRACK LAYOUT in the list to display its primary information",
+  "gherkin": "When the user visits the \"TRACK LAYOUT\" overview page\nThen each item in the \"TRACK LAYOUT\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-28T17:25:18.455+0100",
+  "updated_at": "2026-01-29T11:35:02.388+0100"
+}

@@ -3,7 +3,9 @@
   "parent_id": "MCF-381",
   "title": "Expecting to see no IMAGE section when there are no IMAGES connected",
   "gherkin": "Given there is a \"RACE TRACK\" \"Norisring\"\nAnd the \"RACE TRACK\" \"Norisring\" has no relationships\nWhen the user visits the detail page of the \"RACE TRACK\" \"Norisring\"\nThen the page should contain no \"IMAGE\" section",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-01-26T15:07:29.221+0100",
-  "updated_at": "2026-01-26T15:07:32.641+0100"
+  "updated_at": "2026-01-27T18:59:44.232+0100"
 }

@@ -7,7 +7,7 @@ Feature: RACE TRACK detail page » IMAGES
   @RULE_MCF-383
   Rule: Each IMAGE in the list contains a link to its detail page
 
-    @TEST_MCF-384
+    @TEST_MCF-384 @implemented
     Scenario: Expecting each item in the IMAGE list to link to its detail page
       When the user visits the detail page of a "RACE TRACK"
       Then the page should contain a "IMAGE" section

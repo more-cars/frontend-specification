@@ -1,0 +1,11 @@
+{
+  "id": "MCF-419",
+  "parent_id": "MCF-418",
+  "title": "Expecting the pagination bar only to be visible when the TRACK LAYOUT list has more than 100 items",
+  "gherkin": "Given there are 100 \"TRACK LAYOUT\"s\nWhen the user visits the \"TRACK LAYOUT\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"TRACK LAYOUT\"s\nWhen the user visits the \"TRACK LAYOUT\" overview page\nThen the pagination bar should be visible",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-28T17:25:46.893+0100",
+  "updated_at": "2026-01-29T11:36:43.220+0100"
+}

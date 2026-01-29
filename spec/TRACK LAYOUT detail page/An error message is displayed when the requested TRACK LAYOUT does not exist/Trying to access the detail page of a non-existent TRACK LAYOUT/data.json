@@ -1,0 +1,11 @@
+{
+  "id": "MCF-433",
+  "parent_id": "MCF-432",
+  "title": "Trying to access the detail page of a non-existent TRACK LAYOUT",
+  "gherkin": "Given there is no \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nWhen the user visits the detail page of the \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nThen the page should contain a message, informing the user that there is no such \"TRACK LAYOUT\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-28T17:52:48.234+0100",
+  "updated_at": "2026-01-29T12:04:53.891+0100"
+}

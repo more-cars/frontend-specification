@@ -1,0 +1,9 @@
+{
+  "id": "MCF-408",
+  "parent_id": "MCF-405",
+  "title": "A warning is displayed when there are no TRACK LAYOUTS",
+  "description": "The TRACK LAYOUT list is not shown and a info/warning is displayed at a prominent location. It should inform the user that there are either no TRACK LAYOUTS or that there is a temporary problem with loading the TRACK LAYOUTS.\n",
+  "release_version": "0.6.0",
+  "created_at": "2026-01-28T17:25:08.369+0100",
+  "updated_at": "2026-01-29T11:34:48.831+0100"
+}

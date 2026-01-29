@@ -1,0 +1,11 @@
+{
+  "id": "MCF-468",
+  "parent_id": "MCF-467",
+  "title": "Expecting each item in the TRACK LAYOUT list to contain its primary information",
+  "gherkin": "When the user visits the detail page of a \"RACE TRACK\"\nThen the page should contain a \"TRACK LAYOUT\" section\nAnd each item in the \"TRACK LAYOUT\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-29T13:05:24.086+0100",
+  "updated_at": "2026-01-29T14:04:33.657+0100"
+}

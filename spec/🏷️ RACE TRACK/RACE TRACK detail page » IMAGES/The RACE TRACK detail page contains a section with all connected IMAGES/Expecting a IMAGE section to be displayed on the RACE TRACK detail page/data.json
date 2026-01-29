@@ -3,7 +3,9 @@
   "parent_id": "MCF-379",
   "title": "Expecting a IMAGE section to be displayed on the RACE TRACK detail page",
   "gherkin": "When the user visits the detail page of a \"RACE TRACK\"\nThen the page should contain a section with a \"IMAGE\" list",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-01-26T15:07:23.138+0100",
-  "updated_at": "2026-01-26T15:07:26.729+0100"
+  "updated_at": "2026-01-27T18:59:33.082+0100"
 }

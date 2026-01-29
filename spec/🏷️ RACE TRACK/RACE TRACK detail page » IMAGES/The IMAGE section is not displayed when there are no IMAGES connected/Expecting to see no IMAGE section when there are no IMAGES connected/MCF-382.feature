@@ -7,7 +7,7 @@ Feature: RACE TRACK detail page » IMAGES
   @RULE_MCF-381
   Rule: The IMAGE section is not displayed when there are no IMAGES connected
 
-    @TEST_MCF-382
+    @TEST_MCF-382 @implemented
     Scenario: Expecting to see no IMAGE section when there are no IMAGES connected
       Given there is a "RACE TRACK" "Norisring"
       And the "RACE TRACK" "Norisring" has no relationships

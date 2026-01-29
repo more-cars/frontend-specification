@@ -3,7 +3,9 @@
   "parent_id": "MCF-387",
   "title": "Expecting each item in the IMAGE list to contain a thumbnail image",
   "gherkin": "When the user visits the detail page of a \"RACE TRACK\"\nThen the page should contain a \"IMAGE\" section\nThen each item in the \"IMAGE\" list should contain a thumbnail image",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-01-26T15:07:47.983+0100",
-  "updated_at": "2026-01-26T15:07:51.481+0100"
+  "updated_at": "2026-01-27T19:00:08.488+0100"
 }

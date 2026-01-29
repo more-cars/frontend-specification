@@ -1,0 +1,11 @@
+{
+  "id": "MCF-464",
+  "parent_id": "MCF-463",
+  "title": "Expecting to see no TRACK LAYOUT section when there are no TRACK LAYOUTS connected",
+  "gherkin": "Given there is a \"RACE TRACK\" \"Hockenheimring\"\nAnd the \"RACE TRACK\" \"Hockenheimring\" has no relationships\nWhen the user visits the detail page of the \"RACE TRACK\" \"Hockenheimring\"\nThen the page should contain no \"TRACK LAYOUT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-29T13:05:11.137+0100",
+  "updated_at": "2026-01-29T14:04:16.458+0100"
+}

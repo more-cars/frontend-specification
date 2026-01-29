@@ -1,0 +1,16 @@
+{
+  "id": "MCF-500",
+  "parent_id": "MCF-10",
+  "title": "RACING SERIES detail page » Lead IMAGE",
+  "user_story": "As a visitor\nI want the detail page to show a photo of the RACING SERIES\nSo I can instantly see how it looks like\nOr to quickly verify that I am on the correct page\n",
+  "description": "* The detail page contains a section were the lead image of the RACING SERIES is displayed.\n* The image is displayed in a prominent location on the page.\n* The image has a medium size. It is significantly larger than the thumbnail images, but also much smaller than the screen size (in desktop view).\n* This lead image is provided by the API via the 'prime image' relationship.\n* When the RACING SERIES has no 'prime image' then a generic fallback image is displayed instead.\n",
+  "api_path": "/racing-series/<racing-series-id>",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.6.0"
+  ],
+  "created_at": "2026-01-29T18:58:27.164+0100",
+  "updated_at": "2026-01-29T19:38:24.439+0100"
+}

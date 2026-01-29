@@ -1,0 +1,9 @@
+{
+  "id": "MCF-494",
+  "parent_id": "MCF-493",
+  "title": "The name of the RACING SERIES is exposed in all relevant locations",
+  "description": "The main headline and the page title contain the name of the RACING SERIES. But the name does not occupy those locations exclusively. There might be other features that inject their information as a suffix or prefix.\n",
+  "release_version": "0.6.0",
+  "created_at": "2026-01-29T18:56:28.013+0100",
+  "updated_at": "2026-01-29T19:39:17.037+0100"
+}

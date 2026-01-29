@@ -1,0 +1,11 @@
+{
+  "id": "MCF-499",
+  "parent_id": "MCF-498",
+  "title": "Trying to access the detail page of a non-existent RACING SERIES",
+  "gherkin": "Given there is no \"RACING SERIES\" \"Formula 1\"\nWhen the user visits the detail page of the \"RACING SERIES\" \"Formula 1\"\nThen the page should contain a message, informing the user that there is no such \"RACING SERIES\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-29T18:56:43.517+0100",
+  "updated_at": "2026-01-29T19:41:20.928+0100"
+}

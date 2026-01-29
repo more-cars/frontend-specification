@@ -1,0 +1,9 @@
+{
+  "id": "MCF-480",
+  "parent_id": "MCF-471",
+  "title": "By default, the RACING SERIES list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all RACING SERIES in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Racing Series', 'racing series' and 'RACING SERIES' should rank exactly the same.\n",
+  "release_version": "0.6.0",
+  "created_at": "2026-01-29T18:52:27.287+0100",
+  "updated_at": "2026-01-29T19:39:18.532+0100"
+}

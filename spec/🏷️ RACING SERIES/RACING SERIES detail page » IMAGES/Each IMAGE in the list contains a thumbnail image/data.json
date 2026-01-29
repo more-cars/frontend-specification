@@ -1,0 +1,9 @@
+{
+  "id": "MCF-513",
+  "parent_id": "MCF-504",
+  "title": "Each IMAGE in the list contains a thumbnail image",
+  "description": "The thumbnail shows the lead image of the resp. IMAGE. When it has no lead image then a generic fallback image is displayed. The image is loaded in a small resolution to keep the loading times short.\n",
+  "release_version": "0.6.0",
+  "created_at": "2026-01-29T19:00:51.908+0100",
+  "updated_at": "2026-01-29T19:39:13.558+0100"
+}

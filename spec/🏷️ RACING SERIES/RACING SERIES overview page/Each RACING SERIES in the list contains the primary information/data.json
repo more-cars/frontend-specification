@@ -1,0 +1,9 @@
+{
+  "id": "MCF-476",
+  "parent_id": "MCF-471",
+  "title": "Each RACING SERIES in the list contains the primary information",
+  "description": "Each RACING SERIES has a bunch of properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in the RACING SERIES list. The corresponding epic MCF-10 contains a list to find out which properties are 'primary'.\n",
+  "release_version": "0.6.0",
+  "created_at": "2026-01-29T18:52:14.623+0100",
+  "updated_at": "2026-01-29T19:39:19.250+0100"
+}

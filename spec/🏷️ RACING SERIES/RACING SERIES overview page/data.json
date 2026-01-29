@@ -1,0 +1,16 @@
+{
+  "id": "MCF-471",
+  "parent_id": "MCF-10",
+  "title": "RACING SERIES overview page",
+  "user_story": "As a visitor\nI want to see a list of all RACING SERIES\nSo I can get a general idea of the different types that exist\nAnd by scrolling through them find interesting ones\n",
+  "description": "* There is a dedicated page (with a dedicated URL) where all RACING SERIES are presented.\n* A warning message is shown when there are no RACING SERIES.\n* The overview page always returns with status code \\`200\\`, no matter if any RACING SERIES exists or not.\n* By default, the RACING SERIES are sorted \\`ascending\\` by their \\`name\\`.\n* The sorting is always case-insensitive.\n* Each RACING SERIES is presented with its primary information and a link to its detail page.\n* The overview displays at most 100 RACING SERIES at once.\n* When there are more than 100 RACING SERIES then the \\`pagination\\` feature is activated.\n* Pagination allows the user to scroll through all RACING SERIES - 100 items at a time.\n* The user is able to bookmark and revisit any paginated RACING SERIES page.\n",
+  "api_path": "/racing-series",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.6.0"
+  ],
+  "created_at": "2026-01-29T18:51:59.008+0100",
+  "updated_at": "2026-01-29T19:38:25.853+0100"
+}

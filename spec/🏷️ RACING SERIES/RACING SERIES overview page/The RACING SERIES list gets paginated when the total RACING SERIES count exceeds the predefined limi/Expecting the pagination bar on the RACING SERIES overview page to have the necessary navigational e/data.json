@@ -1,0 +1,11 @@
+{
+  "id": "MCF-486",
+  "parent_id": "MCF-484",
+  "title": "Expecting the pagination bar on the RACING SERIES overview page to have the necessary navigational elements",
+  "gherkin": "Given there are 205 \"RACING SERIES\"s\nWhen the user visits page 2 of the \"RACING SERIES\" overview page\nThen the pagination bar should contain a link to the previous page\nAnd the pagination bar should contain a link to the next page\nAnd the pagination bar should indicate that the user is currently on page 2",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-29T18:52:48.338+0100",
+  "updated_at": "2026-01-29T19:41:23.826+0100"
+}

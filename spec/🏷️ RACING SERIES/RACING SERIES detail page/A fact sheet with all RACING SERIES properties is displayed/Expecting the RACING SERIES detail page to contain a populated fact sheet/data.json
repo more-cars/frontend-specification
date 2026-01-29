@@ -1,0 +1,11 @@
+{
+  "id": "MCF-497",
+  "parent_id": "MCF-496",
+  "title": "Expecting the RACING SERIES detail page to contain a populated fact sheet",
+  "gherkin": "When the user visits the detail page of a \"RACING SERIES\"\nThen the page should display a fact sheet\nAnd the fact sheet should display an entry for each of the following properties\n  | _property_       |\n  | name |\n  | short_name |\n  | founded |\n  | defunct |\n  | organized_by |\n  | vehicle_type |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-29T18:56:37.704+0100",
+  "updated_at": "2026-01-29T19:41:21.180+0100"
+}

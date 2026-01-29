@@ -1,0 +1,11 @@
+{
+  "id": "MCF-473",
+  "parent_id": "MCF-472",
+  "title": "Expecting the RACING SERIES overview page to show a list of RACING SERIES",
+  "gherkin": "When the user visits the \"RACING SERIES\" overview page\nThen the overview page should contain a \"RACING SERIES\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-29T18:52:05.058+0100",
+  "updated_at": "2026-01-29T19:42:14.994+0100"
+}

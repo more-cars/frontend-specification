@@ -1,0 +1,11 @@
+{
+  "id": "MCF-508",
+  "parent_id": "MCF-507",
+  "title": "Expecting to see no IMAGE section when there are no IMAGES connected",
+  "gherkin": "Given there is a \"RACING SERIES\" \"Formula 1\"\nAnd the \"RACING SERIES\" \"Formula 1\" has no relationships\nWhen the user visits the detail page of the \"RACING SERIES\" \"Formula 1\"\nThen the page should contain no \"IMAGE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-29T19:00:35.245+0100",
+  "updated_at": "2026-01-29T19:41:19.435+0100"
+}

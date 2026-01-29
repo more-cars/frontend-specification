@@ -1,0 +1,9 @@
+{
+  "id": "MCF-474",
+  "parent_id": "MCF-471",
+  "title": "A warning is displayed when there are no RACING SERIES",
+  "description": "The RACING SERIES list is not shown and a info/warning is displayed at a prominent location. It should inform the user that there are either no RACING SERIES or that there is a temporary problem with loading the RACING SERIES.\n",
+  "release_version": "0.6.0",
+  "created_at": "2026-01-29T18:52:08.462+0100",
+  "updated_at": "2026-01-29T19:39:19.622+0100"
+}

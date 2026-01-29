@@ -1,0 +1,11 @@
+{
+  "id": "MCF-483",
+  "parent_id": "MCF-482",
+  "title": "Having more than 100 RACING SERIES",
+  "gherkin": "Given there are 105 \"RACING SERIES\"s\nWhen the user visits the \"RACING SERIES\" overview page\nThen the overview page should contain a \"RACING SERIES\" section\nAnd the \"RACING SERIES\" list should contain 100 items",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-29T18:52:35.842+0100",
+  "updated_at": "2026-01-29T19:41:24.313+0100"
+}

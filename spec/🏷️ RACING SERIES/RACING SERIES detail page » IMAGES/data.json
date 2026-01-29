@@ -1,0 +1,16 @@
+{
+  "id": "MCF-504",
+  "parent_id": "MCF-10",
+  "title": "RACING SERIES detail page » IMAGES",
+  "user_story": "As a visitor\nI want the RACING SERIES detail page to show all connected IMAGES\nSo I can ...\n",
+  "description": "* The RACING SERIES detail page contains a section with a list of all connected IMAGES.\n* Each IMAGE in the list is presented with its name and primary information.\n* Each IMAGE in the list contains a link to its detail page.\n* Each IMAGE in the list has a thumbnail image.\n* When there is no IMAGE connected to the RACING SERIES then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.6.0"
+  ],
+  "created_at": "2026-01-29T19:00:22.777+0100",
+  "updated_at": "2026-01-29T19:38:23.741+0100"
+}

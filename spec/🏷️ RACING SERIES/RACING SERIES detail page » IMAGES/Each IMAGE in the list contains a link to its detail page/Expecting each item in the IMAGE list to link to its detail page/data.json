@@ -1,0 +1,11 @@
+{
+  "id": "MCF-510",
+  "parent_id": "MCF-509",
+  "title": "Expecting each item in the IMAGE list to link to its detail page",
+  "gherkin": "When the user visits the detail page of a \"RACING SERIES\"\nThen the page should contain a \"IMAGE\" section\nAnd each item in the \"IMAGE\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-29T19:00:41.761+0100",
+  "updated_at": "2026-01-29T19:42:15.064+0100"
+}

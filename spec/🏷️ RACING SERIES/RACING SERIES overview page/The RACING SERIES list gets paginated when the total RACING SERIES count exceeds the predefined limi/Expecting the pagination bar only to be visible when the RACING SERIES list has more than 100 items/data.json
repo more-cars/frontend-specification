@@ -1,0 +1,11 @@
+{
+  "id": "MCF-485",
+  "parent_id": "MCF-484",
+  "title": "Expecting the pagination bar only to be visible when the RACING SERIES list has more than 100 items",
+  "gherkin": "Given there are 100 \"RACING SERIES\"s\nWhen the user visits the \"RACING SERIES\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"RACING SERIES\"s\nWhen the user visits the \"RACING SERIES\" overview page\nThen the pagination bar should be visible",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-29T18:52:41.941+0100",
+  "updated_at": "2026-01-29T19:41:24.013+0100"
+}

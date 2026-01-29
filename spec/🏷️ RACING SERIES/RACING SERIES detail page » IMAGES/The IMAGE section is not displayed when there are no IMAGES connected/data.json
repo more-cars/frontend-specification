@@ -1,0 +1,9 @@
+{
+  "id": "MCF-507",
+  "parent_id": "MCF-504",
+  "title": "The IMAGE section is not displayed when there are no IMAGES connected",
+  "description": "There should be no section, no headline and no placeholder when the RACING SERIES has no IMAGES.\n",
+  "release_version": "0.6.0",
+  "created_at": "2026-01-29T19:00:32.233+0100",
+  "updated_at": "2026-01-29T19:39:15.066+0100"
+}

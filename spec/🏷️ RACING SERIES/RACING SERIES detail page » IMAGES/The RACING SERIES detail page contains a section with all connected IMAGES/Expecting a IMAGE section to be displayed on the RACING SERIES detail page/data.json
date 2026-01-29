@@ -1,0 +1,11 @@
+{
+  "id": "MCF-506",
+  "parent_id": "MCF-505",
+  "title": "Expecting a IMAGE section to be displayed on the RACING SERIES detail page",
+  "gherkin": "When the user visits the detail page of a \"RACING SERIES\"\nThen the page should contain a section with a \"IMAGE\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-29T19:00:28.442+0100",
+  "updated_at": "2026-01-29T19:41:19.907+0100"
+}

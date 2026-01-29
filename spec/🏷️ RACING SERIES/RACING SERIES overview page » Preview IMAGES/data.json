@@ -1,0 +1,16 @@
+{
+  "id": "MCF-490",
+  "parent_id": "MCF-10",
+  "title": "RACING SERIES overview page » Preview IMAGES",
+  "user_story": "As a visitor\nI want to see a preview image for each RACING SERIES on the overview page\nSo I can quickly find a specific one without knowing its name\n",
+  "description": "* each RACING SERIES item on the RACING SERIES overview page contains a preview image\n* the 'preview image' refers to what is known as 'prime image' in the API\n* the preview image is displayed in thumbnail size\n* when a RACING SERIES has no prime image then the preview image shows the default fallback image\n",
+  "api_path": "/racing-series",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.6.0"
+  ],
+  "created_at": "2026-01-29T18:54:49.910+0100",
+  "updated_at": "2026-01-29T19:38:25.344+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-515",
+  "parent_id": "MCF-345",
+  "title": "Expecting to see a section for each node type on the start page",
+  "gherkin": "When the user visits the start page\nThen the page should contain a section for each of the following node types\n  | _node_type_   |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | IMAGE         |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T09:59:32.836+0100",
+  "updated_at": "2026-01-30T18:18:27.285+0100"
+}

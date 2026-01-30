@@ -1,0 +1,11 @@
+{
+  "id": "MCF-517",
+  "parent_id": "MCF-347",
+  "title": "Expecting each node type section on the start page to contain a link to the overview page",
+  "gherkin": "When the user visits the start page\nThen each node type section should contain a link to the overview page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T09:59:48.001+0100",
+  "updated_at": "2026-01-30T18:33:45.355+0100"
+}

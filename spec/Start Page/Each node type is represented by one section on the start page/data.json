@@ -1,0 +1,9 @@
+{
+  "id": "MCF-345",
+  "parent_id": "MCF-192",
+  "title": "Each node type is represented by one section on the start page",
+  "description": "* the design language should be similar to the node items, but also distinct (to be able to easily tell them apart)\n* the actual content is specified in <https://dennis-gerike.atlassian.net/browse/MCF-346>&#x20;\n",
+  "release_version": "0.6.0",
+  "created_at": "2026-01-26T13:19:12.634+0100",
+  "updated_at": "2026-01-30T17:13:57.553+0100"
+}

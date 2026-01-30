@@ -1,0 +1,9 @@
+{
+  "id": "MCF-346",
+  "parent_id": "MCF-192",
+  "title": "Each node type section contains basic information about the node type",
+  "description": "* headline with the node type’s name\n* short description\n* an emoji representing the node type (see MC 1.0)\n* a link to the resp. overview page (already covered by <https://dennis-gerike.atlassian.net/browse/MCF-347>)\n",
+  "release_version": "0.6.0",
+  "created_at": "2026-01-26T13:20:29.000+0100",
+  "updated_at": "2026-01-30T17:13:59.172+0100"
+}

@@ -9,7 +9,7 @@
     "node": ">=24"
   },
   "dependencies": {
-    "axios": "1.13.2",
+    "axios": "1.13.4",
     "filenamify": "7.0.1",
     "gherkin-ast": "3.4.2",
     "gherkin-formatter": "1.2.2",
@@ -20,7 +20,7 @@
     "typescript": "5.9.3"
   },
   "devDependencies": {
-    "vitest": "3.2.4"
+    "vitest": "4.0.18"
   },
   "scripts": {
     "start": "node --env-file=.env -r ts-node/register download-specification.ts",

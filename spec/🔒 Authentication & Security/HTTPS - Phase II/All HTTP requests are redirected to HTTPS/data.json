@@ -2,8 +2,8 @@
   "id": "MCF-163",
   "parent_id": "MCF-129",
   "title": "All HTTP requests are redirected to HTTPS",
-  "description": "",
-  "release_version": null,
+  "description": "* in scope are the requests from end users, not internal requests\n",
+  "release_version": "0.7.0",
   "created_at": "2025-11-07T11:59:18.577+0100",
-  "updated_at": "2025-11-07T12:37:48.350+0100"
+  "updated_at": "2026-02-02T16:27:37.748+0100"
 }

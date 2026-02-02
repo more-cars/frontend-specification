@@ -2,8 +2,8 @@
   "id": "MCF-164",
   "parent_id": "MCF-129",
   "title": "All public environments have a valid certificate",
-  "description": "* all environments (testing, prod, …)\n* all services that are publicly accessible (frontend)\n",
-  "release_version": null,
+  "description": "* all environments in GKE (testing, prod)\n* all services that are publicly accessible (frontend, api, swagger, db)\n",
+  "release_version": "0.7.0",
   "created_at": "2025-11-07T12:24:48.639+0100",
-  "updated_at": "2025-11-07T12:39:07.544+0100"
+  "updated_at": "2026-02-02T16:26:10.783+0100"
 }

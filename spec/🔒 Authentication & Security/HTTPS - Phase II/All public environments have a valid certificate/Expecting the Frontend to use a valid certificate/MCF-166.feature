@@ -8,7 +8,7 @@ Feature: HTTPS - Phase II
   @RULE_MCF-164
   Rule: All public environments have a valid certificate
 
-    @TEST_MCF-166
+    @TEST_MCF-166 @manual_test
     Scenario: Expecting the Frontend to use a valid certificate
       When the user visits the "BRAND" overview page
       Then the response should contain a valid certificate

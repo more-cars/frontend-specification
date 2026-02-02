@@ -8,7 +8,7 @@ Feature: HTTPS - Phase II
   @RULE_MCF-163
   Rule: All HTTP requests are redirected to HTTPS
 
-    @TEST_MCF-165
+    @TEST_MCF-165 @manual_test
     Scenario: Requesting a page via HTTP
       When the user visits the "BRAND" overview page via "HTTP"
       Then the request should be redirected to "HTTPS"

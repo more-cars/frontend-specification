@@ -1,8 +1,8 @@
 @REQ_MCF-438
 Feature: TRACK LAYOUT detail page » IMAGES
-  As a visitor
-  I want the TRACK LAYOUT detail page to show all connected IMAGES
-  So I can ...
+  As a visitor\
+  I want to have an image gallery for each TRACK LAYOUT\
+  So I can see how a specific layout looks like, be it as a 2D circuit map or an annotated satellite image
 
   @RULE_MCF-441
   Rule: The IMAGE section is not displayed when there are no IMAGES connected

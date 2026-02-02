@@ -2,7 +2,7 @@
   "id": "MCF-449",
   "parent_id": "MCF-15",
   "title": "TRACK LAYOUT detail page » RACE TRACK",
-  "user_story": "As a visitor\nI want the TRACK LAYOUT detail page to show the connected RACE TRACK\nSo I can ...\n",
+  "user_story": "As a visitor\\\nI want the TRACK LAYOUT detail page to show the connected RACE TRACK\\\nSo I can quickly navigate to the other layouts that might exist for the RACE TRACK\n",
   "description": "* The TRACK LAYOUT detail page is extended to contain a section for the connected RACE TRACK.\n* The RACE TRACK is presented with its name and primary information.\n* The RACE TRACK contains a link to its detail page.\n* The RACE TRACK has a thumbnail image.\n* When there is no RACE TRACK connected to the TRACK LAYOUT then the section is not displayed at all.\n",
   "api_path": null,
   "response_options": [
@@ -12,5 +12,5 @@
     "0.6.0"
   ],
   "created_at": "2026-01-28T18:02:40.552+0100",
-  "updated_at": "2026-01-29T13:49:42.398+0100"
+  "updated_at": "2026-01-31T13:39:11.288+0100"
 }

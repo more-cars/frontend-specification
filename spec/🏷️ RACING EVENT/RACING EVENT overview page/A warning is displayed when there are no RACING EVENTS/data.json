@@ -1,0 +1,9 @@
+{
+  "id": "MCF-521",
+  "parent_id": "MCF-518",
+  "title": "A warning is displayed when there are no RACING EVENTS",
+  "description": "The RACING EVENT list is not shown and a info/warning is displayed at a prominent location. It should inform the user that there are either no RACING EVENTS or that there is a temporary problem with loading the RACING EVENTS.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-01-30T20:28:12.705+0100",
+  "updated_at": "2026-02-02T10:07:49.900+0100"
+}

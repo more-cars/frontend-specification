@@ -1,0 +1,11 @@
+{
+  "id": "MCF-534",
+  "parent_id": "MCF-531",
+  "title": "Expecting the paginated RACING EVENT overview page to behave identically no matter if visited via the UI or a bookmark",
+  "gherkin": "Given there are 105 \"RACING EVENT\"s\nWhen the user visits page 2 of the \"RACING EVENT\" overview page via UI\nThen the \"RACING EVENT\" list should contain 5 items\nAnd the pagination bar should indicate that the user is currently on page 2\nWhen the user visits page 2 of the \"RACING EVENT\" overview page via URL\nThen the \"RACING EVENT\" list should contain 5 items\nAnd the pagination bar should indicate that the user is currently on page 2",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:28:57.841+0100",
+  "updated_at": "2026-02-02T13:17:35.759+0100"
+}

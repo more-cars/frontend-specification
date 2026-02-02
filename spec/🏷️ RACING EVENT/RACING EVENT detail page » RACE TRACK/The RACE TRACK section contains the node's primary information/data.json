@@ -1,0 +1,9 @@
+{
+  "id": "MCF-602",
+  "parent_id": "MCF-595",
+  "title": "The RACE TRACK section contains the node's primary information",
+  "description": "Each RACE TRACK has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the RACE TRACK epic (MCF-14).\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-01-30T20:39:06.952+0100",
+  "updated_at": "2026-02-02T12:42:19.113+0100"
+}

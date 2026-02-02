@@ -1,0 +1,11 @@
+{
+  "id": "MCF-581",
+  "parent_id": "MCF-580",
+  "title": "Expecting the RACING EVENT section to contain the node's primary information",
+  "gherkin": "When the user visits the detail page of a \"RACING EVENT\"\nThen the page should contain a \"RACING EVENT\" section\nAnd the \"RACING EVENT\" section should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:36:33.021+0100",
+  "updated_at": "2026-02-02T13:17:26.304+0100"
+}

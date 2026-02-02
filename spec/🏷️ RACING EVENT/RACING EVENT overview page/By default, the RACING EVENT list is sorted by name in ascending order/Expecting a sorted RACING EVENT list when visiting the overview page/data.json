@@ -1,0 +1,11 @@
+{
+  "id": "MCF-528",
+  "parent_id": "MCF-527",
+  "title": "Expecting a sorted RACING EVENT list when visiting the overview page",
+  "gherkin": "When the user visits the \"RACING EVENT\" overview page\nThen the \"RACING EVENT\" list should be sorted by \"name\" in \"ascending\" order",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:28:34.273+0100",
+  "updated_at": "2026-02-02T13:17:37.366+0100"
+}

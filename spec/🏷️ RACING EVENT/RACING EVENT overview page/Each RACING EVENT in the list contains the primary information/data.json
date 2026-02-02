@@ -1,0 +1,9 @@
+{
+  "id": "MCF-523",
+  "parent_id": "MCF-518",
+  "title": "Each RACING EVENT in the list contains the primary information",
+  "description": "Each RACING EVENT has a bunch of properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in the RACING EVENT list. The corresponding epic MCF-11 contains a list to find out which properties are 'primary'.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-01-30T20:28:18.978+0100",
+  "updated_at": "2026-02-02T10:08:06.324+0100"
+}

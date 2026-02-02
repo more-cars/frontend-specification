@@ -1,8 +1,8 @@
 @REQ_MCF-460
 Feature: RACE TRACK detail page » TRACK LAYOUTS
-  As a visitor
-  I want the RACE TRACK detail page to show all connected TRACK LAYOUTS
-  So I can ...
+  As a visitor\
+  I want to see all TRACK LAYOUTS that exist or existed for a RACE TRACK\
+  So I can find out how the track evolved over time
 
   @RULE_MCF-469
   Rule: Each TRACK LAYOUT in the list contains a thumbnail image

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-542",
+  "parent_id": "MCF-541",
+  "title": "Expecting to see the name of the RACING EVENT in all important locations on the detail page",
+  "gherkin": "When the user visits the detail page of a \"RACING EVENT\"\nThen the page title should contain the \"RACING EVENT\" name\nAnd the main headline should contain the \"RACING EVENT\" name",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:31:19.376+0100",
+  "updated_at": "2026-02-02T13:17:34.004+0100"
+}

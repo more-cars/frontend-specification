@@ -1,0 +1,9 @@
+{
+  "id": "MCF-527",
+  "parent_id": "MCF-518",
+  "title": "By default, the RACING EVENT list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all RACING EVENTS in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Racing Event', 'racing event' and 'RACING EVENT' should rank exactly the same.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-01-30T20:28:31.474+0100",
+  "updated_at": "2026-02-02T10:08:26.012+0100"
+}

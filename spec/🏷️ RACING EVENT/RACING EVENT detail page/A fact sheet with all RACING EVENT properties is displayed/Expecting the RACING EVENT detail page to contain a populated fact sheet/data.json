@@ -1,0 +1,11 @@
+{
+  "id": "MCF-544",
+  "parent_id": "MCF-543",
+  "title": "Expecting the RACING EVENT detail page to contain a populated fact sheet",
+  "gherkin": "When the user visits the detail page of a \"RACING EVENT\"\nThen the page should display a fact sheet\nAnd the fact sheet should display an entry for each of the following properties\n  | _property_       |\n  | name |\n  | round |\n  | date_from |\n  | date_to |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:31:25.533+0100",
+  "updated_at": "2026-02-02T13:17:33.657+0100"
+}

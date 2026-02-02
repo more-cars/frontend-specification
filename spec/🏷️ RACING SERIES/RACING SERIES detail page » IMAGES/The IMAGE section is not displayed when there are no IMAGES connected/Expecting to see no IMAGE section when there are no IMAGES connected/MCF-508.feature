@@ -1,8 +1,8 @@
 @REQ_MCF-504
 Feature: RACING SERIES detail page » IMAGES
-  As a visitor
-  I want the RACING SERIES detail page to show all connected IMAGES
-  So I can ...
+  As a visitor\
+  I want to see an image gallery for each RACING SERIES\
+  So I can get a quick impression about the type of cars that are driven there
 
   @RULE_MCF-507
   Rule: The IMAGE section is not displayed when there are no IMAGES connected

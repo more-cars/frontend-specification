@@ -1,0 +1,9 @@
+{
+  "id": "MCF-598",
+  "parent_id": "MCF-595",
+  "title": "The RACE TRACK section is not displayed when there is no RACE TRACK connected",
+  "description": "There should be no section, no headline and no placeholder when the RACING EVENT has no RACE TRACK.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-01-30T20:38:54.889+0100",
+  "updated_at": "2026-02-02T12:41:52.526+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-604",
+  "parent_id": "MCF-595",
+  "title": "The RACE TRACK section contains a thumbnail image of the node",
+  "description": "The thumbnail shows the lead image of the resp. RACE TRACK. When it has no lead image then a generic fallback image is displayed. The image is loaded in a small resolution to keep the loading times short.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-01-30T20:39:13.151+0100",
+  "updated_at": "2026-02-02T12:42:34.034+0100"
+}

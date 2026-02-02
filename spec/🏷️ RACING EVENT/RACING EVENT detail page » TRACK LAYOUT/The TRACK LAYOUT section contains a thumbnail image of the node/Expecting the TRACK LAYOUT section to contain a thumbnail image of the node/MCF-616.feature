@@ -1,0 +1,14 @@
+@REQ_MCF-606
+Feature: RACING EVENT detail page » TRACK LAYOUT
+  As a visitor\
+  I want to know on which exact TRACK LAYOUT a RACING EVENT took place\
+  So I can find out if the lap times from previous years are comparable
+
+  @RULE_MCF-615
+  Rule: The TRACK LAYOUT section contains a thumbnail image of the node
+
+    @TEST_MCF-616 @implemented
+    Scenario: Expecting the TRACK LAYOUT section to contain a thumbnail image of the node
+      When the user visits the detail page of a "RACING EVENT"
+      Then the page should contain a "TRACK LAYOUT" section
+      Then the "TRACK LAYOUT" section should contain a thumbnail image

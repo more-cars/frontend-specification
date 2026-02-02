@@ -1,0 +1,11 @@
+{
+  "id": "MCF-566",
+  "parent_id": "MCF-565",
+  "title": "Expecting to see no RACING SERIES section when there is no RACING SERIES connected",
+  "gherkin": "Given there is a \"RACING EVENT\" \"GP Monaco\"\nAnd the \"RACING EVENT\" \"GP Monaco\" has no relationships\nWhen the user visits the detail page of the \"RACING EVENT\" \"GP Monaco\"\nThen the page should contain no \"RACING SERIES\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:34:18.951+0100",
+  "updated_at": "2026-02-02T13:17:29.606+0100"
+}

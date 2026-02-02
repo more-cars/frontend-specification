@@ -2,7 +2,7 @@
   "id": "MCF-378",
   "parent_id": "MCF-14",
   "title": "RACE TRACK detail page » IMAGES",
-  "user_story": "As a visitor\nI want the RACE TRACK detail page to show all connected IMAGES\nSo I can ...\n",
+  "user_story": "As a visitor\\\nI want to see an image gallery for each RACE TRACK\\\nSo I can get an impression for its location, layout and architecture\n",
   "description": "* The RACE TRACK detail page contains a section with a list of all connected IMAGES.\n* Each IMAGE in the list is presented with its name and primary information.\n* Each IMAGE in the list contains a link to its detail page.\n* Each IMAGE in the list has a thumbnail image.\n* When there is no IMAGE connected to the RACE TRACK then the section is not displayed at all.\n",
   "api_path": null,
   "response_options": [
@@ -12,5 +12,5 @@
     "0.6.0"
   ],
   "created_at": "2026-01-26T15:07:17.623+0100",
-  "updated_at": "2026-01-27T18:45:05.585+0100"
+  "updated_at": "2026-01-31T13:38:35.599+0100"
 }

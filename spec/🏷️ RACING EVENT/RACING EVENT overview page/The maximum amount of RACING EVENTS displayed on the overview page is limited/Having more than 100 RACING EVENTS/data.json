@@ -1,0 +1,11 @@
+{
+  "id": "MCF-530",
+  "parent_id": "MCF-529",
+  "title": "Having more than 100 RACING EVENTS",
+  "gherkin": "Given there are 105 \"RACING EVENT\"s\nWhen the user visits the \"RACING EVENT\" overview page\nThen the overview page should contain a \"RACING EVENT\" section\nAnd the \"RACING EVENT\" list should contain 100 items",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:28:40.372+0100",
+  "updated_at": "2026-02-02T13:17:37.106+0100"
+}

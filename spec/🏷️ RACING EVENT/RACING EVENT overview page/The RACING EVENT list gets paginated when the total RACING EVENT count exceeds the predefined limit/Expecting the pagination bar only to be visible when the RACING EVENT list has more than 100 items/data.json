@@ -1,0 +1,11 @@
+{
+  "id": "MCF-532",
+  "parent_id": "MCF-531",
+  "title": "Expecting the pagination bar only to be visible when the RACING EVENT list has more than 100 items",
+  "gherkin": "Given there are 100 \"RACING EVENT\"s\nWhen the user visits the \"RACING EVENT\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"RACING EVENT\"s\nWhen the user visits the \"RACING EVENT\" overview page\nThen the pagination bar should be visible",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:28:48.388+0100",
+  "updated_at": "2026-02-02T13:17:36.735+0100"
+}

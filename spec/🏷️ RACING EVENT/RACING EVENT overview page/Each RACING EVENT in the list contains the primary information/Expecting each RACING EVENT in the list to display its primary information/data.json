@@ -1,0 +1,11 @@
+{
+  "id": "MCF-524",
+  "parent_id": "MCF-523",
+  "title": "Expecting each RACING EVENT in the list to display its primary information",
+  "gherkin": "When the user visits the \"RACING EVENT\" overview page\nThen each item in the \"RACING EVENT\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:28:21.669+0100",
+  "updated_at": "2026-02-02T13:17:38.362+0100"
+}

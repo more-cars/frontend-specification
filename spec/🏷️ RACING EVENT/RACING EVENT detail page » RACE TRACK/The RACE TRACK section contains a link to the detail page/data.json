@@ -1,0 +1,9 @@
+{
+  "id": "MCF-600",
+  "parent_id": "MCF-595",
+  "title": "The RACE TRACK section contains a link to the detail page",
+  "description": "Only the title of the RACE TRACK should link to the detail page, not the whole section. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-01-30T20:39:00.794+0100",
+  "updated_at": "2026-02-02T12:41:59.684+0100"
+}

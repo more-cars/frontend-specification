@@ -1,8 +1,8 @@
 @REQ_MCF-449
 Feature: TRACK LAYOUT detail page » RACE TRACK
-  As a visitor
-  I want the TRACK LAYOUT detail page to show the connected RACE TRACK
-  So I can ...
+  As a visitor\
+  I want the TRACK LAYOUT detail page to show the connected RACE TRACK\
+  So I can quickly navigate to the other layouts that might exist for the RACE TRACK
 
   @RULE_MCF-450
   Rule: The TRACK LAYOUT detail page contains a section for the connected RACE TRACK

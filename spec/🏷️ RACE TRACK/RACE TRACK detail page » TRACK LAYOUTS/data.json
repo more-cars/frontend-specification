@@ -2,7 +2,7 @@
   "id": "MCF-460",
   "parent_id": "MCF-14",
   "title": "RACE TRACK detail page » TRACK LAYOUTS",
-  "user_story": "As a visitor\nI want the RACE TRACK detail page to show all connected TRACK LAYOUTS\nSo I can ...\n",
+  "user_story": "As a visitor\\\nI want to see all TRACK LAYOUTS that exist or existed for a RACE TRACK\\\nSo I can find out how the track evolved over time\n",
   "description": "* The RACE TRACK detail page contains a section with a list of all connected TRACK LAYOUTS.\n* Each TRACK LAYOUT in the list is presented with its name and primary information.\n* Each TRACK LAYOUT in the list contains a link to its detail page.\n* Each TRACK LAYOUT in the list has a thumbnail image.\n* When there is no TRACK LAYOUT connected to the RACE TRACK then the section is not displayed at all.\n",
   "api_path": null,
   "response_options": [
@@ -12,5 +12,5 @@
     "0.6.0"
   ],
   "created_at": "2026-01-29T13:04:57.453+0100",
-  "updated_at": "2026-01-29T14:03:32.705+0100"
+  "updated_at": "2026-01-31T13:39:15.007+0100"
 }

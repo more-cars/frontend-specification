@@ -1,0 +1,11 @@
+{
+  "id": "MCF-586",
+  "parent_id": "MCF-585",
+  "title": "Expecting a RACING EVENT section to be displayed on the RACING EVENT detail page",
+  "gherkin": "When the user visits the detail page of a \"RACING EVENT\"\nThen the page should contain a \"RACING EVENT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:37:42.426+0100",
+  "updated_at": "2026-02-02T13:17:25.374+0100"
+}

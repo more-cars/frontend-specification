@@ -1,0 +1,9 @@
+{
+  "id": "MCF-563",
+  "parent_id": "MCF-562",
+  "title": "The RACING EVENT detail page contains a section for the connected RACING SERIES",
+  "description": "In general, 1:1 relationships are more relevant for the end user than 1:n relationships. Therefore this RACING SERIES section is to be shown before the other relationship sections (e.g. the image gallery).\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-01-30T20:34:09.779+0100",
+  "updated_at": "2026-02-02T11:15:18.281+0100"
+}

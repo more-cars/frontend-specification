@@ -1,0 +1,9 @@
+{
+  "id": "MCF-587",
+  "parent_id": "MCF-584",
+  "title": "The predecessor section is not displayed when there is no predecessor connected",
+  "description": "There should be no section, no headline and no placeholder when the RACING EVENT has no predecessor.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-01-30T20:37:45.748+0100",
+  "updated_at": "2026-02-02T12:31:22.005+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-605",
+  "parent_id": "MCF-604",
+  "title": "Expecting the RACE TRACK section to contain a thumbnail image of the node",
+  "gherkin": "When the user visits the detail page of a \"RACING EVENT\"\nThen the page should contain a \"RACE TRACK\" section\nThen the \"RACE TRACK\" section should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:39:15.766+0100",
+  "updated_at": "2026-02-02T13:17:21.100+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-569",
+  "parent_id": "MCF-562",
+  "title": "The RACING SERIES section contains the node's primary information",
+  "description": "Each RACING SERIES has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the RACING SERIES epic (MCF-10).\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-01-30T20:34:28.667+0100",
+  "updated_at": "2026-02-02T11:15:45.450+0100"
+}

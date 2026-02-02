@@ -1,0 +1,11 @@
+{
+  "id": "MCF-546",
+  "parent_id": "MCF-545",
+  "title": "Trying to access the detail page of a non-existent RACING EVENT",
+  "gherkin": "Given there is no \"RACING EVENT\" \"GP Monaco\"\nWhen the user visits the detail page of the \"RACING EVENT\" \"GP Monaco\"\nThen the page should contain a message, informing the user that there is no such \"RACING EVENT\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:31:32.284+0100",
+  "updated_at": "2026-02-02T13:17:33.138+0100"
+}

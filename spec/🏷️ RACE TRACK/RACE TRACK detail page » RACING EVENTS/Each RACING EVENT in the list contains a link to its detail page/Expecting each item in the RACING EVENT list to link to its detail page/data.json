@@ -1,0 +1,11 @@
+{
+  "id": "MCF-634",
+  "parent_id": "MCF-633",
+  "title": "Expecting each item in the RACING EVENT list to link to its detail page",
+  "gherkin": "When the user visits the detail page of a \"RACE TRACK\"\nThen the page should contain a \"RACING EVENT\" section\nAnd each item in the \"RACING EVENT\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-02T18:24:17.479+0100",
+  "updated_at": "2026-02-02T19:20:02.483+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-649",
+  "parent_id": "MCF-648",
+  "title": "Expecting each item in the RACING EVENT list to contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"TRACK LAYOUT\"\nThen the page should contain a \"RACING EVENT\" section\nThen each item in the \"RACING EVENT\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-02T18:25:45.130+0100",
+  "updated_at": "2026-02-02T19:20:30.185+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-632",
+  "parent_id": "MCF-631",
+  "title": "Expecting to see no RACING EVENT section when there are no RACING EVENTS connected",
+  "gherkin": "Given there is a \"RACE TRACK\" \"Hockenheimring\"\nAnd the \"RACE TRACK\" \"Hockenheimring\" has no relationships\nWhen the user visits the detail page of the \"RACE TRACK\" \"Hockenheimring\"\nThen the page should contain no \"RACING EVENT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-02T18:24:07.477+0100",
+  "updated_at": "2026-02-02T19:20:03.170+0100"
+}

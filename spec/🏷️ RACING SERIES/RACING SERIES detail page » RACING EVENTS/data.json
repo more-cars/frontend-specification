@@ -1,0 +1,16 @@
+{
+  "id": "MCF-617",
+  "parent_id": "MCF-10",
+  "title": "RACING SERIES detail page » RACING EVENTS",
+  "user_story": "As a visitor\\\nI want to see all RACING EVENTS that were part of a specific RACING SERIES\\\nSo I can find out what their favorite locations are\n",
+  "description": "* The RACING SERIES detail page contains a section with a list of all connected RACING EVENTS.\n* Each RACING EVENT in the list is presented with its name and primary information.\n* Each RACING EVENT in the list contains a link to its detail page.\n* Each RACING EVENT in the list has a thumbnail image.\n* When there is no RACING EVENT connected to the RACING SERIES then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.7.0"
+  ],
+  "created_at": "2026-02-02T18:21:53.611+0100",
+  "updated_at": "2026-02-02T19:14:51.451+0100"
+}

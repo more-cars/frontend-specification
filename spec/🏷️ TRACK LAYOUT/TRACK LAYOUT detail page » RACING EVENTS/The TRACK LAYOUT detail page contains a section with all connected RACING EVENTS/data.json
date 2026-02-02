@@ -1,0 +1,9 @@
+{
+  "id": "MCF-640",
+  "parent_id": "MCF-639",
+  "title": "The TRACK LAYOUT detail page contains a section with all connected RACING EVENTS",
+  "description": "The RACING EVENTS are classified as secondary information. Therefore the section has to be positioned after all the primary information (lead image, primary relationship, etc.). It is displayed in list form, analog to list on the overview page.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-02-02T18:25:16.595+0100",
+  "updated_at": "2026-02-02T19:00:09.122+0100"
+}

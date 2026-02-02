@@ -1,0 +1,16 @@
+{
+  "id": "MCF-639",
+  "parent_id": "MCF-15",
+  "title": "TRACK LAYOUT detail page » RACING EVENTS",
+  "user_story": "As a visitor\\\nI want to see all RACING EVENTS that used a specific TRACK LAYOUT\\\nSo I can see how more popular it is compared to other layouts\n",
+  "description": "* The TRACK LAYOUT detail page contains a section with a list of all connected RACING EVENTS.\n* Each RACING EVENT in the list is presented with its name and primary information.\n* Each RACING EVENT in the list contains a link to its detail page.\n* Each RACING EVENT in the list has a thumbnail image.\n* When there is no RACING EVENT connected to the TRACK LAYOUT then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.7.0"
+  ],
+  "created_at": "2026-02-02T18:25:14.030+0100",
+  "updated_at": "2026-02-02T19:00:38.256+0100"
+}

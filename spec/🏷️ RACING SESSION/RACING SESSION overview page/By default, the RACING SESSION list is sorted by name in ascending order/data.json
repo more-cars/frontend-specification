@@ -1,0 +1,9 @@
+{
+  "id": "MCF-659",
+  "parent_id": "MCF-650",
+  "title": "By default, the RACING SESSION list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all RACING SESSIONS in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Racing Session', 'racing session' and 'RACING SESSION' should rank exactly the same.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-02-03T09:42:05.490+0100",
+  "updated_at": "2026-02-03T13:32:07.935+0100"
+}

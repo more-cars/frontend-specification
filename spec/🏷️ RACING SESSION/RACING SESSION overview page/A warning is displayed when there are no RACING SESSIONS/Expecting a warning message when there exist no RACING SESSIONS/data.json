@@ -1,0 +1,11 @@
+{
+  "id": "MCF-654",
+  "parent_id": "MCF-653",
+  "title": "Expecting a warning message when there exist no RACING SESSIONS",
+  "gherkin": "Given there is no \"RACING SESSION\"\nWhen the user visits the \"RACING SESSION\" overview page\nThen the page should contain no \"RACING SESSION\" section\nAnd the page should contain a message, informing the user that there are no \"RACING SESSION\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-03T09:41:48.609+0100",
+  "updated_at": "2026-02-03T17:00:46.462+0100"
+}

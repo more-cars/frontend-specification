@@ -1,0 +1,16 @@
+{
+  "id": "MCF-683",
+  "parent_id": "MCF-12",
+  "title": "RACING SESSION detail page » RACING EVENT",
+  "user_story": "As a visitor\\\nI want to know to which RACING EVENT each RACING SESSION belongs\\\nSo I can find out what other sessions happened in that event\n",
+  "description": "* The RACING SESSION detail page is extended to contain a section for the connected RACING EVENT.\n* The RACING EVENT is presented with its name and primary information.\n* The RACING EVENT contains a link to its detail page.\n* The RACING EVENT has a thumbnail image.\n* When there is no RACING EVENT connected to the RACING SESSION then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.7.0"
+  ],
+  "created_at": "2026-02-03T11:08:01.541+0100",
+  "updated_at": "2026-02-03T15:26:12.700+0100"
+}

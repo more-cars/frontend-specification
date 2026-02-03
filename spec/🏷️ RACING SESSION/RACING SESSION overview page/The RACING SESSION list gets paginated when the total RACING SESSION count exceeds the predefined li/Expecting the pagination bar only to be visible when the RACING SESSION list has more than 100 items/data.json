@@ -1,0 +1,11 @@
+{
+  "id": "MCF-664",
+  "parent_id": "MCF-663",
+  "title": "Expecting the pagination bar only to be visible when the RACING SESSION list has more than 100 items",
+  "gherkin": "Given there are 100 \"RACING SESSION\"s\nWhen the user visits the \"RACING SESSION\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"RACING SESSION\"s\nWhen the user visits the \"RACING SESSION\" overview page\nThen the pagination bar should be visible",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-03T09:42:21.312+0100",
+  "updated_at": "2026-02-03T17:00:44.816+0100"
+}

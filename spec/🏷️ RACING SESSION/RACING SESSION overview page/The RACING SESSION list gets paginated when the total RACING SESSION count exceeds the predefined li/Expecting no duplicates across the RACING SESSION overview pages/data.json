@@ -1,0 +1,11 @@
+{
+  "id": "MCF-667",
+  "parent_id": "MCF-663",
+  "title": "Expecting no duplicates across the RACING SESSION overview pages",
+  "gherkin": "Given there are 105 \"RACING SESSION\"s\nWhen the user visits page 1 of the \"RACING SESSION\" overview page\nThen all \"RACING SESSION\"s in the list should be unique\nWhen the user visits page 2 of the \"RACING SESSION\" overview page\nThen all \"RACING SESSION\"s in the list should be unique",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-03T09:42:38.775+0100",
+  "updated_at": "2026-02-03T17:00:43.108+0100"
+}

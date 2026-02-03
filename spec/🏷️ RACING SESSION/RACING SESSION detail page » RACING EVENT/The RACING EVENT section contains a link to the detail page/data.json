@@ -1,0 +1,9 @@
+{
+  "id": "MCF-688",
+  "parent_id": "MCF-683",
+  "title": "The RACING EVENT section contains a link to the detail page",
+  "description": "Only the title of the RACING EVENT should link to the detail page, not the whole section. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-02-03T11:08:17.692+0100",
+  "updated_at": "2026-02-03T15:25:38.929+0100"
+}

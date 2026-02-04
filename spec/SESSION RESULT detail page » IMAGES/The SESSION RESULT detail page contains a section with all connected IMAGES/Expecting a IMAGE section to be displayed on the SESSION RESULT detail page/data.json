@@ -1,0 +1,11 @@
+{
+  "id": "MCF-762",
+  "parent_id": "MCF-761",
+  "title": "Expecting a IMAGE section to be displayed on the SESSION RESULT detail page",
+  "gherkin": "When the user visits the detail page of a \"SESSION RESULT\"\nThen the page should contain a section with a \"IMAGE\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-04T10:51:08.333+0100",
+  "updated_at": "2026-02-04T15:47:22.578+0100"
+}

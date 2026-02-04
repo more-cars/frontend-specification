@@ -1,0 +1,9 @@
+{
+  "id": "MCF-752",
+  "parent_id": "MCF-749",
+  "title": "The RACING SESSION section is not displayed when there is no RACING SESSION connected",
+  "description": "There should be no section, no headline and no placeholder when the SESSION RESULT has no RACING SESSION.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-02-04T10:28:14.248+0100",
+  "updated_at": "2026-02-04T14:52:16.373+0100"
+}

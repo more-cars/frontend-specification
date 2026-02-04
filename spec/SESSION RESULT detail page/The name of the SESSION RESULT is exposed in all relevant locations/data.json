@@ -1,0 +1,9 @@
+{
+  "id": "MCF-739",
+  "parent_id": "MCF-738",
+  "title": "The name of the SESSION RESULT is exposed in all relevant locations",
+  "description": "The main headline and the page title contain the driver’s name of the SESSION RESULT. But the name does not occupy those locations exclusively. There might be other features that inject their information as a suffix or prefix.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-02-04T09:17:00.051+0100",
+  "updated_at": "2026-02-04T14:27:32.115+0100"
+}

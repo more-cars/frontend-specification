@@ -1,0 +1,11 @@
+{
+  "id": "MCF-764",
+  "parent_id": "MCF-763",
+  "title": "Expecting to see no IMAGE section when there are no IMAGES connected",
+  "gherkin": "Given there is a \"SESSION RESULT\" \"1st place\"\nAnd the \"SESSION RESULT\" \"1st place\" has no relationships\nWhen the user visits the detail page of the \"SESSION RESULT\" \"1st place\"\nThen the page should contain no \"IMAGE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-04T10:51:14.940+0100",
+  "updated_at": "2026-02-04T15:47:22.085+0100"
+}

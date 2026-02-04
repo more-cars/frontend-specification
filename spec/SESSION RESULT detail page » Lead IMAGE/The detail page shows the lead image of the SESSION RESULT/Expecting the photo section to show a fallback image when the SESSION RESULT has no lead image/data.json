@@ -1,0 +1,11 @@
+{
+  "id": "MCF-748",
+  "parent_id": "MCF-746",
+  "title": "Expecting the photo section to show a fallback image when the SESSION RESULT has no lead image",
+  "gherkin": "Given there is a \"SESSION RESULT\" \"1st place\"\nAnd the \"SESSION RESULT\" \"1st place\" has no lead image\nWhen the user visits the detail page of the \"SESSION RESULT\" \"1st place\"\nThen the page should contain a photo section\nAnd the photo section should contain a fallback image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-04T10:08:03.842+0100",
+  "updated_at": "2026-02-04T15:47:24.730+0100"
+}

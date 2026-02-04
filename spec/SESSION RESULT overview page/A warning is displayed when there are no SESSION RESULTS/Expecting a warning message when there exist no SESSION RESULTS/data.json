@@ -1,0 +1,11 @@
+{
+  "id": "MCF-720",
+  "parent_id": "MCF-719",
+  "title": "Expecting a warning message when there exist no SESSION RESULTS",
+  "gherkin": "Given there is no \"SESSION RESULT\"\nWhen the user visits the \"SESSION RESULT\" overview page\nThen the page should contain no \"SESSION RESULT\" section\nAnd the page should contain a message, informing the user that there are no \"SESSION RESULT\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-04T09:12:55.350+0100",
+  "updated_at": "2026-02-04T15:47:30.287+0100"
+}

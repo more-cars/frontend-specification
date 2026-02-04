@@ -1,0 +1,9 @@
+{
+  "id": "MCF-778",
+  "parent_id": "MCF-771",
+  "title": "Each SESSION RESULT in the list contains the primary information",
+  "description": "Each SESSION RESULT has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the SESSION RESULT epic (MCF-13).\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-02-04T15:27:31.906+0100",
+  "updated_at": "2026-02-04T15:43:27.698+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-775",
+  "parent_id": "MCF-774",
+  "title": "Expecting to see no SESSION RESULT section when there are no SESSION RESULTS connected",
+  "gherkin": "Given there is a \"RACING SESSION\" \"Grand Prix\"\nAnd the \"RACING SESSION\" \"Grand Prix\" has no relationships\nWhen the user visits the detail page of the \"RACING SESSION\" \"Grand Prix\"\nThen the page should contain no \"SESSION RESULT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-04T15:27:21.963+0100",
+  "updated_at": "2026-02-04T15:47:19.880+0100"
+}

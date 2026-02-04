@@ -1,0 +1,11 @@
+{
+  "id": "MCF-779",
+  "parent_id": "MCF-778",
+  "title": "Expecting each item in the SESSION RESULT list to contain its primary information",
+  "gherkin": "When the user visits the detail page of a \"RACING SESSION\"\nThen the page should contain a \"SESSION RESULT\" section\nAnd each item in the \"SESSION RESULT\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-04T15:27:34.849+0100",
+  "updated_at": "2026-02-04T15:47:19.344+0100"
+}

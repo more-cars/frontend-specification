@@ -1,0 +1,11 @@
+{
+  "id": "MCF-751",
+  "parent_id": "MCF-750",
+  "title": "Expecting a RACING SESSION section to be displayed on the SESSION RESULT detail page",
+  "gherkin": "When the user visits the detail page of a \"SESSION RESULT\"\nThen the page should contain a \"RACING SESSION\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-04T10:28:10.270+0100",
+  "updated_at": "2026-02-04T15:47:24.455+0100"
+}

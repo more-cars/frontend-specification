@@ -1,0 +1,11 @@
+{
+  "id": "MCF-718",
+  "parent_id": "MCF-717",
+  "title": "Expecting the SESSION RESULT overview page to show a list of SESSION RESULTS",
+  "gherkin": "When the user visits the \"SESSION RESULT\" overview page\nThen the overview page should contain a \"SESSION RESULT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-04T09:12:49.072+0100",
+  "updated_at": "2026-02-04T15:46:57.333+0100"
+}

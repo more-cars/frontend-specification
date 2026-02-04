@@ -1,0 +1,11 @@
+{
+  "id": "MCF-722",
+  "parent_id": "MCF-721",
+  "title": "Expecting each SESSION RESULT in the list to display its primary information",
+  "gherkin": "When the user visits the \"SESSION RESULT\" overview page\nThen each item in the \"SESSION RESULT\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-04T09:13:02.091+0100",
+  "updated_at": "2026-02-04T15:47:29.880+0100"
+}

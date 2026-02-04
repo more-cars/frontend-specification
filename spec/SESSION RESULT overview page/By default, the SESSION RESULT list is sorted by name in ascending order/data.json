@@ -1,0 +1,9 @@
+{
+  "id": "MCF-725",
+  "parent_id": "MCF-716",
+  "title": "By default, the SESSION RESULT list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all SESSION RESULTS in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Session Result', 'session result' and 'SESSION RESULT' should rank exactly the same.\n",
+  "release_version": "0.7.0",
+  "created_at": "2026-02-04T09:13:20.725+0100",
+  "updated_at": "2026-02-04T12:39:12.193+0100"
+}

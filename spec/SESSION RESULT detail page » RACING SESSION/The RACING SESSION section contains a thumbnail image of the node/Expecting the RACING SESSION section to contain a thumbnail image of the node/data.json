@@ -1,0 +1,11 @@
+{
+  "id": "MCF-759",
+  "parent_id": "MCF-758",
+  "title": "Expecting the RACING SESSION section to contain a thumbnail image of the node",
+  "gherkin": "When the user visits the detail page of a \"SESSION RESULT\"\nThen the page should contain a \"RACING SESSION\" section\nAnd the \"RACING SESSION\" section should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-04T10:28:37.855+0100",
+  "updated_at": "2026-02-04T15:47:22.777+0100"
+}

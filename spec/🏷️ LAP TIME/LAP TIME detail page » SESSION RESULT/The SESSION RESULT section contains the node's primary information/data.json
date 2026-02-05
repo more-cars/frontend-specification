@@ -1,0 +1,9 @@
+{
+  "id": "MCF-822",
+  "parent_id": "MCF-815",
+  "title": "The SESSION RESULT section contains the node's primary information",
+  "description": "Each SESSION RESULT has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the SESSION RESULT epic (MCF-13).\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-05T10:14:07.426+0100",
+  "updated_at": "2026-02-05T13:08:38.759+0100"
+}

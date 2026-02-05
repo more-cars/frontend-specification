@@ -1,0 +1,9 @@
+{
+  "id": "MCF-816",
+  "parent_id": "MCF-815",
+  "title": "The LAP TIME detail page contains a section for the connected SESSION RESULT",
+  "description": "In general, 1:1 relationships are more relevant for the end user than 1:n relationships. Therefore this SESSION RESULT section is to be shown before the other relationship sections (e.g. the image gallery).\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-05T10:13:48.281+0100",
+  "updated_at": "2026-02-05T13:04:23.353+0100"
+}

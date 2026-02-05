@@ -1,0 +1,16 @@
+{
+  "id": "MCF-801",
+  "parent_id": "MCF-16",
+  "title": "LAP TIME overview page » Preview IMAGES",
+  "user_story": "As a visitor\nI want to see a preview image for each LAP TIME on the overview page\nSo I can quickly find a specific one without knowing its name\n",
+  "description": "* each LAP TIME item on the LAP TIME overview page contains a preview image\n* the 'preview image' refers to what is known as 'prime image' in the API\n* the preview image is displayed in thumbnail size\n* when a LAP TIME has no prime image then the preview image shows the default fallback image\n",
+  "api_path": "/lap-times",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.8.0"
+  ],
+  "created_at": "2026-02-05T10:08:57.439+0100",
+  "updated_at": "2026-02-05T12:43:41.848+0100"
+}

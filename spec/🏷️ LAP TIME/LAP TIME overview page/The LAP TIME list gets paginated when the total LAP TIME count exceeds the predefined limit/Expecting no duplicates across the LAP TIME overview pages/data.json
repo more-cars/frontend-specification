@@ -1,0 +1,11 @@
+{
+  "id": "MCF-799",
+  "parent_id": "MCF-795",
+  "title": "Expecting no duplicates across the LAP TIME overview pages",
+  "gherkin": "Given there are 105 \"LAP TIME\"s\nWhen the user visits page 1 of the \"LAP TIME\" overview page\nThen all \"LAP TIME\"s in the list should be unique\nWhen the user visits page 2 of the \"LAP TIME\" overview page\nThen all \"LAP TIME\"s in the list should be unique",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T10:08:07.137+0100",
+  "updated_at": "2026-02-05T14:17:52.060+0100"
+}

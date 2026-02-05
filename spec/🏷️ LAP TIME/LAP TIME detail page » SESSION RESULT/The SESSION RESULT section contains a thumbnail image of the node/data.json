@@ -1,0 +1,9 @@
+{
+  "id": "MCF-824",
+  "parent_id": "MCF-815",
+  "title": "The SESSION RESULT section contains a thumbnail image of the node",
+  "description": "The thumbnail shows the lead image of the resp. SESSION RESULT. When it has no lead image then a generic fallback image is displayed. The image is loaded in a small resolution to keep the loading times short.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-05T10:14:13.958+0100",
+  "updated_at": "2026-02-05T13:08:44.366+0100"
+}

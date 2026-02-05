@@ -1,0 +1,11 @@
+{
+  "id": "MCF-810",
+  "parent_id": "MCF-809",
+  "title": "Trying to access the detail page of a non-existent LAP TIME",
+  "gherkin": "Given there is no \"LAP TIME\" \"Lap Record\"\nWhen the user visits the detail page of the \"LAP TIME\" \"Lap Record\"\nThen the page should contain a message, informing the user that there is no such \"LAP TIME\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T10:10:54.072+0100",
+  "updated_at": "2026-02-05T14:17:50.166+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-792",
+  "parent_id": "MCF-791",
+  "title": "Expecting a sorted LAP TIME list when visiting the overview page",
+  "gherkin": "When the user visits the \"LAP TIME\" overview page\nThen the \"LAP TIME\" list should be sorted by \"name\" in \"ascending\" order",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T10:07:32.834+0100",
+  "updated_at": "2026-02-05T14:16:38.443+0100"
+}

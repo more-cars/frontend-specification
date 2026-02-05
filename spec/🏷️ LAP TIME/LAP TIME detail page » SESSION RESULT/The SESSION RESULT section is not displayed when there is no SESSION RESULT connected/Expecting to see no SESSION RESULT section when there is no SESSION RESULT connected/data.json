@@ -1,0 +1,11 @@
+{
+  "id": "MCF-819",
+  "parent_id": "MCF-818",
+  "title": "Expecting to see no SESSION RESULT section when there is no SESSION RESULT connected",
+  "gherkin": "Given there is a \"LAP TIME\" \"Lap Record\"\nAnd the \"LAP TIME\" \"Lap Record\" has no relationships\nWhen the user visits the detail page of the \"LAP TIME\" \"Lap Record\"\nThen the page should contain no \"SESSION RESULT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T10:13:57.353+0100",
+  "updated_at": "2026-02-05T14:17:48.525+0100"
+}

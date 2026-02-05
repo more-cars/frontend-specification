@@ -1,0 +1,9 @@
+{
+  "id": "MCF-851",
+  "parent_id": "MCF-848",
+  "title": "The LAP TIME section is not displayed when there are no LAP TIMES connected",
+  "description": "There should be no section, no headline and no placeholder when the SESSION RESULT has no LAP TIMES.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-05T14:00:46.768+0100",
+  "updated_at": "2026-02-05T14:11:09.102+0100"
+}

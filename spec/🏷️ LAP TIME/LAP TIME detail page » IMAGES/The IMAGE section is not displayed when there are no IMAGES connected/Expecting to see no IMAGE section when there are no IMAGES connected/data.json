@@ -1,0 +1,11 @@
+{
+  "id": "MCF-841",
+  "parent_id": "MCF-840",
+  "title": "Expecting to see no IMAGE section when there are no IMAGES connected",
+  "gherkin": "Given there is a \"LAP TIME\" \"Lap Record\"\nAnd the \"LAP TIME\" \"Lap Record\" has no relationships\nWhen the user visits the detail page of the \"LAP TIME\" \"Lap Record\"\nThen the page should contain no \"IMAGE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T10:20:28.632+0100",
+  "updated_at": "2026-02-05T14:17:44.757+0100"
+}

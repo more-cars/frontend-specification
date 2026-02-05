@@ -1,0 +1,11 @@
+{
+  "id": "MCF-808",
+  "parent_id": "MCF-807",
+  "title": "Expecting the LAP TIME detail page to contain a populated fact sheet",
+  "gherkin": "When the user visits the detail page of a \"LAP TIME\"\nThen the page should display a fact sheet\nAnd the fact sheet should display an entry for each of the following properties\n  | _property_       |\n  | time |\n  | driver_name |\n  | date |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T10:10:45.059+0100",
+  "updated_at": "2026-02-05T14:17:50.520+0100"
+}

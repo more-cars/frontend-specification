@@ -1,0 +1,9 @@
+{
+  "id": "MCF-791",
+  "parent_id": "MCF-782",
+  "title": "By default, the LAP TIME list is sorted by driver_name in ascending order",
+  "description": "Other features might influence the sorting, but by default all LAP TIMES in the list should be sorted by the driver’s name. The sorting should be case-insensitive, meaning 'Lap Time', 'lap time' and 'LAP TIME' should rank exactly the same.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-05T10:07:30.091+0100",
+  "updated_at": "2026-02-05T11:57:49.201+0100"
+}

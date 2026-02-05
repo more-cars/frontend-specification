@@ -1,0 +1,9 @@
+{
+  "id": "MCF-820",
+  "parent_id": "MCF-815",
+  "title": "The SESSION RESULT section contains a link to the detail page",
+  "description": "Only the title of the SESSION RESULT should link to the detail page, not the whole section. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-05T10:14:00.957+0100",
+  "updated_at": "2026-02-05T13:04:37.178+0100"
+}

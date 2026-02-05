@@ -1,0 +1,9 @@
+{
+  "id": "MCF-849",
+  "parent_id": "MCF-848",
+  "title": "The SESSION RESULT detail page contains a section with all connected LAP TIMES",
+  "description": "The LAP TIMES are classified as secondary information. Therefore the section has to be positioned after all the primary information (lead image, primary relationship, etc.). It is displayed in list form, analog to list on the overview page.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-05T14:00:38.927+0100",
+  "updated_at": "2026-02-05T14:10:57.371+0100"
+}

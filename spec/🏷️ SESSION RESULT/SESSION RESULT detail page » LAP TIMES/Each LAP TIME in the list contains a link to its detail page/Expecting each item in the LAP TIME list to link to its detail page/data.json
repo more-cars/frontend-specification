@@ -1,0 +1,11 @@
+{
+  "id": "MCF-854",
+  "parent_id": "MCF-853",
+  "title": "Expecting each item in the LAP TIME list to link to its detail page",
+  "gherkin": "When the user visits the detail page of a \"SESSION RESULT\"\nThen the page should contain a \"LAP TIME\" section\nAnd each item in the \"LAP TIME\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T14:00:56.713+0100",
+  "updated_at": "2026-02-05T14:17:42.357+0100"
+}

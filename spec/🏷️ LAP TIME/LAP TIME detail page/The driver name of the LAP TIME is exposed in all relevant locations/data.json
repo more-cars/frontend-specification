@@ -1,0 +1,9 @@
+{
+  "id": "MCF-805",
+  "parent_id": "MCF-804",
+  "title": "The driver name of the LAP TIME is exposed in all relevant locations",
+  "description": "The main headline and the page title contain the name of the driver of the LAP TIME. But the name does not occupy those locations exclusively. There might be other features that inject their information as a suffix or prefix.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-05T10:10:35.958+0100",
+  "updated_at": "2026-02-05T12:39:23.156+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-813",
+  "parent_id": "MCF-812",
+  "title": "Expecting a photo of the LAP TIME to be displayed on the detail page",
+  "gherkin": "When the user visits the detail page of a \"LAP TIME\"\nThen the page should contain a photo section\nAnd the photo section should contain an image of the \"LAP TIME\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T10:11:37.389+0100",
+  "updated_at": "2026-02-05T14:17:49.567+0100"
+}

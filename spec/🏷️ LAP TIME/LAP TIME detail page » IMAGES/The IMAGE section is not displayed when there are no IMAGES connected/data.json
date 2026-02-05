@@ -1,0 +1,9 @@
+{
+  "id": "MCF-840",
+  "parent_id": "MCF-837",
+  "title": "The IMAGE section is not displayed when there are no IMAGES connected",
+  "description": "There should be no section, no headline and no placeholder when the LAP TIME has no IMAGES.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-05T10:20:25.506+0100",
+  "updated_at": "2026-02-05T13:39:32.289+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-795",
+  "parent_id": "MCF-782",
+  "title": "The LAP TIME list gets paginated when the total LAP TIME count exceeds the predefined limit",
+  "description": "A pagination bar should be shown when the number of LAP TIMES is higher than the configured limit (specified in a different ticket). At a bare minimum it should contain a link to the next page (if available), a link to the previous page (if available) and indicate the current page number. When the number of LAP TIMES is lower than the configured limit then the pagination bar should be hidden. Whatever technical solution is chosen, the user needs to be able to bookmark the different pages. Meaning all links need to be 'real' (it cannot be a pure JavaScript solution). Each page should display a different subset of the LAP TIME collection. There should be no overlap and there should be no LAP TIME missing.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-05T10:07:42.770+0100",
+  "updated_at": "2026-02-05T11:58:08.132+0100"
+}

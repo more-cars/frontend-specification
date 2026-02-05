@@ -1,0 +1,11 @@
+{
+  "id": "MCF-814",
+  "parent_id": "MCF-812",
+  "title": "Expecting the photo section to show a fallback image when the LAP TIME has no lead image",
+  "gherkin": "Given there is a \"LAP TIME\" \"Lap Record\"\nAnd the \"LAP TIME\" \"Lap Record\" has no lead image\nWhen the user visits the detail page of the \"LAP TIME\" \"Lap Record\"\nThen the page should contain a photo section\nAnd the photo section should contain a fallback image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T10:11:41.995+0100",
+  "updated_at": "2026-02-05T14:17:49.350+0100"
+}

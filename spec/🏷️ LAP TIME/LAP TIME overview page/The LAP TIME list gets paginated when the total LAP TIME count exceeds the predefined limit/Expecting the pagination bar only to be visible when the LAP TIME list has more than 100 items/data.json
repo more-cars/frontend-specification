@@ -1,0 +1,11 @@
+{
+  "id": "MCF-796",
+  "parent_id": "MCF-795",
+  "title": "Expecting the pagination bar only to be visible when the LAP TIME list has more than 100 items",
+  "gherkin": "Given there are 100 \"LAP TIME\"s\nWhen the user visits the \"LAP TIME\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"LAP TIME\"s\nWhen the user visits the \"LAP TIME\" overview page\nThen the pagination bar should be visible",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T10:07:45.777+0100",
+  "updated_at": "2026-02-05T14:17:53.611+0100"
+}

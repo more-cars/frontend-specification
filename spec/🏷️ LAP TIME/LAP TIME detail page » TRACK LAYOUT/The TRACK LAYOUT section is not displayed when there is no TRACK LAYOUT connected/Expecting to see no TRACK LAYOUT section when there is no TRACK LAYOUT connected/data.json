@@ -1,0 +1,11 @@
+{
+  "id": "MCF-830",
+  "parent_id": "MCF-829",
+  "title": "Expecting to see no TRACK LAYOUT section when there is no TRACK LAYOUT connected",
+  "gherkin": "Given there is a \"LAP TIME\" \"Lap Record\"\nAnd the \"LAP TIME\" \"Lap Record\" has no relationships\nWhen the user visits the detail page of the \"LAP TIME\" \"Lap Record\"\nThen the page should contain no \"TRACK LAYOUT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T10:16:05.458+0100",
+  "updated_at": "2026-02-05T14:17:46.912+0100"
+}

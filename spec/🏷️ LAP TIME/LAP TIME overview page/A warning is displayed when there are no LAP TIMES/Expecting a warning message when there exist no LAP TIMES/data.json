@@ -1,0 +1,11 @@
+{
+  "id": "MCF-786",
+  "parent_id": "MCF-785",
+  "title": "Expecting a warning message when there exist no LAP TIMES",
+  "gherkin": "Given there is no \"LAP TIME\"\nWhen the user visits the \"LAP TIME\" overview page\nThen the page should contain no \"LAP TIME\" section\nAnd the page should contain a message, informing the user that there are no \"LAP TIME\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T10:07:13.543+0100",
+  "updated_at": "2026-02-05T14:16:40.027+0100"
+}

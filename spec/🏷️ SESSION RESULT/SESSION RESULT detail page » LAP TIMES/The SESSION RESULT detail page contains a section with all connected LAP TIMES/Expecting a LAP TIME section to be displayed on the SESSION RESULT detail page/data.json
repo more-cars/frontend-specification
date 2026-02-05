@@ -1,0 +1,11 @@
+{
+  "id": "MCF-850",
+  "parent_id": "MCF-849",
+  "title": "Expecting a LAP TIME section to be displayed on the SESSION RESULT detail page",
+  "gherkin": "When the user visits the detail page of a \"SESSION RESULT\"\nThen the page should contain a section with a \"LAP TIME\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-05T14:00:42.531+0100",
+  "updated_at": "2026-02-05T14:17:43.593+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-907",
+  "parent_id": "MCF-906",
+  "title": "Expecting to see no LAP TIME section when there are no LAP TIMES connected",
+  "gherkin": "Given there is a \"CAR MODEL VARIANT\" \"VW Golf GTI\"\nAnd the \"CAR MODEL VARIANT\" \"VW Golf GTI\" has no relationships\nWhen the user visits the detail page of the \"CAR MODEL VARIANT\" \"VW Golf GTI\"\nThen the page should contain no \"LAP TIME\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-06T11:57:41.553+0100",
+  "updated_at": "2026-02-06T19:32:42.977+0100"
+}

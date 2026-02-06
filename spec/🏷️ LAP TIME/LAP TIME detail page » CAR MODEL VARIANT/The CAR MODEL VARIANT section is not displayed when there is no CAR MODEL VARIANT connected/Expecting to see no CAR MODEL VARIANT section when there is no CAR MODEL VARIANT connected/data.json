@@ -1,0 +1,11 @@
+{
+  "id": "MCF-951",
+  "parent_id": "MCF-950",
+  "title": "Expecting to see no CAR MODEL VARIANT section when there is no CAR MODEL VARIANT connected",
+  "gherkin": "Given there is a \"LAP TIME\" \"Lap Record\"\nAnd the \"LAP TIME\" \"Lap Record\" has no relationships\nWhen the user visits the detail page of the \"LAP TIME\" \"Lap Record\"\nThen the page should contain no \"CAR MODEL VARIANT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-06T18:53:50.786+0100",
+  "updated_at": "2026-02-06T19:32:35.000+0100"
+}

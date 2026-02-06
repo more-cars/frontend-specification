@@ -4,8 +4,8 @@
   "title": "Requesting a page via HTTPS",
   "gherkin": "When the user visits a page via \"HTTPS\"\nThen the request should not have failed",
   "labels": [
-    "implemented"
+    "manual_test"
   ],
   "created_at": "2025-11-07T11:04:46.126+0100",
-  "updated_at": "2026-01-08T14:26:10.547+0100"
+  "updated_at": "2026-02-05T15:24:20.263+0100"
 }

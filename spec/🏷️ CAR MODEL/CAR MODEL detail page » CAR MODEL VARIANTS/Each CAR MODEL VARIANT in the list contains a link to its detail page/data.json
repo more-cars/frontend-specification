@@ -1,0 +1,9 @@
+{
+  "id": "MCF-941",
+  "parent_id": "MCF-936",
+  "title": "Each CAR MODEL VARIANT in the list contains a link to its detail page",
+  "description": "Only the title of each CAR MODEL VARIANT should link to the respective detail page, not the whole list item. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-06T18:52:12.074+0100",
+  "updated_at": "2026-02-06T19:04:55.538+0100"
+}

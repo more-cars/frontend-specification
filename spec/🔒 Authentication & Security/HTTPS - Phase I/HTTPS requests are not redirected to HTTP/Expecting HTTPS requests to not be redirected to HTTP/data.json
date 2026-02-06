@@ -4,8 +4,8 @@
   "title": "Expecting HTTPS requests to not be redirected to HTTP",
   "gherkin": "When the user visits a page via \"HTTPS\"\nThen the user should not be redirected to a \"HTTP\" URL",
   "labels": [
-    "implemented"
+    "manual_test"
   ],
   "created_at": "2025-11-07T11:09:35.479+0100",
-  "updated_at": "2026-01-08T14:27:48.253+0100"
+  "updated_at": "2026-02-05T15:24:07.862+0100"
 }

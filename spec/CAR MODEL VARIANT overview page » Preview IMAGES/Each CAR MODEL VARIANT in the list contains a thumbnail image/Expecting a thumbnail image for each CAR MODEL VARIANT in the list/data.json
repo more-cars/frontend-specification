@@ -1,0 +1,11 @@
+{
+  "id": "MCF-880",
+  "parent_id": "MCF-879",
+  "title": "Expecting a thumbnail image for each CAR MODEL VARIANT in the list",
+  "gherkin": "When the user visits the \"CAR MODEL VARIANT\" overview page\nThen each item in the \"CAR MODEL VARIANT\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-06T10:44:45.909+0100",
+  "updated_at": "2026-02-06T19:32:48.135+0100"
+}

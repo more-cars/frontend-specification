@@ -1,0 +1,11 @@
+{
+  "id": "MCF-924",
+  "parent_id": "MCF-923",
+  "title": "Expecting each item in the SESSION RESULT list to contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should contain a \"SESSION RESULT\" section\nThen each item in the \"SESSION RESULT\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-06T12:05:08.979+0100",
+  "updated_at": "2026-02-06T19:32:39.927+0100"
+}

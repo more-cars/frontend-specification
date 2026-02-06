@@ -1,0 +1,11 @@
+{
+  "id": "MCF-968",
+  "parent_id": "MCF-967",
+  "title": "Expecting the CAR MODEL VARIANT section to contain a thumbnail image of the node",
+  "gherkin": "When the user visits the detail page of a \"SESSION RESULT\"\nThen the page should contain a \"CAR MODEL VARIANT\" section\nAnd the \"CAR MODEL VARIANT\" section should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-06T18:55:34.955+0100",
+  "updated_at": "2026-02-06T19:32:31.896+0100"
+}

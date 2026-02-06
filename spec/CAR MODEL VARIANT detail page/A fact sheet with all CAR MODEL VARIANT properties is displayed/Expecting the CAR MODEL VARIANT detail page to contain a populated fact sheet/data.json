@@ -1,0 +1,11 @@
+{
+  "id": "MCF-885",
+  "parent_id": "MCF-884",
+  "title": "Expecting the CAR MODEL VARIANT detail page to contain a populated fact sheet",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should display a fact sheet\nAnd the fact sheet should display an entry for each of the following properties\n  | _property_       |\n  | name |\n  | internal_code |\n  | built_from |\n  | built_to |\n  | body_style |\n  | drag_coefficient |\n  | doors |\n  | weight |\n  | weight_unit |\n  | max_power |\n  | max_power_unit |\n  | max_torque |\n  | max_torque_unit |\n  | cylinders |\n  | engine_configuration |\n  | displacement |\n  | displacement_unit |\n  | air_induction |\n  | engine_type |\n  | energy_source |\n  | energy_source_2 |\n  | consumption |\n  | consumption_unit |\n  | consumption_2 |\n  | consumption_2_unit |\n  | energy_capacity |\n  | energy_capacity_unit |\n  | energy_capacity_2 |\n  | energy_capacity_2_unit |\n  | transmission |\n  | gears |\n  | drivetrain |\n  | sprint_time_0_100_kmh |\n  | top_speed |\n  | top_speed_unit |\n  | total_production |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-06T10:51:01.829+0100",
+  "updated_at": "2026-02-06T19:32:47.144+0100"
+}

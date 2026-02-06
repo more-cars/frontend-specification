@@ -1,0 +1,11 @@
+{
+  "id": "MCF-905",
+  "parent_id": "MCF-904",
+  "title": "Expecting a LAP TIME section to be displayed on the CAR MODEL VARIANT detail page",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should contain a section with a \"LAP TIME\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-06T11:57:34.452+0100",
+  "updated_at": "2026-02-06T19:32:43.527+0100"
+}

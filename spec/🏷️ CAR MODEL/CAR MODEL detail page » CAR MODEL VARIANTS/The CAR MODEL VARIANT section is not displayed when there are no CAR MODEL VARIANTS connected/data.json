@@ -1,0 +1,9 @@
+{
+  "id": "MCF-939",
+  "parent_id": "MCF-936",
+  "title": "The CAR MODEL VARIANT section is not displayed when there are no CAR MODEL VARIANTS connected",
+  "description": "There should be no section, no headline and no placeholder when the CAR MODEL has no CAR MODEL VARIANTS.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-06T18:52:06.031+0100",
+  "updated_at": "2026-02-06T19:04:49.924+0100"
+}

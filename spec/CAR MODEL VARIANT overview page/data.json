@@ -1,0 +1,16 @@
+{
+  "id": "MCF-859",
+  "parent_id": "MCF-4",
+  "title": "CAR MODEL VARIANT overview page",
+  "user_story": "As a visitor\nI want to see a list of all CAR MODEL VARIANTS\nSo I can get a general idea of the different types that exist\nAnd by scrolling through them find interesting ones\n",
+  "description": "* There is a dedicated page (with a dedicated URL) where all CAR MODEL VARIANTS are presented.\n* A warning message is shown when there are no CAR MODEL VARIANTS.\n* The overview page always returns with status code \\`200\\`, no matter if any CAR MODEL VARIANT exists or not.\n* By default, the CAR MODEL VARIANTS are sorted \\`ascending\\` by their \\`name\\`.\n* The sorting is always case-insensitive.\n* Each CAR MODEL VARIANT is presented with its primary information and a link to its detail page.\n* The overview displays at most 100 CAR MODEL VARIANTS at once.\n* When there are more than 100 CAR MODEL VARIANTS then the \\`pagination\\` feature is activated.\n* Pagination allows the user to scroll through all CAR MODEL VARIANTS - 100 items at a time.\n* The user is able to bookmark and revisit any paginated CAR MODEL VARIANT page.\n",
+  "api_path": "/car-model-variants",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.8.0"
+  ],
+  "created_at": "2026-02-06T09:20:20.595+0100",
+  "updated_at": "2026-02-06T15:22:19.839+0100"
+}

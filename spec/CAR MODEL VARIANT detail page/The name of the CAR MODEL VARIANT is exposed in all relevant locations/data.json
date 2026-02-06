@@ -1,0 +1,9 @@
+{
+  "id": "MCF-882",
+  "parent_id": "MCF-881",
+  "title": "The name of the CAR MODEL VARIANT is exposed in all relevant locations",
+  "description": "The main headline and the page title contain the name of the CAR MODEL VARIANT. But the name does not occupy those locations exclusively. There might be other features that inject their information as a suffix or prefix.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-06T10:50:52.720+0100",
+  "updated_at": "2026-02-06T16:22:48.321+0100"
+}

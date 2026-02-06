@@ -1,0 +1,16 @@
+{
+  "id": "MCF-878",
+  "parent_id": "MCF-4",
+  "title": "CAR MODEL VARIANT overview page » Preview IMAGES",
+  "user_story": "As a visitor\nI want to see a preview image for each CAR MODEL VARIANT on the overview page\nSo I can quickly find a specific one without knowing its name\n",
+  "description": "* each CAR MODEL VARIANT item on the CAR MODEL VARIANT overview page contains a preview image\n* the 'preview image' refers to what is known as 'prime image' in the API\n* the preview image is displayed in thumbnail size\n* when a CAR MODEL VARIANT has no prime image then the preview image shows the default fallback image\n",
+  "api_path": "/car-model-variants",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.8.0"
+  ],
+  "created_at": "2026-02-06T10:44:40.082+0100",
+  "updated_at": "2026-02-06T17:25:14.126+0100"
+}

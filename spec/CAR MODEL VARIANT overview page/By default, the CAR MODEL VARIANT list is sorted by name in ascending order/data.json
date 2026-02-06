@@ -1,0 +1,9 @@
+{
+  "id": "MCF-868",
+  "parent_id": "MCF-859",
+  "title": "By default, the CAR MODEL VARIANT list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all CAR MODEL VARIANTS in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Car Model Variant', 'car model variant' and 'CAR MODEL VARIANT' should rank exactly the same.\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-06T09:21:02.514+0100",
+  "updated_at": "2026-02-06T15:21:47.738+0100"
+}

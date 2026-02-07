@@ -1,0 +1,11 @@
+{
+  "id": "MCF-980",
+  "parent_id": "MCF-974",
+  "title": "Expecting the More Cars logo to be pure text, not an image",
+  "gherkin": "When the user visits the \"CAR MODEL\" overview page\nThen the More Cars logo should not be an image\nAnd the More Cars logo should contain the text \"‒ MORE ‒ CARS ‒\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-07T12:44:22.335+0100",
+  "updated_at": "2026-02-07T20:06:34.604+0100"
+}

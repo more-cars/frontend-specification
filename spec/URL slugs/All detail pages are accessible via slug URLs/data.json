@@ -1,0 +1,9 @@
+{
+  "id": "MCF-976",
+  "parent_id": "MCF-216",
+  "title": "All detail pages are accessible via slug URLs",
+  "description": "* when accessing the node detail page with the correct slug then it will be displayed\n* incorrect slugs are handled in a different ticket → <https://dennis-gerike.atlassian.net/browse/MCF-217>\n* slugs always have the pattern`/<slug>-<node-id>`\n",
+  "release_version": null,
+  "created_at": "2026-02-07T11:45:55.081+0100",
+  "updated_at": "2026-02-07T12:44:56.918+0100"
+}

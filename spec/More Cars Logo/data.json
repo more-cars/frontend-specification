@@ -1,0 +1,16 @@
+{
+  "id": "MCF-404",
+  "parent_id": "MCF-6",
+  "title": "More Cars Logo",
+  "user_story": "As a visitor\\\nI want the More Cars logo to be shown on every page\\\nAnd it should always link back to the start page\\\nSo whenever I feel lost I can quickly return to a known state\n",
+  "description": "* the More Cars logo is prominently shown in the header section\n* the logo is not included as graphics file, but created via a regular font\n* the logo always links back to the start page\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.8.0"
+  ],
+  "created_at": "2026-01-28T11:27:56.113+0100",
+  "updated_at": "2026-02-07T18:19:26.325+0100"
+}

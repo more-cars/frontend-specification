@@ -1,0 +1,11 @@
+{
+  "id": "MCF-978",
+  "parent_id": "MCF-972",
+  "title": "Expecting the header section to contain the More Cars logo",
+  "gherkin": "When the user visits the start page\nThen the page should contain a header section\nAnd the header section should contain the More Cars logo",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-07T12:43:55.162+0100",
+  "updated_at": "2026-02-07T19:50:10.816+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-982",
+  "parent_id": "MCF-971",
+  "title": "Expecting the start page to still work when the API is down",
+  "gherkin": "Given the More Cars API is not available\nWhen the user visits the start page\nThen the page should contain the More Cars logo\nAnd the page should contain an intro section\nAnd the page should contain a section with all node types",
+  "labels": [
+    "manual_test"
+  ],
+  "created_at": "2026-02-07T12:44:41.441+0100",
+  "updated_at": "2026-02-07T20:14:56.070+0100"
+}

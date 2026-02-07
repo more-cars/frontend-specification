@@ -1,0 +1,14 @@
+{
+  "id": "MCF-216",
+  "parent_id": "MCF-9",
+  "title": "URL slugs",
+  "user_story": "As a visitor\\\nInstead of a generic URL with an ID\\\nI want all NODE detail pages to be served via a human-readable URL\\\nSo I can directly see which NODE hides behind a link, without needing to open it first\n",
+  "description": "* the goal is to create human-readable, seo-friendly and bookmark-friendly URLs\n* scope: for now only NODE detail pages\n* example:\n  * before: `/companies/10000424`\n  * after: `/ford-motor-company-10000424`\n* the slug does not explicitly include information about the node type\n  * it might be included in some case (e.g. `lap-time-1m-30.3s`), but that is **not** mandatory\n* each existing link to a detail page is to be replaced by the slug versions (e.g. on the overview pages)\n* the URL pattern is always: `/<slug>-<id>`\n* in general, the slug is created from the name of the node&#x20;\n  * but the code needs to be flexible enough to allow other properties to be the base (lap times for example have no name)\n* slug conversion rules:\n  * all characters to lower case\n  * whitespaces are replaced by a hyphen\n  * characters that are not allowed in an URL are removed or replaced (e.g. `ä` → `ae`)\n* redirects are handled in a different ticket → <https://dennis-gerike.atlassian.net/browse/MCF-217>&#x20;\n",
+  "api_path": "/*",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [],
+  "created_at": "2026-01-09T13:10:31.989+0100",
+  "updated_at": "2026-02-07T12:08:07.400+0100"
+}

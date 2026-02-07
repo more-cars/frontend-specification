@@ -1,16 +1,16 @@
 {
-  "id": "MCF-192",
+  "id": "MCF-969",
   "parent_id": "MCF-5",
   "title": "Start Page",
-  "user_story": "As a visitor\\\nI want the start page to give me an overview over all node types\\\nSo I can quickly determine where I might find the information I am looking for\n",
-  "description": "* the start page is always available → status code \\`200\\`\n* the start page shows one section for each node type (brand, car model, image, etc.)\n* each section contains&#x20;\n  * information about the node type (name, amount of nodes, short description)\n  * a link to the respective overview page\n  * a thumbnail or icon or emoji that represents the node type\n",
+  "user_story": "As a visitor\\\nI want to see on the start page what the More Cars database has to offer\\\nSo I can decide if there is anything interesting (for now or future visits)\n",
+  "description": "* intro text\n* header with More Cars logo\n  * already covered by <https://dennis-gerike.atlassian.net/browse/MCF-404>&#x20;\n* list with all node types\n  * already covered by <https://dennis-gerike.atlassian.net/browse/MCF-192>&#x20;\n* the start page is always available (even when the API is down) → status code \\`200\\`\n  * dummy numbers or outdated numbers might be shown in the node type sections\n",
   "api_path": "/",
   "response_options": [
     "200"
   ],
   "release_versions": [
-    "0.6.0"
+    "0.8.0"
   ],
-  "created_at": "2025-11-08T10:09:14.030+0100",
-  "updated_at": "2026-01-31T13:38:18.899+0100"
+  "created_at": "2026-02-07T09:46:37.211+0100",
+  "updated_at": "2026-02-07T19:41:52.586+0100"
 }

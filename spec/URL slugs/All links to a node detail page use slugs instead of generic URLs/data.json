@@ -1,0 +1,9 @@
+{
+  "id": "MCF-975",
+  "parent_id": "MCF-216",
+  "title": "All links to a node detail page use slugs instead of generic URLs",
+  "description": "* slugs always have the pattern`/<slug>-<node-id>`\n* locations\n  * node overview pages\n  * items in the relationship sections on the node detail pages\n",
+  "release_version": null,
+  "created_at": "2026-02-07T11:44:25.068+0100",
+  "updated_at": "2026-02-07T12:44:50.730+0100"
+}

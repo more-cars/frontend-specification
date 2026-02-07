@@ -1,0 +1,9 @@
+{
+  "id": "MCF-983",
+  "parent_id": "MCF-975",
+  "title": "Expecting every link that points to a node detail page to use slugs instead of generic URLs",
+  "gherkin": "When the user visits the \"Car Model\" overview page\nThen each link in the \"Car Model\" section should start with a slug part\nAnd each link in the \"Car Model\" section should end with an ID part\nAnd no link in the \"Car Model\" section should contain a node type part",
+  "labels": [],
+  "created_at": "2026-02-07T12:44:49.905+0100",
+  "updated_at": "2026-02-07T13:18:35.390+0100"
+}

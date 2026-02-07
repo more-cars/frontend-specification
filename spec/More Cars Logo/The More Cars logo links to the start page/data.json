@@ -1,0 +1,9 @@
+{
+  "id": "MCF-973",
+  "parent_id": "MCF-404",
+  "title": "The More Cars logo links to the start page",
+  "description": "* pure link to `/` without any params\n",
+  "release_version": "0.8.0",
+  "created_at": "2026-02-07T10:56:19.253+0100",
+  "updated_at": "2026-02-07T18:17:03.819+0100"
+}

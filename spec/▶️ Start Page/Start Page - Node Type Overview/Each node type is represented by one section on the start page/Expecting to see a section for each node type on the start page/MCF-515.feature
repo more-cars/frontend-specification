@@ -1,5 +1,5 @@
 @REQ_MCF-192
-Feature: Start Page
+Feature: Start Page - Node Type Overview
   As a visitor\
   I want the start page to give me an overview over all node types\
   So I can quickly determine where I might find the information I am looking for

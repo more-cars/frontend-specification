@@ -12,4 +12,4 @@ Feature: More Cars Logo
     Scenario: Expecting the More Cars logo to be pure text, not an image
       When the user visits the "CAR MODEL" overview page
       Then the More Cars logo should not be an image
-      And the More Cars logo should contain the text "‒ MORE ‒ CARS ‒"
+      And the More Cars logo should contain the text "MORE CARS"

@@ -8,7 +8,7 @@ Feature: URL slugs
   @RULE_MCF-977
   Rule: An error message is displayed when the requested node does not exist
 
-    @TEST_MCF-985
+    @TEST_MCF-986
     Scenario: Expecting an error message when a requested node does not exist
       Given there is no "Car Model" "Testarossa"
       When the user visits the "Car Model" "Testarossa" via "Slug URL"

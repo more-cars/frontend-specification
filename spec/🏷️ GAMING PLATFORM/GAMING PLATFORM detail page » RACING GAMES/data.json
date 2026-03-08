@@ -1,0 +1,16 @@
+{
+  "id": "MCF-1102",
+  "parent_id": "MCF-24",
+  "title": "GAMING PLATFORM detail page » RACING GAMES",
+  "user_story": "As a visitor\nI want the GAMING PLATFORM detail page to show all connected RACING GAMES\nSo I can ...\n",
+  "description": "* The GAMING PLATFORM detail page contains a section with a list of all connected RACING GAMES.\n* Each RACING GAME in the list is presented with its name and primary information.\n* Each RACING GAME in the list contains a link to its detail page.\n* Each RACING GAME in the list has a thumbnail image.\n* When there is no RACING GAME connected to the GAMING PLATFORM then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.9.0"
+  ],
+  "created_at": "2026-03-08T11:18:56.130+0100",
+  "updated_at": "2026-03-08T17:11:15.653+0100"
+}

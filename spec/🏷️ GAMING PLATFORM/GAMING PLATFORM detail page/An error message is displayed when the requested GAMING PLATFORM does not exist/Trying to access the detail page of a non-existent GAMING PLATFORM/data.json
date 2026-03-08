@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1097",
+  "parent_id": "MCF-1096",
+  "title": "Trying to access the detail page of a non-existent GAMING PLATFORM",
+  "gherkin": "Given there is no \"GAMING PLATFORM\" \"Xbox\"\nWhen the user visits the detail page of the \"GAMING PLATFORM\" \"Xbox\"\nThen the page should contain a message, informing the user that there is no such \"GAMING PLATFORM\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T11:15:10.701+0100",
+  "updated_at": "2026-03-08T17:34:33.381+0100"
+}

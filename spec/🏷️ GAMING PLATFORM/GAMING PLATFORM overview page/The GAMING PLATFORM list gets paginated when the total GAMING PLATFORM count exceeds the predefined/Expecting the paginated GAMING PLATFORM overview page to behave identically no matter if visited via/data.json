@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1085",
+  "parent_id": "MCF-1082",
+  "title": "Expecting the paginated GAMING PLATFORM overview page to behave identically no matter if visited via the UI or a bookmark",
+  "gherkin": "Given there are 105 \"GAMING PLATFORM\"s\nWhen the user visits page 2 of the \"GAMING PLATFORM\" overview page via UI\nThen the \"GAMING PLATFORM\" list should contain 5 items\nAnd the pagination bar should indicate that the user is currently on page 2\nWhen the user visits page 2 of the \"GAMING PLATFORM\" overview page via URL\nThen the \"GAMING PLATFORM\" list should contain 5 items\nAnd the pagination bar should indicate that the user is currently on page 2",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T11:13:02.568+0100",
+  "updated_at": "2026-03-08T17:34:31.147+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1131",
+  "parent_id": "MCF-1124",
+  "title": "Each RACING GAME in the list contains the primary information",
+  "description": "Each RACING GAME has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the RACING GAME epic (MCF-???).\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T12:54:50.260+0100",
+  "updated_at": "2026-03-08T17:02:30.222+0100"
+}

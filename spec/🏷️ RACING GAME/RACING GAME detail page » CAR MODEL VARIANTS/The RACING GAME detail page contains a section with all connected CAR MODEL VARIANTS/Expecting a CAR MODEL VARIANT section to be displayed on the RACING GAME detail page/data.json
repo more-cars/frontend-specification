@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1027",
+  "parent_id": "MCF-1026",
+  "title": "Expecting a CAR MODEL VARIANT section to be displayed on the RACING GAME detail page",
+  "gherkin": "When the user visits the detail page of a \"RACING GAME\"\nThen the page should contain a section with a \"CAR MODEL VARIANT\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-07T20:07:52.255+0100",
+  "updated_at": "2026-03-08T17:34:20.514+0100"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "MCF-992",
+  "parent_id": "MCF-23",
+  "title": "RACING GAME overview page",
+  "user_story": "As a visitor\nI want to see a list of all RACING GAMES\nSo I can get a general idea of the different types that exist\nAnd by scrolling through them find interesting ones\n",
+  "description": "* There is a dedicated page (with a dedicated URL) where all RACING GAMES are presented.\n* A warning message is shown when there are no RACING GAMES.\n* The overview page always returns with status code \\`200\\`, no matter if any RACING GAME exists or not.\n* By default, the RACING GAMES are sorted \\`ascending\\` by their \\`name\\`.\n* The sorting is always case-insensitive.\n* Each RACING GAME is presented with its primary information and a link to its detail page.\n* The overview displays at most 100 RACING GAMES at once.\n* When there are more than 100 RACING GAMES then the \\`pagination\\` feature is activated.\n* Pagination allows the user to scroll through all RACING GAMES - 100 items at a time.\n* The user is able to bookmark and revisit any paginated RACING GAME page.\n",
+  "api_path": "/racing-games",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.9.0"
+  ],
+  "created_at": "2026-03-07T20:02:34.953+0100",
+  "updated_at": "2026-03-08T17:11:10.361+0100"
+}

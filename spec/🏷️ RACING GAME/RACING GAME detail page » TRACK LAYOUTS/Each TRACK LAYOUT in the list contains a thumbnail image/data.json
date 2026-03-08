@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1045",
+  "parent_id": "MCF-1036",
+  "title": "Each TRACK LAYOUT in the list contains a thumbnail image",
+  "description": "The thumbnail shows the lead image of the resp. TRACK LAYOUT. When it has no lead image then a generic fallback image is displayed. The image is loaded in a small resolution to keep the loading times short.\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-07T20:10:06.095+0100",
+  "updated_at": "2026-03-08T17:02:13.283+0100"
+}

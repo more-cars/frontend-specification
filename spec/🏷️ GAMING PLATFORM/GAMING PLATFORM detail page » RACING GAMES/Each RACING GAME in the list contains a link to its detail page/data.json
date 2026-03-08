@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1107",
+  "parent_id": "MCF-1102",
+  "title": "Each RACING GAME in the list contains a link to its detail page",
+  "description": "Only the title of each RACING GAME should link to the respective detail page, not the whole list item. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T11:19:12.205+0100",
+  "updated_at": "2026-03-08T17:02:25.052+0100"
+}

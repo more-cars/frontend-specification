@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1051",
+  "parent_id": "MCF-1050",
+  "title": "Expecting to see no GAMING PLATFORM section when there are no GAMING PLATFORMS connected",
+  "gherkin": "Given there is a \"RACING GAME\" \"Gran Turismo\"\nAnd the \"RACING GAME\" \"Gran Turismo\" has no relationships\nWhen the user visits the detail page of the \"RACING GAME\" \"Gran Turismo\"\nThen the page should contain no \"GAMING PLATFORM\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-07T20:11:00.420+0100",
+  "updated_at": "2026-03-08T17:34:24.724+0100"
+}

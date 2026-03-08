@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1057",
+  "parent_id": "MCF-1056",
+  "title": "Expecting each item in the GAMING PLATFORM list to contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"RACING GAME\"\nThen the page should contain a \"GAMING PLATFORM\" section\nThen each item in the \"GAMING PLATFORM\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-07T20:11:20.834+0100",
+  "updated_at": "2026-03-08T17:34:25.887+0100"
+}

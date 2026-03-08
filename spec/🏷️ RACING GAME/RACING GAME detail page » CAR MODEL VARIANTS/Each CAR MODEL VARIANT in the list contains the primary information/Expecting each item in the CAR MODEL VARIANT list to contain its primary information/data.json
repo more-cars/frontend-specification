@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1033",
+  "parent_id": "MCF-1032",
+  "title": "Expecting each item in the CAR MODEL VARIANT list to contain its primary information",
+  "gherkin": "When the user visits the detail page of a \"RACING GAME\"\nThen the page should contain a \"CAR MODEL VARIANT\" section\nAnd each item in the \"CAR MODEL VARIANT\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-07T20:08:15.307+0100",
+  "updated_at": "2026-03-08T17:34:21.722+0100"
+}

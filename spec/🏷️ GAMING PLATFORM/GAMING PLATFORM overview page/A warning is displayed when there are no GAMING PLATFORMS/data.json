@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1072",
+  "parent_id": "MCF-1069",
+  "title": "A warning is displayed when there are no GAMING PLATFORMS",
+  "description": "The GAMING PLATFORM list is not shown and a info/warning is displayed at a prominent location. It should inform the user that there are either no GAMING PLATFORMS or that there is a temporary problem with loading the GAMING PLATFORMS.\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T11:12:16.822+0100",
+  "updated_at": "2026-03-08T17:02:19.146+0100"
+}

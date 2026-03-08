@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1130",
+  "parent_id": "MCF-1129",
+  "title": "Expecting each item in the RACING GAME list to link to its detail page",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should contain a \"RACING GAME\" section\nAnd each item in the \"RACING GAME\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T12:54:46.931+0100",
+  "updated_at": "2026-03-08T17:34:39.065+0100"
+}

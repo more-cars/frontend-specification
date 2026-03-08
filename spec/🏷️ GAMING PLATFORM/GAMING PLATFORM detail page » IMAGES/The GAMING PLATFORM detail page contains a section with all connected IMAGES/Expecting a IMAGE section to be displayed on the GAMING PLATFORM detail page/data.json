@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1115",
+  "parent_id": "MCF-1114",
+  "title": "Expecting a IMAGE section to be displayed on the GAMING PLATFORM detail page",
+  "gherkin": "When the user visits the detail page of a \"GAMING PLATFORM\"\nThen the page should contain a section with a \"IMAGE\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T11:21:02.729+0100",
+  "updated_at": "2026-03-08T17:34:36.393+0100"
+}

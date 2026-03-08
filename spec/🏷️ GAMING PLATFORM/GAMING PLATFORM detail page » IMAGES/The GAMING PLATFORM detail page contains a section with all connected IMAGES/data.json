@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1114",
+  "parent_id": "MCF-1113",
+  "title": "The GAMING PLATFORM detail page contains a section with all connected IMAGES",
+  "description": "The IMAGES are classified as secondary information. Therefore the section has to be positioned after all the primary information (lead image, primary relationship, etc.). It is displayed in list form, analog to list on the overview page.\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T11:20:59.914+0100",
+  "updated_at": "2026-03-08T17:02:26.440+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1089",
+  "parent_id": "MCF-1088",
+  "title": "Each GAMING PLATFORM in the list contains a thumbnail image",
+  "description": "The thumbnail shows the main image of the resp. GAMING PLATFORM. When it has no main image then the generic fallback image is displayed. Each image is available in multiple sizes (resolutions). The one matching the screen size best should be used. Meaning, it should not be too small (bad quality) and not too big (slow download).\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T11:13:41.032+0100",
+  "updated_at": "2026-03-08T17:02:21.824+0100"
+}

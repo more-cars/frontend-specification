@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1077",
+  "parent_id": "MCF-1076",
+  "title": "Expecting each GAMING PLATFORM in the list to have a link to its detail page",
+  "gherkin": "When the user visits the \"GAMING PLATFORM\" overview page\nThen each item in the \"GAMING PLATFORM\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T11:12:32.422+0100",
+  "updated_at": "2026-03-08T17:34:29.235+0100"
+}

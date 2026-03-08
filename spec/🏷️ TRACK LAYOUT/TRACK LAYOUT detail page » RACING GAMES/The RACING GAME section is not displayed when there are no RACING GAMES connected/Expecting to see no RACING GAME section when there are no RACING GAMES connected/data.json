@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1139",
+  "parent_id": "MCF-1138",
+  "title": "Expecting to see no RACING GAME section when there are no RACING GAMES connected",
+  "gherkin": "Given there is a \"TRACK LAYOUT\" \"Nordschleife\"\nAnd the \"TRACK LAYOUT\" \"Nordschleife\" has no relationships\nWhen the user visits the detail page of the \"TRACK LAYOUT\" \"Nordschleife\"\nThen the page should contain no \"RACING GAME\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T14:31:23.455+0100",
+  "updated_at": "2026-03-08T17:34:40.662+0100"
+}

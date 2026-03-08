@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1029",
+  "parent_id": "MCF-1028",
+  "title": "Expecting to see no CAR MODEL VARIANT section when there are no CAR MODEL VARIANTS connected",
+  "gherkin": "Given there is a \"RACING GAME\" \"Gran Turismo\"\nAnd the \"RACING GAME\" \"Gran Turismo\" has no relationships\nWhen the user visits the detail page of the \"RACING GAME\" \"Gran Turismo\"\nThen the page should contain no \"CAR MODEL VARIANT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-07T20:07:59.252+0100",
+  "updated_at": "2026-03-08T17:34:20.927+0100"
+}

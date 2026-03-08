@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1006",
+  "parent_id": "MCF-1005",
+  "title": "Expecting the pagination bar only to be visible when the RACING GAME list has more than 100 items",
+  "gherkin": "Given there are 100 \"RACING GAME\"s\nWhen the user visits the \"RACING GAME\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"RACING GAME\"s\nWhen the user visits the \"RACING GAME\" overview page\nThen the pagination bar should be visible",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-07T20:03:24.642+0100",
+  "updated_at": "2026-03-08T17:34:16.172+0100"
+}

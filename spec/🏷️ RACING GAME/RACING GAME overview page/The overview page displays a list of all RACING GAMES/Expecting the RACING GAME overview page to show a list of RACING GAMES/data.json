@@ -1,0 +1,11 @@
+{
+  "id": "MCF-994",
+  "parent_id": "MCF-993",
+  "title": "Expecting the RACING GAME overview page to show a list of RACING GAMES",
+  "gherkin": "When the user visits the \"RACING GAME\" overview page\nThen the overview page should contain a \"RACING GAME\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-07T20:02:41.696+0100",
+  "updated_at": "2026-03-08T17:34:13.505+0100"
+}

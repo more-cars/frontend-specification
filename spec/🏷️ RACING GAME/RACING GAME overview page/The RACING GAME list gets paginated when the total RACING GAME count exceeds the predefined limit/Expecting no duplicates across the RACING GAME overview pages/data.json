@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1009",
+  "parent_id": "MCF-1005",
+  "title": "Expecting no duplicates across the RACING GAME overview pages",
+  "gherkin": "Given there are 105 \"RACING GAME\"s\nWhen the user visits page 1 of the \"RACING GAME\" overview page\nThen all \"RACING GAME\"s in the list should be unique\nWhen the user visits page 2 of the \"RACING GAME\" overview page\nThen all \"RACING GAME\"s in the list should be unique",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-07T20:03:40.686+0100",
+  "updated_at": "2026-03-08T17:34:17.342+0100"
+}

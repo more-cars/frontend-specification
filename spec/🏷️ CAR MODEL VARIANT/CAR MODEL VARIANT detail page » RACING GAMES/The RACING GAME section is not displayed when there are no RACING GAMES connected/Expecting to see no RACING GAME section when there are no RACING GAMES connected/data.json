@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1128",
+  "parent_id": "MCF-1127",
+  "title": "Expecting to see no RACING GAME section when there are no RACING GAMES connected",
+  "gherkin": "Given there is a \"CAR MODEL VARIANT\" \"BMW M5\"\nAnd the \"CAR MODEL VARIANT\" \"BMW M5\" has no relationships\nWhen the user visits the detail page of the \"CAR MODEL VARIANT\" \"BMW M5\"\nThen the page should contain no \"RACING GAME\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T12:54:40.346+0100",
+  "updated_at": "2026-03-08T17:34:38.695+0100"
+}

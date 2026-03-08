@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1073",
+  "parent_id": "MCF-1072",
+  "title": "Expecting a warning message when there exist no GAMING PLATFORMS",
+  "gherkin": "Given there is no \"GAMING PLATFORM\"\nWhen the user visits the \"GAMING PLATFORM\" overview page\nThen the page should contain no \"GAMING PLATFORM\" section\nAnd the page should contain a message, informing the user that there are no \"GAMING PLATFORM\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T11:12:19.556+0100",
+  "updated_at": "2026-03-08T17:34:28.498+0100"
+}

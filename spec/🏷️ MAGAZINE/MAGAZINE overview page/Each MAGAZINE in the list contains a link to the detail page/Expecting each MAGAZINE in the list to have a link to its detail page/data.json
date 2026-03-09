@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1154",
+  "parent_id": "MCF-1153",
+  "title": "Expecting each MAGAZINE in the list to have a link to its detail page",
+  "gherkin": "When the user visits the \"MAGAZINE\" overview page\nThen each item in the \"MAGAZINE\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T17:45:10.796+0100",
+  "updated_at": "2026-03-09T17:41:42.858+0100"
+}

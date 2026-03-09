@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1341",
+  "parent_id": "MCF-1340",
+  "title": "Expecting each item in the MAGAZINE ISSUE list to contain its primary information",
+  "gherkin": "When the user visits the detail page of a \"RACING EVENT\"\nThen the page should contain a \"MAGAZINE ISSUE\" section\nAnd each item in the \"MAGAZINE ISSUE\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-09T09:53:23.446+0100",
+  "updated_at": "2026-03-09T17:42:20.078+0100"
+}

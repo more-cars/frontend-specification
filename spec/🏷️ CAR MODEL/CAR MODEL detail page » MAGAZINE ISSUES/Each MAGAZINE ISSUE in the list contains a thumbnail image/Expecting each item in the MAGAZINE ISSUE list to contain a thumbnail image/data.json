@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1321",
+  "parent_id": "MCF-1320",
+  "title": "Expecting each item in the MAGAZINE ISSUE list to contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL\"\nThen the page should contain a \"MAGAZINE ISSUE\" section\nThen each item in the \"MAGAZINE ISSUE\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-09T09:46:56.685+0100",
+  "updated_at": "2026-03-09T17:42:16.361+0100"
+}

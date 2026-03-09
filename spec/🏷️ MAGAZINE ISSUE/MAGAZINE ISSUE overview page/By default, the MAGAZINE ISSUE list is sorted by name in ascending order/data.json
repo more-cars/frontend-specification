@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1210",
+  "parent_id": "MCF-1201",
+  "title": "By default, the MAGAZINE ISSUE list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all MAGAZINE ISSUES in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Magazine Issue', 'magazine issue' and 'MAGAZINE ISSUE' should rank exactly the same.\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T18:12:02.765+0100",
+  "updated_at": "2026-03-09T17:30:49.636+0100"
+}

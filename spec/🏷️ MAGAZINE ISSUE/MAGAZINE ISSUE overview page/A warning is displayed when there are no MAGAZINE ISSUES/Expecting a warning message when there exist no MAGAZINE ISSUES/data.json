@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1205",
+  "parent_id": "MCF-1204",
+  "title": "Expecting a warning message when there exist no MAGAZINE ISSUES",
+  "gherkin": "Given there is no \"MAGAZINE ISSUE\"\nWhen the user visits the \"MAGAZINE ISSUE\" overview page\nThen the page should contain no \"MAGAZINE ISSUE\" section\nAnd the page should contain a message, informing the user that there are no \"MAGAZINE ISSUE\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T18:11:45.849+0100",
+  "updated_at": "2026-03-09T17:41:53.412+0100"
+}

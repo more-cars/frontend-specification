@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1219",
+  "parent_id": "MCF-1214",
+  "title": "Expecting no MAGAZINE ISSUE to be missing across the overview pages",
+  "gherkin": "Given there are 105 \"MAGAZINE ISSUE\"s\nWhen the user visits page 1 of the \"MAGAZINE ISSUE\" overview page\nThen the \"MAGAZINE ISSUE\" list should contain 100 items\nWhen the user visits page 2 of the \"MAGAZINE ISSUE\" overview page\nThen the \"MAGAZINE ISSUE\" list should contain 5 items",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T18:12:38.319+0100",
+  "updated_at": "2026-03-09T17:41:56.970+0100"
+}

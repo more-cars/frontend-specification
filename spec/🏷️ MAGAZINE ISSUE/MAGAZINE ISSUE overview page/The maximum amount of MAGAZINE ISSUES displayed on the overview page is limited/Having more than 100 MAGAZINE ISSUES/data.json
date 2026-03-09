@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1213",
+  "parent_id": "MCF-1212",
+  "title": "Having more than 100 MAGAZINE ISSUES",
+  "gherkin": "Given there are 105 \"MAGAZINE ISSUE\"s\nWhen the user visits the \"MAGAZINE ISSUE\" overview page\nThen the overview page should contain a \"MAGAZINE ISSUE\" section\nAnd the \"MAGAZINE ISSUE\" list should contain 100 items",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T18:12:12.000+0100",
+  "updated_at": "2026-03-09T17:41:55.024+0100"
+}

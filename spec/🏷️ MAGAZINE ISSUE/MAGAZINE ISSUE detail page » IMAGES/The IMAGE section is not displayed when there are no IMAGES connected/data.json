@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1303",
+  "parent_id": "MCF-1300",
+  "title": "The IMAGE section is not displayed when there are no IMAGES connected",
+  "description": "There should be no section, no headline and no placeholder when the MAGAZINE ISSUE has no IMAGES.\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T18:37:48.383+0100",
+  "updated_at": "2026-03-09T17:31:08.692+0100"
+}

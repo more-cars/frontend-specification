@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1282",
+  "parent_id": "MCF-1281",
+  "title": "Expecting to see no CAR MODEL VARIANT section when there are no CAR MODEL VARIANTS connected",
+  "gherkin": "Given there is a \"MAGAZINE ISSUE\" \"Top Gear 9_2025\"\nAnd the \"MAGAZINE ISSUE\" \"Top Gear 9_2025\" has no relationships\nWhen the user visits the detail page of the \"MAGAZINE ISSUE\" \"Top Gear 9_2025\"\nThen the page should contain no \"CAR MODEL VARIANT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T18:35:17.566+0100",
+  "updated_at": "2026-03-09T17:42:08.921+0100"
+}

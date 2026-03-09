@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1177",
+  "parent_id": "MCF-1176",
+  "title": "Expecting a photo of the MAGAZINE to be displayed on the detail page",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE\"\nThen the page should contain a photo section\nAnd the photo section should contain an image of the \"MAGAZINE\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T17:54:40.229+0100",
+  "updated_at": "2026-03-09T17:41:48.135+0100"
+}

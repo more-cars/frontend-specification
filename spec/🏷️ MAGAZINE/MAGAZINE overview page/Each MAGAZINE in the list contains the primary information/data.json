@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1151",
+  "parent_id": "MCF-1146",
+  "title": "Each MAGAZINE in the list contains the primary information",
+  "description": "Each MAGAZINE has a bunch of properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in the MAGAZINE list. The corresponding epic MCF-19 contains a list to find out which properties are 'primary'.\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T17:45:01.893+0100",
+  "updated_at": "2026-03-09T17:30:37.420+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1258",
+  "parent_id": "MCF-1257",
+  "title": "Expecting a MAGAZINE ISSUE section to be displayed on the MAGAZINE ISSUE detail page",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a \"MAGAZINE ISSUE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T18:32:10.016+0100",
+  "updated_at": "2026-03-09T17:42:04.349+0100"
+}

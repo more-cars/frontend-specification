@@ -1,0 +1,16 @@
+{
+  "id": "MCF-1146",
+  "parent_id": "MCF-19",
+  "title": "MAGAZINE overview page",
+  "user_story": "As a visitor\nI want to see a list of all MAGAZINES\nSo I can get a general idea of the different types that exist\nAnd by scrolling through them find interesting ones\n",
+  "description": "* There is a dedicated page (with a dedicated URL) where all MAGAZINES are presented.\n* A warning message is shown when there are no MAGAZINES.\n* The overview page always returns with status code \\`200\\`, no matter if any MAGAZINE exists or not.\n* By default, the MAGAZINES are sorted \\`ascending\\` by their \\`name\\`.\n* The sorting is always case-insensitive.\n* Each MAGAZINE is presented with its primary information and a link to its detail page.\n* The overview displays at most 100 MAGAZINES at once.\n* When there are more than 100 MAGAZINES then the \\`pagination\\` feature is activated.\n* Pagination allows the user to scroll through all MAGAZINES - 100 items at a time.\n* The user is able to bookmark and revisit any paginated MAGAZINE page.\n",
+  "api_path": "/magazines",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.9.0"
+  ],
+  "created_at": "2026-03-08T17:44:46.316+0100",
+  "updated_at": "2026-03-09T18:59:50.049+0100"
+}

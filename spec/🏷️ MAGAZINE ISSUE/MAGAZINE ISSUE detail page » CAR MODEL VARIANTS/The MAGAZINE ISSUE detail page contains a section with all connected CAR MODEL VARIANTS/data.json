@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1279",
+  "parent_id": "MCF-1278",
+  "title": "The MAGAZINE ISSUE detail page contains a section with all connected CAR MODEL VARIANTS",
+  "description": "The CAR MODEL VARIANTS are classified as secondary information. Therefore the section has to be positioned after all the primary information (lead image, primary relationship, etc.). It is displayed in list form, analog to list on the overview page.\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T18:35:08.607+0100",
+  "updated_at": "2026-03-09T17:31:03.256+0100"
+}

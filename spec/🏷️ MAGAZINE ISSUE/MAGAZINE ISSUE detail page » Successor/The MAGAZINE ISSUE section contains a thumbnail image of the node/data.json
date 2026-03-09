@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1265",
+  "parent_id": "MCF-1256",
+  "title": "The MAGAZINE ISSUE section contains a thumbnail image of the node",
+  "description": "The thumbnail shows the lead image of the resp. MAGAZINE ISSUE. When it has no lead image then a generic fallback image is displayed. The image is loaded in a small resolution to keep the loading times short.\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T18:32:32.665+0100",
+  "updated_at": "2026-03-09T17:31:00.282+0100"
+}

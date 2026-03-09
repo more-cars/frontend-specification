@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1269",
+  "parent_id": "MCF-1268",
+  "title": "Expecting a CAR MODEL section to be displayed on the MAGAZINE ISSUE detail page",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a section with a \"CAR MODEL\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T18:34:05.527+0100",
+  "updated_at": "2026-03-09T17:42:06.438+0100"
+}

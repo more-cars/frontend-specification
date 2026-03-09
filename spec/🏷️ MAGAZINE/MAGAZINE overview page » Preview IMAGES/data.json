@@ -1,0 +1,16 @@
+{
+  "id": "MCF-1165",
+  "parent_id": "MCF-19",
+  "title": "MAGAZINE overview page » Preview IMAGES",
+  "user_story": "As a visitor\nI want to see a preview image for each MAGAZINE on the overview page\nSo I can quickly find a specific one without knowing its name\n",
+  "description": "* each MAGAZINE item on the MAGAZINE overview page contains a preview image\n* the 'preview image' refers to what is known as 'prime image' in the API\n* the preview image is displayed in thumbnail size\n* when a MAGAZINE has no prime image then the preview image shows the default fallback image\n",
+  "api_path": "/magazines",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.9.0"
+  ],
+  "created_at": "2026-03-08T17:49:21.788+0100",
+  "updated_at": "2026-03-09T18:59:50.483+0100"
+}

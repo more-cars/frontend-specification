@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1169",
+  "parent_id": "MCF-1168",
+  "title": "The name of the MAGAZINE is exposed in all relevant locations",
+  "description": "The main headline and the page title contain the name of the MAGAZINE. But the name does not occupy those locations exclusively. There might be other features that inject their information as a suffix or prefix.\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T17:51:51.613+0100",
+  "updated_at": "2026-03-09T17:30:40.451+0100"
+}

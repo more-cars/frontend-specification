@@ -1,0 +1,13 @@
+@REQ_MCF-1190
+Feature: MAGAZINE detail page » IMAGES
+  As a visitor
+  I want the MAGAZINE detail page to show all connected IMAGES
+  So I can ...
+
+  @RULE_MCF-1191
+  Rule: The MAGAZINE detail page contains a section with all connected IMAGES
+
+    @TEST_MCF-1192 @implemented
+    Scenario: Expecting a IMAGE section to be displayed on the MAGAZINE detail page
+      When the user visits the detail page of a "MAGAZINE"
+      Then the page should contain a section with a "IMAGE" list

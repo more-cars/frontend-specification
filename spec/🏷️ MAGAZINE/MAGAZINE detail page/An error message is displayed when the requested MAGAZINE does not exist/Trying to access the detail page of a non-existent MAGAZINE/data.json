@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1174",
+  "parent_id": "MCF-1173",
+  "title": "Trying to access the detail page of a non-existent MAGAZINE",
+  "gherkin": "Given there is no \"MAGAZINE\" \"Top Gear\"\nWhen the user visits the detail page of the \"MAGAZINE\" \"Top Gear\"\nThen the page should contain a message, informing the user that there is no such \"MAGAZINE\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T17:52:08.055+0100",
+  "updated_at": "2026-03-09T17:41:47.695+0100"
+}

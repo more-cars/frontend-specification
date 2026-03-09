@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1241",
+  "parent_id": "MCF-1234",
+  "title": "The MAGAZINE section contains the node's primary information",
+  "description": "Each MAGAZINE has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the MAGAZINE epic (MCF-???).\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T18:29:53.418+0100",
+  "updated_at": "2026-03-09T17:30:55.018+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1227",
+  "parent_id": "MCF-1226",
+  "title": "Expecting the MAGAZINE ISSUE detail page to contain a populated fact sheet",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should display a fact sheet\nAnd the fact sheet should display an entry for each of the following properties\n  | _property_       |\n  | title |\n  | consecutive_number |\n  | issue_number |\n  | issue_year |\n  | release_date |\n  | single_copy_price |\n  | single_copy_price_unit |\n  | pages |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T18:26:47.623+0100",
+  "updated_at": "2026-03-09T17:41:58.090+0100"
+}

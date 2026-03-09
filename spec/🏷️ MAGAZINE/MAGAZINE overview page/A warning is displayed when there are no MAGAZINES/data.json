@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1149",
+  "parent_id": "MCF-1146",
+  "title": "A warning is displayed when there are no MAGAZINES",
+  "description": "The MAGAZINE list is not shown and a info/warning is displayed at a prominent location. It should inform the user that there are either no MAGAZINES or that there is a temporary problem with loading the MAGAZINES.\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T17:44:55.565+0100",
+  "updated_at": "2026-03-09T17:30:36.874+0100"
+}

@@ -2,7 +2,7 @@
   "id": "MCF-1266",
   "parent_id": "MCF-1265",
   "title": "Expecting the MAGAZINE ISSUE section to contain a thumbnail image of the node",
-  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a \"MAGAZINE ISSUE\" section\nAnd the \"MAGAZINE ISSUE\" section should contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a \"SUCCESSOR\" section\nAnd the \"SUCCESSOR\" section should contain a thumbnail image",
   "labels": [
     "implemented"
   ],

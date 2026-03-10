@@ -2,7 +2,7 @@
   "id": "MCF-575",
   "parent_id": "MCF-574",
   "title": "Expecting a RACING EVENT section to be displayed on the RACING EVENT detail page",
-  "gherkin": "When the user visits the detail page of a \"RACING EVENT\"\nThen the page should contain a \"RACING EVENT\" section",
+  "gherkin": "When the user visits the detail page of a \"RACING EVENT\"\nThen the page should contain a \"SUCCESSOR\" section",
   "labels": [
     "implemented"
   ],

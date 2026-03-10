@@ -10,5 +10,5 @@ Feature: RACING EVENT detail page » Successor
     @TEST_MCF-579 @implemented
     Scenario: Expecting the RACING EVENT section to contain a link to the detail page
       When the user visits the detail page of a "RACING EVENT"
-      Then the page should contain a "RACING EVENT" section
-      And the "RACING EVENT" section should contain a link to the detail page
+      Then the page should contain a "SUCCESSOR" section
+      And the "SUCCESSOR" section should contain a link to the detail page

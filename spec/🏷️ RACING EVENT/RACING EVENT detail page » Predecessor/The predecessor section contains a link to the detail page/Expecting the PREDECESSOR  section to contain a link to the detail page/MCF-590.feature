@@ -8,7 +8,7 @@ Feature: RACING EVENT detail page » Predecessor
   Rule: The predecessor section contains a link to the detail page
 
     @TEST_MCF-590 @implemented
-    Scenario: Expecting the RACING EVENT section to contain a link to the detail page
+    Scenario: Expecting the PREDECESSOR  section to contain a link to the detail page
       When the user visits the detail page of a "RACING EVENT"
-      Then the page should contain a "RACING EVENT" section
-      And the "RACING EVENT" section should contain a link to the detail page
+      Then the page should contain a "PREDECESSOR" section
+      And the "PREDECESSOR" section should contain a link to the detail page

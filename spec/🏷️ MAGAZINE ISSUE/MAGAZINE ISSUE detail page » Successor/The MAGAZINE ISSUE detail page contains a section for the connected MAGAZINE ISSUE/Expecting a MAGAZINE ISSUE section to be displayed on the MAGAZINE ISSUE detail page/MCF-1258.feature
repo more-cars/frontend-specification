@@ -10,4 +10,4 @@ Feature: MAGAZINE ISSUE detail page » Successor
     @TEST_MCF-1258 @implemented
     Scenario: Expecting a MAGAZINE ISSUE section to be displayed on the MAGAZINE ISSUE detail page
       When the user visits the detail page of a "MAGAZINE ISSUE"
-      Then the page should contain a "MAGAZINE ISSUE" section
+      Then the page should contain a "SUCCESSOR" section

@@ -8,7 +8,7 @@ Feature: RACING EVENT detail page » Successor
   Rule: The SUCCESSOR section contains a thumbnail image of the node
 
     @TEST_MCF-583 @implemented
-    Scenario: Expecting the RACING EVENT section to contain a thumbnail image of the node
+    Scenario: Expecting the SUCCESSOR section to contain a thumbnail image of the node
       When the user visits the detail page of a "RACING EVENT"
-      Then the page should contain a "RACING EVENT" section
-      Then the "RACING EVENT" section should contain a thumbnail image
+      Then the page should contain a "SUCCESSOR" section
+      Then the "SUCCESSOR" section should contain a thumbnail image

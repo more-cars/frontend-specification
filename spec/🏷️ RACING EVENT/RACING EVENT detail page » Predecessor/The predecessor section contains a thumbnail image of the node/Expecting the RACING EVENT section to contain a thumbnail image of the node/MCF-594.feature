@@ -10,5 +10,5 @@ Feature: RACING EVENT detail page » Predecessor
     @TEST_MCF-594 @implemented
     Scenario: Expecting the RACING EVENT section to contain a thumbnail image of the node
       When the user visits the detail page of a "RACING EVENT"
-      Then the page should contain a "RACING EVENT" section
-      Then the "RACING EVENT" section should contain a thumbnail image
+      Then the page should contain a "PREDECESSOR" section
+      Then the "PREDECESSOR" section should contain a thumbnail image

@@ -8,6 +8,6 @@ Feature: MAGAZINE ISSUE detail page » Predecessor
   Rule: The MAGAZINE ISSUE detail page contains a section for the connected MAGAZINE ISSUE
 
     @TEST_MCF-1247 @implemented
-    Scenario: Expecting a MAGAZINE ISSUE section to be displayed on the MAGAZINE ISSUE detail page
+    Scenario: Expecting a PREDECESSOR section to be displayed on the MAGAZINE ISSUE detail page
       When the user visits the detail page of a "MAGAZINE ISSUE"
-      Then the page should contain a "MAGAZINE ISSUE" section
+      Then the page should contain a "PREDECESSOR" section

@@ -2,7 +2,7 @@
   "id": "MCF-594",
   "parent_id": "MCF-593",
   "title": "Expecting the RACING EVENT section to contain a thumbnail image of the node",
-  "gherkin": "When the user visits the detail page of a \"RACING EVENT\"\nThen the page should contain a \"RACING EVENT\" section\nThen the \"RACING EVENT\" section should contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"RACING EVENT\"\nThen the page should contain a \"PREDECESSOR\" section\nThen the \"PREDECESSOR\" section should contain a thumbnail image",
   "labels": [
     "implemented"
   ],

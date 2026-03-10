@@ -10,5 +10,5 @@ Feature: MAGAZINE ISSUE detail page » Successor
     @TEST_MCF-1266 @implemented
     Scenario: Expecting the MAGAZINE ISSUE section to contain a thumbnail image of the node
       When the user visits the detail page of a "MAGAZINE ISSUE"
-      Then the page should contain a "MAGAZINE ISSUE" section
-      And the "MAGAZINE ISSUE" section should contain a thumbnail image
+      Then the page should contain a "SUCCESSOR" section
+      And the "SUCCESSOR" section should contain a thumbnail image

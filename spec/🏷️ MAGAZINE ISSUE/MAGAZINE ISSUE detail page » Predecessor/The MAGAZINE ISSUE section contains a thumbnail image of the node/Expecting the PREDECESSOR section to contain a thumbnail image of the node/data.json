@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1255",
+  "parent_id": "MCF-1254",
+  "title": "Expecting the PREDECESSOR section to contain a thumbnail image of the node",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a \"PREDECESSOR\" section\nAnd the \"PREDECESSOR\" section should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-08T18:31:11.264+0100",
+  "updated_at": "2026-03-10T16:10:43.114+0100"
+}

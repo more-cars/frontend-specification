@@ -2,7 +2,7 @@
   "id": "MCF-1258",
   "parent_id": "MCF-1257",
   "title": "Expecting a MAGAZINE ISSUE section to be displayed on the MAGAZINE ISSUE detail page",
-  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a \"MAGAZINE ISSUE\" section",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a \"SUCCESSOR\" section",
   "labels": [
     "implemented"
   ],

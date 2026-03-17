@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1523",
+  "parent_id": "MCF-1520",
+  "title": "The PROGRAMME EPISODE section is not displayed when there is no PROGRAMME EPISODE connected",
+  "description": "There should be no section, no headline and no placeholder when the PROGRAMME EPISODE has no PROGRAMME EPISODE.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T18:19:26.561+0100",
+  "updated_at": "2026-03-17T11:40:14.780+0100"
+}

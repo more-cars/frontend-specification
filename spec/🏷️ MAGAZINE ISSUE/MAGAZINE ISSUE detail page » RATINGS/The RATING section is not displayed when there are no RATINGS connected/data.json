@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1633",
+  "parent_id": "MCF-1630",
+  "title": "The RATING section is not displayed when there are no RATINGS connected",
+  "description": "There should be no section, no headline and no placeholder when the MAGAZINE ISSUE has no RATINGS.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-16T19:39:53.062+0100",
+  "updated_at": "2026-03-17T11:40:36.732+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1573",
+  "parent_id": "MCF-1564",
+  "title": "By default, the MOTOR SHOW list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all MOTOR SHOWS in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Motor Show', 'motor show' and 'MOTOR SHOW' should rank exactly the same.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T18:33:01.611+0100",
+  "updated_at": "2026-03-17T11:40:25.586+0100"
+}

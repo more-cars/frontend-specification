@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1403",
+  "parent_id": "MCF-1402",
+  "title": "Expecting to see no IMAGE section when there are no IMAGES connected",
+  "gherkin": "Given there is a \"RATING\" \"93 Percent\"\nAnd the \"RATING\" \"93 Percent\" has no relationships\nWhen the user visits the detail page of the \"RATING\" \"93 Percent\"\nThen the page should contain no \"IMAGE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:26:35.015+0100",
+  "updated_at": "2026-03-17T12:39:24.028+0100"
+}

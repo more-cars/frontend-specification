@@ -1,0 +1,16 @@
+{
+  "id": "MCF-1564",
+  "parent_id": "MCF-31",
+  "title": "MOTOR SHOW overview page",
+  "user_story": "As a visitor\nI want to see a list of all MOTOR SHOWS\nSo I can get a general idea of the different types that exist\nAnd by scrolling through them find interesting ones\n",
+  "description": "* There is a dedicated page (with a dedicated URL) where all MOTOR SHOWS are presented.\n* A warning message is shown when there are no MOTOR SHOWS.\n* The overview page always returns with status code \\`200\\`, no matter if any MOTOR SHOW exists or not.\n* By default, the MOTOR SHOWS are sorted \\`ascending\\` by their \\`name\\`.\n* The sorting is always case-insensitive.\n* Each MOTOR SHOW is presented with its primary information and a link to its detail page.\n* The overview displays at most 100 MOTOR SHOWS at once.\n* When there are more than 100 MOTOR SHOWS then the \\`pagination\\` feature is activated.\n* Pagination allows the user to scroll through all MOTOR SHOWS - 100 items at a time.\n* The user is able to bookmark and revisit any paginated MOTOR SHOW page.\n",
+  "api_path": "/motor-shows",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.10.0"
+  ],
+  "created_at": "2026-03-15T18:32:31.509+0100",
+  "updated_at": "2026-03-17T11:45:23.522+0100"
+}

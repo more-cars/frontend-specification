@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1422",
+  "parent_id": "MCF-1421",
+  "title": "Having more than 100 PROGRAMMES",
+  "gherkin": "Given there are 105 \"PROGRAMME\"s\nWhen the user visits the \"PROGRAMME\" overview page\nThen the overview page should contain a \"PROGRAMME\" section\nAnd the \"PROGRAMME\" list should contain 100 items",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:35:32.518+0100",
+  "updated_at": "2026-03-17T12:39:27.675+0100"
+}

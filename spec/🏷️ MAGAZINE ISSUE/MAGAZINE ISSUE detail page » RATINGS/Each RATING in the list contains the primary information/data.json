@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1637",
+  "parent_id": "MCF-1630",
+  "title": "Each RATING in the list contains the primary information",
+  "description": "Each RATING has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the RATING epic (MCF-???).\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-16T19:40:08.292+0100",
+  "updated_at": "2026-03-17T11:40:37.576+0100"
+}

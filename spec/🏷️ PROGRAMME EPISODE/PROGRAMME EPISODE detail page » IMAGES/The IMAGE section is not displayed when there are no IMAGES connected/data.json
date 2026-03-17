@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1556",
+  "parent_id": "MCF-1553",
+  "title": "The IMAGE section is not displayed when there are no IMAGES connected",
+  "description": "There should be no section, no headline and no placeholder when the PROGRAMME EPISODE has no IMAGES.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T18:27:10.571+0100",
+  "updated_at": "2026-03-17T11:40:21.902+0100"
+}

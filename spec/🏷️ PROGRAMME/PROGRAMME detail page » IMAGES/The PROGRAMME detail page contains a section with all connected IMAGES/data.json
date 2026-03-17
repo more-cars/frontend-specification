@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1455",
+  "parent_id": "MCF-1454",
+  "title": "The PROGRAMME detail page contains a section with all connected IMAGES",
+  "description": "The IMAGES are classified as secondary information. Therefore the section has to be positioned after all the primary information (lead image, primary relationship, etc.). It is displayed in list form, analog to list on the overview page.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T17:41:57.261+0100",
+  "updated_at": "2026-03-17T11:40:01.017+0100"
+}

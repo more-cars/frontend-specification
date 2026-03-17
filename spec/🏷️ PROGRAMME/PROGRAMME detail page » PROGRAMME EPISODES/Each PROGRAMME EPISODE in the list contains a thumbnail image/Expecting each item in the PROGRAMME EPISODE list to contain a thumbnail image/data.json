@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1453",
+  "parent_id": "MCF-1452",
+  "title": "Expecting each item in the PROGRAMME EPISODE list to contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"PROGRAMME\"\nThen the page should contain a \"PROGRAMME EPISODE\" section\nThen each item in the \"PROGRAMME EPISODE\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:41:24.979+0100",
+  "updated_at": "2026-03-17T12:39:34.121+0100"
+}

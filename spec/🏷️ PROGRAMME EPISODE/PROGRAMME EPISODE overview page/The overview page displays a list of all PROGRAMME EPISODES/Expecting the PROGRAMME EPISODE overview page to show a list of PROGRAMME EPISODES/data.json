@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1467",
+  "parent_id": "MCF-1466",
+  "title": "Expecting the PROGRAMME EPISODE overview page to show a list of PROGRAMME EPISODES",
+  "gherkin": "When the user visits the \"PROGRAMME EPISODE\" overview page\nThen the overview page should contain a \"PROGRAMME EPISODE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:45:22.497+0100",
+  "updated_at": "2026-03-17T12:39:36.567+0100"
+}

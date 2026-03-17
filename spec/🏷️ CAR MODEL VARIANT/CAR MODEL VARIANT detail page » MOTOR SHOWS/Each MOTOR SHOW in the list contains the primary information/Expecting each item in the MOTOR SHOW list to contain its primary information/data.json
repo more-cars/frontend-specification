@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1671",
+  "parent_id": "MCF-1670",
+  "title": "Expecting each item in the MOTOR SHOW list to contain its primary information",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should contain a \"MOTOR SHOW\" section\nAnd each item in the \"MOTOR SHOW\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-16T19:46:27.481+0100",
+  "updated_at": "2026-03-17T12:40:16.422+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1632",
+  "parent_id": "MCF-1631",
+  "title": "Expecting a RATING section to be displayed on the MAGAZINE ISSUE detail page",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a section with a \"RATING\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-16T19:39:48.889+0100",
+  "updated_at": "2026-03-17T12:40:09.018+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1640",
+  "parent_id": "MCF-1639",
+  "title": "Expecting each item in the RATING list to contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a \"RATING\" section\nThen each item in the \"RATING\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-16T19:40:29.587+0100",
+  "updated_at": "2026-03-17T12:40:10.819+0100"
+}

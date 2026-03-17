@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1381",
+  "parent_id": "MCF-1380",
+  "title": "Expecting to see no MAGAZINE ISSUE section when there is no MAGAZINE ISSUE connected",
+  "gherkin": "Given there is a \"RATING\" \"93 Percent\"\nAnd the \"RATING\" \"93 Percent\" has no relationships\nWhen the user visits the detail page of the \"RATING\" \"93 Percent\"\nThen the page should contain no \"MAGAZINE ISSUE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:17:13.859+0100",
+  "updated_at": "2026-03-17T12:39:19.571+0100"
+}

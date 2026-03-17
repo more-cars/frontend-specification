@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1356",
+  "parent_id": "MCF-1355",
+  "title": "Having more than 100 RATINGS",
+  "gherkin": "Given there are 105 \"RATING\"s\nWhen the user visits the \"RATING\" overview page\nThen the overview page should contain a \"RATING\" section\nAnd the \"RATING\" list should contain 100 items",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:09:37.859+0100",
+  "updated_at": "2026-03-17T12:39:13.936+0100"
+}

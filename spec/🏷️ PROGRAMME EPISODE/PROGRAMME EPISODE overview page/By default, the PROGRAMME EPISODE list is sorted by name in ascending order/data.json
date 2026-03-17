@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1474",
+  "parent_id": "MCF-1465",
+  "title": "By default, the PROGRAMME EPISODE list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all PROGRAMME EPISODES in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Programme Episode', 'programme episode' and 'PROGRAMME EPISODE' should rank exactly the same.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T17:45:47.858+0100",
+  "updated_at": "2026-03-17T11:40:05.657+0100"
+}

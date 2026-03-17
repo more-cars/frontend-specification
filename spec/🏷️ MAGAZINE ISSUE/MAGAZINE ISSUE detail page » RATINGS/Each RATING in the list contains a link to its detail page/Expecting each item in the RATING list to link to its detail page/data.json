@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1636",
+  "parent_id": "MCF-1635",
+  "title": "Expecting each item in the RATING list to link to its detail page",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a \"RATING\" section\nAnd each item in the \"RATING\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-16T19:40:04.089+0100",
+  "updated_at": "2026-03-17T12:40:10.042+0100"
+}

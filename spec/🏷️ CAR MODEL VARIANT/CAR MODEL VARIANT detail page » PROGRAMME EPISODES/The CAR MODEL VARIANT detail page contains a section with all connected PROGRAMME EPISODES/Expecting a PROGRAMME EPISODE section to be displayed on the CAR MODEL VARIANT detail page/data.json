@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1654",
+  "parent_id": "MCF-1653",
+  "title": "Expecting a PROGRAMME EPISODE section to be displayed on the CAR MODEL VARIANT detail page",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should contain a section with a \"PROGRAMME EPISODE\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-16T19:43:41.689+0100",
+  "updated_at": "2026-03-17T12:40:13.339+0100"
+}

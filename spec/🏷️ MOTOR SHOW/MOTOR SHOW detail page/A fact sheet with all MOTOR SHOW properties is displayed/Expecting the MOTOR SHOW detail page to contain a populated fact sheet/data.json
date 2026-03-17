@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1590",
+  "parent_id": "MCF-1589",
+  "title": "Expecting the MOTOR SHOW detail page to contain a populated fact sheet",
+  "gherkin": "When the user visits the detail page of a \"MOTOR SHOW\"\nThen the page should display a fact sheet\nAnd the fact sheet should display an entry for each of the following properties\n  | _property_       |\n  | name |\n  | date_from |\n  | date_until |\n  | location |\n  | target_audience |\n  | focus |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T18:36:09.634+0100",
+  "updated_at": "2026-03-17T12:40:00.168+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1493",
+  "parent_id": "MCF-1492",
+  "title": "Trying to access the detail page of a non-existent PROGRAMME EPISODE",
+  "gherkin": "Given there is no \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nWhen the user visits the detail page of the \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nThen the page should contain a message, informing the user that there is no such \"PROGRAMME EPISODE\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:51:35.817+0100",
+  "updated_at": "2026-03-17T12:39:42.021+0100"
+}

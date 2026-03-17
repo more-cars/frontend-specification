@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1346",
+  "parent_id": "MCF-1345",
+  "title": "Expecting the RATING overview page to show a list of RATINGS",
+  "gherkin": "When the user visits the \"RATING\" overview page\nThen the overview page should contain a \"RATING\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:09:04.018+0100",
+  "updated_at": "2026-03-17T12:39:11.476+0100"
+}

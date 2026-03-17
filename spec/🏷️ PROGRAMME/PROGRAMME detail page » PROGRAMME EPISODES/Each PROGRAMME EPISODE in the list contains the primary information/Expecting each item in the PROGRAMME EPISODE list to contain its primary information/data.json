@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1451",
+  "parent_id": "MCF-1450",
+  "title": "Expecting each item in the PROGRAMME EPISODE list to contain its primary information",
+  "gherkin": "When the user visits the detail page of a \"PROGRAMME\"\nThen the page should contain a \"PROGRAMME EPISODE\" section\nAnd each item in the \"PROGRAMME EPISODE\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:41:18.658+0100",
+  "updated_at": "2026-03-17T12:39:33.736+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1526",
+  "parent_id": "MCF-1525",
+  "title": "Expecting the PROGRAMME EPISODE section to contain a link to the detail page",
+  "gherkin": "When the user visits the detail page of a \"PROGRAMME EPISODE\"\nThen the page should contain a \"PROGRAMME EPISODE\" section\nAnd the \"PROGRAMME EPISODE\" section should contain a link to the detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T18:19:36.039+0100",
+  "updated_at": "2026-03-17T12:39:48.310+0100"
+}

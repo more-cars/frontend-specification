@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1421",
+  "parent_id": "MCF-1410",
+  "title": "The maximum amount of PROGRAMMES displayed on the overview page is limited",
+  "description": "To keep loading times and the page size reasonable there should be a limit on how many PROGRAMMES are displayed at once. This limit should be configurable, but it only needs to be configurable in the code. It does not need to be configurable at run time. The limit should be 100. When there exist more PROGRAMMES then the list on the overview page should be truncated. The pagination feature (different ticket) deals with the remaining PROGRAMMES in such cases.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T17:35:28.835+0100",
+  "updated_at": "2026-03-17T11:39:55.317+0100"
+}

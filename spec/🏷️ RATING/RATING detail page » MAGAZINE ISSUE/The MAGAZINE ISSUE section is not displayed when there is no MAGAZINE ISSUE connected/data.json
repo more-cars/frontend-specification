@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1380",
+  "parent_id": "MCF-1377",
+  "title": "The MAGAZINE ISSUE section is not displayed when there is no MAGAZINE ISSUE connected",
+  "description": "There should be no section, no headline and no placeholder when the RATING has no MAGAZINE ISSUE.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T17:17:11.075+0100",
+  "updated_at": "2026-03-17T11:39:46.513+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1348",
+  "parent_id": "MCF-1347",
+  "title": "Expecting a warning message when there exist no RATINGS",
+  "gherkin": "Given there is no \"RATING\"\nWhen the user visits the \"RATING\" overview page\nThen the page should contain no \"RATING\" section\nAnd the page should contain a message, informing the user that there are no \"RATING\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:09:10.370+0100",
+  "updated_at": "2026-03-17T12:39:12.125+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1461",
+  "parent_id": "MCF-1454",
+  "title": "Each IMAGE in the list contains the primary information",
+  "description": "Each IMAGE has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the IMAGE epic (MCF-???).\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T17:42:18.134+0100",
+  "updated_at": "2026-03-17T11:40:02.684+0100"
+}

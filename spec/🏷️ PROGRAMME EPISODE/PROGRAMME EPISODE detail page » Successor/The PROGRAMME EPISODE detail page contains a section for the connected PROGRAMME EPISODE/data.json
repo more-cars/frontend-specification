@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1521",
+  "parent_id": "MCF-1520",
+  "title": "The PROGRAMME EPISODE detail page contains a section for the connected PROGRAMME EPISODE",
+  "description": "In general, 1:1 relationships are more relevant for the end user than 1:n relationships. Therefore this PROGRAMME EPISODE section is to be shown before the other relationship sections (e.g. the image gallery).\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T18:19:19.840+0100",
+  "updated_at": "2026-03-17T11:40:14.370+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1572",
+  "parent_id": "MCF-1571",
+  "title": "Expecting each MOTOR SHOW in the list to have a link to its detail page",
+  "gherkin": "When the user visits the \"MOTOR SHOW\" overview page\nThen each item in the \"MOTOR SHOW\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T18:32:57.960+0100",
+  "updated_at": "2026-03-17T12:39:56.236+0100"
+}

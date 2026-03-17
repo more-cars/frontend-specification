@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1568",
+  "parent_id": "MCF-1567",
+  "title": "Expecting a warning message when there exist no MOTOR SHOWS",
+  "gherkin": "Given there is no \"MOTOR SHOW\"\nWhen the user visits the \"MOTOR SHOW\" overview page\nThen the page should contain no \"MOTOR SHOW\" section\nAnd the page should contain a message, informing the user that there are no \"MOTOR SHOW\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T18:32:43.262+0100",
+  "updated_at": "2026-03-17T12:39:55.506+0100"
+}

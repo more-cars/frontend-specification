@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1667",
+  "parent_id": "MCF-1666",
+  "title": "Expecting to see no MOTOR SHOW section when there are no MOTOR SHOWS connected",
+  "gherkin": "Given there is a \"CAR MODEL VARIANT\" \"McLaren P1\"\nAnd the \"CAR MODEL VARIANT\" \"McLaren P1\" has no relationships\nWhen the user visits the detail page of the \"CAR MODEL VARIANT\" \"McLaren P1\"\nThen the page should contain no \"MOTOR SHOW\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-16T19:46:13.071+0100",
+  "updated_at": "2026-03-17T12:40:15.645+0100"
+}

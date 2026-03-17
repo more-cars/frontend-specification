@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1546",
+  "parent_id": "MCF-1545",
+  "title": "Expecting to see no CAR MODEL VARIANT section when there are no CAR MODEL VARIANTS connected",
+  "gherkin": "Given there is a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd the \"PROGRAMME EPISODE\" \"The Holy Trinity\" has no relationships\nWhen the user visits the detail page of the \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nThen the page should contain no \"CAR MODEL VARIANT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T18:24:20.653+0100",
+  "updated_at": "2026-03-17T12:39:51.809+0100"
+}

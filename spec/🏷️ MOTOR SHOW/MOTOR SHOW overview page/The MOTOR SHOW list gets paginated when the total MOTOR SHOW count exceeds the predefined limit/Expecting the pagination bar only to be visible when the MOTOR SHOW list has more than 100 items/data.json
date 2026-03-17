@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1578",
+  "parent_id": "MCF-1577",
+  "title": "Expecting the pagination bar only to be visible when the MOTOR SHOW list has more than 100 items",
+  "gherkin": "Given there are 100 \"MOTOR SHOW\"s\nWhen the user visits the \"MOTOR SHOW\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"MOTOR SHOW\"s\nWhen the user visits the \"MOTOR SHOW\" overview page\nThen the pagination bar should be visible",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T18:33:18.043+0100",
+  "updated_at": "2026-03-17T12:39:57.400+0100"
+}

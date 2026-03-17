@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1670",
+  "parent_id": "MCF-1663",
+  "title": "Each MOTOR SHOW in the list contains the primary information",
+  "description": "Each MOTOR SHOW has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the MOTOR SHOW epic (MCF-???).\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-16T19:46:24.597+0100",
+  "updated_at": "2026-03-17T11:40:45.150+0100"
+}

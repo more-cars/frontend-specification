@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1437",
+  "parent_id": "MCF-1432",
+  "title": "An error message is displayed when the requested PROGRAMME does not exist",
+  "description": "An info or warning is displayed at a prominent location. It should inform the user that there the requested PROGRAMME does not exist or not anymore.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T17:38:07.503+0100",
+  "updated_at": "2026-03-17T11:39:57.544+0100"
+}

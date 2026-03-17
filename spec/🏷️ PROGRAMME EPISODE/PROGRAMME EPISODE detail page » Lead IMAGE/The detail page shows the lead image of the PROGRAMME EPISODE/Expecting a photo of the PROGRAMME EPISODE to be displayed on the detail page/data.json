@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1496",
+  "parent_id": "MCF-1495",
+  "title": "Expecting a photo of the PROGRAMME EPISODE to be displayed on the detail page",
+  "gherkin": "When the user visits the detail page of a \"PROGRAMME EPISODE\"\nThen the page should contain a photo section\nAnd the photo section should contain an image of the \"PROGRAMME EPISODE\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:58:30.019+0100",
+  "updated_at": "2026-03-17T12:39:42.391+0100"
+}

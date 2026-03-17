@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1358",
+  "parent_id": "MCF-1357",
+  "title": "Expecting the pagination bar only to be visible when the RATING list has more than 100 items",
+  "gherkin": "Given there are 100 \"RATING\"s\nWhen the user visits the \"RATING\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"RATING\"s\nWhen the user visits the \"RATING\" overview page\nThen the pagination bar should be visible",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:09:44.364+0100",
+  "updated_at": "2026-03-17T12:39:14.383+0100"
+}

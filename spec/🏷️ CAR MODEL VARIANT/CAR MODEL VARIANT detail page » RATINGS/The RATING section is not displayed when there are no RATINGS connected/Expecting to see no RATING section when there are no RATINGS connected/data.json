@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1623",
+  "parent_id": "MCF-1622",
+  "title": "Expecting to see no RATING section when there are no RATINGS connected",
+  "gherkin": "Given there is a \"CAR MODEL VARIANT\" \"McLaren 750S\"\nAnd the \"CAR MODEL VARIANT\" \"McLaren 750S\" has no relationships\nWhen the user visits the detail page of the \"CAR MODEL VARIANT\" \"McLaren 750S\"\nThen the page should contain no \"RATING\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-16T19:37:05.061+0100",
+  "updated_at": "2026-03-17T12:40:07.258+0100"
+}

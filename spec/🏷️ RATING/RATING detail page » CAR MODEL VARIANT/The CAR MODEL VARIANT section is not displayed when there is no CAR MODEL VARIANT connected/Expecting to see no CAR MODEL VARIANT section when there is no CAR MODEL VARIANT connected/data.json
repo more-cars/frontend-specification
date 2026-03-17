@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1392",
+  "parent_id": "MCF-1391",
+  "title": "Expecting to see no CAR MODEL VARIANT section when there is no CAR MODEL VARIANT connected",
+  "gherkin": "Given there is a \"RATING\" \"93 Percent\"\nAnd the \"RATING\" \"93 Percent\" has no relationships\nWhen the user visits the detail page of the \"RATING\" \"93 Percent\"\nThen the page should contain no \"CAR MODEL VARIANT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:24:49.634+0100",
+  "updated_at": "2026-03-17T12:39:22.003+0100"
+}

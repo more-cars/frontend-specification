@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1513",
+  "parent_id": "MCF-1512",
+  "title": "Expecting to see no PROGRAMME EPISODE section when there is no PROGRAMME EPISODE connected",
+  "gherkin": "Given there is a \"PROGRAMME EPISODE\" \"Funeral for a Ford\"\nAnd the \"PROGRAMME EPISODE\" \"Funeral for a Ford\" has no relationships\nWhen the user visits the detail page of the \"PROGRAMME EPISODE\" \"Funeral for a Ford\"\nThen the page should contain no \"PROGRAMME EPISODE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T18:12:27.970+0100",
+  "updated_at": "2026-03-17T12:39:45.791+0100"
+}

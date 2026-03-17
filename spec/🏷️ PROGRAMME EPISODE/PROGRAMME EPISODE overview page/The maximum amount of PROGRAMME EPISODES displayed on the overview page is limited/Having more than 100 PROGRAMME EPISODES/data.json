@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1477",
+  "parent_id": "MCF-1476",
+  "title": "Having more than 100 PROGRAMME EPISODES",
+  "gherkin": "Given there are 105 \"PROGRAMME EPISODE\"s\nWhen the user visits the \"PROGRAMME EPISODE\" overview page\nThen the overview page should contain a \"PROGRAMME EPISODE\" section\nAnd the \"PROGRAMME EPISODE\" list should contain 100 items",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:45:56.901+0100",
+  "updated_at": "2026-03-17T12:39:38.545+0100"
+}

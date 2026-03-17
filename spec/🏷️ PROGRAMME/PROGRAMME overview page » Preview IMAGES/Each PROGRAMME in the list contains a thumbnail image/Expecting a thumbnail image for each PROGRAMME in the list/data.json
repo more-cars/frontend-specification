@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1431",
+  "parent_id": "MCF-1430",
+  "title": "Expecting a thumbnail image for each PROGRAMME in the list",
+  "gherkin": "When the user visits the \"PROGRAMME\" overview page\nThen each item in the \"PROGRAMME\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:37:15.633+0100",
+  "updated_at": "2026-03-17T12:39:30.050+0100"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "MCF-1363",
+  "parent_id": "MCF-25",
+  "title": "RATING overview page » Preview IMAGES",
+  "user_story": "As a visitor\nI want to see a preview image for each RATING on the overview page\nSo I can quickly find a specific one without knowing its name\n",
+  "description": "* each RATING item on the RATING overview page contains a preview image\n* the 'preview image' refers to what is known as 'prime image' in the API\n* the preview image is displayed in thumbnail size\n* when a RATING has no prime image then the preview image shows the default fallback image\n",
+  "api_path": "/ratings",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.10.0"
+  ],
+  "created_at": "2026-03-15T17:10:52.334+0100",
+  "updated_at": "2026-03-17T11:45:12.422+0100"
+}

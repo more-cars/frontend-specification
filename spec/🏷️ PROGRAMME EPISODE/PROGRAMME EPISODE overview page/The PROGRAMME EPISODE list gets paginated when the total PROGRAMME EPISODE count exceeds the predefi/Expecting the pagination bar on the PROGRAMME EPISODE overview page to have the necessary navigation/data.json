@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1480",
+  "parent_id": "MCF-1478",
+  "title": "Expecting the pagination bar on the PROGRAMME EPISODE overview page to have the necessary navigational elements",
+  "gherkin": "Given there are 205 \"PROGRAMME EPISODE\"s\nWhen the user visits page 2 of the \"PROGRAMME EPISODE\" overview page\nThen the pagination bar should contain a link to the previous page\nAnd the pagination bar should contain a link to the next page\nAnd the pagination bar should indicate that the user is currently on page 2",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:46:08.825+0100",
+  "updated_at": "2026-03-17T12:39:39.293+0100"
+}

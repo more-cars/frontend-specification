@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1402",
+  "parent_id": "MCF-1399",
+  "title": "The IMAGE section is not displayed when there are no IMAGES connected",
+  "description": "There should be no section, no headline and no placeholder when the RATING has no IMAGES.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T17:26:32.556+0100",
+  "updated_at": "2026-03-17T11:39:51.133+0100"
+}

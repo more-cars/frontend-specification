@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1376",
+  "parent_id": "MCF-1374",
+  "title": "Expecting the photo section to show a fallback image when the RATING has no lead image",
+  "gherkin": "Given there is a \"RATING\" \"93 Percent\"\nAnd the \"RATING\" \"93 Percent\" has no lead image\nWhen the user visits the detail page of the \"RATING\" \"93 Percent\"\nThen the page should contain a photo section\nAnd the photo section should contain a fallback image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:13:40.197+0100",
+  "updated_at": "2026-03-17T12:39:18.627+0100"
+}

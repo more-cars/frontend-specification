@@ -1,0 +1,16 @@
+{
+  "id": "MCF-1429",
+  "parent_id": "MCF-21",
+  "title": "PROGRAMME overview page » Preview IMAGES",
+  "user_story": "As a visitor\nI want to see a preview image for each PROGRAMME on the overview page\nSo I can quickly find a specific one without knowing its name\n",
+  "description": "* each PROGRAMME item on the PROGRAMME overview page contains a preview image\n* the 'preview image' refers to what is known as 'prime image' in the API\n* the preview image is displayed in thumbnail size\n* when a PROGRAMME has no prime image then the preview image shows the default fallback image\n",
+  "api_path": "/programmes",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.10.0"
+  ],
+  "created_at": "2026-03-15T17:37:10.225+0100",
+  "updated_at": "2026-03-17T11:45:16.098+0100"
+}

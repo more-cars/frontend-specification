@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1673",
+  "parent_id": "MCF-1672",
+  "title": "Expecting each item in the MOTOR SHOW list to contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should contain a \"MOTOR SHOW\" section\nThen each item in the \"MOTOR SHOW\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-16T19:46:35.402+0100",
+  "updated_at": "2026-03-17T12:40:16.789+0100"
+}

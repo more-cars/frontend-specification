@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1576",
+  "parent_id": "MCF-1575",
+  "title": "Having more than 100 MOTOR SHOWS",
+  "gherkin": "Given there are 105 \"MOTOR SHOW\"s\nWhen the user visits the \"MOTOR SHOW\" overview page\nThen the overview page should contain a \"MOTOR SHOW\" section\nAnd the \"MOTOR SHOW\" list should contain 100 items",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T18:33:10.802+0100",
+  "updated_at": "2026-03-17T12:39:56.964+0100"
+}

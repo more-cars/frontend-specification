@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1369",
+  "parent_id": "MCF-1366",
+  "title": "A fact sheet with all RATING properties is displayed",
+  "description": "Each property is presented as a key-value pair. Properties are not aggregated or combined. Properties without value are displayed, but marked as empty. Zero-values and null-values are visually distinct.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T17:12:25.161+0100",
+  "updated_at": "2026-03-17T11:39:44.146+0100"
+}

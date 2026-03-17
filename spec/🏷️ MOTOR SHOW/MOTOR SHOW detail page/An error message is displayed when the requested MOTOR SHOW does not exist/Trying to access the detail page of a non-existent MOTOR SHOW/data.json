@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1592",
+  "parent_id": "MCF-1591",
+  "title": "Trying to access the detail page of a non-existent MOTOR SHOW",
+  "gherkin": "Given there is no \"MOTOR SHOW\" \"IAA Frankfurt\"\nWhen the user visits the detail page of the \"MOTOR SHOW\" \"IAA Frankfurt\"\nThen the page should contain a message, informing the user that there is no such \"MOTOR SHOW\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T18:36:16.502+0100",
+  "updated_at": "2026-03-17T12:40:00.583+0100"
+}

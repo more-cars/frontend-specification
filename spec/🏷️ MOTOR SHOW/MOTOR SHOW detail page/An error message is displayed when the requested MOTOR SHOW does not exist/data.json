@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1591",
+  "parent_id": "MCF-1586",
+  "title": "An error message is displayed when the requested MOTOR SHOW does not exist",
+  "description": "An info or warning is displayed at a prominent location. It should inform the user that there the requested MOTOR SHOW does not exist or not anymore.\n",
+  "release_version": "0.10.0",
+  "created_at": "2026-03-15T18:36:13.524+0100",
+  "updated_at": "2026-03-17T11:40:28.183+0100"
+}

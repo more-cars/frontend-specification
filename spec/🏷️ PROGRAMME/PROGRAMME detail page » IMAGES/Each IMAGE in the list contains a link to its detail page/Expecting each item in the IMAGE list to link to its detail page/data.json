@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1460",
+  "parent_id": "MCF-1459",
+  "title": "Expecting each item in the IMAGE list to link to its detail page",
+  "gherkin": "When the user visits the detail page of a \"PROGRAMME\"\nThen the page should contain a \"IMAGE\" section\nAnd each item in the \"IMAGE\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T17:42:14.382+0100",
+  "updated_at": "2026-03-17T12:39:35.285+0100"
+}

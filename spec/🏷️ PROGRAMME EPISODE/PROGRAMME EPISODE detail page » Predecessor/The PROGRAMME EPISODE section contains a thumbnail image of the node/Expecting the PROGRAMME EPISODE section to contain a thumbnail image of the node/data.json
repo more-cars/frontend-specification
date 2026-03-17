@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1519",
+  "parent_id": "MCF-1518",
+  "title": "Expecting the PROGRAMME EPISODE section to contain a thumbnail image of the node",
+  "gherkin": "When the user visits the detail page of a \"PROGRAMME EPISODE\"\nThen the page should contain a \"PROGRAMME EPISODE\" section\nAnd the \"PROGRAMME EPISODE\" section should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T18:12:53.686+0100",
+  "updated_at": "2026-03-17T12:39:47.029+0100"
+}

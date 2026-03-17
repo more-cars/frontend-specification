@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1511",
+  "parent_id": "MCF-1510",
+  "title": "Expecting a PROGRAMME EPISODE section to be displayed on the PROGRAMME EPISODE detail page",
+  "gherkin": "When the user visits the detail page of a \"PROGRAMME EPISODE\"\nThen the page should contain a \"PROGRAMME EPISODE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-15T18:12:21.666+0100",
+  "updated_at": "2026-03-17T12:39:45.301+0100"
+}

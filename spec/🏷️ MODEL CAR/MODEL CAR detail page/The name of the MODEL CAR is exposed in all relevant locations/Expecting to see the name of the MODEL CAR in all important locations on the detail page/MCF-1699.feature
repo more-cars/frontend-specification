@@ -1,0 +1,14 @@
+@REQ_MCF-1697
+Feature: MODEL CAR detail page
+  As a visitor
+  I want each MODEL CAR to have a dedicated page
+  So I can find every piece of information about it in one place
+
+  @RULE_MCF-1698
+  Rule: The name of the MODEL CAR is exposed in all relevant locations
+
+    @TEST_MCF-1699 @implemented
+    Scenario: Expecting to see the name of the MODEL CAR in all important locations on the detail page
+      When the user visits the detail page of a "MODEL CAR"
+      Then the page title should contain the "MODEL CAR" name
+      And the main headline should contain the "MODEL CAR" name

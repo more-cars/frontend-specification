@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1723",
+  "parent_id": "MCF-1722",
+  "title": "Expecting to see no CAR MODEL VARIANT section when there is no CAR MODEL VARIANT connected",
+  "gherkin": "Given there is a \"MODEL CAR\" \"BMW M3 CSL\"\nAnd the \"MODEL CAR\" \"BMW M3 CSL\" has no relationships\nWhen the user visits the detail page of the \"MODEL CAR\" \"BMW M3 CSL\"\nThen the page should contain no \"CAR MODEL VARIANT\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:27:26.593+0100",
+  "updated_at": "2026-03-22T09:43:38.700+0100"
+}

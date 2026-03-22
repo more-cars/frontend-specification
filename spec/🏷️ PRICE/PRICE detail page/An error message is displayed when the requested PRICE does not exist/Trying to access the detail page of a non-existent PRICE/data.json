@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1824",
+  "parent_id": "MCF-1823",
+  "title": "Trying to access the detail page of a non-existent PRICE",
+  "gherkin": "Given there is no \"PRICE\" \"Base price\"\nWhen the user visits the detail page of the \"PRICE\" \"Base price\"\nThen the page should contain a message, informing the user that there is no such \"PRICE\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:58:00.772+0100",
+  "updated_at": "2026-03-22T09:43:57.028+0100"
+}

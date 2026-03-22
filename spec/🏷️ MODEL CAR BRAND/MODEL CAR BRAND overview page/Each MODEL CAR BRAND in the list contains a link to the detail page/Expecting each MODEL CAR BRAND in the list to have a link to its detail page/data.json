@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1749",
+  "parent_id": "MCF-1748",
+  "title": "Expecting each MODEL CAR BRAND in the list to have a link to its detail page",
+  "gherkin": "When the user visits the \"MODEL CAR BRAND\" overview page\nThen each item in the \"MODEL CAR BRAND\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:29:35.846+0100",
+  "updated_at": "2026-03-22T09:43:43.254+0100"
+}

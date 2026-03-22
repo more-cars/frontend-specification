@@ -2,7 +2,7 @@
   "id": "MCF-117",
   "parent_id": "MCF-114",
   "title": "Expecting the IMAGE detail page to contain a section for each connected node type",
-  "gherkin": "When the user visits the detail page of a \"IMAGE\"\nThen the page should contain a \"BRAND\" section\nAnd the page should contain a \"CAR MODEL\" section",
+  "gherkin": "When the user visits the detail page of a \"IMAGE\"\nThen the page should contain a \"NODE\" section",
   "labels": [
     "implemented"
   ],

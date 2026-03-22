@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1844",
+  "parent_id": "MCF-1843",
+  "title": "Expecting to see no IMAGE section when there are no IMAGES connected",
+  "gherkin": "Given there is a \"PRICE\" \"Base price\"\nAnd the \"PRICE\" \"Base price\" has no relationships\nWhen the user visits the detail page of the \"PRICE\" \"Base price\"\nThen the page should contain no \"IMAGE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T12:15:06.972+0100",
+  "updated_at": "2026-03-22T09:44:00.254+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1677",
+  "parent_id": "MCF-1676",
+  "title": "Expecting the MODEL CAR overview page to show a list of MODEL CARS",
+  "gherkin": "When the user visits the \"MODEL CAR\" overview page\nThen the overview page should contain a \"MODEL CAR\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:11:20.226+0100",
+  "updated_at": "2026-03-22T09:43:29.489+0100"
+}

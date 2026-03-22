@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1775",
+  "parent_id": "MCF-1774",
+  "title": "The MODEL CAR BRAND detail page contains a section with all connected MODEL CARS",
+  "description": "The MODEL CARS are classified as secondary information. Therefore the section has to be positioned after all the primary information (lead image, primary relationship, etc.). It is displayed in list form, analog to list on the overview page.\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T11:42:56.680+0100",
+  "updated_at": "2026-03-21T17:53:58.188+0100"
+}

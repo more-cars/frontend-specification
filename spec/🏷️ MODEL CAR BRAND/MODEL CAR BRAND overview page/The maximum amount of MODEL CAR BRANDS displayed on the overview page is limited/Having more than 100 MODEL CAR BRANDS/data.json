@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1753",
+  "parent_id": "MCF-1752",
+  "title": "Having more than 100 MODEL CAR BRANDS",
+  "gherkin": "Given there are 105 \"MODEL CAR BRAND\"s\nWhen the user visits the \"MODEL CAR BRAND\" overview page\nThen the overview page should contain a \"MODEL CAR BRAND\" section\nAnd the \"MODEL CAR BRAND\" list should contain 100 items",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:29:48.497+0100",
+  "updated_at": "2026-03-22T09:43:43.955+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1802",
+  "parent_id": "MCF-1801",
+  "title": "Expecting each PRICE in the list to display its primary information",
+  "gherkin": "When the user visits the \"PRICE\" overview page\nThen each item in the \"PRICE\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:54:16.281+0100",
+  "updated_at": "2026-03-22T09:43:52.728+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1701",
+  "parent_id": "MCF-1700",
+  "title": "Expecting the MODEL CAR detail page to contain a populated fact sheet",
+  "gherkin": "When the user visits the detail page of a \"MODEL CAR\"\nThen the page should display a fact sheet\nAnd the fact sheet should display an entry for each of the following properties\n  | _property_       |\n  | name |\n  | product_code |\n  | release_year |\n  | scale |\n  | series |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:15:36.135+0100",
+  "updated_at": "2026-03-22T09:43:34.969+0100"
+}

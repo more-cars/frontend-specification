@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1817",
+  "parent_id": "MCF-1816",
+  "title": "Expecting a thumbnail image for each PRICE in the list",
+  "gherkin": "When the user visits the \"PRICE\" overview page\nThen each item in the \"PRICE\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:56:22.113+0100",
+  "updated_at": "2026-03-22T09:43:55.982+0100"
+}

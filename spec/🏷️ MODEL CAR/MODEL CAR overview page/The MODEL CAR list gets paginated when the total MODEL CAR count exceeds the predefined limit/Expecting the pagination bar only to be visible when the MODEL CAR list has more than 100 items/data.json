@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1689",
+  "parent_id": "MCF-1688",
+  "title": "Expecting the pagination bar only to be visible when the MODEL CAR list has more than 100 items",
+  "gherkin": "Given there are 100 \"MODEL CAR\"s\nWhen the user visits the \"MODEL CAR\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"MODEL CAR\"s\nWhen the user visits the \"MODEL CAR\" overview page\nThen the pagination bar should be visible",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:12:07.845+0100",
+  "updated_at": "2026-03-22T09:43:32.312+0100"
+}

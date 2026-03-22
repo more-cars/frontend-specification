@@ -1,0 +1,16 @@
+{
+  "id": "MCF-1851",
+  "parent_id": "MCF-4",
+  "title": "CAR MODEL VARIANT detail page » PRICES",
+  "user_story": "As a visitor\nI want the CAR MODEL VARIANT detail page to show all connected PRICES\nSo I can ...\n",
+  "description": "* The CAR MODEL VARIANT detail page contains a section with a list of all connected PRICES.\n* Each PRICE in the list is presented with its name and primary information.\n* Each PRICE in the list contains a link to its detail page.\n* Each PRICE in the list has a thumbnail image.\n* When there is no PRICE connected to the CAR MODEL VARIANT then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.11.0"
+  ],
+  "created_at": "2026-03-21T12:28:22.502+0100",
+  "updated_at": "2026-03-22T09:31:02.135+0100"
+}

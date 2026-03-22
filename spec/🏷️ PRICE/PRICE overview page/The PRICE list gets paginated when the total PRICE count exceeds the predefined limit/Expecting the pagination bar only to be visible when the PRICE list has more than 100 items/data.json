@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1810",
+  "parent_id": "MCF-1809",
+  "title": "Expecting the pagination bar only to be visible when the PRICE list has more than 100 items",
+  "gherkin": "Given there are 100 \"PRICE\"s\nWhen the user visits the \"PRICE\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"PRICE\"s\nWhen the user visits the \"PRICE\" overview page\nThen the pagination bar should be visible",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:54:44.535+0100",
+  "updated_at": "2026-03-22T09:43:54.183+0100"
+}

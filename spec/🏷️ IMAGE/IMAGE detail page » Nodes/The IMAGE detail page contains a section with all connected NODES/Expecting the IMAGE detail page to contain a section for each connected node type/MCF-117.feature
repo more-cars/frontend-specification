@@ -10,5 +10,4 @@ Feature: IMAGE detail page » Nodes
     @TEST_MCF-117 @implemented
     Scenario: Expecting the IMAGE detail page to contain a section for each connected node type
       When the user visits the detail page of a "IMAGE"
-      Then the page should contain a "BRAND" section
-      And the page should contain a "CAR MODEL" section
+      Then the page should contain a "NODE" section

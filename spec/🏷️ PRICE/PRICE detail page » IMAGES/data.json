@@ -1,0 +1,16 @@
+{
+  "id": "MCF-1840",
+  "parent_id": "MCF-27",
+  "title": "PRICE detail page » IMAGES",
+  "user_story": "As a visitor\nI want the PRICE detail page to show all connected IMAGES\nSo I can ...\n",
+  "description": "* The PRICE detail page contains a section with a list of all connected IMAGES.\n* Each IMAGE in the list is presented with its name and primary information.\n* Each IMAGE in the list contains a link to its detail page.\n* Each IMAGE in the list has a thumbnail image.\n* When there is no IMAGE connected to the PRICE then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.11.0"
+  ],
+  "created_at": "2026-03-21T12:14:54.659+0100",
+  "updated_at": "2026-03-22T09:31:01.725+0100"
+}

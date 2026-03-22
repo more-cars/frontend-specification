@@ -1,0 +1,16 @@
+{
+  "id": "MCF-1774",
+  "parent_id": "MCF-33",
+  "title": "MODEL CAR BRAND detail page » MODEL CARS",
+  "user_story": "As a visitor\nI want the MODEL CAR BRAND detail page to show all connected MODEL CARS\nSo I can ...\n",
+  "description": "* The MODEL CAR BRAND detail page contains a section with a list of all connected MODEL CARS.\n* Each MODEL CAR in the list is presented with its name and primary information.\n* Each MODEL CAR in the list contains a link to its detail page.\n* Each MODEL CAR in the list has a thumbnail image.\n* When there is no MODEL CAR connected to the MODEL CAR BRAND then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.11.0"
+  ],
+  "created_at": "2026-03-21T11:42:54.048+0100",
+  "updated_at": "2026-03-22T09:30:58.761+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1751",
+  "parent_id": "MCF-1750",
+  "title": "Expecting a sorted MODEL CAR BRAND list when visiting the overview page",
+  "gherkin": "When the user visits the \"MODEL CAR BRAND\" overview page\nThen the \"MODEL CAR BRAND\" list should be sorted by \"name\" in \"ascending\" order",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:29:42.056+0100",
+  "updated_at": "2026-03-22T09:43:43.596+0100"
+}

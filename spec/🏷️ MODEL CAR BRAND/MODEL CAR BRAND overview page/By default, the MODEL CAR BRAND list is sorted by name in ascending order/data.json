@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1750",
+  "parent_id": "MCF-1741",
+  "title": "By default, the MODEL CAR BRAND list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all MODEL CAR BRANDS in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Model Car Brand', 'model car brand' and 'MODEL CAR BRAND' should rank exactly the same.\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T11:29:39.384+0100",
+  "updated_at": "2026-03-21T17:53:54.656+0100"
+}

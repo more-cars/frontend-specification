@@ -1,0 +1,16 @@
+{
+  "id": "MCF-1694",
+  "parent_id": "MCF-32",
+  "title": "MODEL CAR overview page » Preview IMAGES",
+  "user_story": "As a visitor\nI want to see a preview image for each MODEL CAR on the overview page\nSo I can quickly find a specific one without knowing its name\n",
+  "description": "* each MODEL CAR item on the MODEL CAR overview page contains a preview image\n* the 'preview image' refers to what is known as 'prime image' in the API\n* the preview image is displayed in thumbnail size\n* when a MODEL CAR has no prime image then the preview image shows the default fallback image\n",
+  "api_path": "/model-cars",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.11.0"
+  ],
+  "created_at": "2026-03-21T11:14:12.647+0100",
+  "updated_at": "2026-03-22T09:30:54.415+0100"
+}

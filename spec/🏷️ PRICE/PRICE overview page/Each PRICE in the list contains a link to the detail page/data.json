@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1803",
+  "parent_id": "MCF-1796",
+  "title": "Each PRICE in the list contains a link to the detail page",
+  "description": "Only the title of each PRICE should link to the respective detail page, not the whole PRICE list item. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T11:54:19.812+0100",
+  "updated_at": "2026-03-21T17:54:03.918+0100"
+}

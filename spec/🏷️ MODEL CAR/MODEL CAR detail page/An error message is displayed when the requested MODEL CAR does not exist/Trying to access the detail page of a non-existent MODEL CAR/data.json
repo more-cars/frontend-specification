@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1703",
+  "parent_id": "MCF-1702",
+  "title": "Trying to access the detail page of a non-existent MODEL CAR",
+  "gherkin": "Given there is no \"MODEL CAR\" \"BMW M3 CSL\"\nWhen the user visits the detail page of the \"MODEL CAR\" \"BMW M3 CSL\"\nThen the page should contain a message, informing the user that there is no such \"MODEL CAR\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:15:47.211+0100",
+  "updated_at": "2026-03-22T09:43:35.352+0100"
+}

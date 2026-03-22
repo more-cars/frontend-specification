@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1714",
+  "parent_id": "MCF-1713",
+  "title": "Expecting the MODEL CAR BRAND section to contain a link to the detail page",
+  "gherkin": "When the user visits the detail page of a \"MODEL CAR\"\nThen the page should contain a \"MODEL CAR BRAND\" section\nAnd the \"MODEL CAR BRAND\" section should contain a link to the detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:25:40.561+0100",
+  "updated_at": "2026-03-22T09:43:37.266+0100"
+}

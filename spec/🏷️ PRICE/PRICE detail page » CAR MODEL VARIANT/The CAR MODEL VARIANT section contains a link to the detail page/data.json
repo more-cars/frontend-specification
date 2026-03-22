@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1834",
+  "parent_id": "MCF-1829",
+  "title": "The CAR MODEL VARIANT section contains a link to the detail page",
+  "description": "Only the title of the CAR MODEL VARIANT should link to the detail page, not the whole section. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T12:13:49.646+0100",
+  "updated_at": "2026-03-21T17:54:08.938+0100"
+}

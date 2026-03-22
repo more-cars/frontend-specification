@@ -1,0 +1,16 @@
+{
+  "id": "MCF-1815",
+  "parent_id": "MCF-27",
+  "title": "PRICE overview page » Preview IMAGES",
+  "user_story": "As a visitor\nI want to see a preview image for each PRICE on the overview page\nSo I can quickly find a specific one without knowing its name\n",
+  "description": "* each PRICE item on the PRICE overview page contains a preview image\n* the 'preview image' refers to what is known as 'prime image' in the API\n* the preview image is displayed in thumbnail size\n* when a PRICE has no prime image then the preview image shows the default fallback image\n",
+  "api_path": "/prices",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.11.0"
+  ],
+  "created_at": "2026-03-21T11:56:16.426+0100",
+  "updated_at": "2026-03-22T09:30:59.947+0100"
+}

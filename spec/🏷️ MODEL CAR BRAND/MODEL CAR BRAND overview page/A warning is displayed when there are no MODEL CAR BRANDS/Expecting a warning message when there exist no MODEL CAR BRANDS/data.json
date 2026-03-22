@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1745",
+  "parent_id": "MCF-1744",
+  "title": "Expecting a warning message when there exist no MODEL CAR BRANDS",
+  "gherkin": "Given there is no \"MODEL CAR BRAND\"\nWhen the user visits the \"MODEL CAR BRAND\" overview page\nThen the page should contain no \"MODEL CAR BRAND\" section\nAnd the page should contain a message, informing the user that there are no \"MODEL CAR BRAND\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:29:22.642+0100",
+  "updated_at": "2026-03-22T09:43:42.479+0100"
+}

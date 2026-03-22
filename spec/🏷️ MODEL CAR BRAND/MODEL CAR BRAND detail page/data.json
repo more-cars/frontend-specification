@@ -1,0 +1,17 @@
+{
+  "id": "MCF-1763",
+  "parent_id": "MCF-33",
+  "title": "MODEL CAR BRAND detail page",
+  "user_story": "As a visitor\nI want each MODEL CAR BRAND to have a dedicated page\nSo I can find every piece of information about it in one place\n",
+  "description": "* Each MODEL CAR BRAND has a dedicated detail page, with its own URL. -> Status Code \\`200\\`\n* An error message is shown when there exists no MODEL CAR BRAND with the given ID. -> Status Code \\`404\\`\n* The detail page has a fact sheet. It contains all properties that are specified for the node type MODEL CAR BRAND. -> See MCF-33\n* Each property in the fact sheet is displayed as a key-value pair, with the property name and the property value.\n* When a property has no value (null or undefined) it is still displayed in the fact sheet, but marked as empty.\n* The name of the MODEL CAR BRAND is reflected in the main headline and in the page title. The page title might contain additional text, like the suffix 'More Cars'. The main headline might also contain additional information to make generic nodes more unique.\n",
+  "api_path": "/model-car-brands/<model-car-brand-id>",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [
+    "0.11.0"
+  ],
+  "created_at": "2026-03-21T11:34:26.229+0100",
+  "updated_at": "2026-03-22T09:30:57.970+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1688",
+  "parent_id": "MCF-1675",
+  "title": "The MODEL CAR list gets paginated when the total MODEL CAR count exceeds the predefined limit",
+  "description": "A pagination bar should be shown when the number of MODEL CARS is higher than the configured limit (specified in a different ticket). At a bare minimum it should contain a link to the next page (if available), a link to the previous page (if available) and indicate the current page number. When the number of MODEL CARS is lower than the configured limit then the pagination bar should be hidden. Whatever technical solution is chosen, the user needs to be able to bookmark the different pages. Meaning all links need to be 'real' (it cannot be a pure JavaScript solution). Each page should display a different subset of the MODEL CAR collection. There should be no overlap and there should be no MODEL CAR missing.\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T11:12:04.809+0100",
+  "updated_at": "2026-03-21T17:53:43.225+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1715",
+  "parent_id": "MCF-1708",
+  "title": "The MODEL CAR BRAND section contains the node's primary information",
+  "description": "Each MODEL CAR BRAND has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the MODEL CAR BRAND epic (MCF-???).\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T11:25:44.176+0100",
+  "updated_at": "2026-03-21T17:53:47.547+0100"
+}

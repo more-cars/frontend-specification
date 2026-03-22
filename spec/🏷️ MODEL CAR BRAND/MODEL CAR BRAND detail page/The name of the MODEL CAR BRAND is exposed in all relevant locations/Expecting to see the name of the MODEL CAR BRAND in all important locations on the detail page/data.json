@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1765",
+  "parent_id": "MCF-1764",
+  "title": "Expecting to see the name of the MODEL CAR BRAND in all important locations on the detail page",
+  "gherkin": "When the user visits the detail page of a \"MODEL CAR BRAND\"\nThen the page title should contain the \"MODEL CAR BRAND\" name\nAnd the main headline should contain the \"MODEL CAR BRAND\" name",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:34:31.611+0100",
+  "updated_at": "2026-03-22T09:43:46.422+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1806",
+  "parent_id": "MCF-1805",
+  "title": "Expecting a sorted PRICE list when visiting the overview page",
+  "gherkin": "When the user visits the \"PRICE\" overview page\nThen the \"PRICE\" list should be sorted by \"name\" in \"ascending\" order",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:54:31.953+0100",
+  "updated_at": "2026-03-22T09:43:53.423+0100"
+}

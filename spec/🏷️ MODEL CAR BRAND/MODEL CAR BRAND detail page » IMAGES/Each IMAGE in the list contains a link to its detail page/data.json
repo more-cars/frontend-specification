@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1790",
+  "parent_id": "MCF-1785",
+  "title": "Each IMAGE in the list contains a link to its detail page",
+  "description": "Only the title of each IMAGE should link to the respective detail page, not the whole list item. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T11:51:23.107+0100",
+  "updated_at": "2026-03-21T17:54:01.200+0100"
+}

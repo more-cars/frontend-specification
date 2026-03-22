@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1788",
+  "parent_id": "MCF-1785",
+  "title": "The IMAGE section is not displayed when there are no IMAGES connected",
+  "description": "There should be no section, no headline and no placeholder when the MODEL CAR BRAND has no IMAGES.\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T11:51:16.615+0100",
+  "updated_at": "2026-03-21T17:54:00.746+0100"
+}

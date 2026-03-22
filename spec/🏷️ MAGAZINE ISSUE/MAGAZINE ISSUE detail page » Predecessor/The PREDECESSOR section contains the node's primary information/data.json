@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1252",
+  "parent_id": "MCF-1245",
+  "title": "The PREDECESSOR section contains the node's primary information",
+  "description": "Each MAGAZINE ISSUE has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the MAGAZINE ISSUE epic (MCF-20).\n",
+  "release_version": "0.9.0",
+  "created_at": "2026-03-08T18:31:00.271+0100",
+  "updated_at": "2026-03-22T09:12:44.088+0100"
+}

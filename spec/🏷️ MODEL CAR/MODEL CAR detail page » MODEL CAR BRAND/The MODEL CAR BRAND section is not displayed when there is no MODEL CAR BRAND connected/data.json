@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1711",
+  "parent_id": "MCF-1708",
+  "title": "The MODEL CAR BRAND section is not displayed when there is no MODEL CAR BRAND connected",
+  "description": "There should be no section, no headline and no placeholder when the MODEL CAR has no MODEL CAR BRAND.\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T11:25:31.532+0100",
+  "updated_at": "2026-03-21T17:53:46.591+0100"
+}

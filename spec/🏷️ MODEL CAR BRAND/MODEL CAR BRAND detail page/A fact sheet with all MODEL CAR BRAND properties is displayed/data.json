@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1766",
+  "parent_id": "MCF-1763",
+  "title": "A fact sheet with all MODEL CAR BRAND properties is displayed",
+  "description": "Each property is presented as a key-value pair. Properties are not aggregated or combined. Properties without value are displayed, but marked as empty. Zero-values and null-values are visually distinct.\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T11:34:35.067+0100",
+  "updated_at": "2026-03-21T17:53:56.898+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1823",
+  "parent_id": "MCF-1818",
+  "title": "An error message is displayed when the requested PRICE does not exist",
+  "description": "An info or warning is displayed at a prominent location. It should inform the user that there the requested PRICE does not exist or not anymore.\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T11:57:57.625+0100",
+  "updated_at": "2026-03-21T17:54:07.062+0100"
+}

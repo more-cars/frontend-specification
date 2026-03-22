@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1855",
+  "parent_id": "MCF-1854",
+  "title": "Expecting to see no PRICE section when there are no PRICES connected",
+  "gherkin": "Given there is a \"CAR MODEL VARIANT\" \"Toyota Yaris\"\nAnd the \"CAR MODEL VARIANT\" \"Toyota Yaris\" has no relationships\nWhen the user visits the detail page of the \"CAR MODEL VARIANT\" \"Toyota Yaris\"\nThen the page should contain no \"PRICE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T12:28:35.052+0100",
+  "updated_at": "2026-03-22T09:44:02.211+0100"
+}

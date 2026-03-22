@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1853",
+  "parent_id": "MCF-1852",
+  "title": "Expecting a PRICE section to be displayed on the CAR MODEL VARIANT detail page",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should contain a section with a \"PRICE\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T12:28:28.332+0100",
+  "updated_at": "2026-03-22T09:44:01.813+0100"
+}

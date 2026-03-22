@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1718",
+  "parent_id": "MCF-1717",
+  "title": "Expecting the MODEL CAR BRAND section to contain a thumbnail image of the node",
+  "gherkin": "When the user visits the detail page of a \"MODEL CAR\"\nThen the page should contain a \"MODEL CAR BRAND\" section\nAnd the \"MODEL CAR BRAND\" section should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:25:53.092+0100",
+  "updated_at": "2026-03-22T09:43:37.996+0100"
+}

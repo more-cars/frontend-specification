@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1676",
+  "parent_id": "MCF-1675",
+  "title": "The overview page displays a list of all MODEL CARS",
+  "description": "'All' does not necessarily mean that every single MODEL CAR is displayed. Other features, like search, filtering or pagination might influence the displayed amount.\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-03-21T11:11:16.961+0100",
+  "updated_at": "2026-03-21T17:53:40.228+0100"
+}

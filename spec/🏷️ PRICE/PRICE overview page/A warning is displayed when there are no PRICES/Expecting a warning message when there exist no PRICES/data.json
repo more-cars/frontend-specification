@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1800",
+  "parent_id": "MCF-1799",
+  "title": "Expecting a warning message when there exist no PRICES",
+  "gherkin": "Given there is no \"PRICE\"\nWhen the user visits the \"PRICE\" overview page\nThen the page should contain no \"PRICE\" section\nAnd the page should contain a message, informing the user that there are no \"PRICE\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-21T11:54:09.834+0100",
+  "updated_at": "2026-03-22T09:43:52.386+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-262",
+  "parent_id": "MCF-217",
+  "title": "Requests to a non-canonical URL are redirected to the canonical version",
+  "description": "**Source**\n\n* `/<node-id>` -> Short URLs for F1 Book\n* `/<short-node-id>` → MC 1.0 short URLs\n* `/<node-type>/<node-id>` -> unofficial shortcut for MC 2.0\n* `/<node-type>/<short_node-id>` → unofficial shortcut for MC 1.0\n* `/<node-title>__<short_node-id>` → official MC 1.0 URLs\n\n**Target**\n\n* `/<node-title>-<node-id>`\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-01-17T17:49:21.309+0100",
+  "updated_at": "2026-03-27T11:30:36.798+0100"
+}

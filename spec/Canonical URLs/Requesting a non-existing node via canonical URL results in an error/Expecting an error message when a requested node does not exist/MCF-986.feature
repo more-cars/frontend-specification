@@ -1,15 +1,15 @@
 @REQ_MCF-216
-Feature: URL slugs
+Feature: Canonical URLs
   As a visitor\
   Instead of a generic URL with an ID\
   I want all NODE detail pages to be served via a human-readable URL\
   So I can directly see which NODE hides behind a link, without needing to open it first
 
   @RULE_MCF-977
-  Rule: An error message is displayed when the requested node does not exist
+  Rule: Requesting a non-existing node via canonical URL results in an error
 
-    @TEST_MCF-986
+    @TEST_MCF-986 @implemented
     Scenario: Expecting an error message when a requested node does not exist
-      Given there is no "Car Model" "Testarossa"
-      When the user visits the "Car Model" "Testarossa" via "Slug URL"
+      Given there is no "CAR MODEL" "Testarossa"
+      When the user visits the "CAR MODEL" "Testarossa" via "Canonical URL"
       Then the page should contain a message, informing the user that there is no such node

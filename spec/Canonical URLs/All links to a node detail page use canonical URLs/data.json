@@ -1,0 +1,9 @@
+{
+  "id": "MCF-975",
+  "parent_id": "MCF-216",
+  "title": "All links to a node detail page use canonical URLs",
+  "description": "* canonical URL paths always have the pattern`/<node-title>-<node-id>`\n* locations\n  * node overview pages\n  * items in the relationship sections on the node detail pages\n",
+  "release_version": "0.11.0",
+  "created_at": "2026-02-07T11:44:25.068+0100",
+  "updated_at": "2026-03-27T09:15:27.692+0100"
+}

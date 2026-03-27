@@ -1,0 +1,11 @@
+{
+  "id": "MCF-983",
+  "parent_id": "MCF-975",
+  "title": "Expecting every link to a node detail page to use canonical URLs",
+  "gherkin": "When the user visits the \"CAR MODEL\" overview page\nThen each link in the \"CAR MODEL\" section should be a canonical URL",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-07T12:44:49.905+0100",
+  "updated_at": "2026-03-27T09:29:27.247+0100"
+}

@@ -2,7 +2,7 @@
   "id": "MCF-986",
   "parent_id": "MCF-977",
   "title": "Expecting an error message when a requested node does not exist",
-  "gherkin": "Given there is no \"CAR MODEL\" \"Testarossa\"\nWhen the user visits the \"CAR MODEL\" \"Testarossa\" via \"Canonical URL\"\nThen the page should contain a message, informing the user that there is no such node",
+  "gherkin": "Given there is no \"CAR MODEL\" \"Testarossa\"\nWhen the user visits the detail page of the \"CAR MODEL\" \"Testarossa\" via \"Canonical URL\"\nThen the page should contain a message, informing the user that there is no such \"NODE\"",
   "labels": [
     "implemented"
   ],

@@ -11,5 +11,5 @@ Feature: Canonical URLs
     @TEST_MCF-986 @implemented
     Scenario: Expecting an error message when a requested node does not exist
       Given there is no "CAR MODEL" "Testarossa"
-      When the user visits the "CAR MODEL" "Testarossa" via "Canonical URL"
-      Then the page should contain a message, informing the user that there is no such node
+      When the user visits the detail page of the "CAR MODEL" "Testarossa" via "Canonical URL"
+      Then the page should contain a message, informing the user that there is no such "NODE"

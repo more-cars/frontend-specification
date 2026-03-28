@@ -2,7 +2,7 @@
   "id": "MCF-984",
   "parent_id": "MCF-976",
   "title": "Expecting all detail pages to be accessible via canonical URL",
-  "gherkin": "Given there is a \"CAR MODEL\" \"Testarossa\"\nWhen the user visits the detail page of \"CAR MODEL\" \"Testarossa\" via \"Canonical URL\"\nThen the user should not be redirected\nAnd the user should be on the detail page of \"CAR MODEL\" \"Testarossa\"",
+  "gherkin": "Given there is a \"<node_type>\" \"node\"\nWhen the user visits the detail page of the \"<node_type>\" \"node\" via \"Canonical URL\"\nThen the user should not be redirected\nAnd the user should be on the detail page of \"<node_type>\" \"node\"\n\nExamples:\n  | node_type         |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | PRICE             |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | MODEL CAR         |\n  | MODEL CAR BRAND   |\n  | MAGAZINE          |\n  | MAGAZINE ISSUE    |\n  | RATING            |\n  | PROGRAMME         |\n  | PROGRAMME EPISODE |\n  | MOTOR SHOW        |\n  | IMAGE             |",
   "labels": [
     "implemented"
   ],

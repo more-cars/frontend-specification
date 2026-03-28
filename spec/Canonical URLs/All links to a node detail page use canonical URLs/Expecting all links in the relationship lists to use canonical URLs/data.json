@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1876",
+  "parent_id": "MCF-975",
+  "title": "Expecting all links in the relationship lists to use canonical URLs",
+  "gherkin": "When the user visits the detail page of a \"<node_type>\"\nThen all links in the relationship sections should be canonical URLs\n\nExamples:\n  | node_type         |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | PRICE             |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | MODEL CAR         |\n  | MODEL CAR BRAND   |\n  | MAGAZINE          |\n  | MAGAZINE ISSUE    |\n  | RATING            |\n  | PROGRAMME         |\n  | PROGRAMME EPISODE |\n  | MOTOR SHOW        |\n  | IMAGE             |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-27T18:31:30.385+0100",
+  "updated_at": "2026-03-28T10:48:37.402+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1893",
+  "parent_id": "MCF-1890",
+  "title": "Expecting the paginated VIDEO overview page to behave identically no matter if visited via the UI or a bookmark",
+  "gherkin": "Given there are 105 \"VIDEO\"s\nWhen the user visits page 2 of the \"VIDEO\" overview page via UI\nThen the \"VIDEO\" list should contain 5 items\nAnd the pagination bar should indicate that the user is currently on page 2\nWhen the user visits page 2 of the \"VIDEO\" overview page via URL\nThen the \"VIDEO\" list should contain 5 items\nAnd the pagination bar should indicate that the user is currently on page 2",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-03T19:05:59.246+0200",
+  "updated_at": "2026-04-05T12:40:13.421+0200"
+}

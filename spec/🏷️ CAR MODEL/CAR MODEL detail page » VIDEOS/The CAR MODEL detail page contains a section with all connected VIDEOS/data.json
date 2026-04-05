@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1944",
+  "parent_id": "MCF-1943",
+  "title": "The CAR MODEL detail page contains a section with all connected VIDEOS",
+  "description": "The VIDEOS are classified as secondary information. Therefore the section has to be positioned after all the primary information (lead image, primary relationship, etc.). It is displayed in list form, analog to list on the overview page.\n",
+  "release_version": "0.12.0",
+  "created_at": "2026-04-05T09:34:22.641+0200",
+  "updated_at": "2026-04-05T12:24:40.510+0200"
+}

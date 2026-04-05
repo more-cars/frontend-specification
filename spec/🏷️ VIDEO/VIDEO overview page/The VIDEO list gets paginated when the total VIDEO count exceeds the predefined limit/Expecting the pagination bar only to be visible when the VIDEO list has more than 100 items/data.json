@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1891",
+  "parent_id": "MCF-1890",
+  "title": "Expecting the pagination bar only to be visible when the VIDEO list has more than 100 items",
+  "gherkin": "Given there are 100 \"VIDEO\"s\nWhen the user visits the \"VIDEO\" overview page\nThen the pagination bar should not be visible\nGiven there are 101 \"VIDEO\"s\nWhen the user visits the \"VIDEO\" overview page\nThen the pagination bar should be visible",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-03T19:05:48.827+0200",
+  "updated_at": "2026-04-05T12:40:12.667+0200"
+}

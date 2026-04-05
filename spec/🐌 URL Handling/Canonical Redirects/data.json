@@ -1,0 +1,18 @@
+{
+  "id": "MCF-217",
+  "parent_id": "MCF-9",
+  "title": "Canonical Redirects",
+  "user_story": "As a returning visitor\\\nI want to be able to access NODES that I have bookmarked a long time ago\\\nSo I don't have to search for that information again just because the URL changed over time\n",
+  "description": "* the goal is to make sure that old bookmarks and links are still accessible, even after 10 or 20 years\n* when the request uses the canonical URL no redirect is performed → status code 200\n* when the target node does not exist (anymore) the request should be rejected → status code 404\n* when the request uses a non-canonical URL then a redirect to the canonical version i performed → status code 301\n* the following patterns need to be supported:\n  * `/<node-id>` -> Short URLs for F1 Book\n  * `/<short-node-id>` → MC 1.0 short URLs\n  * `/<node-type>/<node-id>` -> unofficial shortcut for MC 2.0\n  * `/<node-type>/<short_node-id>` → unofficial shortcut for MC 1.0\n  * `/<node-title>__<short_node-id>` → official MC 1.0 URLs\n* a short node ID has 1 to 6 digits (More Cars 1.0)\n* a regular node ID has 8 digits (More Cars 2.0)\n* the **canonical URL** always has the pattern `/<node-title>-<node-id>`\n",
+  "api_path": "/*",
+  "response_options": [
+    "200",
+    "301",
+    "404"
+  ],
+  "release_versions": [
+    "0.11.0"
+  ],
+  "created_at": "2026-01-09T13:10:35.051+0100",
+  "updated_at": "2026-03-28T18:13:11.645+0100"
+}

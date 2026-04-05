@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2084",
+  "parent_id": "MCF-2075",
+  "title": "Each VIDEO in the list contains a thumbnail image",
+  "description": "The thumbnail shows the lead image of the resp. VIDEO. When it has no lead image then a generic fallback image is displayed. The image is loaded in a small resolution to keep the loading times short.\n",
+  "release_version": "0.12.0",
+  "created_at": "2026-04-05T10:37:34.147+0200",
+  "updated_at": "2026-04-05T12:25:06.902+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2043",
+  "parent_id": "MCF-2042",
+  "title": "The GAMING PLATFORM detail page contains a section with all connected VIDEOS",
+  "description": "The VIDEOS are classified as secondary information. Therefore the section has to be positioned after all the primary information (lead image, primary relationship, etc.). It is displayed in list form, analog to list on the overview page.\n",
+  "release_version": "0.12.0",
+  "created_at": "2026-04-05T10:21:34.236+0200",
+  "updated_at": "2026-04-05T12:24:58.949+0200"
+}

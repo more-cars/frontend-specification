@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1967",
+  "parent_id": "MCF-1966",
+  "title": "Expecting a VIDEO section to be displayed on the RACE TRACK detail page",
+  "gherkin": "When the user visits the detail page of a \"RACE TRACK\"\nThen the page should contain a section with a \"VIDEO\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-05T09:38:35.861+0200",
+  "updated_at": "2026-04-05T12:40:26.463+0200"
+}

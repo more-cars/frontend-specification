@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1962",
+  "parent_id": "MCF-1961",
+  "title": "Expecting each item in the VIDEO list to contain its primary information",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should contain a \"VIDEO\" section\nAnd each item in the \"VIDEO\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-05T09:36:19.868+0200",
+  "updated_at": "2026-04-05T12:40:25.589+0200"
+}

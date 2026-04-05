@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2044",
+  "parent_id": "MCF-2043",
+  "title": "Expecting a VIDEO section to be displayed on the GAMING PLATFORM detail page",
+  "gherkin": "When the user visits the detail page of a \"GAMING PLATFORM\"\nThen the page should contain a section with a \"VIDEO\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-05T10:21:36.990+0200",
+  "updated_at": "2026-04-05T12:40:40.663+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1934",
+  "parent_id": "MCF-1933",
+  "title": "Expecting a VIDEO section to be displayed on the BRAND detail page",
+  "gherkin": "When the user visits the detail page of a \"BRAND\"\nThen the page should contain a section with a \"VIDEO\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-05T09:32:08.529+0200",
+  "updated_at": "2026-04-05T12:40:20.456+0200"
+}

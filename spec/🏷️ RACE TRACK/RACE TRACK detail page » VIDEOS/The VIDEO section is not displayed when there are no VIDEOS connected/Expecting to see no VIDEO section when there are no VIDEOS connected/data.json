@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1969",
+  "parent_id": "MCF-1968",
+  "title": "Expecting to see no VIDEO section when there are no VIDEOS connected",
+  "gherkin": "Given there is a \"RACE TRACK\" \"Nürburgring\"\nAnd the \"RACE TRACK\" \"Nürburgring\" has no relationships\nWhen the user visits the detail page of the \"RACE TRACK\" \"Nürburgring\"\nThen the page should contain no \"VIDEO\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-05T09:38:42.854+0200",
+  "updated_at": "2026-04-05T12:40:26.857+0200"
+}

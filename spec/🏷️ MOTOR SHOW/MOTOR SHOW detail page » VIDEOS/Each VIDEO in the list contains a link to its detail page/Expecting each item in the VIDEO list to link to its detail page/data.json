@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2125",
+  "parent_id": "MCF-2124",
+  "title": "Expecting each item in the VIDEO list to link to its detail page",
+  "gherkin": "When the user visits the detail page of a \"MOTOR SHOW\"\nThen the page should contain a \"VIDEO\" section\nAnd each item in the \"VIDEO\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-05T10:55:14.084+0200",
+  "updated_at": "2026-04-05T12:40:55.490+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1958",
+  "parent_id": "MCF-1957",
+  "title": "Expecting to see no VIDEO section when there are no VIDEOS connected",
+  "gherkin": "Given there is a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nAnd the \"CAR MODEL VARIANT\" \"BMW M3 CSL\" has no relationships\nWhen the user visits the detail page of the \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nThen the page should contain no \"VIDEO\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-05T09:36:06.010+0200",
+  "updated_at": "2026-04-05T12:40:24.835+0200"
+}

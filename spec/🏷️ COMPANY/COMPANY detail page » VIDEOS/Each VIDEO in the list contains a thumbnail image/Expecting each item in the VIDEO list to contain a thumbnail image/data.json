@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1931",
+  "parent_id": "MCF-1930",
+  "title": "Expecting each item in the VIDEO list to contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"COMPANY\"\nThen the page should contain a \"VIDEO\" section\nThen each item in the \"VIDEO\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-03T19:24:32.906+0200",
+  "updated_at": "2026-04-05T12:40:20.034+0200"
+}

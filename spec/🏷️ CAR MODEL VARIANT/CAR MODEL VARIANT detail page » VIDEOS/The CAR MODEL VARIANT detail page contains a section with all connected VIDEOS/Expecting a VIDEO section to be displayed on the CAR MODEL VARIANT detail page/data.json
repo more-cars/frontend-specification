@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1956",
+  "parent_id": "MCF-1955",
+  "title": "Expecting a VIDEO section to be displayed on the CAR MODEL VARIANT detail page",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should contain a section with a \"VIDEO\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-05T09:35:59.568+0200",
+  "updated_at": "2026-04-05T12:40:24.441+0200"
+}

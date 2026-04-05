@@ -1,0 +1,16 @@
+{
+  "id": "MCF-2042",
+  "parent_id": "MCF-24",
+  "title": "GAMING PLATFORM detail page » VIDEOS",
+  "user_story": "As a visitor\nI want the GAMING PLATFORM detail page to show all connected VIDEOS\nSo I can ...\n",
+  "description": "* The GAMING PLATFORM detail page contains a section with a list of all connected VIDEOS.\n* Each VIDEO in the list is presented with its name and primary information.\n* Each VIDEO in the list contains a link to its detail page.\n* Each VIDEO in the list has a thumbnail image.\n* When there is no VIDEO connected to the GAMING PLATFORM then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.12.0"
+  ],
+  "created_at": "2026-04-05T10:21:31.257+0200",
+  "updated_at": "2026-04-05T12:29:44.784+0200"
+}

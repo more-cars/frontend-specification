@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2113",
+  "parent_id": "MCF-2108",
+  "title": "Each VIDEO in the list contains a link to its detail page",
+  "description": "Only the title of each VIDEO should link to the respective detail page, not the whole list item. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "0.12.0",
+  "created_at": "2026-04-05T10:52:16.691+0200",
+  "updated_at": "2026-04-05T12:25:12.324+0200"
+}

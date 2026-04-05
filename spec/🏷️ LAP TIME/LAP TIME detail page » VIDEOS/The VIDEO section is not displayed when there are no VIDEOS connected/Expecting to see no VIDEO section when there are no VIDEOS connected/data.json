@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2024",
+  "parent_id": "MCF-2023",
+  "title": "Expecting to see no VIDEO section when there are no VIDEOS connected",
+  "gherkin": "Given there is a \"LAP TIME\" \"Fastest lap\"\nAnd the \"LAP TIME\" \"Fastest lap\" has no relationships\nWhen the user visits the detail page of the \"LAP TIME\" \"Fastest lap\"\nThen the page should contain no \"VIDEO\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-05T10:12:58.095+0200",
+  "updated_at": "2026-04-05T12:40:37.081+0200"
+}

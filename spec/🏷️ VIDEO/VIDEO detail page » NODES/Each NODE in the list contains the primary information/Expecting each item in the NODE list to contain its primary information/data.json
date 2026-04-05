@@ -1,0 +1,11 @@
+{
+  "id": "MCF-1918",
+  "parent_id": "MCF-1917",
+  "title": "Expecting each item in the NODE list to contain its primary information",
+  "gherkin": "When the user visits the detail page of a \"VIDEO\"\nThen the page should contain a \"NODE\" section\nAnd each item in the \"NODE\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-03T19:13:53.745+0200",
+  "updated_at": "2026-04-05T12:40:17.487+0200"
+}

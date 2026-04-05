@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1886",
+  "parent_id": "MCF-1877",
+  "title": "By default, the VIDEO list is sorted by name in ascending order",
+  "description": "Other features might influence the sorting, but by default all VIDEOS in the list should be sorted by their 'name' property. The sorting should be case-insensitive, meaning 'Video', 'video' and 'VIDEO' should rank exactly the same.\n",
+  "release_version": "0.12.0",
+  "created_at": "2026-04-03T19:05:30.606+0200",
+  "updated_at": "2026-04-05T12:24:31.308+0200"
+}

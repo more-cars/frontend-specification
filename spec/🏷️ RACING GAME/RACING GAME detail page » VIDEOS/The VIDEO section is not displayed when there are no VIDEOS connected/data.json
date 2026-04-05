@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2034",
+  "parent_id": "MCF-2031",
+  "title": "The VIDEO section is not displayed when there are no VIDEOS connected",
+  "description": "There should be no section, no headline and no placeholder when the RACING GAME has no VIDEOS.\n",
+  "release_version": "0.12.0",
+  "created_at": "2026-04-05T10:17:06.433+0200",
+  "updated_at": "2026-04-05T12:24:57.387+0200"
+}

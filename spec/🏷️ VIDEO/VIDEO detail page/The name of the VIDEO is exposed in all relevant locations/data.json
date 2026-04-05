@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1900",
+  "parent_id": "MCF-1899",
+  "title": "The name of the VIDEO is exposed in all relevant locations",
+  "description": "The main headline and the page title contain the name of the VIDEO. But the name does not occupy those locations exclusively. There might be other features that inject their information as a suffix or prefix.\n",
+  "release_version": "0.12.0",
+  "created_at": "2026-04-03T19:09:54.614+0200",
+  "updated_at": "2026-04-05T12:24:33.044+0200"
+}

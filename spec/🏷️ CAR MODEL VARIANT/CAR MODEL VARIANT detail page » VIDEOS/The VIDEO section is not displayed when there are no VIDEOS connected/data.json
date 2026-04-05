@@ -1,0 +1,9 @@
+{
+  "id": "MCF-1957",
+  "parent_id": "MCF-1954",
+  "title": "The VIDEO section is not displayed when there are no VIDEOS connected",
+  "description": "There should be no section, no headline and no placeholder when the CAR MODEL VARIANT has no VIDEOS.\n",
+  "release_version": "0.12.0",
+  "created_at": "2026-04-05T09:36:03.463+0200",
+  "updated_at": "2026-04-05T12:24:42.912+0200"
+}

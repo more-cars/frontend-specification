@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2104",
+  "parent_id": "MCF-2097",
+  "title": "Each VIDEO in the list contains the primary information",
+  "description": "Each VIDEO has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the VIDEO epic (MCF-???).\n",
+  "release_version": "0.12.0",
+  "created_at": "2026-04-05T10:45:33.201+0200",
+  "updated_at": "2026-04-05T12:25:10.780+0200"
+}

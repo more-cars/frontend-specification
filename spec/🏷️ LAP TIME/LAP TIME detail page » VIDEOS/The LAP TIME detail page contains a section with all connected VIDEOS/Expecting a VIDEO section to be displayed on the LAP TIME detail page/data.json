@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2022",
+  "parent_id": "MCF-2021",
+  "title": "Expecting a VIDEO section to be displayed on the LAP TIME detail page",
+  "gherkin": "When the user visits the detail page of a \"LAP TIME\"\nThen the page should contain a section with a \"VIDEO\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-05T10:12:51.269+0200",
+  "updated_at": "2026-04-05T12:40:36.690+0200"
+}

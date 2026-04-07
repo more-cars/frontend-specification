@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2142",
+  "parent_id": "MCF-988",
+  "title": "Expecting the start page to contain a section with the \"latest additions\"",
+  "gherkin": "When the user visits the start page\nThen the page should contain a \"latest additions\" section",
+  "labels": [],
+  "created_at": "2026-04-06T11:02:35.067+0200",
+  "updated_at": "2026-04-07T14:16:23.882+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2135",
+  "parent_id": "MCF-2133",
+  "title": "Expecting the footer to contain a populated \"intro\" section",
+  "gherkin": "When the user visits a page\nThen the page footer should contain an \"intro\" section\nAnd the intro section should contain the More Cars logo\nAnd the intro section should contain a short description\nAnd the intro section should contain a link to the start page",
+  "labels": [],
+  "created_at": "2026-04-06T10:22:51.307+0200",
+  "updated_at": "2026-04-06T10:41:31.688+0200"
+}

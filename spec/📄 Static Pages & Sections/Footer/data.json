@@ -1,0 +1,16 @@
+{
+  "id": "MCF-403",
+  "parent_id": "MCF-6",
+  "title": "Footer",
+  "user_story": "As a webmaster\\\nI want to have a footer section on each page\\\nWhich contains links to the top pages, legal information, help pages, sitemap, etc.\\\nSo the user has one central entry point to find everything for their current quest\n",
+  "description": "* each page contains a footer section (e.g. detail pages, overview pages, error pages)\n* the footer section is identical for each page\n* the footer is visually strongly separated from the regular content\n* the footer contains multiple columns\n* the content in those columns needs to be easy to change (add items, remove items, etc.)\n* column 1\n  * contains a short sentence about More Cars (what is it for)\n  * contains the MC logo (see favicon)\n  * contains a link to the start page\n  * contains a link to the Flickr page\n  * contains a link to the YouTube page\n* column 2\n  * contains a handful of top links (overview or detail pages that might be interesting for any random user)\n* column 3\n  * contains legal information → privacy policy (DSGVO + Impressum) + terms of use\n",
+  "api_path": "*",
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.13.0"
+  ],
+  "created_at": "2026-01-28T11:27:16.050+0100",
+  "updated_at": "2026-04-06T19:31:31.750+0200"
+}

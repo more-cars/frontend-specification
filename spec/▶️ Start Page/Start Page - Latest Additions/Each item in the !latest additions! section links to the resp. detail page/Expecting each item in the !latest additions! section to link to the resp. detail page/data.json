@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2139",
+  "parent_id": "MCF-991",
+  "title": "Expecting each item in the \"latest additions\" section to link to the resp. detail page",
+  "gherkin": "When the user visits the start page\nThen the page should contain a \"latest additions\" section\nAnd each item in the \"latest additions\" section should link to their detail page",
+  "labels": [],
+  "created_at": "2026-04-06T11:02:17.204+0200",
+  "updated_at": "2026-04-07T14:16:33.652+0200"
+}

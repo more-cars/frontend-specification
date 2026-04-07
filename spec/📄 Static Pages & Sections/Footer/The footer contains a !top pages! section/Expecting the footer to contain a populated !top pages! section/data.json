@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2136",
+  "parent_id": "MCF-2132",
+  "title": "Expecting the footer to contain a populated \"top pages\" section",
+  "gherkin": "When the user visits a page\nThen the page footer should contain a \"top pages\" section\nAnd the top pages section should contain a link to the \"CAR MODEL VARIANT\" overview page\nAnd the top pages section should contain a link to the \"RACING EVENT\" overview page\nAnd the top pages section should contain a link to the \"MAGAZINE ISSUE\" overview page",
+  "labels": [],
+  "created_at": "2026-04-06T10:23:00.633+0200",
+  "updated_at": "2026-04-06T10:41:33.292+0200"
+}

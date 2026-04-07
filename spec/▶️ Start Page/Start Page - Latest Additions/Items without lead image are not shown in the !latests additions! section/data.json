@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2138",
+  "parent_id": "MCF-987",
+  "title": "Items without lead image are not shown in the \"latests additions\" section",
+  "description": "",
+  "release_version": "0.13.0",
+  "created_at": "2026-04-06T11:00:34.215+0200",
+  "updated_at": "2026-04-07T14:15:04.122+0200"
+}

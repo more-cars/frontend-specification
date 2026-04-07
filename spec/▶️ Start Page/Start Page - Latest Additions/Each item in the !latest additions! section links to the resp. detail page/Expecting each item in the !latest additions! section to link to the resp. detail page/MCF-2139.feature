@@ -11,8 +11,8 @@ Feature: Start Page - Latest Additions
   @RULE_MCF-991
   Rule: Each item in the "latest additions" section links to the resp. detail page
 
-    @TEST_MCF-2139
+    @TEST_MCF-2139 @implemented
     Scenario: Expecting each item in the "latest additions" section to link to the resp. detail page
       When the user visits the start page
       Then the page should contain a "latest additions" section
-      And each item in the "latest additions" section should link to their detail page
+      And each item in the "latest additions" section should link to its detail page

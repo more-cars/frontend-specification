@@ -2,8 +2,10 @@
   "id": "MCF-2143",
   "parent_id": "MCF-2138",
   "title": "Expecting the \"latest additions\" section to only show nodes that have a lead image",
-  "gherkin": "When the user visits the start page\nThen the page should contain a \"latest additions\" section\nAnd each item in the \"latest additions\" section should contain a thumbnail that is not the fallback image",
-  "labels": [],
+  "gherkin": "When the user visits the start page\nThen the page should contain a \"latest additions\" section\nAnd each item in the \"latest additions\" section should contain a thumbnail image that is not the fallback image",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-04-06T11:02:40.687+0200",
-  "updated_at": "2026-04-07T14:16:30.317+0200"
+  "updated_at": "2026-04-07T17:06:59.502+0200"
 }

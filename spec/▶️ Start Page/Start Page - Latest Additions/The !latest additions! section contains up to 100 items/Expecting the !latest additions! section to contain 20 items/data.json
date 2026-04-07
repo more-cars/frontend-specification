@@ -1,9 +1,0 @@
-{
-  "id": "MCF-2141",
-  "parent_id": "MCF-989",
-  "title": "Expecting the \"latest additions\" section to contain 20 items",
-  "gherkin": "When the user visits the start page\nThen the page should contain a \"latest additions\" section\nAnd the \"latest additions\" section should contain 20 items",
-  "labels": [],
-  "created_at": "2026-04-06T11:02:29.745+0200",
-  "updated_at": "2026-04-07T14:16:25.761+0200"
-}

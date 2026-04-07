@@ -11,7 +11,7 @@ Feature: Start Page - Latest Additions
   @RULE_MCF-988
   Rule: The start page contains a "latest additions" section
 
-    @TEST_MCF-2142
+    @TEST_MCF-2142 @implemented
     Scenario: Expecting the start page to contain a section with the "latest additions"
       When the user visits the start page
       Then the page should contain a "latest additions" section

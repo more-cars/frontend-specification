@@ -11,8 +11,9 @@ Feature: Start Page - Latest Additions
   @RULE_MCF-989
   Rule: The "latest additions" section contains up to 100 items
 
-    @TEST_MCF-2141
-    Scenario: Expecting the "latest additions" section to contain 20 items
+    @TEST_MCF-2141 @implemented
+    Scenario: Expecting the "latest additions" section to have at most 100 items
+      Given there are 200 "CAR MODEL VARIANT"s
       When the user visits the start page
       Then the page should contain a "latest additions" section
-      And the "latest additions" section should contain 20 items
+      And the "latest additions" section should contain max 100 items

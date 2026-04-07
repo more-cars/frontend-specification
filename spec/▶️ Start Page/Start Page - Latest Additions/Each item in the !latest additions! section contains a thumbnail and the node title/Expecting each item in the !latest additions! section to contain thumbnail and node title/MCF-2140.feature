@@ -11,9 +11,9 @@ Feature: Start Page - Latest Additions
   @RULE_MCF-990
   Rule: Each item in the "latest additions" section contains a thumbnail and the node title
 
-    @TEST_MCF-2140
+    @TEST_MCF-2140 @implemented
     Scenario: Expecting each item in the "latest additions" section to contain thumbnail and node title
       When the user visits the start page
       Then the page should contain a "latest additions" section
-      And each item in the "latest additions" section should contain a thumbnail
+      And each item in the "latest additions" section should contain a thumbnail image
       And each item in the "latest additions" section should contain a title

@@ -2,8 +2,10 @@
   "id": "MCF-2140",
   "parent_id": "MCF-990",
   "title": "Expecting each item in the \"latest additions\" section to contain thumbnail and node title",
-  "gherkin": "When the user visits the start page\nThen the page should contain a \"latest additions\" section\nAnd each item in the \"latest additions\" section should contain a thumbnail\nAnd each item in the \"latest additions\" section should contain a title",
-  "labels": [],
+  "gherkin": "When the user visits the start page\nThen the page should contain a \"latest additions\" section\nAnd each item in the \"latest additions\" section should contain a thumbnail image\nAnd each item in the \"latest additions\" section should contain a title",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-04-06T11:02:23.863+0200",
-  "updated_at": "2026-04-07T14:16:32.171+0200"
+  "updated_at": "2026-04-07T17:06:51.956+0200"
 }

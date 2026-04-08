@@ -12,6 +12,6 @@ Feature: Footer
     Scenario: Expecting the footer to contain a populated "legal" section
       When the user visits a page
       Then the page footer should contain a "legal" section
-      And the legal section should contain a link to the "privacy policy"
-      And the legal section should contain a link to the "contact data"
-      And the legal section should contain a link to the "terms of use"
+      And the legal section should contain a link to the "privacy"
+      And the legal section should contain a link to the "contact"
+      And the legal section should contain a link to the "terms"

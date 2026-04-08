@@ -10,8 +10,8 @@ Feature: Footer
 
     @TEST_MCF-2134 @implemented
     Scenario Outline: Expecting the footer to exist be on each page
-      When the user visits the "<page>"
-      Then the page footer should be visible
+      When the user visits a "<page>"
+      Then there should be a page footer
 
       Examples:
         | page                |

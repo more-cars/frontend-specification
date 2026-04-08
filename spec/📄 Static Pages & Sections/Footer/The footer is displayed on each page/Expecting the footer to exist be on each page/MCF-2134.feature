@@ -8,14 +8,14 @@ Feature: Footer
   @RULE_MCF-2130
   Rule: The footer is displayed on each page
 
-    @TEST_MCF-2134 @implemented
-    Scenario Outline: Expecting the footer to exist be on each page
-      When the user visits a "<page>"
-      Then there should be a page footer
+  @TEST_MCF-2134 @implemented
+  Scenario Outline: Expecting the footer to exist be on each page
+    When the user visits a "<page>"
+    Then there should be a page footer
 
-      Examples:
-        | page                |
-        | start page          |
-        | overview page       |
-        | detail page         |
-        | node not found page |
+    Examples:
+      | page          |
+      | start page    |
+      | overview page |
+      | detail page   |
+      | error page    |

@@ -8,10 +8,11 @@ Feature: Footer
   @RULE_MCF-2133
   Rule: The footer contains an "intro" section
 
-    @TEST_MCF-2135 @implemented
-    Scenario: Expecting the footer to contain a populated "intro" section
-      When the user visits a page
-      Then the page footer should contain an "intro" section
-      And the intro section should contain the More Cars logo
-      And the intro section should contain a short description
-      And the intro section should contain a link to the start page
+  @TEST_MCF-2135 @implemented
+  Scenario: Expecting the footer to contain a populated "intro" section
+    When the user visits a page
+    Then the page footer should contain an "about" section
+    And the about section should contain a short description
+    And the about section should contain a link to "More Cars"
+    And the about section should contain a link to "Flickr"
+    And the about section should contain a link to "YouTube"

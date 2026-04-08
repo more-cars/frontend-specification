@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2178",
+  "parent_id": "MCF-2157",
+  "title": "Expecting to see license information for the MODEL CAR BRAND lead image",
+  "gherkin": "When the user visits the detail page of a \"MODEL CAR BRAND\"\nThen the page should contain a photo section\nAnd there should be license information displayed next to the lead image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-08T15:53:52.455+0200",
+  "updated_at": "2026-04-08T17:07:52.684+0200"
+}

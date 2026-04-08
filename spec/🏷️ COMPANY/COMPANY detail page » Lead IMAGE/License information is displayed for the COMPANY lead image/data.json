@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2171",
+  "parent_id": "MCF-275",
+  "title": "License information is displayed for the COMPANY lead image",
+  "description": "Format: “Photo by \\<creator> / \\<license>“\n",
+  "release_version": "0.13.0",
+  "created_at": "2026-04-08T15:33:27.088+0200",
+  "updated_at": "2026-04-08T16:59:24.395+0200"
+}

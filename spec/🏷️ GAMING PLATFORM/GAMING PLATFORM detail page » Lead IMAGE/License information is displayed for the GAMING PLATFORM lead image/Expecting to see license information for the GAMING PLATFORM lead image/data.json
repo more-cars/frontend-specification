@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2180",
+  "parent_id": "MCF-2159",
+  "title": "Expecting to see license information for the GAMING PLATFORM lead image",
+  "gherkin": "When the user visits the detail page of a \"GAMING PLATFORM\"\nThen the page should contain a photo section\nAnd there should be license information displayed next to the lead image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-08T15:54:15.215+0200",
+  "updated_at": "2026-04-08T17:07:53.622+0200"
+}

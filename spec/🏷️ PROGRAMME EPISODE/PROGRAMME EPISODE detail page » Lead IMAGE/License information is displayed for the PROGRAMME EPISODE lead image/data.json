@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2173",
+  "parent_id": "MCF-1494",
+  "title": "License information is displayed for the PROGRAMME EPISODE lead image",
+  "description": "Format: “Photo by \\<creator> / \\<license>“\n",
+  "release_version": "0.13.0",
+  "created_at": "2026-04-08T15:33:54.470+0200",
+  "updated_at": "2026-04-08T16:59:25.453+0200"
+}

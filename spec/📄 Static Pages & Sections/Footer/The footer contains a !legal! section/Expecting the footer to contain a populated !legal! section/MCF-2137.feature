@@ -8,7 +8,7 @@ Feature: Footer
   @RULE_MCF-2131
   Rule: The footer contains a "legal" section
 
-    @TEST_MCF-2137
+    @TEST_MCF-2137 @implemented
     Scenario: Expecting the footer to contain a populated "legal" section
       When the user visits a page
       Then the page footer should contain a "legal" section

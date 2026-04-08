@@ -11,11 +11,28 @@ Feature: Start Page - Node Type Overview
     Scenario: Expecting to see a section for each node type on the start page
       When the user visits the start page
       Then the page should contain a section for each of the following node types
-        | _node_type_   |
-        | COMPANY       |
-        | BRAND         |
-        | CAR MODEL     |
-        | RACE TRACK    |
-        | TRACK LAYOUT  |
-        | RACING SERIES |
-        | IMAGE         |
+        | _node_type_       |
+        | COMPANY           |
+        | BRAND             |
+        | CAR MODEL         |
+        | CAR MODEL VARIANT |
+        | PRICE             |
+        | RACE TRACK        |
+        | TRACK LAYOUT      |
+        | RACING SERIES     |
+        | RACING EVENT      |
+        | RACING SESSION    |
+        | SESSION RESULT    |
+        | LAP TIME          |
+        | RACING GAME       |
+        | GAMING PLATFORM   |
+        | MODEL CAR         |
+        | MODEL CAR BRAND   |
+        | MAGAZINE          |
+        | MAGAZINE ISSUE    |
+        | RATING            |
+        | PROGRAMME         |
+        | PROGRAMME EPISODE |
+        | MOTOR SHOW        |
+        | VIDEO             |
+        | IMAGE             |

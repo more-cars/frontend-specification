@@ -8,7 +8,7 @@ Feature: Footer
   @RULE_MCF-2130
   Rule: The footer is displayed on each page
 
-    @TEST_MCF-2134
+    @TEST_MCF-2134 @implemented
     Scenario Outline: Expecting the footer to exist be on each page
       When the user visits the "<page>"
       Then the page footer should be visible

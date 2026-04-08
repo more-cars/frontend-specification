@@ -8,7 +8,7 @@ Feature: Footer
   @RULE_MCF-2133
   Rule: The footer contains an "intro" section
 
-    @TEST_MCF-2135
+    @TEST_MCF-2135 @implemented
     Scenario: Expecting the footer to contain a populated "intro" section
       When the user visits a page
       Then the page footer should contain an "intro" section

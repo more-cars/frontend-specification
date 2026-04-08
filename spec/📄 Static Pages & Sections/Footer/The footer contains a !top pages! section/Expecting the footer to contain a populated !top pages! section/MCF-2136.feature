@@ -8,7 +8,7 @@ Feature: Footer
   @RULE_MCF-2132
   Rule: The footer contains a "top pages" section
 
-    @TEST_MCF-2136
+    @TEST_MCF-2136 @implemented
     Scenario: Expecting the footer to contain a populated "top pages" section
       When the user visits a page
       Then the page footer should contain a "top pages" section

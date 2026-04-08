@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2153",
+  "parent_id": "MCF-2152",
+  "title": "Expecting the node type information on the start page to be grouped",
+  "gherkin": "When the user visits the start page\nThen following node type groups should be displayed\n  | group      |\n  | CORE DATA  |\n  | MOTORSPORT |\n  | PRESS      |\n  | GAMING     |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-08T11:48:13.702+0200",
+  "updated_at": "2026-04-08T17:07:51.205+0200"
+}

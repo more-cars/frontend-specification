@@ -2,7 +2,7 @@
   "id": "MCF-515",
   "parent_id": "MCF-345",
   "title": "Expecting to see a section for each node type on the start page",
-  "gherkin": "When the user visits the start page\nThen the page should contain a section for each of the following node types\n  | _node_type_   |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | IMAGE         |",
+  "gherkin": "When the user visits the start page\nThen the page should contain a section for each of the following node types\n  | _node_type_   |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | PRICE             |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | MODEL CAR         |\n  | MODEL CAR BRAND   |\n  | MAGAZINE          |\n  | MAGAZINE ISSUE    |\n  | RATING            |\n  | PROGRAMME         |\n  | PROGRAMME EPISODE |\n  | MOTOR SHOW        |\n  | VIDEO             |\n  | IMAGE             |",
   "labels": [
     "implemented"
   ],

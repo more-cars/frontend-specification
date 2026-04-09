@@ -2,7 +2,7 @@
   "id": "MCF-2134",
   "parent_id": "MCF-2130",
   "title": "Expecting the footer to exist be on each page",
-  "gherkin": "When the user visits a \"<page>\"\nThen there should be a page footer\n\nExamples:\n  | page                |\n  | start page          |\n  | overview page       |\n  | detail page         |\n  | node not found page |",
+  "gherkin": "When the user visits a \"<page>\"\nThen there should be a page footer\n\nExamples:\n  | page                |\n  | start page          |\n  | overview page       |\n  | detail page         |\n  | error page |",
   "labels": [
     "implemented"
   ],

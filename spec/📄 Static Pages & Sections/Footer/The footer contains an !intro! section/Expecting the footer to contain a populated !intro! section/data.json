@@ -2,7 +2,7 @@
   "id": "MCF-2135",
   "parent_id": "MCF-2133",
   "title": "Expecting the footer to contain a populated \"intro\" section",
-  "gherkin": "When the user visits a page\nThen the page footer should contain an \"intro\" section\nAnd the intro section should contain the More Cars logo\nAnd the intro section should contain a short description\nAnd the intro section should contain a link to the start page",
+  "gherkin": "When the user visits a page\nThen the page footer should contain an \"about\" section\nAnd the about section should contain a short description\nAnd the about section should contain a link to \"More Cars\"\nAnd the about section should contain a link to \"Flickr\"\nAnd the about section should contain a link to \"YouTube\"",
   "labels": [
     "implemented"
   ],

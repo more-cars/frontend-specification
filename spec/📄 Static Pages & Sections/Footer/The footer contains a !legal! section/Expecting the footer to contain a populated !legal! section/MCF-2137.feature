@@ -14,4 +14,3 @@ Feature: Footer
       Then the page footer should contain a "legal" section
       And the legal section should contain a link to the "privacy"
       And the legal section should contain a link to the "contact"
-      And the legal section should contain a link to the "terms"

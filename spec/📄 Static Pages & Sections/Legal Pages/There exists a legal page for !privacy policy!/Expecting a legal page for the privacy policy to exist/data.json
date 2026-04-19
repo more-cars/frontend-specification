@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2200",
+  "parent_id": "MCF-2146",
+  "title": "Expecting a legal page for the privacy policy to exist",
+  "gherkin": "When the user visits the \"privacy\" page\nThen the page should contain \"privacy\" information",
+  "labels": [
+    "manual_test"
+  ],
+  "created_at": "2026-04-15T11:51:56.241+0200",
+  "updated_at": "2026-04-19T16:42:40.031+0200"
+}

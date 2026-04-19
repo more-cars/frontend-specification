@@ -1,0 +1,17 @@
+{
+  "id": "MCF-2149",
+  "parent_id": "MCF-7",
+  "title": "Sorting",
+  "user_story": "As a user\\\nOn the overview pages\\\nI want to be able to sort the results\\\nSo I can faster find what I am looking for\n",
+  "description": "* the already existing section with the search tools on the overview pages is extended\n* a component is added to be able to **sort** the node collection\n* the sort component allows the user to\n  * select one of the official node properties (no matter if read-only, internal or something else)\n  * select the sort direction → up/down\n  * reset the sort settings\n  * trigger the sorting\n* when the user hacks the URL and provides an invalid node property as parameter then the requests is denied → Status Code `400`\n* a valid request always returns with status code `200`\n* the sorting is case-insensitive\n* the component only has to support sorting by **one** property, but should be implemented in a way that it can easily be extended to support multiple sort parameters\n* the other search components need to be updated accordingly&#x20;\n  * e.g the pagination bar needs to now the sort settings to create the correct links\n",
+  "api_path": "/<node-type>",
+  "response_options": [
+    "200",
+    "400"
+  ],
+  "release_versions": [
+    "0.14.0"
+  ],
+  "created_at": "2026-04-07T09:45:14.312+0200",
+  "updated_at": "2026-04-19T12:44:55.154+0200"
+}

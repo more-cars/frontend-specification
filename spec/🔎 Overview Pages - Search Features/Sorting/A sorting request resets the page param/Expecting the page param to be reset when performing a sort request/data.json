@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2219",
+  "parent_id": "MCF-2210",
+  "title": "Expecting the page param to be reset when performing a sort request",
+  "gherkin": "Given there are 105 \"<_node_type_>\"s \nWhen the user visits page 2 of the \"<_node_type_>\" overview page\nAnd the user sorts the node collection by \"ID\" \"ASC\"\nThen the user should be on page 1\n\nExamples:\n  | _node_type_       |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | PRICE             |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | MODEL CAR         |\n  | MODEL CAR BRAND   |\n  | MAGAZINE          |\n  | MAGAZINE ISSUE    |\n  | RATING            |\n  | PROGRAMME         |\n  | PROGRAMME EPISODE |\n  | MOTOR SHOW        |\n  | VIDEO             |\n  | IMAGE             |",
+  "labels": [
+    "manual_test"
+  ],
+  "created_at": "2026-04-19T12:46:33.557+0200",
+  "updated_at": "2026-04-19T14:24:43.307+0200"
+}

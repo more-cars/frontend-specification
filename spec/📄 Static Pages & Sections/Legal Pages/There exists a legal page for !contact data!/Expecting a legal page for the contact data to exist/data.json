@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2201",
+  "parent_id": "MCF-2147",
+  "title": "Expecting a legal page for the contact data to exist",
+  "gherkin": "When the user visits the \"contact\" page\nThen the page should contain \"contact\" information",
+  "labels": [
+    "manual_test"
+  ],
+  "created_at": "2026-04-15T11:52:01.745+0200",
+  "updated_at": "2026-04-19T16:42:34.918+0200"
+}

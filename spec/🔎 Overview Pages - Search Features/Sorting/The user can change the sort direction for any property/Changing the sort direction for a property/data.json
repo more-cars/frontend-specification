@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2216",
+  "parent_id": "MCF-2207",
+  "title": "Changing the sort direction for a property",
+  "gherkin": "When the user visits the \"<_node_type_>\" overview page\nAnd the user sorts the node collection by \"ID\" \"asc\"\nThen the node collection should be sorted by \"ID\" \"asc\"\nAnd there should be no error message\nWhen the user sorts the node collection by \"ID\" \"desc\"\nThen the node collection should be sorted by \"ID\" \"desc\"\nAnd there should be no error message\n\nExamples:\n  | _node_type_       |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | PRICE             |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | MODEL CAR         |\n  | MODEL CAR BRAND   |\n  | MAGAZINE          |\n  | MAGAZINE ISSUE    |\n  | RATING            |\n  | PROGRAMME         |\n  | PROGRAMME EPISODE |\n  | MOTOR SHOW        |\n  | VIDEO             |\n  | IMAGE             |",
+  "labels": [
+    "manual_test"
+  ],
+  "created_at": "2026-04-19T12:46:16.080+0200",
+  "updated_at": "2026-04-19T14:24:29.857+0200"
+}

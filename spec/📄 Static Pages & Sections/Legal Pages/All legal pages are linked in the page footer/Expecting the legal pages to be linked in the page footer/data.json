@@ -1,11 +1,11 @@
 {
-  "id": "MCF-2137",
-  "parent_id": "MCF-2131",
-  "title": "Expecting the footer to contain a populated \"legal\" section",
+  "id": "MCF-2198",
+  "parent_id": "MCF-2144",
+  "title": "Expecting the legal pages to be linked in the page footer",
   "gherkin": "When the user visits a page\nThen the page footer should contain a \"legal\" section\nAnd the legal section should contain a link to the \"privacy\"\nAnd the legal section should contain a link to the \"contact\"",
   "labels": [
     "implemented"
   ],
-  "created_at": "2026-04-06T10:23:05.668+0200",
-  "updated_at": "2026-04-08T17:07:50.642+0200"
+  "created_at": "2026-04-15T11:43:22.357+0200",
+  "updated_at": "2026-04-19T16:41:22.378+0200"
 }

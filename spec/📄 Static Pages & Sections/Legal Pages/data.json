@@ -1,0 +1,16 @@
+{
+  "id": "MCF-218",
+  "parent_id": "MCF-6",
+  "title": "Legal Pages",
+  "user_story": "As a webmaster\\\nI want to provide the user with legal information (like privacy policy or terms of use)\\\nSo I comply with the German and EU laws\n",
+  "description": "* Types:\n  * Contact Data (Impressum)\n  * Privacy Policy (DSGVO)\n* All pages must be accessible via the page footer\n* All pages should be provided in German AND English\n",
+  "api_path": null,
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.14.0"
+  ],
+  "created_at": "2026-01-09T13:16:44.382+0100",
+  "updated_at": "2026-04-19T16:43:46.635+0200"
+}

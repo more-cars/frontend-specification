@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2213",
+  "parent_id": "MCF-2204",
+  "title": "Resetting the sorting params",
+  "gherkin": "When the user visits the \"<_node_type_>\" overview page\nThen then no sorting parameters should be applied\nAnd the user should be on page 1\nWhen the user sorts the node collection by \"ID\" \"asc\"\nAnd the user goes to page 2\nThen the user should be on page 2\nAnd sorting parameters should be applied\nWhen the user resets the sorting parameters\nThen then no sorting parameters should be applied\nAnd the user should be on page 1\n\nExamples:\n  | _node_type_       |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | PRICE             |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | MODEL CAR         |\n  | MODEL CAR BRAND   |\n  | MAGAZINE          |\n  | MAGAZINE ISSUE    |\n  | RATING            |\n  | PROGRAMME         |\n  | PROGRAMME EPISODE |\n  | MOTOR SHOW        |\n  | VIDEO             |\n  | IMAGE             |",
+  "labels": [
+    "manual_test"
+  ],
+  "created_at": "2026-04-19T12:45:57.389+0200",
+  "updated_at": "2026-04-19T14:24:15.414+0200"
+}

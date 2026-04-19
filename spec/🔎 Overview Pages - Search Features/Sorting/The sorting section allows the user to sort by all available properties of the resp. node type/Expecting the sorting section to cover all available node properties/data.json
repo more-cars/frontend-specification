@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2212",
+  "parent_id": "MCF-2203",
+  "title": "Expecting the sorting section to cover all available node properties",
+  "gherkin": "When the user visits the \"<_node_type_>\" overview page\nThen the sorting options should include all available \"<_node_type_>\" properties\n\nExamples:\n  | _node_type_       |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | PRICE             |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | MODEL CAR         |\n  | MODEL CAR BRAND   |\n  | MAGAZINE          |\n  | MAGAZINE ISSUE    |\n  | RATING            |\n  | PROGRAMME         |\n  | PROGRAMME EPISODE |\n  | MOTOR SHOW        |\n  | VIDEO             |\n  | IMAGE             |",
+  "labels": [
+    "manual_test"
+  ],
+  "created_at": "2026-04-19T12:45:51.347+0200",
+  "updated_at": "2026-04-19T14:23:49.766+0200"
+}

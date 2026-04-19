@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2214",
+  "parent_id": "MCF-2205",
+  "title": "Performing a sort request with invalid params",
+  "gherkin": "When the user visits the \"<_node_type_>\" overview page\nAnd the user sorts the \"<_node_type_>\" collection by \"thimbleweed\"\nThen the page should contain a message, informing the user that the request was invalid\n\nExamples:\n  | _node_type_       |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | PRICE             |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | MODEL CAR         |\n  | MODEL CAR BRAND   |\n  | MAGAZINE          |\n  | MAGAZINE ISSUE    |\n  | RATING            |\n  | PROGRAMME         |\n  | PROGRAMME EPISODE |\n  | MOTOR SHOW        |\n  | VIDEO             |\n  | IMAGE             |",
+  "labels": [
+    "manual_test"
+  ],
+  "created_at": "2026-04-19T12:46:02.317+0200",
+  "updated_at": "2026-04-19T14:24:20.643+0200"
+}

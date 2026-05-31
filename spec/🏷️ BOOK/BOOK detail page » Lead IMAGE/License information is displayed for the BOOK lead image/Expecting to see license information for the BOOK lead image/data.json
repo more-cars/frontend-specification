@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2280",
+  "parent_id": "MCF-2279",
+  "title": "Expecting to see license information for the BOOK lead image",
+  "gherkin": "When the user visits the detail page of a \"BOOK\"\nThen the page should contain a photo section\nAnd there should be license information displayed next to the lead image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-17T11:11:29.114+0200",
+  "updated_at": "2026-05-31T16:46:50.948+0200"
+}

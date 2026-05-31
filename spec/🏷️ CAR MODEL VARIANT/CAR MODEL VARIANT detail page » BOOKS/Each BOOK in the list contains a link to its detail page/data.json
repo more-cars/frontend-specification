@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2308",
+  "parent_id": "MCF-2303",
+  "title": "Each BOOK in the list contains a link to its detail page",
+  "description": "Only the title of each BOOK should link to the respective detail page, not the whole list item. Otherwise the user would not be able to select the text anymore.\n",
+  "release_version": "2.1.0",
+  "created_at": "2026-05-31T16:06:37.619+0200",
+  "updated_at": "2026-05-31T16:41:01.251+0200"
+}

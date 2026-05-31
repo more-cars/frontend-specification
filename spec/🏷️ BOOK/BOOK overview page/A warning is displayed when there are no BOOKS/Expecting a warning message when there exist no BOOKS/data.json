@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2246",
+  "parent_id": "MCF-2245",
+  "title": "Expecting a warning message when there exist no BOOKS",
+  "gherkin": "Given there is no \"BOOK\"\nWhen the user visits the \"BOOK\" overview page\nThen the page should contain no \"BOOK\" section\nAnd the page should contain a message, informing the user that there are no \"BOOK\"s",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-17T10:42:09.153+0200",
+  "updated_at": "2026-05-31T16:46:45.032+0200"
+}

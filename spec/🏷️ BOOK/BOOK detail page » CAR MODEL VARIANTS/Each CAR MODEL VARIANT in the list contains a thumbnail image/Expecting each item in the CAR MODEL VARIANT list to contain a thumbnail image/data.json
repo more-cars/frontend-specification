@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2291",
+  "parent_id": "MCF-2290",
+  "title": "Expecting each item in the CAR MODEL VARIANT list to contain a thumbnail image",
+  "gherkin": "When the user visits the detail page of a \"BOOK\"\nThen the page should contain a \"CAR MODEL VARIANT\" section\nThen each item in the \"CAR MODEL VARIANT\" list should contain a thumbnail image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-17T11:37:48.485+0200",
+  "updated_at": "2026-05-31T16:46:52.716+0200"
+}

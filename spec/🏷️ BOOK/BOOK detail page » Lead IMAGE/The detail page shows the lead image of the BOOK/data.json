@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2276",
+  "parent_id": "MCF-2275",
+  "title": "The detail page shows the lead image of the BOOK",
+  "description": "The lead image corresponds with the 'prime image' relationship in the API. When there is no 'prime image' then a fallback image is displayed. The image is displayed in a medium size. Medium means significantly larger than thumbnail size, but also significantly smaller than the screen size.\n",
+  "release_version": "2.1.0",
+  "created_at": "2026-05-17T11:11:15.413+0200",
+  "updated_at": "2026-05-31T16:40:55.466+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2268",
+  "parent_id": "MCF-2267",
+  "title": "Expecting the BOOK detail page to contain a populated fact sheet",
+  "gherkin": "When the user visits the detail page of a \"BOOK\"\nThen the page should display a fact sheet\nAnd the fact sheet should display an entry for each of the following properties\n  | _property_       |\n  | title |\n  | author |\n  | publisher |\n  | year_of_publication |\n  | isbn |\n  | pages |\n  | language |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-17T10:57:17.825+0200",
+  "updated_at": "2026-05-31T16:46:49.491+0200"
+}

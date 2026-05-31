@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2309",
+  "parent_id": "MCF-2308",
+  "title": "Expecting each item in the BOOK list to link to its detail page",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should contain a \"BOOK\" section\nAnd each item in the \"BOOK\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-31T16:06:39.653+0200",
+  "updated_at": "2026-05-31T16:46:55.673+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2310",
+  "parent_id": "MCF-2303",
+  "title": "Each BOOK in the list contains the primary information",
+  "description": "Each BOOK has multiple properties. Some of them are categorized as 'primary information' to signal a higher importance. Only those should be shown in each list item. They are documented in the BOOK epic (MCF-???).\n",
+  "release_version": "2.1.0",
+  "created_at": "2026-05-31T16:06:43.014+0200",
+  "updated_at": "2026-05-31T16:41:01.709+0200"
+}

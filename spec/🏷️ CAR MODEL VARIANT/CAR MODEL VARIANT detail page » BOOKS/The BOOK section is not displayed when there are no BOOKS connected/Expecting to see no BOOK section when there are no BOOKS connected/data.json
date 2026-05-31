@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2307",
+  "parent_id": "MCF-2306",
+  "title": "Expecting to see no BOOK section when there are no BOOKS connected",
+  "gherkin": "Given there is a \"CAR MODEL VARIANT\" \"Ferrari 488 GTB\"\nAnd the \"CAR MODEL VARIANT\" \"Ferrari 488 GTB\" has no relationships\nWhen the user visits the detail page of the \"CAR MODEL VARIANT\" \"Ferrari 488 GTB\"\nThen the page should contain no \"BOOK\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-31T16:06:34.174+0200",
+  "updated_at": "2026-05-31T16:46:55.321+0200"
+}

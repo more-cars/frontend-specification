@@ -1,0 +1,16 @@
+{
+  "id": "MCF-2231",
+  "parent_id": "MCF-16",
+  "title": "LAP TIME detail page » MAGAZINE ISSUE",
+  "user_story": "As a visitor\nI want the LAP TIME detail page to show the connected MAGAZINE ISSUE\nSo I can ...\n",
+  "description": "* The LAP TIME detail page is extended to contain a section for the connected MAGAZINE ISSUE.\n* The MAGAZINE ISSUE is presented with its name and primary information.\n* The MAGAZINE ISSUE contains a link to its detail page.\n* The MAGAZINE ISSUE has a thumbnail image.\n* When there is no MAGAZINE ISSUE connected to the LAP TIME then the section is not displayed at all.\n",
+  "api_path": null,
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "2.1.0"
+  ],
+  "created_at": "2026-04-26T10:38:19.379+0200",
+  "updated_at": "2026-05-31T16:42:35.299+0200"
+}

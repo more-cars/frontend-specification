@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2270",
+  "parent_id": "MCF-2269",
+  "title": "Trying to access the detail page of a non-existent BOOK",
+  "gherkin": "Given there is no \"BOOK\" \"F1 in Numbers\"\nWhen the user visits the detail page of the \"BOOK\" \"F1 in Numbers\"\nThen the page should contain a message, informing the user that there is no such \"BOOK\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-17T10:57:24.283+0200",
+  "updated_at": "2026-05-31T16:46:49.868+0200"
+}

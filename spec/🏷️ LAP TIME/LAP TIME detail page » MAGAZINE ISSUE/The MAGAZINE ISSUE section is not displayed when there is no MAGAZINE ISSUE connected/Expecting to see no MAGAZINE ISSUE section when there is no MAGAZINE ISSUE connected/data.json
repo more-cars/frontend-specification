@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2235",
+  "parent_id": "MCF-2234",
+  "title": "Expecting to see no MAGAZINE ISSUE section when there is no MAGAZINE ISSUE connected",
+  "gherkin": "Given there is a \"LAP TIME\" \"fastest lap\"\nAnd the \"LAP TIME\" \"fastest lap\" has no relationships\nWhen the user visits the detail page of the \"LAP TIME\" \"fastest lap\"\nThen the page should contain no \"MAGAZINE ISSUE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-26T10:38:39.281+0200",
+  "updated_at": "2026-05-31T16:46:43.129+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2254",
+  "parent_id": "MCF-2253",
+  "title": "Having more than 100 BOOKS",
+  "gherkin": "Given there are 105 \"BOOK\"s\nWhen the user visits the \"BOOK\" overview page\nThen the overview page should contain a \"BOOK\" section\nAnd the \"BOOK\" list should contain 100 items",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-17T10:42:35.627+0200",
+  "updated_at": "2026-05-31T16:46:46.485+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2245",
+  "parent_id": "MCF-2242",
+  "title": "A warning is displayed when there are no BOOKS",
+  "description": "The BOOK list is not shown and a info/warning is displayed at a prominent location. It should inform the user that there are either no BOOKS or that there is a temporary problem with loading the BOOKS.\n",
+  "release_version": "2.1.0",
+  "created_at": "2026-05-17T10:42:06.325+0200",
+  "updated_at": "2026-05-31T16:40:51.395+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2311",
+  "parent_id": "MCF-2310",
+  "title": "Expecting each item in the BOOK list to contain its primary information",
+  "gherkin": "When the user visits the detail page of a \"CAR MODEL VARIANT\"\nThen the page should contain a \"BOOK\" section\nAnd each item in the \"BOOK\" list should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-31T16:06:45.511+0200",
+  "updated_at": "2026-05-31T16:46:56.048+0200"
+}

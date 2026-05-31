@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2278",
+  "parent_id": "MCF-2276",
+  "title": "Expecting the photo section to show a fallback image when the BOOK has no lead image",
+  "gherkin": "Given there is a \"BOOK\" \"F1 in Numbers\"\nAnd the \"BOOK\" \"F1 in Numbers\" has no lead image\nWhen the user visits the detail page of the \"BOOK\" \"F1 in Numbers\"\nThen the page should contain a photo section\nAnd the photo section should contain a fallback image",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-17T11:11:22.418+0200",
+  "updated_at": "2026-05-31T16:46:50.618+0200"
+}

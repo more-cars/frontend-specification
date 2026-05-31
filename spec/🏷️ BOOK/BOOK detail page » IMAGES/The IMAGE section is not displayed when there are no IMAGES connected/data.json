@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2295",
+  "parent_id": "MCF-2292",
+  "title": "The IMAGE section is not displayed when there are no IMAGES connected",
+  "description": "There should be no section, no headline and no placeholder when the BOOK has no IMAGES.\n",
+  "release_version": "2.1.0",
+  "created_at": "2026-05-17T11:42:30.479+0200",
+  "updated_at": "2026-05-31T16:40:58.808+0200"
+}

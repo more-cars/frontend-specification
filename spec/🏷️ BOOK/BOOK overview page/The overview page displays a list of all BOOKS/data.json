@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2243",
+  "parent_id": "MCF-2242",
+  "title": "The overview page displays a list of all BOOKS",
+  "description": "'All' does not necessarily mean that every single BOOK is displayed. Other features, like search, filtering or pagination might influence the displayed amount.\n",
+  "release_version": "2.1.0",
+  "created_at": "2026-05-17T10:41:54.781+0200",
+  "updated_at": "2026-05-31T16:40:50.967+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2222",
+  "parent_id": "MCF-2221",
+  "title": "Expecting a LAP TIME section to be displayed on the MAGAZINE ISSUE detail page",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a section with a \"LAP TIME\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-26T10:34:48.418+0200",
+  "updated_at": "2026-05-31T16:46:40.724+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2226",
+  "parent_id": "MCF-2225",
+  "title": "Expecting each item in the LAP TIME list to link to its detail page",
+  "gherkin": "When the user visits the detail page of a \"MAGAZINE ISSUE\"\nThen the page should contain a \"LAP TIME\" section\nAnd each item in the \"LAP TIME\" list should link to its detail page",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-04-26T10:35:01.218+0200",
+  "updated_at": "2026-05-31T16:46:41.665+0200"
+}

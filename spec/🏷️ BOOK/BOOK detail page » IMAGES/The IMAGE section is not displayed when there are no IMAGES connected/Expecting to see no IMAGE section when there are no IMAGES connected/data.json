@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2296",
+  "parent_id": "MCF-2295",
+  "title": "Expecting to see no IMAGE section when there are no IMAGES connected",
+  "gherkin": "Given there is a \"BOOK\" \"F1 in Numbers\"\nAnd the \"BOOK\" \"F1 in Numbers\" has no relationships\nWhen the user visits the detail page of the \"BOOK\" \"F1 in Numbers\"\nThen the page should contain no \"IMAGE\" section",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-17T11:42:32.960+0200",
+  "updated_at": "2026-05-31T16:46:53.527+0200"
+}

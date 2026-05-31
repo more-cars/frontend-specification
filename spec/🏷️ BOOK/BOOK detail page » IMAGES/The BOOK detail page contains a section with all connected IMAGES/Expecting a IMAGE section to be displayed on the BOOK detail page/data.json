@@ -1,0 +1,11 @@
+{
+  "id": "MCF-2294",
+  "parent_id": "MCF-2293",
+  "title": "Expecting a IMAGE section to be displayed on the BOOK detail page",
+  "gherkin": "When the user visits the detail page of a \"BOOK\"\nThen the page should contain a section with a \"IMAGE\" list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-17T11:42:26.799+0200",
+  "updated_at": "2026-05-31T16:46:53.128+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2255",
+  "parent_id": "MCF-2242",
+  "title": "The BOOK list gets paginated when the total BOOK count exceeds the predefined limit",
+  "description": "A pagination bar should be shown when the number of BOOKS is higher than the configured limit (specified in a different ticket). At a bare minimum it should contain a link to the next page (if available), a link to the previous page (if available) and indicate the current page number. When the number of BOOKS is lower than the configured limit then the pagination bar should be hidden. Whatever technical solution is chosen, the user needs to be able to bookmark the different pages. Meaning all links need to be 'real' (it cannot be a pure JavaScript solution). Each page should display a different subset of the BOOK collection. There should be no overlap and there should be no BOOK missing.\n",
+  "release_version": "2.1.0",
+  "created_at": "2026-05-17T10:42:39.430+0200",
+  "updated_at": "2026-05-31T16:40:53.519+0200"
+}

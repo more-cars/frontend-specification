@@ -1,0 +1,9 @@
+{
+  "id": "MCF-2284",
+  "parent_id": "MCF-2281",
+  "title": "The CAR MODEL VARIANT section is not displayed when there are no CAR MODEL VARIANTS connected",
+  "description": "There should be no section, no headline and no placeholder when the BOOK has no CAR MODEL VARIANTS.\n",
+  "release_version": "2.1.0",
+  "created_at": "2026-05-17T11:37:19.245+0200",
+  "updated_at": "2026-05-31T16:40:56.691+0200"
+}

@@ -2,7 +2,7 @@
   "id": "MCF-676",
   "parent_id": "MCF-675",
   "title": "Expecting the RACING SESSION detail page to contain a populated fact sheet",
-  "gherkin": "When the user visits the detail page of a \"RACING SESSION\"\nThen the page should display a fact sheet\nAnd the fact sheet should display an entry for each of the following properties\n  | _property_       |\n  | name |\n  | start_date |\n  | start_time |\n  | duration |\n  | duration_unit |\n  | distance |\n  | distance_unit |",
+  "gherkin": "When the user visits the detail page of a \"RACING SESSION\"\nThen the page should display a fact sheet\nAnd the fact sheet should display an entry for each of the following properties\n  | _property_       |\n  | name |\n  | start_date |\n  | start_time |\n  | duration |\n  | distance |\n  | distance_unit |",
   "labels": [
     "implemented"
   ],

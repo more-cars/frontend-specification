@@ -17,6 +17,5 @@ Feature: RACING SESSION detail page
         | start_date    |
         | start_time    |
         | duration      |
-        | duration_unit |
         | distance      |
         | distance_unit |

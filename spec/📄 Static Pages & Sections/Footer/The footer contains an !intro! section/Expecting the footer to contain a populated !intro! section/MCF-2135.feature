@@ -16,3 +16,4 @@ Feature: Footer
       And the about section should contain a link to "More Cars"
       And the about section should contain a link to "Flickr"
       And the about section should contain a link to "YouTube"
+      And the about section should contain a link to "Instagram"

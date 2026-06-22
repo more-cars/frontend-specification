@@ -4,17 +4,16 @@ import type {XrayTest} from "../lib/types/XrayTest"
 import {validateJson} from "./_toolbox/validateJson"
 import {TestSchema} from "./schemas/TestSchema"
 import {extractXrayTests} from "../lib/extractXrayTests"
-import {cacheJiraTickets} from "../lib/cacheJiraTickets"
 
 test('Extracting all test data from the Xray response', async () => {
-    const xrayTests: Array<XrayTest> = JSON.parse(
+    const xrayTests: XrayTest[] = JSON.parse(
         fs.readFileSync(__dirname + '/fixtures/xray_test_collection.json', {
             encoding: 'utf8',
             flag: 'r'
         }))
 
     const extractedTests = extractXrayTests(xrayTests)
-    cacheJiraTickets('acceptance_criterion', extractedTests)
+
     expect(extractedTests.length)
         .toEqual(xrayTests.length)
 

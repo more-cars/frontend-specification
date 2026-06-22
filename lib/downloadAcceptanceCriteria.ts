@@ -4,7 +4,7 @@ import {getJiraApiAuthKey} from "./getJiraApiAuthKey"
 import type {JiraAcceptanceCriterion} from "./types/JiraAcceptanceCriterion"
 
 export async function downloadAcceptanceCriteria() {
-    let results: Array<JiraAcceptanceCriterion> = []
+    let results: JiraAcceptanceCriterion[] = []
     let nextPageToken = null
     let moreResultsPagesAreAvailable = true
 

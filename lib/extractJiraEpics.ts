@@ -1,8 +1,8 @@
 import type {JiraEpic} from "./types/JiraEpic"
 import type {Epic} from "./types/Epic"
 
-export function extractJiraEpics(epics: Array<JiraEpic>): Array<Epic> {
-    const extractedEpics: Array<Epic> = []
+export function extractJiraEpics(epics: JiraEpic[]): Epic[] {
+    const extractedEpics: Epic[] = []
 
     epics.forEach(jiraEpic => {
         extractedEpics.push({

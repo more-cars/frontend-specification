@@ -4,7 +4,7 @@ import {getJiraApiAuthKey} from "./getJiraApiAuthKey"
 import type {JiraStory} from "./types/JiraStory"
 
 export async function downloadStories() {
-    let results: Array<JiraStory> = []
+    let results: JiraStory[] = []
     let nextPageToken = null
     let moreResultsPagesAreAvailable = true
 

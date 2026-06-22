@@ -8,10 +8,6 @@ export type JiraStory = {
         description: object
         // user story
         customfield_10691: object
-        // API Verb
-        customfield_10732: {
-            value: string
-        }
         // API Path
         customfield_10731: string
         // Response options

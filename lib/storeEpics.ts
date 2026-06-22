@@ -4,8 +4,8 @@ import type {ReferenceTicket} from "./types/ReferenceTicket"
 import {findReferenceTicket} from "./findReferenceTicket"
 import filenamify from 'filenamify'
 
-export function storeEpics(data: Array<Epic>, referenceTickets: Array<ReferenceTicket> = [], basepath: string = __dirname + '/../spec/') {
-    const processedTickets: Array<ReferenceTicket> = []
+export function storeEpics(data: Epic[], referenceTickets: ReferenceTicket[] = [], basepath: string = __dirname + '/../spec/') {
+    const processedTickets: ReferenceTicket[] = []
 
     data.forEach(epic => {
         const parentSubPath = findReferenceTicket('', referenceTickets)?.sub_path ?? ''

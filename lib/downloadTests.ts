@@ -5,7 +5,7 @@ import {getXrayGraphqlUrl} from "./getXrayGraphqlUrl"
 import {obtainXrayApiToken} from "./obtainXrayApiToken"
 
 export async function downloadTests() {
-    let results: Array<XrayTest> = []
+    let results: XrayTest[] = []
     let startIndex = 0
     let moreResultsPagesAreAvailable = true
 

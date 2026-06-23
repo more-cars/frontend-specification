@@ -5,9 +5,9 @@ import type {JiraStory} from "./types/JiraStory"
 export async function downloadStories() {
     let results: JiraStory[] = []
     let nextPageToken = null
-    let moreResultsPagesAreAvailable = true
 
     try {
+        let moreResultsPagesAreAvailable = true
         do {
             const data = await requestNextPage(nextPageToken)
             results = results.concat(data.issues)

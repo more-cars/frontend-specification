@@ -5,9 +5,9 @@ import type {JiraAcceptanceCriterion} from "./types/JiraAcceptanceCriterion"
 export async function downloadAcceptanceCriteria() {
     let results: JiraAcceptanceCriterion[] = []
     let nextPageToken = null
-    let moreResultsPagesAreAvailable = true
 
     try {
+        let moreResultsPagesAreAvailable = true
         do {
             const data = await requestNextPage(nextPageToken)
             results = results.concat(data.issues)

@@ -5,9 +5,9 @@ import {getJiraApiAuthKey} from "./getJiraApiAuthKey"
 export async function downloadEpics(): Promise<false | JiraEpic[]> {
     let results: JiraEpic[] = []
     let nextPageToken = null
-    let moreResultsPagesAreAvailable = true
 
     try {
+        let moreResultsPagesAreAvailable = true
         do {
             const data = await requestNextPage(nextPageToken)
             results = results.concat(data.issues)

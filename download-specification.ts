@@ -22,7 +22,7 @@ import {assembleFeatureFile} from "./lib/assembleFeatureFile"
 import {storeFeatureFile} from "./lib/storeFeatureFile"
 
 export async function downloadFullSpec() {
-    let ticketList: Array<ReferenceTicket> = []
+    let ticketList: ReferenceTicket[] = []
 
     // completely deleting the spec folder to avoid creating zombie files
     if (fs.existsSync(__dirname + '/spec')) {

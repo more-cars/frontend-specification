@@ -1,15 +1,15 @@
 import fs from "fs"
-import filenamify from "filenamify"
 import type {Test} from "./types/Test"
 import type {ReferenceTicket} from "./types/ReferenceTicket"
 import {findReferenceTicket} from "./findReferenceTicket"
+import {safeFilename} from "./safeFilename"
 
 export function storeTests(data: Test[], referenceTickets: ReferenceTicket[] = [], basepath: string = __dirname + '/../spec/') {
     const processedTickets: ReferenceTicket[] = []
 
     data.forEach(test => {
         const parentSubPath = findReferenceTicket(test.parent_id, referenceTickets)?.sub_path ?? ''
-        const subPath = parentSubPath + filenamify(test.title) + '/'
+        const subPath = parentSubPath + safeFilename(test.title) + '/'
         const folderName = basepath + subPath
         const fileName = 'data.json'
 

@@ -8,7 +8,7 @@ Feature: RACING EVENT detail page » Predecessor
   Rule: The predecessor section contains the node's primary information
 
     @TEST_MCF-592 @implemented
-    Scenario: Expecting the RACING EVENT section to contain the node's primary information
+    Scenario: Expecting the PREDECESSOR to contain the node's primary information
       When the user visits the detail page of a "RACING EVENT"
-      Then the page should contain a "RACING EVENT" section
-      And the "RACING EVENT" section should contain primary information
+      Then the page should contain a "PREDECESSOR" section
+      And the "PREDECESSOR" section should contain primary information

@@ -8,7 +8,7 @@ Feature: RACING EVENT detail page » Successor
   Rule: The SUCCESSOR section contains the node's primary information
 
     @TEST_MCF-581 @implemented
-    Scenario: Expecting the RACING EVENT section to contain the node's primary information
+    Scenario: Expecting the SUCCESSOR to contain the node's primary information
       When the user visits the detail page of a "RACING EVENT"
-      Then the page should contain a "RACING EVENT" section
-      And the "RACING EVENT" section should contain primary information
+      Then the page should contain a "SUCCESSOR" section
+      And the "SUCCESSOR" section should contain primary information

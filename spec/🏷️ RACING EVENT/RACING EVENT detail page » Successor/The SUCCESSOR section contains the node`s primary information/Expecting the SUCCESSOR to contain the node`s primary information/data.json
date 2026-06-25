@@ -1,0 +1,11 @@
+{
+  "id": "MCF-581",
+  "parent_id": "MCF-580",
+  "title": "Expecting the SUCCESSOR to contain the node's primary information",
+  "gherkin": "When the user visits the detail page of a \"RACING EVENT\"\nThen the page should contain a \"SUCCESSOR\" section\nAnd the \"SUCCESSOR\" section should contain primary information",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-01-30T20:36:33.021+0100",
+  "updated_at": "2026-06-25T13:12:39.252+0200"
+}

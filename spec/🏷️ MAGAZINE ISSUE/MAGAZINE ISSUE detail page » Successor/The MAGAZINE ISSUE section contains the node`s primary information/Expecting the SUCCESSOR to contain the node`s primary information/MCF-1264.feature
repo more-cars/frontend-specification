@@ -8,7 +8,7 @@ Feature: MAGAZINE ISSUE detail page » Successor
   Rule: The MAGAZINE ISSUE section contains the node's primary information
 
     @TEST_MCF-1264 @implemented
-    Scenario: Expecting the MAGAZINE ISSUE section to contain the node's primary information
+    Scenario: Expecting the SUCCESSOR to contain the node's primary information
       When the user visits the detail page of a "MAGAZINE ISSUE"
-      Then the page should contain a "MAGAZINE ISSUE" section
-      And the "MAGAZINE ISSUE" section should contain primary information
+      Then the page should contain a "SUCCESSOR" section
+      And the "SUCCESSOR" section should contain primary information
